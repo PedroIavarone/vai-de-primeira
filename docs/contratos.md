@@ -53,6 +53,30 @@ Resposta:
 ```
 `encaminhar_para` é preenchido quando o assistente não deve responder (ex.: `"CRAS"`, `"Defensoria Pública"`).
 
+### `POST /prontidao`
+Índice de Prontidão: chance de resolver na primeira ida (0 a 100). Regras explicáveis em `api/prontidao.py`.
+
+Envio (os documentos vêm das respostas de `/checar-documento`):
+```json
+{"servico": "cin", "unidade_id": "centro", "orientado": true,
+ "documentos": [{"tipo": "certidao", "qualidade": "reflexo"}]}
+```
+Resposta:
+```json
+{"simulado": true, "servico": "cin", "indice": 64, "faixa": "quase",
+ "componentes": {"documentos": 24, "fila": 25, "orientacao": 15},
+ "pendencias": ["A foto da certidão de nascimento ou de casamento está com reflexo, incline o papel e tire de novo."],
+ "versao_regra": "1.0"}
+```
+| Componente | Pontos | Regra |
+|---|---|---|
+| Documentos | até 60 | Obrigatório conferido e ok = peso cheio; com problema = 40% do peso; não conferido = 0 |
+| Fila | até 25 | Até 20 min = 25; até 45 min = 15; mais = 5; sem dado = 15 |
+| Orientação | até 15 | Já recebeu a lista oficial do assistente |
+
+`faixa`: `pronta` (80 ou mais), `quase` (50 a 79), `nao_pronta` (menos de 50).
+Obrigatórios: CIN → certidão · CNH → CNH atual e comprovante · Cadastro Único → CPF e comprovante.
+
 ## Cidadão sintético (`rpa/`)
 ```json
 {"id": "C042", "nome": "Pessoa Fictícia 42", "municipio": "Itapeva",

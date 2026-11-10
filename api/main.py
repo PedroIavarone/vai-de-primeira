@@ -13,6 +13,7 @@ from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
+import prontidao
 import simulacao
 
 app = FastAPI(
@@ -36,6 +37,21 @@ TAMANHO_MAXIMO = 8 * 1024 * 1024  # 8 MB
 class Pergunta(BaseModel):
     pergunta: str = Field(min_length=3, max_length=1000)
     perfil: Literal["geral", "idoso", "baixa_escolaridade"] = "geral"
+
+
+TipoDocumento = Literal["cin", "cnh", "cpf", "certidao", "comprovante_residencia", "desconhecido"]
+
+
+class DocumentoConferido(BaseModel):
+    tipo: TipoDocumento
+    qualidade: Literal["ok", "borrado", "reflexo", "cortado"] = "ok"
+
+
+class PedidoProntidao(BaseModel):
+    servico: Literal["cin", "cnh", "cadunico"]
+    documentos: list[DocumentoConferido] = Field(default_factory=list, max_length=20)
+    unidade_id: str | None = None
+    orientado: bool = False
 
 
 @app.get("/saude")
@@ -75,3 +91,20 @@ def perguntar(dados: Pergunta):
     # TODO(Pedro): trocar pelo agente de genai/ (RAG sobre o corpus de pln/).
     return simulacao.responder(dados.pergunta, dados.perfil)
 
+
+@app.post("/prontidao")
+def calcular_prontidao(pedido: PedidoProntidao):
+    """Índice de Prontidão (0 a 100): chance de resolver na primeira ida. Regras em prontidao.py."""
+    espera_min = None
+    simulado = False
+    if pedido.unidade_id:
+        fila_atual = fila()  # usa a mesma fonte do /fila (hoje simulada, depois o banco do IoT)
+        unidade = next((u for u in fila_atual["unidades"] if u["id"] == pedido.unidade_id), None)
+        if unidade is None:
+            raise HTTPException(status_code=404, detail=f"Unidade '{pedido.unidade_id}' não encontrada.")
+        espera_min = unidade["espera_min"]
+        simulado = fila_atual.get("simulado", False)
+    resultado = prontidao.calcular(
+        pedido.servico, [d.model_dump() for d in pedido.documentos], espera_min, pedido.orientado
+    )
+    return {"simulado": simulado, **resultado}
