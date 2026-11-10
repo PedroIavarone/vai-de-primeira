@@ -1,0 +1,70 @@
+{
+  "modelo_base": "yolo11n-cls.pt",
+  "tamanho_imagem_px": 224,
+  "tempo_treino_min": 9.6,
+  "dispositivo": "mps",
+  "teste": {
+    "acuracia": 0.9971,
+    "por_classe": {
+      "ok": {
+        "precision": 0.9877,
+        "recall": 1.0,
+        "f1-score": 0.9938,
+        "support": 160.0
+      },
+      "borrado": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 180.0
+      },
+      "reflexo": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 180.0
+      },
+      "cortado": {
+        "precision": 1.0,
+        "recall": 0.9889,
+        "f1-score": 0.9944,
+        "support": 180.0
+      }
+    },
+    "f1_macro": 0.9971
+  },
+  "matriz_confusao": {
+    "linhas_reais_colunas_previstas": [
+      "ok",
+      "borrado",
+      "reflexo",
+      "cortado"
+    ],
+    "valores": [
+      [
+        160,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        180,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        180,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        178
+      ]
+    ]
+  }
+}
