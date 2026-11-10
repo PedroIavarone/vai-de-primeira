@@ -1,6 +1,9 @@
 """Testes da API simulada. Rodar: python -m pytest -q  (ou python test_api.py)"""
 
+import os
 from datetime import datetime
+
+os.environ["VDP_MODO_DEMO"] = "1"  # testes determinísticos: sem carregar os modelos de visão
 
 from fastapi.testclient import TestClient
 

@@ -35,6 +35,7 @@ Envio: `multipart/form-data` com o campo `arquivo` (imagem).
  ]}
 ```
 `tipo`: `cin`, `cnh`, `cpf`, `certidao`, `comprovante_residencia`, `desconhecido`.
+Campos extras da conferência real: `confianca_qualidade` (0 a 1) e `caixa` `[x0, y0, x1, y1]` em pixels. Quando nenhum documento é encontrado, `documentos` vem vazio e há uma `dica` no nível da resposta.
 `qualidade`: `ok`, `borrado`, `reflexo`, `cortado`.
 
 ### `POST /perguntar`

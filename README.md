@@ -60,7 +60,7 @@ uvicorn main:app --reload
 ```
 A documentação interativa fica em http://127.0.0.1:8000/docs.
 
-Enquanto os módulos de visão, assistente e sensores são finalizados, os endpoints correspondentes respondem com **dados de demonstração** no formato definitivo, identificados pelo campo `"simulado": true`. Assim o app pode ser desenvolvido em paralelo. Cada endpoint passa a usar o módulo real assim que ele é integrado.
+`/checar-documento` já usa os modelos de visão (`visao/modelos/`). Enquanto o assistente e os sensores são finalizados, os endpoints correspondentes respondem com **dados de demonstração** no formato definitivo, identificados pelo campo `"simulado": true`. Assim o app pode ser desenvolvido em paralelo. Cada endpoint passa a usar o módulo real assim que ele é integrado.
 
 ### Testes
 ```bash

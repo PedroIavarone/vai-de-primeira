@@ -1,7 +1,9 @@
 """API de integração do Vai de Primeira.
 
-Endpoints ainda não ligados ao módulo definitivo (iot/, visao/, genai/) devolvem
-dados de demonstração no formato de docs/contratos.md, com "simulado": true.
+/checar-documento usa o módulo de visão (visao/) quando os pesos estão disponíveis.
+Endpoints ainda não ligados ao módulo definitivo (iot/, genai/) devolvem dados de
+demonstração no formato de docs/contratos.md, com "simulado": true.
+VDP_MODO_DEMO=1 força os dados de demonstração em todos os endpoints.
 
 Rodar:  uvicorn main:app --reload   →   http://127.0.0.1:8000/docs
 """
@@ -13,6 +15,7 @@ from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
+import integracao_visao
 import prontidao
 import simulacao
 
@@ -75,7 +78,6 @@ def fila_unidade(unidade_id: str):
 
 @app.post("/checar-documento")
 async def checar_documento(arquivo: UploadFile = File(...)):
-    # TODO(Pedro): trocar pelo pipeline de visao/ (YOLO + qualidade + OCR).
     if arquivo.content_type not in TIPOS_IMAGEM:
         raise HTTPException(status_code=415, detail="Envie uma imagem JPG, PNG ou WEBP.")
     conteudo = await arquivo.read()
@@ -83,7 +85,16 @@ async def checar_documento(arquivo: UploadFile = File(...)):
         raise HTTPException(status_code=400, detail="A imagem chegou vazia.")
     if len(conteudo) > TAMANHO_MAXIMO:
         raise HTTPException(status_code=413, detail="Imagem maior que 8 MB.")
-    return simulacao.checar_documento(arquivo.filename or "", conteudo)
+    conferencia = integracao_visao.obter()
+    if conferencia is None:
+        return simulacao.checar_documento(arquivo.filename or "", conteudo)
+    try:
+        resultado = conferencia.analisar_bytes(conteudo)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Não foi possível ler a imagem enviada.")
+    if not resultado["documentos"]:
+        resultado["dica"] = "Nenhum documento encontrado. Coloque o documento inteiro na foto, sobre uma superfície lisa."
+    return {"simulado": False, **resultado}
 
 
 @app.post("/perguntar")

@@ -1,5 +1,9 @@
 """Testes do Índice de Prontidão. Rodar: python -m pytest -q"""
 
+import os
+
+os.environ["VDP_MODO_DEMO"] = "1"  # testes determinísticos: sem carregar os modelos de visão
+
 from fastapi.testclient import TestClient
 
 import prontidao
