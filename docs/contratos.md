@@ -75,7 +75,7 @@ Resposta:
 | Orientação | até 15 | Já recebeu a lista oficial do assistente |
 
 `faixa`: `pronta` (80 ou mais), `quase` (50 a 79), `nao_pronta` (menos de 50).
-Obrigatórios: CIN → certidão · CNH → CNH atual e comprovante · Cadastro Único → CPF e comprovante.
+Obrigatórios: CIN → certidão · CNH → CNH atual e comprovante · Cadastro Único → CPF (ou título de eleitor) do responsável; o comprovante é recomendado e não conta no índice.
 
 ## Cidadão sintético (`rpa/`)
 ```json

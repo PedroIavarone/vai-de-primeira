@@ -23,7 +23,8 @@ VERSAO_REGRA = "1.0"
 OBRIGATORIOS = {
     "cin": ["certidao"],
     "cnh": ["cnh", "comprovante_residencia"],
-    "cadunico": ["cpf", "comprovante_residencia"],
+    # Cadastro Único: CPF (ou título de eleitor) do responsável; comprovante é recomendado, não obrigatório.
+    "cadunico": ["cpf"],
 }
 NOMES = {
     "certidao": "certidão de nascimento ou de casamento",
