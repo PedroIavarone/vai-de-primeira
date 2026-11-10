@@ -1,0 +1,28 @@
+{
+  "hardware": "Apple M4, 16 GB RAM, Darwin 25.6.0",
+  "dispositivo_inferencia": "mps",
+  "imagens_medidas": 100,
+  "resolucao_entrada_px": "576x1024 (redimensionada para 640 px no detector e 224 px na qualidade)",
+  "detector": {
+    "media_ms": 14.3,
+    "mediana_ms": 15.3,
+    "p95_ms": 20.3
+  },
+  "qualidade": {
+    "media_ms": 6.4,
+    "mediana_ms": 6.1,
+    "p95_ms": 7.2
+  },
+  "modo_video_detector_mais_qualidade": {
+    "media_ms": 20.7,
+    "mediana_ms": 21.5,
+    "p95_ms": 27.6,
+    "fps": 48.3
+  },
+  "ocr_tipo_documento_cpu": {
+    "media_ms": 428.3,
+    "mediana_ms": 399.2,
+    "p95_ms": 684.7
+  },
+  "observacao": "No modo vídeo o OCR roda só uma vez por documento, não em todo quadro."
+}

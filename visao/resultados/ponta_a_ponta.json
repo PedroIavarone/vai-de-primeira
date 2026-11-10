@@ -1,0 +1,40 @@
+{
+  "fotos_teste": 180,
+  "acerto_geral": 1.0,
+  "sem_documento_detectado": 0,
+  "confusoes": {},
+  "por_condicao": {
+    "distorcao_projetiva": {
+      "acerto": 1.0,
+      "fotos": 30
+    },
+    "documentos_no_fundo": {
+      "acerto": 1.0,
+      "fotos": 20
+    },
+    "luz_natural_externa": {
+      "acerto": 1.0,
+      "fotos": 20
+    },
+    "mesa_no_fundo": {
+      "acerto": 1.0,
+      "fotos": 20
+    },
+    "pouca_luz": {
+      "acerto": 1.0,
+      "fotos": 30
+    },
+    "reflexo_de_luz": {
+      "acerto": 1.0,
+      "fotos": 20
+    },
+    "tecido_no_fundo": {
+      "acerto": 1.0,
+      "fotos": 20
+    },
+    "teclado_no_fundo": {
+      "acerto": 1.0,
+      "fotos": 20
+    }
+  }
+}
