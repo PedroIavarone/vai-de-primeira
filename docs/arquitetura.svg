@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#667085"/></marker><marker id="a0" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#667085"/></marker></defs>
+<rect width="1600" height="1000" fill="#F2F4F7"/>
+<rect x="40" y="26" width="48" height="48" rx="12" fill="#1F5FAD"/><path d="M52 50 L62 60 L78 40" fill="none" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="104" y="62" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="30" font-weight="700" fill="#1F5FAD">Arquitetura do Vai de Primeira</text>
+<rect x="40" y="380" width="250" height="210" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="58" y="414" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Cidadão</text>
+<text x="58" y="440" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">texto, áudio ou Libras</text>
+<text x="58" y="461" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">app, WhatsApp ou totem</text>
+<circle cx="165" cy="500" r="20" fill="#1F5FAD"/><path d="M131 558 Q165 518 199 558 Z" fill="#1F5FAD"/>
+<rect x="350" y="300" width="280" height="150" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="368" y="334" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">App e modo totem</text>
+<text x="368" y="360" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">cadastro, checklist, câmera,</text>
+<text x="368" y="381" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">fila, assistente e Libras</text>
+<rect x="366" y="416" width="64" height="24" rx="12" fill="#E8F0FB"/>
+<text x="378" y="433" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F5FAD">React</text>
+<rect x="350" y="520" width="280" height="130" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="368" y="554" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Aviso proativo</text>
+<text x="368" y="580" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">“sua CNH vence em 30 dias”</text>
+<text x="368" y="601" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">por e-mail ou WhatsApp</text>
+<rect x="366" y="616" width="128" height="24" rx="12" fill="#E8F0FB"/>
+<text x="378" y="633" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F5FAD">Robô agendado</text>
+<rect x="700" y="160" width="260" height="560" rx="18" fill="#1F5FAD"/>
+<text x="722" y="200" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">API de integração</text>
+<text x="722" y="226" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#D6E4F5">FastAPI</text>
+<text x="722" y="270" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="16" fill="#FFFFFF">/perguntar</text>
+<text x="722" y="300" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="16" fill="#FFFFFF">/checar-documento</text>
+<text x="722" y="330" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="16" fill="#FFFFFF">/fila</text>
+<text x="722" y="360" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="16" fill="#FFFFFF">/prontidao</text>
+<rect x="718" y="420" width="224" height="200" rx="14" fill="#E8F0FB"/>
+<text x="736" y="456" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="18" font-weight="700" fill="#1F2933">Índice de Prontidão</text>
+<text x="736" y="514" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="46" font-weight="700" fill="#1F5FAD">0 a 100</text>
+<text x="736" y="548" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#1F2933">documentos (até 60)</text>
+<text x="736" y="569" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#1F2933">fila (até 25)</text>
+<text x="736" y="590" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#1F2933">orientação (até 15)</text>
+<rect x="1030" y="160" width="270" height="140" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="1048" y="194" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Assistente da Jornada</text>
+<text x="1048" y="220" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">RAG + LLM</text>
+<text x="1048" y="241" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">lista oficial, com a fonte</text>
+<rect x="1046" y="266" width="64" height="24" rx="12" fill="#E8F0FB"/>
+<text x="1058" y="283" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F5FAD">GenAI</text>
+<rect x="1030" y="330" width="270" height="140" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="1048" y="364" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Conferência por vídeo</text>
+<text x="1048" y="390" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">YOLO + qualidade + OCR</text>
+<text x="1048" y="411" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">borrado, reflexo, cortado</text>
+<rect x="1046" y="436" width="176" height="24" rx="12" fill="#E8F0FB"/>
+<text x="1058" y="453" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F5FAD">Visão computacional</text>
+<rect x="1030" y="500" width="270" height="140" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="1048" y="534" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Fila ao vivo</text>
+<text x="1048" y="560" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">pessoas na unidade</text>
+<text x="1048" y="581" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">e espera estimada</text>
+<rect x="1046" y="606" width="48" height="24" rx="12" fill="#E8F0FB"/>
+<text x="1058" y="623" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F5FAD">IoT</text>
+<rect x="1340" y="160" width="220" height="140" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="1358" y="194" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Base oficial</text>
+<text x="1358" y="220" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">documentos públicos</text>
+<text x="1358" y="241" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">limpos e anonimizados</text>
+<rect x="1356" y="266" width="48" height="24" rx="12" fill="#E8F0FB"/>
+<text x="1368" y="283" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F5FAD">PLN</text>
+<rect x="1340" y="330" width="220" height="140" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="1358" y="364" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Câmera</text>
+<text x="1358" y="390" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">do celular ou do totem</text>
+<rect x="1340" y="500" width="220" height="140" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="1358" y="534" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Totem com ESP32</text>
+<text x="1358" y="560" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">PIR, passagem, DHT22</text>
+<text x="1358" y="581" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">MQTT, Node-RED, banco</text>
+<rect x="1356" y="606" width="48" height="24" rx="12" fill="#E8F0FB"/>
+<text x="1368" y="623" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F5FAD">IoT</text>
+<rect x="1340" y="670" width="220" height="120" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="1358" y="704" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Memória de picos</text>
+<text x="1358" y="730" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">memristor (Falstad)</text>
+<rect x="1356" y="756" width="120" height="24" rx="12" fill="#E8F0FB"/>
+<text x="1368" y="773" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F5FAD">Neuromórfica</text>
+<rect x="350" y="820" width="280" height="140" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="368" y="854" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Robô proativo</text>
+<text x="368" y="880" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">lê cadastros e acha prazos,</text>
+<text x="368" y="901" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">gera Excel e e-mail</text>
+<rect x="366" y="926" width="48" height="24" rx="12" fill="#E8F0FB"/>
+<text x="378" y="943" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F5FAD">RPA</text>
+<rect x="700" y="820" width="260" height="140" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2"/>
+<text x="718" y="854" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Painel do gestor</text>
+<text x="718" y="880" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">prontidão por região,</text>
+<text x="718" y="901" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">recusas, riscos e LGPD</text>
+<rect x="716" y="926" width="144" height="24" rx="12" fill="#E8F0FB"/>
+<text x="728" y="943" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F5FAD">Governança e BA</text>
+<rect x="1030" y="820" width="530" height="140" rx="14" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1048" y="854" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#1F2933">Evolução: computação quântica</text>
+<text x="1048" y="880" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">otimizar as unidades móveis do estado inteiro e</text>
+<text x="1048" y="901" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="15" fill="#667085">proteger identidades com criptografia pós-quântica</text>
+<rect x="1046" y="926" width="80" height="24" rx="12" fill="#E8F0FB"/>
+<text x="1058" y="943" font-family="'Atkinson Hyperlegible', Verdana, Arial, sans-serif" font-size="13" font-weight="700" fill="#1F5FAD">Roadmap</text>
+<line x1="290" y1="420" x2="350" y2="420" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)" marker-start="url(#a0)"/>
+<line x1="350" y1="585" x2="290" y2="585" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)"/>
+<line x1="630" y1="375" x2="700" y2="375" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)" marker-start="url(#a0)"/>
+<line x1="960" y1="230" x2="1030" y2="230" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)" marker-start="url(#a0)"/>
+<line x1="960" y1="400" x2="1030" y2="400" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)" marker-start="url(#a0)"/>
+<line x1="1030" y1="570" x2="960" y2="570" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)"/>
+<line x1="1340" y1="230" x2="1300" y2="230" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)"/>
+<line x1="1340" y1="400" x2="1300" y2="400" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)"/>
+<line x1="1340" y1="570" x2="1300" y2="570" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)"/>
+<line x1="1450" y1="640" x2="1450" y2="670" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)"/>
+<line x1="490" y1="820" x2="490" y2="650" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)"/>
+<line x1="830" y1="720" x2="830" y2="820" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)"/>
+<line x1="630" y1="890" x2="700" y2="890" stroke="#667085" stroke-width="2.5" marker-end="url(#a1)"/>
+</svg>
