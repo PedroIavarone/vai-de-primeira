@@ -53,6 +53,7 @@ Resposta:
  "gratuito": true, "fontes": ["cin_govbr.html"], "encaminhar_para": null}
 ```
 `encaminhar_para` é preenchido quando o assistente não deve responder (ex.: `"CRAS"`, `"Defensoria Pública"`).
+`servico` também pode ser `"bpc"`. A resposta do Assistente da Jornada inclui `urls`, com os links das fontes na mesma ordem de `fontes`.
 
 ### `POST /prontidao`
 Índice de Prontidão: chance de resolver na primeira ida (0 a 100). Regras explicáveis em `api/prontidao.py`.

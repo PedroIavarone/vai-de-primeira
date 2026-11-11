@@ -1,8 +1,9 @@
 """API de integração do Vai de Primeira.
 
-/checar-documento usa o módulo de visão (visao/) quando os pesos estão disponíveis.
-Endpoints ainda não ligados ao módulo definitivo (iot/, genai/) devolvem dados de
-demonstração no formato de docs/contratos.md, com "simulado": true.
+/checar-documento usa o módulo de visão (visao/) e /perguntar usa o Assistente da Jornada
+(genai/) quando os modelos e a chave do Groq estão disponíveis. /fila, ainda não ligada ao
+módulo iot/, e qualquer endpoint sem o módulo disponível devolvem dados de demonstração no
+formato de docs/contratos.md, com "simulado": true.
 VDP_MODO_DEMO=1 força os dados de demonstração em todos os endpoints.
 
 Rodar:  uvicorn main:app --reload   →   http://127.0.0.1:8000/docs
@@ -15,6 +16,7 @@ from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
+import integracao_genai
 import integracao_visao
 import prontidao
 import simulacao
@@ -99,8 +101,8 @@ async def checar_documento(arquivo: UploadFile = File(...)):
 
 @app.post("/perguntar")
 def perguntar(dados: Pergunta):
-    # TODO(Pedro): trocar pelo agente de genai/ (RAG sobre o corpus de pln/).
-    return simulacao.responder(dados.pergunta, dados.perfil)
+    resultado = integracao_genai.responder(dados.pergunta, dados.perfil)
+    return resultado if resultado is not None else simulacao.responder(dados.pergunta, dados.perfil)
 
 
 @app.post("/prontidao")

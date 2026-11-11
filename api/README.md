@@ -23,5 +23,5 @@ python -m pytest -q
 ## Próximos passos
 - [ ] Ligar `/fila` ao banco alimentado pelo totem
 - [x] Ligar `/checar-documento` ao modelo de visão
-- [ ] Ligar `/perguntar` ao Assistente da Jornada
+- [x] Ligar `/perguntar` ao Assistente da Jornada
 - [ ] Endpoint agregado de prontidão por região para o painel
