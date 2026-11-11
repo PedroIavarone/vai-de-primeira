@@ -1,0 +1,40 @@
+Fonte: Ministério da Gestão e da Inovação em Serviços Públicos
+URL: https://www.gov.br/gestao/pt-br/identidade-nacional
+Serviço: cin
+Acesso: 2026-11-10
+
+O que é a nova Carteira de Identidade Nacional?
+É um documento nacional que pela primeira vez estabelece um padrão de emissão e modelo para todos os 27 órgãos de identificação, coibindo as fraudes de identificação no Brasil. A Carteira de Identidade Nacional contém novos elementos de segurança, inclusive com QR Code seguro e uma zona de leitura automatizada, com possibilidade de checagem fácil e segura pelas Forças de Segurança Pública e por todos os balcões públicos e privados. A Carteira de Identidade também tem formato digital, no aplicativo GOV.BR.
+Além disso, o número do CPF passa a ser o número do registro nacional, isso significa que independente de qual Estado da Federação seja emitida, o cidadão continuará com o mesmo número. A Carteira de Identidade será o documento de identificação mais seguro do Brasil e um dos mais seguros do mundo.
+Quais são as vantagens do novo documento?
+Unificação de dados : Para o governo e para o cidadão, há uma simplificação da documentação. Hoje, na prática, é possível ter mais de um número de RG, além do CPF. Com a CIN, o cidadão passará a ter um número de identificação só. E, para o governo, há maior segurança de que aquele cidadão é ele mesmo.
+Praticidade : carteira de identidade pode estar no celular, como já ocorre com a CNH. O cidadão conta com 2 versões: recebe a carteira de identidade física (em papel ou policarbonato - essa última opcional), e, depois, contará também com a carteira digital no aplicativo GOV.BR.
+Mais segurança : O novo modelo apresenta um QR Code, que permite verificar a autenticidade do documento, bem como saber se foi furtado ou extraviado, por meio de qualquer smartphone.
+Documento de viagem internacional : Também está presente na carteira um código de padrão internacional chamado MRZ, o mesmo utilizado em passaportes, o que a torna ainda um documento de viagem.
+Onde o cidadão pode emitir a CIN?
+Os brasileiros podem emitir a nova carteira nos Institutos de Identificação dos Estados e do Distrito Federal. Atualmente, 12 estados brasileiros já estão aptos a emitir o novo documento: Acre, Alagoas, Amazonas, Goiás, Mato Grosso, Minas Gerais, Pernambuco, Piauí, Paraná, Rio de Janeiro, Rio Grande do Sul e Santa Catarina.
+Qual é a data limite para que os estados se ajustem e comecem a ofertar a CIN?
+Com a publicação do Decreto nº 11.769/2023 que prorroga o prazo para que estados passem a emitir o novo modelo da Carteira de Identidade Naciona l, a partir de 6 de dezembro de 2023, os órgãos expedidores ficarão obrigados a adotar os padrões da Carteira de Identidade Nacional.
+Até o momento, quantos novos documentos já foram emitidos?
+Até outubro de 2023, mais de dois milhões de CINs físicas foram emitidas e mais de 330 mil baixadas no aplicativo GOV.BR.
+Quais são os documentos necessários pra tirar a primeira via da CIN?
+Pela Lei 7.116/83, são necessários a certidão de nascimento ou casamento.
+A nova carteira de identidade nacional é gratuita?
+No Brasil adotou-se o modelo obrigatório e gratuito na primeira via em papel e em formato digital pelo aplicativo GOV.BR. Ademais, a troca para nova Carteira de Identidade Nacional assim como as futuras renovações são gratuitas também.
+A primeira via da CIN e as renovações são gratuitas, em acordo com a Lei 7.116/83. As segundas vias, porém, são tributos estaduais; cada ente federado tem sua tabela de cobrança.
+Além disso, se o cidadão desejar a opção em policarbonato (plástico) haverá cobrança por parte do estado emissor.
+Quais são os formatos da CIN?
+O documento será impresso em papel e digital (pelo aplicativo GOV.BR o cidadão poderá acessar o modelo digital).
+Também terá a opção do documento em cartão de policarbonato, mas esse modelo é opcional e oferecido, mediante pagamento, pelos Estados. A opção em cartão tem as mesmas características e dados do modelo em papel. O custo de cada modelo em cartão é um tributo do estado, portanto irá variar entre os entes federados.
+A antiga carteira de identidade perdeu a validade?
+Não. Os documentos de identidade nos modelos antigos são válidos até 28 de fevereiro de 2032.
+A nova carteira de identidade do cidadão brasileiro tem prazo de validade?
+Sim. O prazo de validade do novo documento varia conforme a idade da pessoa:
+- 0 a 12 anos incompletos – validade de 5 anos.
+- 12 a 60 anos incompletos – validade de 10 anos.
+- Acima de 60 anos – validade indeterminada.
+Como faço para obter o documento de forma digital?
+As pessoas que começam a receber o documento impresso já podem acessar no app GOV.BR para emitir a CIN em formato digital. O processo é similar ao que já ocorre com a CNH. O cidadão recebe a carteira de identidade física, e, depois, contará também com a carteira digital na palma da mão, no aplicativo GOV.BR. Acesse o tutorial sobre a Carteira de Identidade Nacional no formato digital: https://www.youtube.com/watch?v=BeWNk2T6Kcg .
+A Carteira de Identidade Nacional (CIN) substitui o passaporte ou qualquer outro documento?
+Não. Embora uma das grandes vantagens da nova Carteira de Identidade é ter os dados visuais estruturados conforme regramento internacional e o mesmo código que é usado nos passaportes, a CIN poderá ser usada em viagens internacionais apenas nos locais em que o Brasil possuir acordo internacional, como os países do Mercosul.
+A CIN também está preparada para aglutinar todos os outros documentos do cidadão, mas esse ainda é um processo em construção. Todos os outros documentos do brasileiro ainda são válidos e devem ser usados para os devidos fins.

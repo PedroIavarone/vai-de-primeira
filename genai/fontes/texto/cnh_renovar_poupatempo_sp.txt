@@ -1,0 +1,133 @@
+Fonte: Governo do Estado de São Paulo (Poupatempo)
+URL: https://www.poupatempo.sp.gov.br/carta/F8D2DBE7-66BE-4AEC-9B0F-25912922D566
+Serviço: cnh
+Acesso: 2026-11-10
+
+## Renovar CNH
+Este serviço permite solicitar a renovação da Carteira Nacional de Habilitação (CNH) de forma online. Após solicitar, você realiza os exames obrigatórios e, se for aprovado, recebe a nova habilitação em formato físico e/ou digital, conforme sua escolha.
+
+## Como Fazer Online
+Etapa 1 - Realize o exame toxicológico (Obrigatório para renovação das categorias C, D e E)
+Consulte os laboratórios credenciados pela Senatran.
+Atenção! O exame toxicológico deve apresentar resultado negativo e estar dentro do prazo de validade para utilização no processo, considerando o período de 90 dias contados da data da coleta do material biológico.
+Etapa 2 - Iniciar o serviço
+Clique em “Iniciar serviço” para dar início ao processo de renovação da CNH.
+Etapa 3 - Fazer login
+Acesse com sua conta Gov.br.
+Etapa 4 - Preencha os dados
+Informe os dados solicitados e preencha corretamente os campos obrigatórios. Marque a opção “Não sou um robô” para continuar.
+Etapa 5 - Avançe no processo
+Confirme as informações sobre a categoria da sua CNH e clique em “Avançar”.
+Etapa 6 - Escolha o formato da CNH
+Indique se deseja receber a CNH física (impressa).
+Se optar pela CNH física
+- Selecione a opção “Sim” para CNH física e clique em “Avançar”.
+- Será exibida a opção de pagamento via Pix.
+- Utilize o QR Code ou copie o código para pagamento.
+- Não feche a página até a confirmação do pagamento.
+- Após a confirmação, o processo será liberado para continuidade.
+Se optar pela CNH digital
+- Selecione a opção “Não” para CNH física e continue o processo.
+- A CNH Digital será emitida gratuitamente.
+- O documento ficará disponível no aplicativo CNH Digital.
+Etapa 7 - Confirme o endereço de entrega (se aplicável)
+Caso tenha optado pela CNH física, informe e confirme o endereço para entrega. Realize o agendamento dos exames.
+Etapa 8 - Realize a avaliação psicológica, se pretende exercer atividade remunerada (EAR)
+- Informe “Sim” se pretende trabalhar como motorista, recebendo para transportar pessoas ou bens.
+- A avaliação psicológica será agendada. Compareça na clínica credenciada pelo Detran-SP, na data e horário agendado.
+- O pagamento é feito diretamente ao psicólogo, no dia do atendimento.
+Etapa 9 - Realize o exame de aptidão física e mental (exame médico
+- Compareça à clínica credenciada pelo Detran-SP, conforme agendamento.
+- O pagamento é feito diretamente ao médico, no dia do atendimento.
+Etapa 10 - Acompanhe a emissão
+Após a conclusão do serviço
+- A CNH Digital será disponibilizada automaticamente no aplicativo.
+- A CNH física será emitida e enviada para o endereço informado (quando solicitada).
+Etapa 11 - Rastreie a entrega (se aplicável)
+Após a emissão da CNH física, aguarde a disponibilização do código de rastreamento para acompanhar a entrega pelos Correios.
+
+## Quanto custa
+- Taxa de emissão da CNH: R$ 126,79
+- Taxa de envio (Correios): R$ 11,00
+Valor total: R$ 137,79
+R$ 90,00
+Gratuita
+R$ 90,00
+consulte um laboratório credenciado pelo Senatran e pague diretamente à empresa.
+
+## Documentação necessária
+
+## Duração do atendimento
+
+## Prazo para concluir
+
+## Como fazer presencialmente
+Etapa 1 - Realize o exame toxicológico (Obrigatório para renovação das categorias C, D e E)
+Consulte os laboratórios credenciados pela Senatran.
+Atenção! O exame toxicológico deve apresentar resultado negativo e estar dentro do prazo de validade para utilização no processo, considerando o período de 90 dias contados da data da coleta do material biológico.
+Etapa 2 - Agende seu atendimento
+Realize seu agendamento, escolha a data, o horário e o local mais conveniente. O atendimento pode ser realizado em uma unidade do Detran-SP ou em um Posto Poupatempo.
+Etapa 3 - Leve os documentos necessários
+Compareça à unidade escolhida no dia e horário agendados, levando todos os documentos exigidos para o serviço.
+Etapa 4 - Realize o atendimento
+Na unidade, entregue os documentos e siga as orientações do atendente para concluir sua solicitação.
+Etapa 5 - Realize a avaliação psicológica, se necessário
+Se você exerce atividade remunerada (EAR), realize a avaliação psicológica na clínica credenciada pelo Detran-SP, na data e horário agendados. O pagamento é feito diretamente ao psicólogo, no dia do atendimento
+Etapa 6 - Realize o exame de aptidão física e mental (exame médico
+- Compareça à clínica credenciada pelo Detran-SP, conforme agendamento.
+- O pagamento é feito diretamente ao médico, no dia do atendimento.
+Etapa 7 - Acompanhe a emissão
+- Após a conclusão do serviço:
+- A CNH Digital será disponibilizada automaticamente no aplicativo;
+- A CNH física será emitida e enviada para o endereço informado (quando solicitada).
+Etapa 8 - Rastreie a entrega (se aplicável)
+Após a emissão da CNH física, aguarde a disponibilização do código de rastreamento para acompanhar a entrega pelos Correios.
+
+## Quanto custa
+Não há taxa para essa etapa
+
+## Documentação necessária
+
+## Duração do atendimento
+
+## Prazo para concluir
+- Número do CPF
+- Número de registro da CNH
+- Número do espelho da CNH.
+Atenção!
+A validade da CNH e da ACC com vencimento entre 05/06/2026 e 08/09/2026 está prorrogada excepcionalmente até 09/12/2026, conforme Deliberação Contran nº 279/2026. Não é necessário emitir novo documento nem realizar qualquer procedimento para registrar essa prorrogação. Após o término da prorrogação, o condutor terá 30 dias para renovar a habilitação. Esta prorrogação não se aplica aos condutores com o direito de dirigir suspenso ou cassado.
+Condições:
+- Para alterar outros dados (como nome, sobrenome, filiação, data de nascimento, número de documento, inclusão de nome social ou filiação afetiva), utilize o serviço "Solicitar atualização de dados da CNH".
+- CNHs das categorias C, D ou E precisam de exame toxicológico, além do exame médico.
+- Se você for exercer atividade remunerada, é necessário passar por avaliação psicológica.
+- Avaliação psicológica é obrigatória para quem exerce atividade remunerada (EAR), como motoristas de caminhão, táxi, ônibus, transporte de pessoas e bens em geral.
+- A CNH Digital é gratuita. Caso opte pela CNH física (versão impressa), a emissão está condicionada ao pagamento da taxa de emissão com postagem.
+- Se você tem categoria A e deseja incluir a observação Exerce Atividade Remunerada, é necessário:
+- Ter 21 anos ou mais.
+- Ter, no mínimo, 2 anos de habilitação na categoria A.
+- Ter feito e sido aprovado no curso de motofrete e/ou mototáxi.
+- Servidores da segurança pública do Estado de São Paulo (Lei Estadual nº 15.266/2013, art. 31, inciso III): Caso já tenha realizado seu exame de aptidão física e mental e sua avaliação psicológica, clique aqui para solicitar sua emissão com isenção de taxa.
+- Tripulantes de aeronaves (Anac): Caso deseje solicitar sua renovação com aproveitamento dos exames válidos conforme Cartão Saúde ou Extrato de Pesquisa sobre Licença e Habilitações, expedidos pelas Forças Armadas ou pela Agência Nacional de Aviação Civil (Anac), clique aqui .
+Prazo máximo:
+- CNH Digital: ficará disponível no aplicativo CNH do Brasil, em até 24 horas após a expedição da CNH.
+- CNH Física – Capital: entrega em até 3 dias úteis, após a criação do código de rastreio dos correios.
+- CNH Física – Interior: entrega em até 4 dias úteis, após a criação do código de rastreio dos correios.
+Importante! A emissão e a entrega devem ser acompanhadas através do serviço " Acompanhar Emissão da CNH ou PID e Rastreio pelos Correios ", disponível no portal do Detran.
+Observação:
+- Se a inclusão do EAR for feita junto com a renovação da CNH: a validade será definida pelo exame com menor prazo, exemplo:
+- Se o exame médico tiver validade de 10 anos e o exame psicológico de 5 anos, a CNH será emitida com validade de 5 anos.
+
+## Tipo de Serviço
+
+## Canais de Atendimento
+
+## Contato
+
+## Redes Sociais
+
+## Órgão Responsável
+
+## Unidades Prestadoras
+- Mapa
+- Listagem
+Não atendemos esse serviço presencialmente.
