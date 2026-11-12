@@ -1,0 +1,12 @@
+id,nome,email,municipio,regiao,idade,cnh_validade,cadunico_atualizado_em,recebe_bpc,filho_nascido_em,link_informado,consentiu_avisos
+P001,Francisca Exemplo,francisca@exemplo.test,Itapeva,Sudoeste Paulista,67,,2023-06-10,nao,,,sim
+P002,Jorge Exemplo,jorge@exemplo.test,São Paulo,Zona Leste SP,41,2026-12-05,,nao,,https://renovacnh-rapido.com.br,sim
+P003,Ana Exemplo,ana@exemplo.test,São Paulo,Zona Leste SP,27,,2025-03-02,nao,2026-10-14,,sim
+T004,Teste Sem Consentimento,,Itapeva,Sudoeste Paulista,70,,2022-01-15,nao,,,nao
+T005,Teste CNH Vencida,cnh@exemplo.test,Sorocaba,Sorocaba,35,2026-09-01,,nao,,https://www.detran.sp.gov.br,sim
+T006,Teste Sem Aviso,ok@exemplo.test,Sorocaba,Sorocaba,30,2029-01-01,2026-01-10,nao,,,sim
+T007,Teste Data Ruim,data@exemplo.test,Itapeva,Sudoeste Paulista,50,31/02/2026,,nao,,,sim
+T008,Teste Email Ruim,email-invalido,Sorocaba,Sorocaba,45,2026-11-20,,nao,,,sim
+T009,Teste Idade Ruim,idade@exemplo.test,Itapeva,Sudoeste Paulista,abc,,,nao,,,sim
+P001,Francisca Repetida,repetida@exemplo.test,Itapeva,Sudoeste Paulista,67,,,nao,,,sim
+T010,Teste Recebe BPC,bpc@exemplo.test,Itapeva,Sudoeste Paulista,80,,2025-08-01,sim,,,sim
