@@ -79,10 +79,9 @@ O sistema lida com dados de identificação, que são sensíveis pela LGPD. Nest
 
 ## Equipe
 
-| Nome | RM | Áreas |
-|---|---|---|
-| Pedro Iavarone Custódio | RM567638 | Assistente da Jornada (GenAI), Governança, Visão Computacional |
-| João Pedro de Souza Nunes | RM567318 | Base de conhecimento (PLN), Computação Quântica, IoT |
-| Guilherme Nakamura | RM567460 | Front-end, Memória de picos (Cluster), Aviso proativo (RPA) |
+| Nome | RM |
+|---|---|
+| Pedro Iavarone Custódio | RM567638 |
+| Rodrigo Ferreira Nery | RM568246 |
 
 Projeto desenvolvido no desafio CitizenTech da FIAP (2026).

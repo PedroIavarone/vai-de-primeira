@@ -66,7 +66,7 @@ def saude():
 
 @app.get("/fila")
 def fila():
-    # TODO(João): trocar pela leitura do banco alimentado pelo Node-RED.
+    # TODO: trocar pela leitura do banco alimentado pelo Node-RED.
     return simulacao.fila_agora()
 
 

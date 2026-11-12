@@ -2,8 +2,6 @@
 
 Aplicação web em React + Vite usada pelo cidadão no celular e no totem da unidade de atendimento.
 
-**Responsável:** Guilherme Nakamura
-
 ## Funcionalidades
 - Login local, cadastro do cidadão e consulta dos serviços em andamento (dados no navegador).
 - Jornada de cada serviço: o que levar, se é gratuito, onde ir.

@@ -2,8 +2,6 @@
 
 Ponto único de acesso do app e do totem. Recebe as solicitações do cidadão, encaminha para cada módulo e calcula o Índice de Prontidão.
 
-**Responsável:** Pedro Iavarone Custódio
-
 ## Funcionalidades
 - `GET /fila`: espera atual de cada unidade.
 - `POST /checar-documento`: recebe uma imagem e devolve tipo, qualidade e orientação.

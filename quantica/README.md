@@ -2,8 +2,6 @@
 
 Estudo de onde a computação quântica ampliaria o Vai de Primeira em escala estadual.
 
-**Responsável:** João Pedro de Souza Nunes
-
 ## Funcionalidades
 - Gargalo: distribuir agendamentos e rotas de unidades móveis para milhões de pessoas.
 - Otimização quântica (QAOA, annealing) para alocação e roteirização.

@@ -2,8 +2,6 @@
 
 Pipeline que transforma documentos públicos sobre CIN, CNH e Cadastro Único em um corpus limpo, anonimizado e pronto para o Assistente da Jornada.
 
-**Responsável:** João Pedro de Souza Nunes
-
 ## Funcionalidades
 - Ingestão de PDF, TXT, DOCX, HTML e texto colado, registrando a origem de cada trecho.
 - Limpeza (cabeçalhos, rodapés, URLs, hifenização) e normalização em UTF-8, preservando acentos e pontuação.

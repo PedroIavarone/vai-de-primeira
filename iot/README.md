@@ -2,8 +2,6 @@
 
 Totem com ESP32 na entrada da unidade de atendimento. Conta quem entra e sai, mede o ambiente e oferece um botão de ajuda.
 
-**Responsável:** João Pedro de Souza Nunes
-
 ## Funcionalidades
 - Sensores: PIR (presença no totem), dois sensores de passagem na porta, DHT22 (temperatura e umidade) e botão de ajuda.
 - Publicação via MQTT nos tópicos `vdp/unidade/{id}/fila`, `vdp/unidade/{id}/ambiente`, `vdp/totem/{id}/presenca`, `vdp/totem/{id}/ajuda`.

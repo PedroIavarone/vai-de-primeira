@@ -2,8 +2,6 @@
 
 Painel do gestor público e as práticas de governança de IA do projeto.
 
-**Responsável:** Pedro Iavarone Custódio
-
 ## Funcionalidades
 - Painel: prontidão média por região e serviço, motivos de recusa, espera por unidade, avisos enviados e desempenho dos modelos.
 - Matriz de riscos de IA: documento aprovado indevidamente, resposta incorreta do assistente, exclusão de quem não tem celular.

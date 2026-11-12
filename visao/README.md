@@ -2,8 +2,6 @@
 
 Avalia, por imagem ou vídeo, se os documentos do cidadão estão legíveis antes da ida à unidade de atendimento. O sistema faz **triagem**: a conferência final continua sendo do atendente.
 
-**Responsável:** Pedro Iavarone Custódio
-
 ## Como funciona
 ```
 imagem ou quadro de vídeo

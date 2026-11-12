@@ -2,8 +2,6 @@
 
 Robô agendado que encontra quem precisa ser avisado, envia a mensagem e gera o relatório de demanda para o gestor.
 
-**Responsável:** Guilherme Nakamura
-
 ## Funcionalidades
 - Leitura da base de cidadãos (fictícia).
 - Regras: CNH vencendo em até 30 dias, Cadastro Único sem atualização há mais de 2 anos, nascimento registrado, possível direito ao BPC (apenas sinalizado).

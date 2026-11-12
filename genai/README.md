@@ -2,8 +2,6 @@
 
 Monta a jornada de cada cidadão para tirar a Carteira de Identidade Nacional, renovar a CNH, se inscrever no Cadastro Único e entender o BPC: o que levar, onde ir e se é gratuito, **sempre citando a fonte oficial** e em linguagem adaptada ao perfil da pessoa.
 
-**Responsável:** Pedro Iavarone Custódio
-
 ## Como funciona
 ```
 pergunta do cidadão

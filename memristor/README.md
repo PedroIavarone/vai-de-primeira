@@ -2,8 +2,6 @@
 
 Estudo de como um memristor pode registrar, de forma persistente, os horários em que uma unidade lota com frequência.
 
-**Responsável:** Guilherme Nakamura
-
 ## Funcionalidades
 - Cada pico de lotação é representado como um pulso elétrico.
 - Comparação entre pico isolado e picos recorrentes.
