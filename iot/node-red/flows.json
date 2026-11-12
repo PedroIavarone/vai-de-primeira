@@ -1,0 +1,407 @@
+[
+  {
+    "id": "aba_totem",
+    "type": "tab",
+    "label": "Totem e fila ao vivo",
+    "disabled": false,
+    "info": "Recebe as mensagens MQTT do ESP32 do totem, grava no SQLite, calcula a espera e dispara alertas."
+  },
+  {
+    "id": "broker",
+    "type": "mqtt-broker",
+    "name": "HiveMQ público",
+    "broker": "broker.hivemq.com",
+    "port": "1883",
+    "clientid": "",
+    "autoConnect": true,
+    "usetls": false,
+    "protocolVersion": "4",
+    "keepalive": "60",
+    "cleansession": true,
+    "autoUnsubscribe": true
+  },
+  {
+    "id": "banco",
+    "type": "sqlitedb",
+    "db": "../dados/iot.sqlite",
+    "mode": "RWC"
+  },
+  {
+    "id": "c_ini",
+    "type": "comment",
+    "z": "aba_totem",
+    "name": "1. Ao iniciar: cria as tabelas do banco",
+    "x": 140,
+    "y": 40
+  },
+  {
+    "id": "inj_tabelas",
+    "type": "inject",
+    "z": "aba_totem",
+    "name": "criar tabelas",
+    "props": [
+      {
+        "p": "topic",
+        "vt": "str",
+        "v": "CREATE TABLE IF NOT EXISTS leituras_fila (id INTEGER PRIMARY KEY AUTOINCREMENT, unidade TEXT NOT NULL,\n  pessoas INTEGER NOT NULL, espera_min INTEGER NOT NULL, status TEXT NOT NULL, ts_dispositivo TEXT,\n  recebido_em TEXT NOT NULL DEFAULT (datetime('now','localtime')));\nCREATE TABLE IF NOT EXISTS leituras_ambiente (id INTEGER PRIMARY KEY AUTOINCREMENT, unidade TEXT NOT NULL,\n  temp_c REAL NOT NULL, umidade REAL, recebido_em TEXT NOT NULL DEFAULT (datetime('now','localtime')));\nCREATE TABLE IF NOT EXISTS eventos_totem (id INTEGER PRIMARY KEY AUTOINCREMENT, totem TEXT NOT NULL,\n  tipo TEXT NOT NULL, valor TEXT, recebido_em TEXT NOT NULL DEFAULT (datetime('now','localtime')));\nCREATE TABLE IF NOT EXISTS alertas (id INTEGER PRIMARY KEY AUTOINCREMENT, tipo TEXT NOT NULL, local TEXT,\n  texto TEXT NOT NULL, canal TEXT, criado_em TEXT NOT NULL DEFAULT (datetime('now','localtime')));\nCREATE TABLE IF NOT EXISTS descartes (id INTEGER PRIMARY KEY AUTOINCREMENT, topico TEXT, conteudo TEXT,\n  motivo TEXT, recebido_em TEXT NOT NULL DEFAULT (datetime('now','localtime')));"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": true,
+    "onceDelay": "0.5",
+    "topic": "CREATE TABLE IF NOT EXISTS leituras_fila (id INTEGER PRIMARY KEY AUTOINCREMENT, unidade TEXT NOT NULL,\n  pessoas INTEGER NOT NULL, espera_min INTEGER NOT NULL, status TEXT NOT NULL, ts_dispositivo TEXT,\n  recebido_em TEXT NOT NULL DEFAULT (datetime('now','localtime')));\nCREATE TABLE IF NOT EXISTS leituras_ambiente (id INTEGER PRIMARY KEY AUTOINCREMENT, unidade TEXT NOT NULL,\n  temp_c REAL NOT NULL, umidade REAL, recebido_em TEXT NOT NULL DEFAULT (datetime('now','localtime')));\nCREATE TABLE IF NOT EXISTS eventos_totem (id INTEGER PRIMARY KEY AUTOINCREMENT, totem TEXT NOT NULL,\n  tipo TEXT NOT NULL, valor TEXT, recebido_em TEXT NOT NULL DEFAULT (datetime('now','localtime')));\nCREATE TABLE IF NOT EXISTS alertas (id INTEGER PRIMARY KEY AUTOINCREMENT, tipo TEXT NOT NULL, local TEXT,\n  texto TEXT NOT NULL, canal TEXT, criado_em TEXT NOT NULL DEFAULT (datetime('now','localtime')));\nCREATE TABLE IF NOT EXISTS descartes (id INTEGER PRIMARY KEY AUTOINCREMENT, topico TEXT, conteudo TEXT,\n  motivo TEXT, recebido_em TEXT NOT NULL DEFAULT (datetime('now','localtime')));",
+    "wires": [
+      [
+        "sql_tabelas"
+      ]
+    ],
+    "x": 140,
+    "y": 80
+  },
+  {
+    "id": "sql_tabelas",
+    "type": "sqlite",
+    "z": "aba_totem",
+    "mydb": "banco",
+    "sqlquery": "batch",
+    "sql": "",
+    "name": "criar tabelas",
+    "wires": [
+      []
+    ],
+    "x": 380,
+    "y": 80
+  },
+  {
+    "id": "c_fila",
+    "type": "comment",
+    "z": "aba_totem",
+    "name": "2. Fila: contagem da porta → espera → banco → alerta",
+    "x": 140,
+    "y": 140
+  },
+  {
+    "id": "in_fila",
+    "type": "mqtt in",
+    "z": "aba_totem",
+    "name": "vdp/unidade/+/fila",
+    "topic": "vdp/unidade/+/fila",
+    "qos": "1",
+    "datatype": "json",
+    "broker": "broker",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "wires": [
+      [
+        "fn_fila",
+        "dbg_mqtt"
+      ]
+    ],
+    "x": 140,
+    "y": 180
+  },
+  {
+    "id": "fn_fila",
+    "type": "function",
+    "z": "aba_totem",
+    "name": "validar e calcular espera",
+    "func": "// Valida a leitura, calcula a espera e o status e decide se há alerta (só na mudança de status).\nconst p = msg.payload || {};\nconst unidade = String(p.unidade || msg.topic.split(\"/\")[2] || \"\").slice(0, 40);\nconst pessoas = Number(p.pessoas);\nif (!unidade || typeof p.pessoas !== \"number\" || !Number.isInteger(pessoas) || pessoas < 0 || pessoas > 500) {\n    return [null, null, {params: {$topico: msg.topic, $conteudo: JSON.stringify(p), $motivo: \"contagem inválida\"}}];\n}\nconst MIN_POR_PESSOA = 1.8;              // tempo médio de atendimento por pessoa, em minutos\nconst espera = Math.round(pessoas * MIN_POR_PESSOA);\nconst status = espera <= 20 ? \"tranquila\" : (espera <= 45 ? \"moderada\" : \"cheia\");\nmsg.params = {$unidade: unidade, $pessoas: pessoas, $espera: espera, $status: status, $ts: p.ts || null};\nnode.status({fill: status === \"cheia\" ? \"red\" : (status === \"moderada\" ? \"yellow\" : \"green\"), shape: \"dot\",\n             text: `${unidade}: ${pessoas} pessoas, ${espera} min`});\nconst chave = \"status_\" + unidade;\nconst anterior = flow.get(chave);\nflow.set(chave, status);\nlet alerta = null;\nif (status === \"cheia\" && anterior !== \"cheia\") {\n    alerta = {tipo: \"fila_cheia\", local: unidade,\n              texto: `Fila cheia na unidade ${unidade}: ${pessoas} pessoas, cerca de ${espera} min de espera. ` +\n                     `O app já sugere a unidade com menos fila. Avalie abrir mais um guichê.`};\n} else if (anterior === \"cheia\" && status !== \"cheia\") {\n    alerta = {tipo: \"fila_normalizada\", local: unidade,\n              texto: `A fila da unidade ${unidade} voltou ao normal: ${pessoas} pessoas, cerca de ${espera} min.`};\n}\nreturn [msg, alerta ? {payload: alerta} : null, null];",
+    "outputs": 3,
+    "wires": [
+      [
+        "sql_fila"
+      ],
+      [
+        "fn_alerta"
+      ],
+      [
+        "sql_descarte"
+      ]
+    ],
+    "x": 380,
+    "y": 180
+  },
+  {
+    "id": "sql_fila",
+    "type": "sqlite",
+    "z": "aba_totem",
+    "mydb": "banco",
+    "sqlquery": "prepared",
+    "name": "gravar leitura da fila",
+    "sql": "INSERT INTO leituras_fila (unidade, pessoas, espera_min, status, ts_dispositivo) VALUES ($unidade, $pessoas, $espera, $status, $ts)",
+    "wires": [
+      []
+    ],
+    "x": 640,
+    "y": 160
+  },
+  {
+    "id": "c_amb",
+    "type": "comment",
+    "z": "aba_totem",
+    "name": "3. Ambiente: DHT22 → banco → alerta de calor",
+    "x": 140,
+    "y": 260
+  },
+  {
+    "id": "in_amb",
+    "type": "mqtt in",
+    "z": "aba_totem",
+    "name": "vdp/unidade/+/ambiente",
+    "topic": "vdp/unidade/+/ambiente",
+    "qos": "1",
+    "datatype": "json",
+    "broker": "broker",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "wires": [
+      [
+        "fn_amb",
+        "dbg_mqtt"
+      ]
+    ],
+    "x": 140,
+    "y": 300
+  },
+  {
+    "id": "fn_amb",
+    "type": "function",
+    "z": "aba_totem",
+    "name": "validar temperatura",
+    "func": "// Valida a leitura do DHT22 e alerta quando a unidade passa de 30 °C (volta ao normal abaixo de 28 °C).\nconst p = msg.payload || {};\nconst unidade = String(p.unidade || msg.topic.split(\"/\")[2] || \"\").slice(0, 40);\nconst temp = Number(p.temp_c), umidade = Number(p.umidade);\nif (!unidade || !Number.isFinite(temp) || temp < -10 || temp > 60) {\n    return [null, null, {params: {$topico: msg.topic, $conteudo: JSON.stringify(p), $motivo: \"temperatura inválida\"}}];\n}\nmsg.params = {$unidade: unidade, $temp: temp, $umidade: Number.isFinite(umidade) ? umidade : null};\nnode.status({fill: temp >= 30 ? \"red\" : \"green\", shape: \"dot\", text: `${unidade}: ${temp} °C`});\nconst chave = \"calor_\" + unidade;\nconst emAlerta = flow.get(chave) || false;\nlet alerta = null;\nif (temp >= 30 && !emAlerta) {\n    flow.set(chave, true);\n    alerta = {tipo: \"calor\", local: unidade,\n              texto: `Calor na unidade ${unidade}: ${temp} °C. Pessoas idosas esperando na fila: ofereça água e lugar para sentar.`};\n} else if (temp <= 28 && emAlerta) {\n    flow.set(chave, false);\n}\nreturn [msg, alerta ? {payload: alerta} : null, null];",
+    "outputs": 3,
+    "wires": [
+      [
+        "sql_amb"
+      ],
+      [
+        "fn_alerta"
+      ],
+      [
+        "sql_descarte"
+      ]
+    ],
+    "x": 380,
+    "y": 300
+  },
+  {
+    "id": "sql_amb",
+    "type": "sqlite",
+    "z": "aba_totem",
+    "mydb": "banco",
+    "sqlquery": "prepared",
+    "name": "gravar ambiente",
+    "sql": "INSERT INTO leituras_ambiente (unidade, temp_c, umidade) VALUES ($unidade, $temp, $umidade)",
+    "wires": [
+      []
+    ],
+    "x": 640,
+    "y": 280
+  },
+  {
+    "id": "c_totem",
+    "type": "comment",
+    "z": "aba_totem",
+    "name": "4. Totem: presença e botão de ajuda",
+    "x": 140,
+    "y": 380
+  },
+  {
+    "id": "in_totem",
+    "type": "mqtt in",
+    "z": "aba_totem",
+    "name": "vdp/totem/#",
+    "topic": "vdp/totem/#",
+    "qos": "1",
+    "datatype": "json",
+    "broker": "broker",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "wires": [
+      [
+        "fn_totem",
+        "dbg_mqtt"
+      ]
+    ],
+    "x": 140,
+    "y": 420
+  },
+  {
+    "id": "fn_totem",
+    "type": "function",
+    "z": "aba_totem",
+    "name": "registrar evento do totem",
+    "func": "// Registra presença e pedido de ajuda. Todo pedido de ajuda vira alerta para a equipe.\nconst p = msg.payload || {};\nconst partes = msg.topic.split(\"/\");\nconst totem = String(p.totem || partes[2] || \"\").slice(0, 40);\nconst tipo = partes[3];\nif (!totem || ![\"presenca\", \"ajuda\"].includes(tipo)) {\n    return [null, null, {params: {$topico: msg.topic, $conteudo: JSON.stringify(p), $motivo: \"evento inválido\"}}];\n}\nconst valor = tipo === \"ajuda\" ? Boolean(p.ajuda) : Boolean(p.presente);\nmsg.params = {$totem: totem, $tipo: tipo, $valor: String(valor)};\nlet alerta = null;\nif (tipo === \"ajuda\" && valor) {\n    alerta = {tipo: \"ajuda\", local: totem,\n              texto: `Pedido de ajuda no totem ${totem}. Um atendente deve ir até o totem.`};\n}\nnode.status({fill: alerta ? \"red\" : \"blue\", shape: \"dot\", text: `${totem}: ${tipo}`});\nreturn [msg, alerta ? {payload: alerta} : null, null];",
+    "outputs": 3,
+    "wires": [
+      [
+        "sql_totem"
+      ],
+      [
+        "fn_alerta"
+      ],
+      [
+        "sql_descarte"
+      ]
+    ],
+    "x": 380,
+    "y": 420
+  },
+  {
+    "id": "sql_totem",
+    "type": "sqlite",
+    "z": "aba_totem",
+    "mydb": "banco",
+    "sqlquery": "prepared",
+    "name": "gravar evento",
+    "sql": "INSERT INTO eventos_totem (totem, tipo, valor) VALUES ($totem, $tipo, $valor)",
+    "wires": [
+      []
+    ],
+    "x": 640,
+    "y": 400
+  },
+  {
+    "id": "c_alerta",
+    "type": "comment",
+    "z": "aba_totem",
+    "name": "5. Alertas: banco + Telegram · descartes",
+    "x": 140,
+    "y": 500
+  },
+  {
+    "id": "fn_alerta",
+    "type": "function",
+    "z": "aba_totem",
+    "name": "alerta: banco e Telegram",
+    "func": "// Grava todo alerta no banco e, se houver bot configurado, envia pelo Telegram.\nconst a = msg.payload;\nconst token = env.get(\"TELEGRAM_BOT_TOKEN\");\nconst chat = env.get(\"TELEGRAM_CHAT_ID\");\nconst canal = token && chat ? \"telegram\" : \"somente_banco\";\nconst gravar = {payload: {...a, canal}, params: {$tipo: a.tipo, $local: a.local, $texto: a.texto, $canal: canal}};\nif (canal !== \"telegram\") {\n    node.status({fill: \"yellow\", shape: \"ring\", text: \"sem Telegram configurado: alerta só no banco\"});\n    return [gravar, null];\n}\nnode.status({fill: \"green\", shape: \"dot\", text: `alerta ${a.tipo} enviado`});\nconst envio = {url: `https://api.telegram.org/bot${token}/sendMessage`, method: \"POST\",\n               headers: {\"content-type\": \"application/json\"},\n               payload: {chat_id: chat, text: `🔔 Vai de Primeira\\n${a.texto}`}};\nreturn [gravar, envio];",
+    "outputs": 2,
+    "wires": [
+      [
+        "sql_alerta",
+        "dbg_alerta"
+      ],
+      [
+        "http_telegram"
+      ]
+    ],
+    "x": 640,
+    "y": 540
+  },
+  {
+    "id": "sql_alerta",
+    "type": "sqlite",
+    "z": "aba_totem",
+    "mydb": "banco",
+    "sqlquery": "prepared",
+    "name": "gravar alerta",
+    "sql": "INSERT INTO alertas (tipo, local, texto, canal) VALUES ($tipo, $local, $texto, $canal)",
+    "wires": [
+      []
+    ],
+    "x": 900,
+    "y": 520
+  },
+  {
+    "id": "http_telegram",
+    "type": "http request",
+    "z": "aba_totem",
+    "name": "Telegram sendMessage",
+    "method": "use",
+    "ret": "obj",
+    "paytoqs": "ignore",
+    "url": "",
+    "tls": "",
+    "persist": false,
+    "proxy": "",
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [],
+    "wires": [
+      [
+        "fn_resposta"
+      ]
+    ],
+    "x": 900,
+    "y": 580
+  },
+  {
+    "id": "fn_resposta",
+    "type": "function",
+    "z": "aba_totem",
+    "name": "conferir envio",
+    "func": "// Confere a resposta do Telegram. Falha não para o fluxo: o alerta já está no banco.\nif (msg.statusCode !== 200) {\n    node.warn(`Telegram respondeu ${msg.statusCode}: o alerta ficou registrado só no banco`);\n    node.status({fill: \"red\", shape: \"ring\", text: `falha ${msg.statusCode}`});\n} else {\n    node.status({fill: \"green\", shape: \"dot\", text: \"entregue\"});\n}\nreturn null;",
+    "outputs": 1,
+    "wires": [
+      []
+    ],
+    "x": 900,
+    "y": 640
+  },
+  {
+    "id": "sql_descarte",
+    "type": "sqlite",
+    "z": "aba_totem",
+    "mydb": "banco",
+    "sqlquery": "prepared",
+    "name": "gravar descarte",
+    "sql": "INSERT INTO descartes (topico, conteudo, motivo) VALUES ($topico, $conteudo, $motivo)",
+    "wires": [
+      [
+        "dbg_descarte"
+      ]
+    ],
+    "x": 640,
+    "y": 620
+  },
+  {
+    "id": "dbg_mqtt",
+    "type": "debug",
+    "z": "aba_totem",
+    "name": "mensagens MQTT recebidas",
+    "active": true,
+    "tosidebar": true,
+    "console": true,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "x": 380,
+    "y": 480
+  },
+  {
+    "id": "dbg_alerta",
+    "type": "debug",
+    "z": "aba_totem",
+    "name": "alertas",
+    "active": true,
+    "tosidebar": true,
+    "console": true,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "x": 900,
+    "y": 460
+  },
+  {
+    "id": "dbg_descarte",
+    "type": "debug",
+    "z": "aba_totem",
+    "name": "leituras descartadas",
+    "active": true,
+    "tosidebar": true,
+    "console": true,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "x": 900,
+    "y": 680
+  }
+]

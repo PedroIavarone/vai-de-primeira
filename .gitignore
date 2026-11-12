@@ -25,3 +25,16 @@ visao/*.pt
 # índice vetorial e páginas brutas do assistente (regeneráveis)
 genai/indice/
 genai/fontes/brutas/
+
+# saídas de execução do robô (logs, banco, e-mails de teste, relatórios)
+rpa/saida/
+
+# Node-RED: só o fluxo e o package.json vão para o repositório
+iot/node-red/*
+!iot/node-red/flows.json
+!iot/node-red/package.json
+!iot/node-red/package-lock.json
+iot/dados/
+
+# configuração local do editor
+.claude/

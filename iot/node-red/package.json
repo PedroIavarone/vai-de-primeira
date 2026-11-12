@@ -1,0 +1,15 @@
+{
+  "name": "vai-de-primeira-iot",
+  "private": true,
+  "description": "Node-RED do totem e da fila ao vivo",
+  "scripts": {
+    "start": "set -a; [ -f ../../.env ] && . ../../.env; set +a; node-red --userDir . --port 1880 flows.json"
+  },
+  "dependencies": {
+    "node-red": "^4.0.0",
+    "node-red-node-sqlite": "^1.1.0"
+  },
+  "allowScripts": {
+    "sqlite3@5.1.7": true
+  }
+}
