@@ -60,7 +60,7 @@ uvicorn main:app --reload
 ```
 A documentação interativa fica em http://127.0.0.1:8000/docs.
 
-`/checar-documento` usa os modelos de visão (`visao/modelos/`) e `/perguntar` usa o Assistente da Jornada (com `GROQ_API_KEY` no `.env`). Enquanto os sensores são finalizados, `/fila` responde com **dados de demonstração** no formato definitivo, identificados pelo campo `"simulado": true`. Assim o app pode ser desenvolvido em paralelo. Cada endpoint passa a usar o módulo real assim que ele é integrado.
+`/checar-documento` usa os modelos de visão (`visao/modelos/`), `/perguntar` usa o Assistente da Jornada (com `GROQ_API_KEY` no `.env`) e `/fila` usa as leituras do totem gravadas pelo Node-RED (`iot/`). Quando um módulo não está disponível, o endpoint responde com **dados de demonstração** no mesmo formato, identificados pelo campo `"simulado": true`.
 
 ### Testes
 ```bash

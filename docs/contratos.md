@@ -3,7 +3,7 @@
 Formatos de dados trocados entre os módulos. Qualquer mudança de contrato é feita neste arquivo e na API no mesmo commit.
 
 ## MQTT (IoT → Node-RED)
-Broker de teste: `broker.hivemq.com:1883` (público, não enviar nada sensível).
+Broker: `broker.hivemq.com:1883` (público, não enviar nada sensível). O Node-RED (`iot/node-red/flows.json`) assina os tópicos, valida e grava em `iot/dados/iot.sqlite`.
 
 | Tópico | Publicado por | Exemplo |
 |---|---|---|
@@ -18,11 +18,13 @@ Broker de teste: `broker.hivemq.com:1883` (público, não enviar nada sensível)
 ```json
 {"simulado": true, "atualizado_em": "2026-11-14T10:32:00",
  "unidades": [
-   {"id": "centro", "nome": "Central Centro", "pessoas": 23, "espera_min": 40, "status": "cheia"},
-   {"id": "leste", "nome": "Central Leste", "pessoas": 6, "espera_min": 10, "status": "tranquila"}
+   {"id": "centro", "nome": "Central Centro", "pessoas": 30, "espera_min": 54, "status": "cheia",
+    "origem": "sensor", "lido_em": "2026-11-14 10:31:58"},
+   {"id": "leste", "nome": "Central Leste", "pessoas": 6, "espera_min": 11, "status": "tranquila", "origem": "simulado"}
  ]}
 ```
 `status`: `tranquila` (espera até 20 min), `moderada` (21 a 45 min), `cheia` (mais de 45 min).
+`origem` em cada unidade: `sensor` (leitura do totem nos últimos 15 min, com `lido_em`) ou `simulado` (estimativa). `simulado` no topo é `true` se alguma unidade for estimativa.
 
 ### `POST /checar-documento`
 Envio: `multipart/form-data` com o campo `arquivo` (imagem).
@@ -80,8 +82,21 @@ Resposta:
 Obrigatórios: CIN → certidão · CNH → CNH atual e comprovante · Cadastro Único → CPF (ou título de eleitor) do responsável; o comprovante é recomendado e não conta no índice.
 
 ## Cidadão sintético (`rpa/`)
-```json
-{"id": "C042", "nome": "Pessoa Fictícia 42", "municipio": "Itapeva",
- "cnh_validade": "2026-12-05", "cadunico_atualizado_em": "2023-06-10",
- "idade": 67, "consentiu_avisos": true}
-```
+Base do robô em `rpa/dados/cidadaos.xlsx` (ou `.csv`), uma linha por pessoa fictícia. Datas em `AAAA-MM-DD`; sim/não como `sim` ou `nao`.
+
+| Coluna | Exemplo | Obrigatória | Observação |
+|---|---|---|---|
+| `id` | `C042` | sim | Único |
+| `nome` | `Pessoa Fictícia 42` | sim | Nunca enviado ao LLM |
+| `email` | `c042@exemplo.test` | se `consentiu_avisos` | Só caixas de teste |
+| `municipio` | `Itapeva` | sim | |
+| `regiao` | `Sudoeste Paulista` | não | Agrupa a demanda no Excel do gestor |
+| `idade` | `67` | sim | 0 a 120 |
+| `cnh_validade` | `2026-12-05` | não | Vazio = não tem CNH |
+| `cadunico_atualizado_em` | `2023-06-10` | não | Vazio = não está no Cadastro Único |
+| `recebe_bpc` | `nao` | não | |
+| `filho_nascido_em` | `2026-10-14` | não | |
+| `link_informado` | `https://renovacnh-rapido.com.br` | não | Site que a pessoa disse ter usado |
+| `consentiu_avisos` | `sim` | sim | Sem consentimento, nenhum aviso é enviado |
+
+Casos de validação (`rpa/validacao/casos.csv`): as mesmas colunas e mais `esperado`, com os avisos certos separados por `;` (`cnh_vencendo`, `cnh_vencida`, `cadunico_desatualizado`, `nascimento`, `bpc_possivel`, `link_suspeito`), `nenhum` ou `revisao` (dado inválido).
