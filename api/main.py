@@ -1,9 +1,8 @@
 """API de integração do Vai de Primeira.
 
-/checar-documento usa o módulo de visão (visao/) e /perguntar usa o Assistente da Jornada
-(genai/) quando os modelos e a chave do Groq estão disponíveis. /fila, ainda não ligada ao
-módulo iot/, e qualquer endpoint sem o módulo disponível devolvem dados de demonstração no
-formato de docs/contratos.md, com "simulado": true.
+/checar-documento usa o módulo de visão (visao/), /perguntar usa o Assistente da Jornada (genai/)
+e /fila usa as leituras do totem gravadas pelo Node-RED (iot/). Endpoint sem o módulo disponível
+devolve dados de demonstração no formato de docs/contratos.md, com "simulado": true.
 VDP_MODO_DEMO=1 força os dados de demonstração em todos os endpoints.
 
 Rodar:  uvicorn main:app --reload   →   http://127.0.0.1:8000/docs
@@ -17,6 +16,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 import integracao_genai
+import integracao_iot
 import integracao_visao
 import prontidao
 import simulacao
@@ -66,15 +66,15 @@ def saude():
 
 @app.get("/fila")
 def fila():
-    # TODO: trocar pela leitura do banco alimentado pelo Node-RED.
-    return simulacao.fila_agora()
+    """Leitura real do totem (banco do IoT) nas unidades com sensor; estimativa nas demais."""
+    return integracao_iot.mesclar(simulacao.fila_agora(), integracao_iot.leituras_recentes())
 
 
 @app.get("/fila/{unidade_id}")
 def fila_unidade(unidade_id: str):
-    for unidade in simulacao.fila_agora()["unidades"]:
+    for unidade in fila()["unidades"]:
         if unidade["id"] == unidade_id:
-            return {"simulado": True, **unidade}
+            return {"simulado": unidade["origem"] == "simulado", **unidade}
     raise HTTPException(status_code=404, detail=f"Unidade '{unidade_id}' não encontrada.")
 
 
@@ -111,12 +111,12 @@ def calcular_prontidao(pedido: PedidoProntidao):
     espera_min = None
     simulado = False
     if pedido.unidade_id:
-        fila_atual = fila()  # usa a mesma fonte do /fila (hoje simulada, depois o banco do IoT)
+        fila_atual = fila()  # mesma fonte do /fila: sensor quando houver, estimativa nas demais
         unidade = next((u for u in fila_atual["unidades"] if u["id"] == pedido.unidade_id), None)
         if unidade is None:
             raise HTTPException(status_code=404, detail=f"Unidade '{pedido.unidade_id}' não encontrada.")
         espera_min = unidade["espera_min"]
-        simulado = fila_atual.get("simulado", False)
+        simulado = unidade.get("origem") == "simulado"
     resultado = prontidao.calcular(
         pedido.servico, [d.model_dump() for d in pedido.documentos], espera_min, pedido.orientado
     )

@@ -79,3 +79,30 @@ if __name__ == "__main__":
     import sys
     import pytest
     sys.exit(pytest.main(["-q", __file__]))
+
+
+def test_fila_usa_leitura_do_sensor_quando_recente(tmp_path, monkeypatch):
+    import sqlite3
+    import integracao_iot
+
+    banco = tmp_path / "iot.sqlite"
+    with sqlite3.connect(banco) as con:
+        con.execute("CREATE TABLE leituras_fila (id INTEGER PRIMARY KEY, unidade TEXT, pessoas INTEGER, espera_min INTEGER,"
+                    " status TEXT, ts_dispositivo TEXT, recebido_em TEXT DEFAULT (datetime('now','localtime')))")
+        con.execute("INSERT INTO leituras_fila (unidade, pessoas, espera_min, status) VALUES ('centro', 30, 54, 'cheia')")
+        con.execute("INSERT INTO leituras_fila (unidade, pessoas, espera_min, status, recebido_em)"
+                    " VALUES ('leste', 2, 4, 'tranquila', datetime('now','localtime','-2 hours'))")
+    monkeypatch.setattr(integracao_iot, "modo_demo", lambda: False)
+    reais = integracao_iot.leituras_recentes(banco)
+    assert set(reais) == {"centro"}  # a leitura antiga da unidade leste é ignorada
+    resultado = integracao_iot.mesclar(simulacao.fila_agora(), reais)
+    centro = next(u for u in resultado["unidades"] if u["id"] == "centro")
+    leste = next(u for u in resultado["unidades"] if u["id"] == "leste")
+    assert (centro["pessoas"], centro["status"], centro["origem"]) == (30, "cheia", "sensor")
+    assert leste["origem"] == "simulado" and resultado["simulado"] is True
+
+
+def test_fila_sem_banco_usa_estimativa(tmp_path):
+    import integracao_iot
+
+    assert integracao_iot.leituras_recentes(tmp_path / "nao_existe.sqlite") == {}
