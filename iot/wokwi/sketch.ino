@@ -1,7 +1,9 @@
 // Totem da Central de Atendimento ao Cidadão
-// ESP32 que conta as pessoas na porta da unidade e publica a fila por MQTT.
+// ESP32 que conta as pessoas na porta da unidade, percebe quem chega ao totem,
+// mede temperatura e umidade e atende o botão "preciso de ajuda".
 // Toda a comunicação MQTT fica em mqtt_vdp.h (não alterar aquele arquivo).
 
+#include <DHT.h>
 #include "mqtt_vdp.h"
 
 // ---------------------------------------------------------------------------
@@ -11,6 +13,11 @@ const int PINO_TRIG_A = 5;    // sensor de passagem A (lado de fora da porta)
 const int PINO_ECHO_A = 18;
 const int PINO_TRIG_B = 19;   // sensor de passagem B (lado de dentro)
 const int PINO_ECHO_B = 21;
+const int PINO_PIR    = 27;   // presença no totem
+const int PINO_DHT    = 15;   // temperatura e umidade
+const int PINO_BOTAO  = 4;    // botão "preciso de ajuda" (INPUT_PULLUP: apertado = LOW)
+const int PINO_LED    = 2;    // LED de ajuda
+const int PINO_BUZZER = 23;   // aviso sonoro
 
 // ---------------------------------------------------------------------------
 // Parâmetros
@@ -19,6 +26,12 @@ const float DISTANCIA_ACIONADO_CM = 50.0;      // abaixo disso o sensor está "a
 const unsigned long JANELA_PASSAGEM_MS = 1500; // tempo máximo entre A e B (ou B e A)
 const unsigned long INTERVALO_LEITURA_ULTRASSOM_MS = 60;  // ciclo recomendado do HC-SR04
 const unsigned long TIMEOUT_ECO_US = 6000;     // cerca de 1 m; acima disso conta como "longe"
+const unsigned long INTERVALO_AMBIENTE_MS = 10000;        // leitura do DHT22 a cada 10 s
+const unsigned long DEBOUNCE_BOTAO_MS = 50;
+const unsigned long DURACAO_AVISO_AJUDA_MS = 1000;        // LED e buzzer ligados por 1 s
+const int FREQUENCIA_BUZZER_HZ = 1000;
+
+DHT dht(PINO_DHT, DHT22);
 
 // ---------------------------------------------------------------------------
 // Estado da contagem na porta
@@ -35,6 +48,19 @@ unsigned long ultimaLeituraUltrassom = 0;
 
 int pessoas = 0;                    // pessoas dentro da unidade (nunca abaixo de 0)
 int pessoasPublicadas = -1;         // último valor enviado; -1 força o primeiro envio
+
+// ---------------------------------------------------------------------------
+// Estado dos outros sensores
+// ---------------------------------------------------------------------------
+bool presencaAntes = false;
+unsigned long ultimaLeituraAmbiente = 0;
+
+int leituraBotaoAntes = HIGH;       // leitura crua anterior do botão
+int estadoBotaoEstavel = HIGH;      // estado do botão depois do debounce
+unsigned long ultimaMudancaBotao = 0;
+
+bool avisoAjudaLigado = false;
+unsigned long inicioAvisoAjuda = 0;
 
 // ---------------------------------------------------------------------------
 // Mede a distância de um HC-SR04 em centímetros.
@@ -134,6 +160,65 @@ void atualizarContagem() {
 }
 
 // ---------------------------------------------------------------------------
+// Temperatura e umidade a cada 10 s
+// ---------------------------------------------------------------------------
+void atualizarAmbiente() {
+  unsigned long agora = millis();
+  if (agora - ultimaLeituraAmbiente < INTERVALO_AMBIENTE_MS) {
+    return;
+  }
+  ultimaLeituraAmbiente = agora;
+
+  float temperatura = dht.readTemperature();
+  float umidade = dht.readHumidity();
+  vdp::publicarAmbiente(temperatura, umidade);  // a função ignora leitura NaN
+}
+
+// ---------------------------------------------------------------------------
+// Presença no totem (PIR): publica quando o estado muda
+// ---------------------------------------------------------------------------
+void atualizarPresenca() {
+  bool presenca = digitalRead(PINO_PIR) == HIGH;
+  if (presenca != presencaAntes) {
+    presencaAntes = presenca;
+    Serial.printf("Totem: presenca = %s\n", presenca ? "sim" : "nao");
+    vdp::publicarPresenca(presenca);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Botão de ajuda com debounce de 50 ms; LED e buzzer por 1 s, sem delay
+// ---------------------------------------------------------------------------
+void atualizarBotaoAjuda() {
+  unsigned long agora = millis();
+  int leitura = digitalRead(PINO_BOTAO);
+
+  if (leitura != leituraBotaoAntes) {
+    ultimaMudancaBotao = agora;  // a leitura mudou: espera estabilizar
+    leituraBotaoAntes = leitura;
+  }
+
+  if (agora - ultimaMudancaBotao >= DEBOUNCE_BOTAO_MS && leitura != estadoBotaoEstavel) {
+    estadoBotaoEstavel = leitura;
+    if (estadoBotaoEstavel == LOW) {  // acabou de ser apertado
+      Serial.println("Totem: botao de ajuda apertado");
+      vdp::publicarAjuda();
+      digitalWrite(PINO_LED, HIGH);
+      tone(PINO_BUZZER, FREQUENCIA_BUZZER_HZ);
+      avisoAjudaLigado = true;
+      inicioAvisoAjuda = agora;
+    }
+  }
+
+  // Desliga o LED e o buzzer depois de 1 s
+  if (avisoAjudaLigado && agora - inicioAvisoAjuda >= DURACAO_AVISO_AJUDA_MS) {
+    digitalWrite(PINO_LED, LOW);
+    noTone(PINO_BUZZER);
+    avisoAjudaLigado = false;
+  }
+}
+
+// ---------------------------------------------------------------------------
 void setup() {
   Serial.begin(115200);
 
@@ -141,16 +226,28 @@ void setup() {
   pinMode(PINO_ECHO_A, INPUT);
   pinMode(PINO_TRIG_B, OUTPUT);
   pinMode(PINO_ECHO_B, INPUT);
+  pinMode(PINO_PIR, INPUT);
+  pinMode(PINO_BOTAO, INPUT_PULLUP);
+  pinMode(PINO_LED, OUTPUT);
+  pinMode(PINO_BUZZER, OUTPUT);
   digitalWrite(PINO_TRIG_A, LOW);
   digitalWrite(PINO_TRIG_B, LOW);
+  digitalWrite(PINO_LED, LOW);
 
+  dht.begin();
   vdp::conectar();
+
+  // Primeira leitura de ambiente sai logo depois de conectar
+  ultimaLeituraAmbiente = millis() - INTERVALO_AMBIENTE_MS;
 }
 
 void loop() {
   vdp::manter();  // mantém Wi-Fi e MQTT conectados; sempre primeiro
 
   atualizarContagem();
+  atualizarPresenca();
+  atualizarBotaoAjuda();
+  atualizarAmbiente();
 
   delay(10);  // pausa curta para não ocupar a CPU à toa
 }
