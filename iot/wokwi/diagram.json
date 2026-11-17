@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "author": "Rodrigo Ferreira Nery",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "sonarA", "top": -200, "left": -260, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "sonarB", "top": -200, "left": 60, "attrs": {} },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir", "top": -30, "left": 260, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht", "top": -40, "left": -190, "attrs": {} },
+    { "type": "wokwi-pushbutton", "id": "btnAjuda", "top": 260, "left": -210, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "ledAjuda", "top": 200, "left": 300, "attrs": { "color": "red" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": 290, "left": 200, "rotate": 0, "attrs": { "value": "220" } },
+    { "type": "wokwi-buzzer", "id": "buzzer", "top": 200, "left": 160, "attrs": { "volume": "0.1" } }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+
+    [ "sonarA:VCC", "esp:5V", "red", [] ],
+    [ "sonarA:GND", "esp:GND.1", "black", [] ],
+    [ "sonarA:TRIG", "esp:5", "orange", [] ],
+    [ "sonarA:ECHO", "esp:18", "yellow", [] ],
+
+    [ "sonarB:VCC", "esp:5V", "red", [] ],
+    [ "sonarB:GND", "esp:GND.2", "black", [] ],
+    [ "sonarB:TRIG", "esp:19", "orange", [] ],
+    [ "sonarB:ECHO", "esp:21", "yellow", [] ],
+
+    [ "pir:VCC", "esp:3V3", "red", [] ],
+    [ "pir:GND", "esp:GND.2", "black", [] ],
+    [ "pir:OUT", "esp:27", "green", [] ],
+
+    [ "dht:VCC", "esp:3V3", "red", [] ],
+    [ "dht:GND", "esp:GND.1", "black", [] ],
+    [ "dht:SDA", "esp:15", "blue", [] ],
+
+    [ "btnAjuda:1.l", "esp:4", "purple", [] ],
+    [ "btnAjuda:2.l", "esp:GND.1", "black", [] ],
+
+    [ "esp:2", "r1:1", "green", [] ],
+    [ "r1:2", "ledAjuda:A", "green", [] ],
+    [ "ledAjuda:C", "esp:GND.3", "black", [] ],
+
+    [ "buzzer:2", "esp:23", "magenta", [] ],
+    [ "buzzer:1", "esp:GND.3", "black", [] ]
+  ],
+  "dependencies": {}
+}

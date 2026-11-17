@@ -41,7 +41,7 @@ botão de ajuda ── pedido ───────┘   vdp/totem/t1/presenca|a
 cd iot/node-red && npm install && npm start            # Node-RED em http://127.0.0.1:1880
 python iot/simulador/simulador_totem.py --cenario todos  # ou normal, cheia, ajuda, calor, invalido
 ```
-**ESP32 no Wokwi:** abra o projeto de `wokwi/` (link abaixo) e clique em Play. O sketch usa [`esp32/mqtt_vdp.h`](esp32/mqtt_vdp.h) para conectar ao Wi-Fi do Wokwi e publicar no broker.
+**ESP32 no Wokwi:** abra o projeto de `wokwi/` ([no Wokwi](https://wokwi.com/projects/480881468470360065)) e clique em Play  e clique em Play. O sketch usa [`esp32/mqtt_vdp.h`](esp32/mqtt_vdp.h) para conectar ao Wi-Fi do Wokwi e publicar no broker.
 
 **Alertas no Telegram (opcional):** crie um bot com o @BotFather e coloque `TELEGRAM_BOT_TOKEN` e `TELEGRAM_CHAT_ID` no `.env` da raiz. Sem eles, os alertas ficam registrados só no banco.
 
