@@ -1,0 +1,51 @@
+id,nome,email,municipio,regiao,idade,cnh_validade,cadunico_atualizado_em,recebe_bpc,filho_nascido_em,link_informado,consentiu_avisos,esperado
+V01,Helena Teste Ramos,v01@exemplo.test,Itapeva,Sudoeste Paulista,40,2026-11-12,,nao,,,sim,cnh_vencendo
+V02,Bruno Teste Lima,v02@exemplo.test,Sorocaba,Sorocaba,35,2026-12-12,,nao,,,sim,cnh_vencendo
+V03,Carla Teste Souza,v03@exemplo.test,Itu,Sorocaba,38,2026-12-13,,nao,,,sim,nenhum
+V04,Diego Teste Alves,v04@exemplo.test,Guarulhos,Grande SP,44,2026-11-11,,nao,,,sim,cnh_vencida
+V05,Elisa Teste Rocha,v05@exemplo.test,Capão Bonito,Sudoeste Paulista,50,,2024-11-12,nao,,,sim,nenhum
+V06,Fábio Teste Nunes,v06@exemplo.test,Itapeva,Sudoeste Paulista,47,,2024-11-11,nao,,,sim,cadunico_desatualizado
+V07,Gilda Teste Prado,v07@exemplo.test,São Paulo,Zona Leste SP,64,,,nao,,,sim,nenhum
+V08,Hugo Teste Barros,v08@exemplo.test,São Paulo,Zona Sul SP,65,,,nao,,,sim,bpc_possivel
+V09,Iara Teste Moura,v09@exemplo.test,Sorocaba,Sorocaba,65,,,sim,,,sim,nenhum
+V10,Júlia Teste Costa,v10@exemplo.test,Itu,Sorocaba,29,,,nao,2026-09-13,,sim,nascimento
+V11,Karen Teste Dias,v11@exemplo.test,Guarulhos,Grande SP,31,,,nao,2026-09-12,,sim,nenhum
+V12,Lucas Teste Pires,v12@exemplo.test,São Paulo,Zona Leste SP,36,,,nao,,https://www.detran.sp.gov.br,sim,nenhum
+V13,Marta Teste Faria,v13@exemplo.test,Itapeva,Sudoeste Paulista,42,,,nao,,https://renovacnh-rapido.com.br,sim,link_suspeito
+V14,Nelson Teste Melo,v14@exemplo.test,Sorocaba,Sorocaba,55,,,nao,,https://www.gov.br/mds,sim,nenhum
+V15,Olga Teste Reis,v15@exemplo.test,Capão Bonito,Sudoeste Paulista,48,,,nao,,https://gov.br.consulta-cnh.com,sim,link_suspeito
+V16,Paulo Teste Vaz,v16@exemplo.test,Itu,Sorocaba,39,2026-02-31,,nao,,,sim,revisao
+V17,Queila Teste Sá,v17@exemplo.test,Guarulhos,Grande SP,abc,,2025-01-10,nao,,,sim,revisao
+V18,Rui Teste Lopes,v18@exemplo.test,São Paulo,Zona Sul SP,150,,,nao,,,sim,revisao
+V19,Sara Teste Gomes,v19exemplo.test,Itapeva,Sudoeste Paulista,33,2026-12-01,,nao,,,sim,revisao
+V20,Tiago Teste Cruz,v20@exemplo.test,Sorocaba,Sorocaba,-1,,,nao,,,sim,revisao
+V21,Ursula Teste Leal,v21exemplo.test,Itu,Sorocaba,41,2026-11-25,,nao,,,nao,cnh_vencendo
+V22,Vicente Teste Brito,v22@exemplo.test,Itapeva,Sudoeste Paulista,70,2026-11-30,2023-06-10,nao,,,sim,cnh_vencendo;cadunico_desatualizado;bpc_possivel
+V23,Wanda Teste Paiva,v23@exemplo.test,Itapeva,Sudoeste Paulista,67,,2023-06-10,nao,,,sim,cadunico_desatualizado;bpc_possivel
+V24,Xavier Teste Couto,,Guarulhos,Grande SP,46,2026-08-01,,nao,,,nao,cnh_vencida
+V25,Yara Teste Freitas,,Capão Bonito,Sudoeste Paulista,72,,,nao,,,nao,bpc_possivel
+V26,Zeca Teste Antunes,v26@exemplo.test,São Paulo,Zona Leste SP,27,,2025-03-02,nao,2026-10-14,,sim,nascimento
+V27,Alice Teste Moraes,v27@exemplo.test,São Paulo,Zona Sul SP,24,,2022-05-10,nao,2026-10-01,,sim,nascimento;cadunico_desatualizado
+V28,Bento Teste Farias,v28@exemplo.test,São Paulo,Zona Leste SP,41,2026-12-05,,nao,,https://renovacnh-rapido.com.br,sim,cnh_vencendo;link_suspeito
+V29,Cecília Teste Aragão,v29@exemplo.test,Sorocaba,Sorocaba,37,2027-06-10,2026-01-10,nao,,,sim,nenhum
+V30,Davi Teste Queiroz,v30@exemplo.test,Itu,Sorocaba,66,2025-03-15,,sim,,,sim,cnh_vencida
+V31,Estela Teste Bastos,v31@exemplo.test,Guarulhos,Grande SP,30,,,nao,,,sim,nenhum
+V32,Felipe Teste Torres,v32@exemplo.test,Itapeva,Sudoeste Paulista,45,,2019-08-20,nao,,,sim,cadunico_desatualizado
+V33,Glória Teste Viana,v33@exemplo.test,Capão Bonito,Sudoeste Paulista,80,,,nao,,https://bpc-liberado.online,sim,bpc_possivel;link_suspeito
+V34,Heitor Teste Matos,v34@exemplo.test,Sorocaba,Sorocaba,53,2026-11-20,2024-11-13,nao,,,sim,cnh_vencendo
+V35,Inês Teste Cardoso,v35@exemplo.test,Itu,Sorocaba,120,,,nao,,,sim,bpc_possivel
+V36,Jonas Teste Peixoto,v36@exemplo.test,Guarulhos,Grande SP,18,,,nao,2026-11-12,,sim,nascimento
+V37,Lívia Teste Siqueira,v37@exemplo.test,São Paulo,Zona Sul SP,58,2028-03-01,,nao,,http://poupatempo.sp.gov.br,sim,nenhum
+V38,Mário Teste Fonseca,v38@exemplo.test,Itapeva,Sudoeste Paulista,65,,2024-11-11,sim,,,sim,cadunico_desatualizado
+V39,Nádia Teste Rangel,v39@exemplo.test,Sorocaba,Sorocaba,64,2026-12-12,,nao,,,sim,cnh_vencendo
+V40,Otávio Teste Lacerda,v40@exemplo.test,Capão Bonito,Sudoeste Paulista,43,,2026-11-12,nao,,,sim,nenhum
+V41,Priscila Teste Moreira,v41@exemplo.test,Itu,Sorocaba,34,2029-04-04,,nao,2026-07-20,,sim,nenhum
+V42,Raul Teste Bezerra,,Itapeva,Sudoeste Paulista,68,,2021-01-15,nao,,,nao,cadunico_desatualizado;bpc_possivel
+V43,Sílvia Teste Cunha,v43@exemplo.test,Guarulhos,Grande SP,39,,,nao,,renovacnh-rapido.com.br,sim,link_suspeito
+V44,Teodoro Teste Neves,v44@exemplo.test,São Paulo,Zona Leste SP,51,2026-10-30,2023-02-01,nao,,https://cnh-renovacao-online.net,sim,cnh_vencida;cadunico_desatualizado;link_suspeito
+V45,Vera Teste Albuquerque,v45@exemplo.test,Sorocaba,Sorocaba,90,,2025-05-01,sim,,,sim,nenhum
+V46,Wilson Teste Guedes,v46@exemplo.test,Itapeva,Sudoeste Paulista,56,,2024-13-05,nao,,,sim,revisao
+V47,Alana Teste Pacheco,v47@exemplo.test,Itu,Sorocaba,25,2030-02-14,,nao,,,sim,nenhum
+V48,Breno Teste Salles,,São Paulo,Zona Sul SP,33,,,nao,2026-11-01,,nao,nascimento
+V49,Clara Teste Valente,v49@exemplo.test,Capão Bonito,Sudoeste Paulista,52,2026-12-01,2020-10-10,nao,,,sim,cnh_vencendo;cadunico_desatualizado
+V50,Danilo Teste Ribas,v50@exemplo.test,Guarulhos,Grande SP,29,,,nao,,https://www.gov.br/pt-br,sim,nenhum
