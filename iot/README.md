@@ -53,7 +53,7 @@ python iot/simulador/simulador_totem.py --cenario todos  # ou normal, cheia, aju
 - **Simulação:** o circuito foi testado no Wokwi, não em placa física. No Wokwi foram testados conexão, ambiente, presença e pedido de ajuda, com a mensagem chegando ao banco do Node-RED; a contagem pela porta foi testada com o simulador em Python.
 
 ## Evidências
-[`evidencias/`](evidencias/): fluxo do Node-RED, monitor serial do Wokwi com presença e ajuda, alerta recebido no Telegram, alertas, eventos e descartes exportados do banco e a resposta de `GET /fila` com a leitura do sensor. Documento da disciplina: [`Documento_Totem_e_Fila_ao_Vivo.docx`](Documento_Totem_e_Fila_ao_Vivo.docx).
+[`evidencias/`](evidencias/): fluxo do Node-RED, monitor serial do Wokwi com presença e ajuda, alerta recebido no Telegram, mensagens vistas no broker por um cliente MQTT assinando `vdp/#`, alertas, eventos e descartes exportados do banco e a resposta de `GET /fila` com a leitura do sensor. Documento da disciplina: [`Documento_Totem_e_Fila_ao_Vivo.docx`](Documento_Totem_e_Fila_ao_Vivo.docx).
 
 ## Estrutura
 | Caminho | Conteúdo |
