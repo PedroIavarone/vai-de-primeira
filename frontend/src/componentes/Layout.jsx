@@ -10,11 +10,15 @@ export function Cabecalho() {
       <div className="cabecalho__topo">
         <Link to="/" className="marca">
           <img src="/icone.svg" alt="" />
-          <strong>Vai de Primeira</strong>
+          <span>
+            <strong>Vai de Primeira</strong>
+            <small>resolvido na primeira ida</small>
+          </span>
         </Link>
         <BarraAcessibilidade />
       </div>
       <nav className="menu" aria-label="Principal">
+        <div className="menu__itens">
         {usuario ? (
           <>
             <NavLink to="/meus-servicos">Meus serviços</NavLink>
@@ -24,6 +28,7 @@ export function Cabecalho() {
             <NavLink to="/privacidade">Meus dados</NavLink>
             <NavLink to="/por-que">Por que existimos</NavLink>
             <a
+              className="menu__sair"
               href="/login"
               onClick={(e) => {
                 e.preventDefault();
@@ -42,6 +47,7 @@ export function Cabecalho() {
             <NavLink to="/por-que">Por que existimos</NavLink>
           </>
         )}
+        </div>
       </nav>
     </header>
   );
