@@ -6,6 +6,8 @@ import { buscarFila, calcularProntidao, checarDocumento } from "../servicos/api"
 import { salvarServico, usuarioAtual } from "../servicos/armazenamento";
 import { DOCUMENTOS_DO_SERVICO, LISTA_SERVICOS, QUALIDADES, SERVICOS, TIPOS_DOCUMENTO } from "../servicos/catalogo";
 
+const porcento = (v) => `${Math.round(v * 100)}%`;
+
 const SERVICOS_CONFERIR = LISTA_SERVICOS.filter((s) => s.conferir);
 
 export default function Conferir() {
@@ -15,6 +17,8 @@ export default function Conferir() {
   const [unidadeId, setUnidadeId] = useState("");
   const [documentos, setDocumentos] = useState({}); // tipo -> {tipo, qualidade, dica, confianca}
   const [ultimaFoto, setUltimaFoto] = useState(null);
+  const [caixas, setCaixas] = useState([]); // documentos achados na última foto, com caixa e confiança
+  const [tamanhoFoto, setTamanhoFoto] = useState(null);
   const [resultado, setResultado] = useState(null);
   const [simulado, setSimulado] = useState(false);
   const [carregando, setCarregando] = useState(false);
@@ -70,9 +74,12 @@ export default function Conferir() {
     setDica("");
     setCarregando(true);
     setUltimaFoto(URL.createObjectURL(arquivo)); // a foto fica só na memória desta tela, não é salva
+    setCaixas([]);
+    setTamanhoFoto(null);
     try {
       const r = await checarDocumento(arquivo);
       setSimulado(r.simulado);
+      setCaixas(r.documentos.filter((d) => Array.isArray(d.caixa)));
       const encontrados = r.documentos.filter((d) => d.tipo !== "desconhecido");
       // A foto tem um documento, mas o texto não deu para ler: a pessoa diz qual é, e a qualidade conferida vale.
       const semTipo = r.documentos.find((d) => d.tipo === "desconhecido");
@@ -98,6 +105,7 @@ export default function Conferir() {
     setParametros({ servico: id });
     setDocumentos({});
     setUltimaFoto(null);
+    setCaixas([]);
     setSemTipo(null);
   };
 
@@ -184,12 +192,58 @@ export default function Conferir() {
                   {d.informadoPelaPessoa && <span className="pequeno secundario">(tipo informado por você)</span>}
                   <Selo tipo={d.qualidade === "ok" ? "ok" : "erro"}>{QUALIDADES[d.qualidade] || d.qualidade}</Selo>
                 </p>
+                {d.confianca != null && (
+                  <p className="pequeno secundario" style={{ margin: "0 0 0.5rem" }}>
+                    Confiança do modelo: documento {porcento(d.confianca)}
+                    {d.confianca_qualidade != null && <> · qualidade {porcento(d.confianca_qualidade)}</>}
+                  </p>
+                )}
                 {d.dica && <p style={{ margin: 0 }}>{d.dica}</p>}
               </li>
             ))}
           </ul>
         )}
-        {ultimaFoto && <img src={ultimaFoto} alt="Última foto enviada" style={{ maxWidth: "100%", maxHeight: 280, borderRadius: 8 }} />}
+        {ultimaFoto && (
+          <figure style={{ margin: 0 }}>
+            <div style={{ position: "relative", display: "inline-block", maxWidth: "100%" }}>
+              <img
+                src={ultimaFoto}
+                alt="Última foto enviada"
+                onLoad={(e) => setTamanhoFoto({ w: e.target.naturalWidth, h: e.target.naturalHeight })}
+                style={{ display: "block", maxWidth: "100%", maxHeight: 320, borderRadius: 8 }}
+              />
+              {tamanhoFoto && caixas.length > 0 && (
+                <svg
+                  viewBox={`0 0 ${tamanhoFoto.w} ${tamanhoFoto.h}`}
+                  preserveAspectRatio="none"
+                  aria-hidden="true"
+                  style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
+                >
+                  {caixas.map((d, i) => {
+                    const [x0, y0, x1, y1] = d.caixa;
+                    const cor = d.qualidade === "ok" ? "#1a7f37" : "#c62828";
+                    const fonte = Math.max(18, tamanhoFoto.w / 28);
+                    const rotulo = `${(QUALIDADES[d.qualidade] || d.qualidade).toLowerCase()} ${porcento(d.confianca_qualidade ?? d.confianca)}`;
+                    return (
+                      <g key={i}>
+                        <rect x={x0} y={y0} width={x1 - x0} height={y1 - y0} fill="none" stroke={cor} strokeWidth={fonte / 4} />
+                        <rect x={x0} y={Math.max(0, y0 - fonte * 1.4)} width={rotulo.length * fonte * 0.62 + fonte * 0.7} height={fonte * 1.4} fill={cor} />
+                        <text x={x0 + fonte / 3} y={Math.max(0, y0 - fonte * 1.4) + fonte * 1.05} fill="#fff" fontSize={fonte} fontWeight="700">
+                          {rotulo}
+                        </text>
+                      </g>
+                    );
+                  })}
+                </svg>
+              )}
+            </div>
+            {caixas.length > 0 && (
+              <figcaption className="pequeno secundario">
+                Caixa: onde o modelo achou o documento, com a qualidade e a confiança.
+              </figcaption>
+            )}
+          </figure>
+        )}
         <p className="pequeno secundario">
           As fotos não são guardadas: são conferidas e descartadas. A conferência é uma ajuda, quem confirma o
           documento é sempre o atendente.
