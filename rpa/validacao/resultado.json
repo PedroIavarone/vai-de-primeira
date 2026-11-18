@@ -1,0 +1,580 @@
+{
+  "casos": 50,
+  "acertos": 50,
+  "acuracia": 1.0,
+  "data_referencia": "2026-11-12",
+  "por_tipo": {
+    "cnh_vencendo": {
+      "precisao": 1.0,
+      "recall": 1.0,
+      "vp": 8,
+      "fp": 0,
+      "fn": 0
+    },
+    "cnh_vencida": {
+      "precisao": 1.0,
+      "recall": 1.0,
+      "vp": 4,
+      "fp": 0,
+      "fn": 0
+    },
+    "cadunico_desatualizado": {
+      "precisao": 1.0,
+      "recall": 1.0,
+      "vp": 9,
+      "fp": 0,
+      "fn": 0
+    },
+    "nascimento": {
+      "precisao": 1.0,
+      "recall": 1.0,
+      "vp": 5,
+      "fp": 0,
+      "fn": 0
+    },
+    "bpc_possivel": {
+      "precisao": 1.0,
+      "recall": 1.0,
+      "vp": 7,
+      "fp": 0,
+      "fn": 0
+    },
+    "link_suspeito": {
+      "precisao": 1.0,
+      "recall": 1.0,
+      "vp": 6,
+      "fp": 0,
+      "fn": 0
+    },
+    "revisao": {
+      "precisao": 1.0,
+      "recall": 1.0,
+      "vp": 6,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "erros": [],
+  "detalhes": [
+    {
+      "id": "V01",
+      "esperado": [
+        "cnh_vencendo"
+      ],
+      "robo": [
+        "cnh_vencendo"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V02",
+      "esperado": [
+        "cnh_vencendo"
+      ],
+      "robo": [
+        "cnh_vencendo"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V03",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V04",
+      "esperado": [
+        "cnh_vencida"
+      ],
+      "robo": [
+        "cnh_vencida"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V05",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V06",
+      "esperado": [
+        "cadunico_desatualizado"
+      ],
+      "robo": [
+        "cadunico_desatualizado"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V07",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V08",
+      "esperado": [
+        "bpc_possivel"
+      ],
+      "robo": [
+        "bpc_possivel"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V09",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V10",
+      "esperado": [
+        "nascimento"
+      ],
+      "robo": [
+        "nascimento"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V11",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V12",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V13",
+      "esperado": [
+        "link_suspeito"
+      ],
+      "robo": [
+        "link_suspeito"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V14",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V15",
+      "esperado": [
+        "link_suspeito"
+      ],
+      "robo": [
+        "link_suspeito"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V16",
+      "esperado": [
+        "revisao"
+      ],
+      "robo": [
+        "revisao"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V17",
+      "esperado": [
+        "revisao"
+      ],
+      "robo": [
+        "revisao"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V18",
+      "esperado": [
+        "revisao"
+      ],
+      "robo": [
+        "revisao"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V19",
+      "esperado": [
+        "revisao"
+      ],
+      "robo": [
+        "revisao"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V20",
+      "esperado": [
+        "revisao"
+      ],
+      "robo": [
+        "revisao"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V21",
+      "esperado": [
+        "cnh_vencendo"
+      ],
+      "robo": [
+        "cnh_vencendo"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V22",
+      "esperado": [
+        "bpc_possivel",
+        "cadunico_desatualizado",
+        "cnh_vencendo"
+      ],
+      "robo": [
+        "bpc_possivel",
+        "cadunico_desatualizado",
+        "cnh_vencendo"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V23",
+      "esperado": [
+        "bpc_possivel",
+        "cadunico_desatualizado"
+      ],
+      "robo": [
+        "bpc_possivel",
+        "cadunico_desatualizado"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V24",
+      "esperado": [
+        "cnh_vencida"
+      ],
+      "robo": [
+        "cnh_vencida"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V25",
+      "esperado": [
+        "bpc_possivel"
+      ],
+      "robo": [
+        "bpc_possivel"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V26",
+      "esperado": [
+        "nascimento"
+      ],
+      "robo": [
+        "nascimento"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V27",
+      "esperado": [
+        "cadunico_desatualizado",
+        "nascimento"
+      ],
+      "robo": [
+        "cadunico_desatualizado",
+        "nascimento"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V28",
+      "esperado": [
+        "cnh_vencendo",
+        "link_suspeito"
+      ],
+      "robo": [
+        "cnh_vencendo",
+        "link_suspeito"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V29",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V30",
+      "esperado": [
+        "cnh_vencida"
+      ],
+      "robo": [
+        "cnh_vencida"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V31",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V32",
+      "esperado": [
+        "cadunico_desatualizado"
+      ],
+      "robo": [
+        "cadunico_desatualizado"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V33",
+      "esperado": [
+        "bpc_possivel",
+        "link_suspeito"
+      ],
+      "robo": [
+        "bpc_possivel",
+        "link_suspeito"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V34",
+      "esperado": [
+        "cnh_vencendo"
+      ],
+      "robo": [
+        "cnh_vencendo"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V35",
+      "esperado": [
+        "bpc_possivel"
+      ],
+      "robo": [
+        "bpc_possivel"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V36",
+      "esperado": [
+        "nascimento"
+      ],
+      "robo": [
+        "nascimento"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V37",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V38",
+      "esperado": [
+        "cadunico_desatualizado"
+      ],
+      "robo": [
+        "cadunico_desatualizado"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V39",
+      "esperado": [
+        "cnh_vencendo"
+      ],
+      "robo": [
+        "cnh_vencendo"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V40",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V41",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V42",
+      "esperado": [
+        "bpc_possivel",
+        "cadunico_desatualizado"
+      ],
+      "robo": [
+        "bpc_possivel",
+        "cadunico_desatualizado"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V43",
+      "esperado": [
+        "link_suspeito"
+      ],
+      "robo": [
+        "link_suspeito"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V44",
+      "esperado": [
+        "cadunico_desatualizado",
+        "cnh_vencida",
+        "link_suspeito"
+      ],
+      "robo": [
+        "cadunico_desatualizado",
+        "cnh_vencida",
+        "link_suspeito"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V45",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V46",
+      "esperado": [
+        "revisao"
+      ],
+      "robo": [
+        "revisao"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V47",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V48",
+      "esperado": [
+        "nascimento"
+      ],
+      "robo": [
+        "nascimento"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V49",
+      "esperado": [
+        "cadunico_desatualizado",
+        "cnh_vencendo"
+      ],
+      "robo": [
+        "cadunico_desatualizado",
+        "cnh_vencendo"
+      ],
+      "acertou": true
+    },
+    {
+      "id": "V50",
+      "esperado": [
+        "nenhum"
+      ],
+      "robo": [
+        "nenhum"
+      ],
+      "acertou": true
+    }
+  ]
+}
