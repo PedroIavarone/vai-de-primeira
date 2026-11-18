@@ -20,10 +20,10 @@ pergunta do cidadão
 **Por que dois modelos:** o plano gratuito do Groq limita 8 mil tokens por minuto por modelo. Um modelo menor decide as ferramentas e o maior escreve a resposta, e assim cada um usa o próprio limite.
 
 ## Base de conhecimento
-- **Fonte:** o corpus limpo e anonimizado de [`pln/`](../pln/) (`pln/saida/corpus_texto.jsonl`), quando disponível. Até lá, 9 páginas oficiais de órgãos públicos (lista em [`fontes/fontes.csv`](fontes/fontes.csv)), extraídas em `fontes/texto/`.
-- **Trechos:** de cerca de 220 palavras, com sobreposição de 40.
+- **Fonte:** o corpus limpo e anonimizado de [`pln/`](../pln/) (`pln/saida/corpus_texto.jsonl`, 61 trechos de 5 documentos oficiais), completado pelas 4 páginas oficiais que o corpus não cobre (lista em [`fontes/fontes.csv`](fontes/fontes.csv), texto em `fontes/texto/`). São 84 trechos no total.
+- **Trechos:** os do corpus do PLN (256 a 512 tokens, cortados entre frases) e, nas páginas complementares, trechos de cerca de 220 palavras com sobreposição de 40.
 - **Busca híbrida:** `multilingual-e5-small` + FAISS (por significado) combinado com BM25 (por palavra exata), por Reciprocal Rank Fusion, com filtro por serviço.
-- **Envio ao modelo:** 6 trechos por busca, cada um reduzido à janela de 1.000 caracteres mais relevante para a pergunta.
+- **Envio ao modelo:** 6 trechos por busca, cada um reduzido à janela de 1.400 caracteres mais relevante para a pergunta.
 
 ## Resultados
 Avaliação com 30 perguntas (20 no tema, 5 fora do tema, 5 pegadinhas). Detalhes, comparação entre versões e análise de erros em [`avaliacao/README.md`](avaliacao/README.md).
@@ -52,4 +52,5 @@ Saída no formato de `POST /perguntar` em [docs/contratos.md](../docs/contratos.
 - [x] Agente com as quatro ferramentas
 - [x] Interface de teste em Gradio
 - [x] Avaliação com 30 perguntas
-- [ ] Trocar as páginas oficiais pelo corpus do módulo `pln/`, quando estiver pronto
+- [x] Base de conhecimento a partir do corpus do módulo `pln/`
+- [ ] Repetir a avaliação completa com o LLM sobre a nova base (`python src/avaliar.py`)

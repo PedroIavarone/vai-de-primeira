@@ -42,6 +42,16 @@ Outros três "erros" da v1 eram do avaliador, e não do assistente:
 - **#13:** o modelo escreveu "2 anos" com um espaço Unicode especial. O avaliador foi corrigido para normalizar espaços.
 - **#4 e #26:** as respostas estavam certas, com outras palavras ("não tem data de validade fixa"; "não é um portal oficial"). O gabarito **não foi alterado**, e na v2 o modelo usou termos cobertos por ele.
 
+## v3: base de conhecimento com o corpus do PLN
+A base passou a usar o corpus limpo e anonimizado do módulo de PLN. Antes de gastar a cota do LLM, medimos a **recuperação**: se o que o agente envia ao modelo contém os termos do gabarito (`src/avaliar_recuperacao.py`, resultado em `recuperacao.json`, 20 perguntas no tema).
+
+| Base | Janela de 1.000 caracteres | Janela de 1.400 caracteres |
+|---|---|---|
+| Páginas oficiais (base da v2) | 19/20 | **20/20** |
+| Corpus do PLN + páginas complementares | 18/20 | **20/20** |
+
+A troca de base revelou um problema: os trechos do PLN são maiores (cerca de 1.700 caracteres), e a janela de 1.000 cortava a frase com a resposta. Na pergunta #17 (limite de renda do BPC), o trecho certo vinha em 5º lugar, mas a janela enviada não tinha o "1/4 do salário mínimo". Uma primeira execução com o LLM sobre a nova base, antes da correção, acertou 25 das 26 perguntas que rodou e errou justamente a #17; ela parou na pergunta 27 por limite diário de tokens do Groq. Com a janela de 1.400 caracteres, as 20 perguntas no tema têm o termo esperado no contexto, ao custo de cerca de 500 tokens a mais por pergunta. A avaliação completa com o LLM sobre a nova base deve ser repetida com `python src/avaliar.py` quando houver cota.
+
 ## Análise de erros e limites
 - **Falha externa (v2, #13):** houve uma queda de conexão com o Groq. O assistente acionou o caminho seguro, com uma mensagem orientando a procurar o canal oficial, em vez de inventar uma resposta.
 - **Falso alarme de fidelidade (v2, #9):** a resposta usa "internet" e a fonte diz "online". A revisão humana confirmou que todas as afirmações da resposta estão na fonte.

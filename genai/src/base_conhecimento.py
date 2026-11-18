@@ -1,8 +1,8 @@
 """Base de conhecimento do Assistente da Jornada (recuperação híbrida).
 
-Fonte dos trechos, em ordem de preferência:
-  1. pln/saida/corpus_texto.jsonl  (corpus limpo e anonimizado do módulo de PLN)
-  2. genai/fontes/texto/*.txt      (páginas oficiais extraídas, base provisória)
+Fonte dos trechos:
+  1. pln/saida/corpus_texto.jsonl  corpus limpo e anonimizado do módulo de PLN (5 documentos)
+  2. genai/fontes/texto/*.txt      páginas oficiais que o corpus do PLN não cobre
 
 Recuperação: busca semântica (multilingual-e5-small + FAISS) combinada com busca por
 palavra (BM25) por Reciprocal Rank Fusion. A semântica encontra paráfrases ("RG novo"
@@ -13,6 +13,7 @@ Uso:
   base = BaseConhecimento()
   base.buscar("o que levar para tirar a identidade nova", k=4)
 """
+import csv
 import json
 import logging
 import pickle
@@ -67,23 +68,34 @@ def _dividir(texto: str) -> list[str]:
     return trechos
 
 
+def _metadados_fontes() -> dict[str, tuple[str, str]]:
+    with open(FONTES.parent / "fontes.csv", encoding="utf-8") as f:
+        return {l["arquivo"]: (l["servico"], l["url"]) for l in csv.DictReader(f)}
+
+
 def carregar_trechos() -> tuple[list[Trecho], str]:
+    """Trechos do corpus do PLN (limpo e anonimizado) e, para as páginas oficiais que o corpus
+    não cobre, os trechos extraídos em fontes/texto/."""
+    meta = _metadados_fontes()
+    trechos, cobertas = [], set()
     if CORPUS_PLN.exists():
-        trechos = []
         for linha in CORPUS_PLN.read_text(encoding="utf-8").splitlines():
             if linha.strip():
                 item = json.loads(linha)
-                fonte = item.get("fonte", "")
-                trechos.append(Trecho(item["text"], fonte, item.get("servico", ""), item.get("url", "")))
-        return trechos, "corpus do PLN"
-    trechos = []
+                fonte = Path(item.get("fonte", "")).stem  # "cin_govbr_perguntas.html" → "cin_govbr_perguntas"
+                servico, url = meta.get(fonte, ("", ""))
+                trechos.append(Trecho(item["text"], fonte, servico, url))
+                cobertas.add(fonte)
     for arq in sorted(FONTES.glob("*.txt")):
+        if arq.stem in cobertas:
+            continue
         bruto = arq.read_text(encoding="utf-8")
         cab, _, corpo = bruto.partition("\n\n")
-        meta = dict(l.split(": ", 1) for l in cab.splitlines() if ": " in l)
+        cabecalho = dict(l.split(": ", 1) for l in cab.splitlines() if ": " in l)
         for t in _dividir(corpo):
-            trechos.append(Trecho(t, arq.stem, meta.get("Serviço", ""), meta.get("URL", "")))
-    return trechos, "páginas oficiais (provisório)"
+            trechos.append(Trecho(t, arq.stem, cabecalho.get("Serviço", ""), cabecalho.get("URL", "")))
+    origem = "corpus do PLN + páginas oficiais complementares" if cobertas else "páginas oficiais"
+    return trechos, origem
 
 
 class BaseConhecimento:

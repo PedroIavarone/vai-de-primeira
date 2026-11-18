@@ -38,7 +38,7 @@ MODELO_FERRAMENTAS = os.getenv("GROQ_MODEL_FERRAMENTAS", "openai/gpt-oss-20b")  
 # Dois modelos dividem o limite do plano gratuito (8 mil tokens por minuto por modelo).
 MAX_RODADAS = 3
 TRECHOS_POR_BUSCA = 6
-CARACTERES_POR_TRECHO = 1000  # janela mais relevante de cada trecho; cabe no limite de tokens do plano gratuito
+CARACTERES_POR_TRECHO = 1400  # janela mais relevante de cada trecho; 1.000 cortava a resposta nos trechos maiores do corpus do PLN
 
 DOMINIOS_OFICIAIS = ("gov.br",)  # cobre gov.br, sp.gov.br, detran.sp.gov.br, inss.gov.br, mds.gov.br etc.
 

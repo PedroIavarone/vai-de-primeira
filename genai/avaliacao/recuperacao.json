@@ -1,0 +1,55 @@
+{
+  "paginas_oficiais_k4": {
+    "trechos_na_base": 102,
+    "k": 4,
+    "acertos": 19,
+    "total": 20,
+    "taxa": 0.95,
+    "faltou": [
+      5
+    ]
+  },
+  "paginas_oficiais_k6": {
+    "trechos_na_base": 102,
+    "k": 6,
+    "acertos": 20,
+    "total": 20,
+    "taxa": 1.0,
+    "faltou": []
+  },
+  "paginas_oficiais_k8": {
+    "trechos_na_base": 102,
+    "k": 8,
+    "acertos": 20,
+    "total": 20,
+    "taxa": 1.0,
+    "faltou": []
+  },
+  "corpus_pln_k4": {
+    "trechos_na_base": 84,
+    "k": 4,
+    "acertos": 18,
+    "total": 20,
+    "taxa": 0.9,
+    "faltou": [
+      5,
+      17
+    ]
+  },
+  "corpus_pln_k6": {
+    "trechos_na_base": 84,
+    "k": 6,
+    "acertos": 20,
+    "total": 20,
+    "taxa": 1.0,
+    "faltou": []
+  },
+  "corpus_pln_k8": {
+    "trechos_na_base": 84,
+    "k": 8,
+    "acertos": 20,
+    "total": 20,
+    "taxa": 1.0,
+    "faltou": []
+  }
+}
