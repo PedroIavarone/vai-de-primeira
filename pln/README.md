@@ -26,8 +26,10 @@ Cinco documentos oficiais, um em cada formato, listados com órgão, link e data
 | `bpc_perguntas_mds.pdf` | PDF (14 páginas) | Ministério do Desenvolvimento e Assistência Social | BPC |
 | `cnh_renovacao_detran_sp_duvidas.html` | HTML | Detran-SP | Renovação da CNH |
 | `cin_govbr_perguntas.html` | HTML | Ministério da Gestão e da Inovação | CIN |
-| `cin_poupatempo_sp.docx` | DOCX | Governo do Estado de São Paulo | CIN |
-| `cadunico_inscrever_govbr.txt` | TXT | Ministério do Desenvolvimento e Assistência Social | Cadastro Único |
+| `cin_poupatempo_sp.docx` | DOCX (8 páginas A4) | Governo do Estado de São Paulo | CIN |
+| `cadunico_inscrever_govbr.txt` | TXT (4 páginas A4) | Ministério do Desenvolvimento e Assistência Social | Cadastro Único |
+
+**Total: 26 páginas A4** só no PDF, no DOCX e no TXT (os dois últimos convertidos para PDF A4 para contar), sem contar as duas páginas HTML.
 
 <!-- RESULTADOS -->
 ## Resultados
@@ -36,14 +38,14 @@ Números de [`saida/relatorio_qualidade.json`](saida/relatorio_qualidade.json), 
 | Corpus | Exemplos | Tokens por exemplo (mín · média · máx) | Duplicatas removidas | Descartados |
 |---|---|---|---|---|
 | [`corpus_texto.jsonl`](saida/corpus_texto.jsonl) | 61 trechos | 337 · 387 · 511 | 0 | — |
-| [`corpus_qa.jsonl`](saida/corpus_qa.jsonl) | 169 pares | 21 · 47,8 · 99 | 1 | 13 sem evidência no trecho |
-| [`corpus_chat.jsonl`](saida/corpus_chat.jsonl) | 37 diálogos (12 recusas) | 146 · 206,8 · 302 | 0 | 1 fora das regras |
+| [`corpus_qa.jsonl`](saida/corpus_qa.jsonl) | 168 pares | 21 · 47,9 · 99 | 1 | 13 sem evidência no trecho · 1 na revisão |
+| [`corpus_chat.jsonl`](saida/corpus_chat.jsonl) | 34 diálogos (12 recusas) | 146 · 210,4 · 302 | 0 | 1 fora das regras · 3 na revisão |
 
 - **Por documento (trechos):** Detran-SP 22 · BPC 18 · Poupatempo 9 · Cadastro Único 8 · CIN gov.br 4.
 - **Limpeza:** de 24.384 para 23.639 tokens (−3%). No PDF do BPC, que tem cabeçalho e rodapé em todas as páginas, a redução foi de 8%.
 - **Dados pessoais:** nenhum CPF, e-mail, telefone ou nome nos três corpora. Os documentos oficiais não trazem dados pessoais; o exemplo de texto colado mostra a anonimização funcionando (1 CPF, 1 e-mail, 1 telefone e 2 nomes mascarados).
-- **Revisão humana:** 42 exemplos (20% dos corpora gerados) sorteados para revisão em [`revisao/revisao.csv`](revisao/revisao.csv). A conferência também achou um erro fora da amostra, já corrigido: a resposta confundia o prazo para **dirigir** com a CNH vencida (30 dias) com um prazo para **renovar**. A evidência existia no trecho, então a checagem automática não pegou; é o tipo de erro que só a leitura humana encontra.
-- **Geração:** `openai/gpt-oss-120b` no Groq, temperatura 0,2, com os prompts registrados no relatório.
+- **Revisão:** 42 exemplos (20% dos corpora gerados) sorteados para revisão em [`revisao/revisao.csv`](revisao/revisao.csv), conferidos um a um contra o trecho do documento original, com apoio de IA e validação final da equipe. **37 estavam fiéis e 5 tinham problema:** 1 resposta dizia que a inscrição no Cadastro Único é obrigatória para a Carteira do Idoso, quando o documento só recomenda (corrigida); 1 resposta e 3 diálogos eram vagos ou não respondiam a pergunta (removidos). O motivo de cada um está na coluna `observacao`. A conferência também achou um erro fora da amostra, já corrigido: a resposta confundia o prazo para **dirigir** com a CNH vencida (30 dias) com um prazo para **renovar**. A evidência existia no trecho, então a checagem automática não pegou; é o tipo de erro que só a leitura humana encontra.
+- **Geração:** `openai/gpt-oss-120b` no Groq, temperatura 0,2. Os três prompts (perguntas, diálogos e recusas) estão em [`src/geracao.py`](src/geracao.py) e em `saida/relatorio_qualidade.json`; o relatório em PDF traz o trecho principal.
 
 
 ## Decisões
@@ -51,7 +53,7 @@ Números de [`saida/relatorio_qualidade.json`](saida/relatorio_qualidade.json), 
 - **URL no meio da frase** vira só o domínio ("acesse gov.br"), porque é o que o cidadão precisa. URL sozinha na linha é removida.
 - **Números de atendimento público** (135, 121, 0800) não são mascarados: não são dados pessoais e são informação útil.
 - **Nomes de pessoas:** o spaCy marca entidades como pessoa, e regras descartam nomes de órgãos, documentos, programas e siglas (ele marcava "CRAS" e "Formulário Renach" como pessoa).
-- **Fidelidade:** cada resposta gerada traz uma evidência copiada do trecho. Se a evidência não estiver no trecho, o exemplo é descartado. Depois, 20% de cada corpus gerado passa por revisão humana em [`revisao/revisao.csv`](revisao/).
+- **Fidelidade:** cada resposta gerada traz uma evidência copiada do trecho. Se a evidência não estiver no trecho, o exemplo é descartado. Depois, 20% de cada corpus gerado é conferido contra o documento em [`revisao/revisao.csv`](revisao/), e a correção é aplicada automaticamente (também na interface).
 - **Valores em reais** ficam fora das perguntas: o PDF do BPC é de 2021 e os valores estão desatualizados.
 - **Tokens** contados com o `cl100k_base` do tiktoken.
 
@@ -75,7 +77,7 @@ A chave do Groq (`GROQ_API_KEY` no `.env` da raiz ou nos segredos do Colab) só 
 | `fabrica_corpus.ipynb` | Notebook com todas as etapas, do upload ao relatório de qualidade |
 | `src/fabrica_corpus.py` | Ingestão, limpeza, normalização, anonimização e segmentação |
 | `src/geracao.py` | Geração das perguntas e respostas e dos diálogos, com os prompts |
-| `src/gerar_corpus.py` | Pipeline completo e revisão humana |
+| `src/gerar_corpus.py` | Pipeline completo e aplicação da revisão |
 | `src/app.py` | Interface em Gradio |
 | `entrada/` | Documentos de entrada e `fontes.csv` |
 | `saida/` | `corpus_texto.jsonl`, `corpus_qa.jsonl`, `corpus_chat.jsonl` e `relatorio_qualidade.json` |
