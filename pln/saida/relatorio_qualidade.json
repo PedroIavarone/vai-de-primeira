@@ -112,8 +112,8 @@
     ]
   },
   "corpus_qa": {
-    "exemplos": 169,
-    "media_tokens": 47.8,
+    "exemplos": 168,
+    "media_tokens": 47.9,
     "min_tokens": 21,
     "max_tokens": 99,
     "duplicatas_removidas": 1,
@@ -122,7 +122,7 @@
       "cadunico_inscrever_govbr.txt": 21,
       "cin_govbr_perguntas.html": 11,
       "cin_poupatempo_sp.docx": 26,
-      "cnh_renovacao_detran_sp_duvidas.html": 61
+      "cnh_renovacao_detran_sp_duvidas.html": 60
     },
     "rejeitados_sem_evidencia": 13,
     "amostras": [
@@ -151,22 +151,22 @@
         "fonte": "bpc_perguntas_mds.pdf"
       },
       {
-        "instruction": "Como faço para ficar dispensado do curso teórico?",
+        "instruction": "Quem pode fazer a reciclagem de condutor infrator?",
         "input": "",
-        "output": "É preciso atender aos requisitos de compatibilidade especificados para a dispensa.",
+        "output": "Qualquer condutor infrator pode fazer a reciclagem, presencial ou à distância, inclusive por determinação judicial.",
         "fonte": "cnh_renovacao_detran_sp_duvidas.html"
       }
     ]
   },
   "corpus_chat": {
-    "exemplos": 37,
-    "media_tokens": 206.8,
+    "exemplos": 34,
+    "media_tokens": 210.4,
     "min_tokens": 146,
     "max_tokens": 302,
     "duplicatas_removidas": 0,
     "por_fonte": {
-      "cnh_renovacao_detran_sp_duvidas.html": 9,
-      "bpc_perguntas_mds.pdf": 10,
+      "cnh_renovacao_detran_sp_duvidas.html": 7,
+      "bpc_perguntas_mds.pdf": 9,
       "cin_poupatempo_sp.docx": 5,
       "cin_govbr_perguntas.html": 1,
       "regras_de_atendimento": 12
@@ -207,19 +207,19 @@
           },
           {
             "role": "user",
-            "content": "Bom dia, preciso saber como faço o divórcio."
+            "content": "Comprei um celular com defeito e a loja se recusa a trocar, o que eu faço?"
           },
           {
             "role": "assistant",
-            "content": "Olá! Eu entendo sua necessidade, mas este canal só atende questões de Carteira de Identidade Nacional, renovação da CNH, Cadastro Único e BPC. Para orientações sobre divórcio, recomendo procurar a Defensoria Pública ou um advogado especializado."
+            "content": "Desculpe, não posso orientar sobre esse assunto. Recomendo que procure o Procon para obter ajuda."
           },
           {
             "role": "user",
-            "content": "Mas será que tem alguma dica rápida para eu começar?"
+            "content": "Mas tem alguma dica de como convencer a loja?"
           },
           {
             "role": "assistant",
-            "content": "Desculpe, mas não posso fornecer orientações sobre esse assunto. Sugiro novamente buscar a Defensoria Pública ou um advogado, que poderão lhe ajudar adequadamente. Estou à disposição para questões relacionadas à identidade, CNH, Cadastro Único ou BPC."
+            "content": "Como mencionei, não posso dar orientações sobre isso. Por favor, entre em contato com o Procon. Estou à disposição para ajudar com Carteira de Identidade Nacional, renovação da CNH, Cadastro Único e BPC."
           }
         ],
         "fonte": "regras_de_atendimento"
@@ -282,29 +282,29 @@
           },
           {
             "role": "user",
-            "content": "Preciso apresentar algum documento para incluir meu tipo sanguíneo?"
+            "content": "Como eu verifico se a minha carteira é autêntica?"
           },
           {
             "role": "assistant",
-            "content": "Sim, é necessário apresentar documento comprobatório assinado por profissional da área da saúde, contendo sua identificação profissional, acompanhado de cópia simples."
+            "content": "A carteira tem um QR Code que, ao ser escaneado com o smartphone, permite confirmar a autenticidade e informar se foi furtada ou extraviada."
           },
           {
             "role": "user",
-            "content": "E como faço para incluir a informação da minha CIPTEA na minha identidade?"
+            "content": "E onde eu faço a emissão da nova carteira?"
           },
           {
             "role": "assistant",
-            "content": "Você deve apresentar a CIPTEA original no momento do atendimento, acompanhada de cópia simples."
+            "content": "A emissão pode ser feita nos Institutos de Identificação dos Estados e do Distrito Federal, nos 12 estados que já estão aptos."
           }
         ],
-        "fonte": "cin_poupatempo_sp.docx"
+        "fonte": "cin_govbr_perguntas.html"
       }
     ]
   },
   "revisao_humana": {
-    "revisados": 1,
-    "corrigidos": 1,
-    "removidos": 0,
+    "revisados": 43,
+    "corrigidos": 2,
+    "removidos": 4,
     "amostra": 43
   },
   "anonimizacao_exemplo": {
