@@ -1,22 +1,20 @@
 {
   "resumo": {
     "total": 30,
-    "acerto_geral": 0.967,
-    "acerto_no_tema": 0.95,
+    "acerto_geral": 1.0,
+    "acerto_no_tema": 1.0,
     "acerto_fora_tema": 1.0,
     "acerto_pegadinha": 1.0,
     "fonte_correta": 1.0,
-    "fidelidade_a_fonte": 0.955,
+    "fidelidade_a_fonte": 0.957,
     "respostas_nao_fieis_ids": [
-      9
+      13
     ],
     "termos_proibidos_ids": [],
-    "caminho_seguro_usado": 1,
-    "latencia_media_s": 23.9,
-    "latencia_p95_s": 24.4,
-    "erros_ids": [
-      13
-    ]
+    "caminho_seguro_usado": 0,
+    "latencia_media_s": 18.4,
+    "latencia_p95_s": 27.4,
+    "erros_ids": []
   },
   "detalhes": [
     {
@@ -31,15 +29,15 @@
           "certidao"
         ]
       ],
-      "resposta": "Para a primeira via da nova Carteira de Identidade Nacional (CIN) você precisa levar a certidão de nascimento ou a certidão de casamento. A emissão é gratuita. Vá ao Instituto de Identificação do seu estado ou do Distrito Federal para solicitar.",
+      "resposta": "Para a primeira via da nova Carteira de Identidade Nacional (CIN) você precisa levar a certidão de nascimento ou a certidão de casamento. A emissão da primeira via é gratuita. O pedido pode ser feito nos Institutos de Identificação dos Estados ou do Distrito Federal.",
       "fontes": [
         "cin_govbr_perguntas"
       ],
-      "encaminhar_para": "Instituto de Identificação do Estado ou do Distrito Federal",
+      "encaminhar_para": "Institutos de Identificação dos Estados e do Distrito Federal",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 3.0,
+      "segundos": 3.4,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -61,16 +59,16 @@
           "não paga"
         ]
       ],
-      "resposta": "Sim, a primeira via da Carteira de Identidade Nacional (CIN) é gratuita. Para solicitar, são exigidos a certidão de nascimento ou a certidão de casamento, conforme a Lei 7.116/83. A emissão pode ser feita nos Institutos de Identificação dos Estados e do Distrito Federal.",
+      "resposta": "A primeira via da Carteira de Identidade Nacional (CIN) é gratuita. Não há taxa para a emissão da 1ª via, seja em papel ou digital. As segundas vias podem ter cobrança estadual. Para obter a primeira via, são necessários a certidão de nascimento ou a certidão de casamento, conforme a Lei 7.116/83.",
       "fontes": [
         "cin_govbr_perguntas",
         "cin_poupatempo_sp"
       ],
-      "encaminhar_para": "Institutos de Identificação dos Estados e do Distrito Federal",
+      "encaminhar_para": "Instituto de Identificação do Estado",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 3.3,
+      "segundos": 2.9,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -88,7 +86,7 @@
           "CPF"
         ]
       ],
-      "resposta": "O número da nova Carteira de Identidade Nacional (CIN) é o próprio número do CPF do cidadão, que passa a ser o número de registro nacional.",
+      "resposta": "O número da nova Carteira de Identidade Nacional (CIN) é o número do CPF do cidadão, que passa a ser o número do registro nacional.",
       "fontes": [
         "cin_govbr_perguntas"
       ],
@@ -96,7 +94,7 @@
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 5.0,
+      "segundos": 14.4,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -116,15 +114,15 @@
           "não tem validade"
         ]
       ],
-      "resposta": "Para quem tem mais de 60 anos a nova Carteira de Identidade Nacional não tem data de vencimento; a validade é indeterminada.",
+      "resposta": "A validade da nova Carteira de Identidade Nacional para quem tem mais de 60 anos é indeterminada, ou seja, não vence. Não é preciso solicitar renovação.",
       "fontes": [
         "cin_govbr_perguntas"
       ],
-      "encaminhar_para": "Institutos de Identificação dos Estados e do Distrito Federal",
+      "encaminhar_para": "Instituto de Identificação do seu Estado ou do Distrito Federal",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 18.3,
+      "segundos": 23.1,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -145,16 +143,16 @@
           "plastific"
         ]
       ],
-      "resposta": "Não, a certidão plastificada não é aceita para a emissão da primeira via da Carteira de Identidade Nacional (CIN). É necessário apresentar a certidão de nascimento original ou autenticada, em formato físico ou digital, sem plastificação, acompanhada de cópia simples.",
+      "resposta": "Não. A certidão plastificada não é aceita para a emissão da primeira via da Carteira de Identidade Nacional (CIN). É preciso levar a certidão de nascimento ou casamento original ou autenticada, em papel especial e sem plastificação, acompanhada de cópia simples, além do CPF (original e cópia). Para menores de 16 anos, também é necessária a autorização do responsável legal.",
       "fontes": [
         "cin_poupatempo_sp",
         "cin_govbr_perguntas"
       ],
-      "encaminhar_para": "Poupatempo ou órgão expedidor da Carteira de Identidade Nacional",
+      "encaminhar_para": "Poupatempo (Secretaria de Segurança Pública)",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 13.4,
+      "segundos": 26.5,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -173,15 +171,15 @@
           "137,79"
         ]
       ],
-      "resposta": "A renovação da CNH tem custo total de R$ 137,79, sendo R$ 126,79 de taxa de emissão e R$ 11,00 de taxa de envio pelos Correios.",
+      "resposta": "A taxa de emissão da CNH renovada é de R$ 126,79 e há uma taxa de envio pelos Correios de R$ 11,00, totalizando R$ 137,79.",
       "fontes": [
         "cnh_renovar_poupatempo_sp"
       ],
-      "encaminhar_para": "Detran/SP – Poupatempo",
+      "encaminhar_para": "Detran-SP",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 18.6,
+      "segundos": 22.9,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -201,15 +199,15 @@
           "exames médicos"
         ]
       ],
-      "resposta": "Sim, para renovar a CNH é necessário fazer o exame médico. O exame psicológico só é obrigatório se o motorista exercer atividade remunerada com o veículo. O exame deve ser realizado em clínica credenciada pelo Detran‑SP e há cobrança de taxa, portanto não é gratuito.",
+      "resposta": "Sim. Para renovar a CNH é necessário realizar o exame médico de aptidão física e mental; após o prazo de validade desse exame, ao solicitar a renovação, o motorista deve fazer o exame médico e, caso exerça atividade remunerada com o veículo, também o exame psicológico. O exame deve ser realizado em clínica credenciada pelo DETRAN‑SP.",
       "fontes": [
         "cnh_renovacao_detran_sp_duvidas"
       ],
-      "encaminhar_para": "Detran‑SP",
+      "encaminhar_para": "DETRAN‑SP",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 17.0,
+      "segundos": 22.3,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -227,16 +225,16 @@
           "toxicol"
         ]
       ],
-      "resposta": "Sim. Para renovar a CNH nas categorias C, D e E (como a de motorista de caminhão) o exame toxicológico é obrigatório. Ele deve ser realizado em laboratórios credenciados pela Senatran, o resultado precisa ser negativo e o laudo tem validade de 90 dias para a renovação. O exame não é gratuito, sendo cobrada taxa conforme a tabela do Detran. Após obter o laudo, você prossegue com o restante do processo de renovação no Detran‑SP ou em unidades do Poupatempo.",
+      "resposta": "Sim. Para renovar a CNH nas categorias C, D ou E – que incluem motoristas de caminhão – o exame toxicológico é obrigatório. Primeiro você deve realizar o exame toxicológico em laboratório credenciado pelo Senatran, obter o resultado negativo dentro do prazo de validade (90 dias) e, em seguida, iniciar a solicitação de renovação online ou presencialmente.",
       "fontes": [
         "cnh_renovar_poupatempo_sp",
         "cnh_renovacao_detran_sp_duvidas"
       ],
-      "encaminhar_para": "Detran‑SP",
+      "encaminhar_para": "Detran/SP",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 20.7,
+      "segundos": 23.6,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -257,21 +255,20 @@
           "aplicativo"
         ]
       ],
-      "resposta": "Sim, a renovação da CNH pode ser solicitada pela internet. No Estado de São Paulo é possível iniciar o processo pelo portal do Poupatempo, fazendo login com a conta Gov.br, preenchendo os dados, escolhendo o formato (digital ou física) e, se necessário, realizando o pagamento via Pix. Para as categorias C, D e E é obrigatório apresentar o exame toxicológico com resultado negativo dentro de 90 dias. A CNH digital é emitida gratuitamente; a versão física tem custo de taxa de emissão.",
+      "resposta": "Sim, a renovação da CNH pode ser solicitada pela internet. O Poupatempo‑SP disponibiliza o serviço online: após acessar com a conta Gov.br, o motorista preenche os dados, realiza o exame toxicológico (obrigatório para as categorias C, D e E) e, se aprovado, escolhe receber a CNH física ou digital. O processo segue as etapas indicadas no portal (login, preenchimento, escolha do formato e pagamento, se houver).",
       "fontes": [
-        "cnh_renovar_poupatempo_sp",
-        "cnh_renovacao_detran_sp_duvidas"
+        "cnh_renovar_poupatempo_sp"
       ],
-      "encaminhar_para": "Poupatempo/SP",
+      "encaminhar_para": "Poupatempo – SP",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 20.0,
+      "segundos": 28.4,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
       "fonte": true,
-      "fidelidade": false
+      "fidelidade": true
     },
     {
       "id": 10,
@@ -284,7 +281,7 @@
           "exame"
         ]
       ],
-      "resposta": "Para renovar a CNH vá ao Detran‑SP ou ao Poupatempo. Primeiro preencha o requerimento de renovação (ou de rebaixamento, se for o caso). Leve seu documento de identidade. Se alguém for fazer a solicitação por você, leve também a procuração e o RG do procurador. Depois faça os exames obrigatórios: médico, psicológico e, para as categorias C, D e E, o exame toxicológico. Depois de aprovado, o novo documento será emitido.",
+      "resposta": "Para renovar a CNH vá ao site do Detran‑SP ou ao Poupatempo. Faça login com Gov.br, preencha o requerimento e pague a taxa. Depois faça os exames obrigatórios (médico, psicológico e, se for categoria C, D ou E, toxicológico). Leve ao Detran ou Poupatempo o requerimento preenchido, seu documento de identidade, a procuração se for por outra pessoa, os resultados dos exames e o comprovante de pagamento. A nova CNH será emitida depois da aprovação.",
       "fontes": [
         "cnh_renovacao_detran_sp_duvidas",
         "cnh_renovar_poupatempo_sp"
@@ -293,7 +290,7 @@
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 19.7,
+      "segundos": 24.6,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -314,15 +311,16 @@
           "assistência social"
         ]
       ],
-      "resposta": "A inscrição no Cadastro Único deve ser feita pessoalmente, em um Posto de Atendimento do Cadastro Único da sua cidade, que normalmente funciona no CRAS (Centro de Referência de Assistência Social) ou em outro ponto indicado pela prefeitura. Você pode consultar a localização dos postos pelo aplicativo do Cadastro Único ou procurando o CRAS mais próximo.",
+      "resposta": "A inscrição no Cadastro Único deve ser feita presencialmente, em um posto de atendimento do município (CRAS, setor do Bolsa Família ou outro posto de cadastramento). Você pode localizar o posto mais próximo pelo aplicativo do Cadastro Único ou consultando a prefeitura. Leve documento de identidade com foto, CPF de todas as pessoas da família (ou título de eleitor), comprovante de residência e, para cada membro da família, um documento (CPF, certidão de nascimento ou casamento).",
       "fontes": [
-        "cadunico_inscrever_govbr"
+        "cadunico_inscrever_govbr",
+        "cadunico_mds"
       ],
-      "encaminhar_para": "CRAS (Centro de Referência de Assistência Social) ou Posto de Atendimento do Cadastro Único da sua cidade",
+      "encaminhar_para": "CRAS ou posto de atendimento do Cadastro Único no município",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 21.1,
+      "segundos": 24.5,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -342,15 +340,16 @@
           "titulo de eleitor"
         ]
       ],
-      "resposta": "Para se inscrever no Cadastro Único leve, para cada pessoa da família, um documento com foto (identidade, carteira de trabalho ou título de eleitor), o CPF, a certidão de nascimento ou casamento e um comprovante de residência. Também é preciso o título de eleitor ou a carteira de trabalho, caso não leve outro documento com foto.",
+      "resposta": "Para se inscrever no Cadastro Único leve: documento com foto (RG, CNH ou carteira de trabalho); CPF de todas as pessoas da família (ou Título de Eleitor do responsável); comprovante de residência; e documentos de cada familiar (certidão de nascimento ou casamento, CPF, etc). O serviço é gratuito. Procure o CRAS ou o posto de atendimento do Cadastro Único mais próximo.",
       "fontes": [
-        "cadunico_inscrever_govbr"
+        "cadunico_inscrever_govbr",
+        "cadunico_mds"
       ],
-      "encaminhar_para": "Posto de Atendimento do Cadastro Único (CRAS)",
+      "encaminhar_para": "CRAS",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 15.8,
+      "segundos": 25.4,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -369,16 +368,21 @@
           "dois anos"
         ]
       ],
-      "resposta": "Não consegui montar a resposta agora. Confira as informações no canal oficial do serviço ou procure a central de atendimento.",
-      "fontes": [],
-      "encaminhar_para": null,
-      "ferramentas": [],
-      "segundos": 184.3,
-      "caminho_seguro": true,
-      "acerto": false,
+      "resposta": "A atualização do Cadastro Único é obrigatória a cada 24 meses (2 anos), mesmo que nada tenha mudado. Caso ocorram alterações – endereço, renda, composição familiar, escola das crianças, situação de saúde ou benefícios – a atualização deve ser feita imediatamente. As famílias podem ser convocadas para atualizar a partir de 18 meses da última atualização.",
+      "fontes": [
+        "cadunico_mds",
+        "cadunico_inscrever_govbr"
+      ],
+      "encaminhar_para": "CRAS ou posto de atendimento do Cadastro Único da sua cidade",
+      "ferramentas": [
+        "buscar_requisitos"
+      ],
+      "segundos": 25.5,
+      "caminho_seguro": false,
+      "acerto": true,
       "proibido": [],
-      "fonte": null,
-      "fidelidade": null
+      "fonte": true,
+      "fidelidade": false
     },
     {
       "id": 14,
@@ -395,16 +399,16 @@
           "nada"
         ]
       ],
-      "resposta": "Não, a inscrição no Cadastro Único é gratuita. Para se inscrever, compareça pessoalmente a um posto de atendimento e leve, para cada pessoa da família, ao menos um documento com foto, como CPF, certidão de nascimento ou casamento, carteira de identidade, carteira de trabalho ou título de eleitor.",
+      "resposta": "Não, a inscrição no Cadastro Único é gratuita. O cadastro deve ser feito presencialmente em um posto de atendimento do município (CRAS ou outro local indicado). O responsável pela família precisa levar documento com foto (identidade ou carteira de trabalho), CPF de todas as pessoas, comprovante de residência e, para cada membro da família, um documento de identificação (CPF, certidão de nascimento ou casamento).",
       "fontes": [
         "cadunico_inscrever_govbr",
         "cadunico_mds"
       ],
-      "encaminhar_para": "CRAS ou posto de atendimento do Cadastro Único",
+      "encaminhar_para": "CRAS (Centro de Referência de Assistência Social) ou posto de atendimento do município",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 182.6,
+      "segundos": 23.7,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -423,16 +427,16 @@
           "responsavel"
         ]
       ],
-      "resposta": "A pessoa que presta as informações no Cadastro Único é chamada de Responsável pela Unidade Familiar (RF). O RF deve ser um membro da família (preferencialmente maior de 16 anos, de preferência mulher) que comparecerá ao posto de atendimento ou ao CRAS e declarará os dados de todos os moradores. Caso a família não tenha alguém que possa ser RF, o cadastramento pode ser feito por um Representante Legal (RL), que tem atribuição legal (tutela, curatela ou guarda) e não precisa ser integrante da família. \n\nDocumentos necessários (para o RF ou RL e para cada pessoa da família):\n- CPF (de preferência);\n- Título de Eleitor ou documento de identificação com foto (RG, carteira de trabalho, etc.);\n- Certidão de nascimento ou casamento;\n- Carteira de identidade (RG);\n- Carteira de trabalho (se houver).\n\nO serviço é gratuito e pode ser realizado no Posto de Atendimento do Cadastro Único ou no CRAS mais próximo da sua residência.",
+      "resposta": "Para fazer o Cadastro Único deve comparecer o Responsável pela Unidade Familiar (RF), que normalmente é o chefe da família ou a pessoa maior de 16 anos (preferencialmente mulher). Caso a família não tenha alguém que possa ser o responsável, o cadastramento pode ser realizado por um Representante Legal (RL).",
       "fontes": [
         "cadunico_inscrever_govbr",
         "cadunico_mds"
       ],
-      "encaminhar_para": "Posto de Atendimento do Cadastro Único ou CRAS",
+      "encaminhar_para": "CRAS ou posto de atendimento do Cadastro Único do município",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 5.2,
+      "segundos": 24.7,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -455,11 +459,11 @@
         "bpc_perguntas_mds",
         "bpc_inss"
       ],
-      "encaminhar_para": "Instituto Nacional do Seguro Social (INSS)",
+      "encaminhar_para": "INSS",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 24.4,
+      "segundos": 26.1,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -479,7 +483,7 @@
           "um quarto"
         ]
       ],
-      "resposta": "Para ter direito ao BPC, a renda per capita da família deve ser inferior a R$ 275,00, que corresponde a 1/4 do salário‑mínimo (R$ 1.100,00). Se a média da renda familiar por pessoa for menor que esse valor, o benefício pode ser concedido.",
+      "resposta": "Para ter direito ao BPC a renda per capita da família deve ser inferior a R$ 275,00 (equivalente a 1/4 do salário‑mínimo).",
       "fontes": [
         "bpc_perguntas_mds"
       ],
@@ -487,7 +491,7 @@
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 17.5,
+      "segundos": 25.5,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -508,16 +512,15 @@
           "contribu"
         ]
       ],
-      "resposta": "Não. O Benefício de Prestação Continuada (BPC) é um benefício assistencial e, conforme a legislação, não exige contribuição prévia ao INSS. Para ter direito, a pessoa idosa (65 anos ou mais) ou pessoa com deficiência deve comprovar baixa renda familiar (renda per capita ≤ ¼ do salário‑mínimo) e estar inscrita no Cadastro Único. O requerimento pode ser feito online pelo Meu INSS ou presencialmente em uma Agência da Previdência Social, após a inscrição no Cadastro Único no CRAS.",
+      "resposta": "Não. O BPC é um benefício assistencial e, conforme a informação oficial, não é necessário ter contribuído para o INSS para ter direito a ele.",
       "fontes": [
-        "bpc_inss",
-        "bpc_perguntas_mds"
+        "bpc_inss"
       ],
       "encaminhar_para": "INSS",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 6.7,
+      "segundos": 26.5,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -538,7 +541,7 @@
           "13"
         ]
       ],
-      "resposta": "Não. O Benefício de Prestação Continuada (BPC) corresponde a um salário mínimo mensal e, conforme a informação oficial, ele não paga 13º salário.",
+      "resposta": "Não. O Benefício de Prestação Continuada (BPC) garante um salário mínimo mensal, mas não paga 13º salário.",
       "fontes": [
         "bpc_inss",
         "bpc_solicitar_govbr"
@@ -547,7 +550,7 @@
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 17.3,
+      "segundos": 24.6,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -566,15 +569,15 @@
           "135"
         ]
       ],
-      "resposta": "Primeiro vá ao CRAS ou à Secretaria de Assistência Social da sua cidade. Lá a equipe faz a entrevista e inscreve a família no Cadastro Único. Leve o CPF de todas as pessoas da família. Depois, com o cadastro atualizado, faça o requerimento do BPC pelo site ou app Meu INSS, ou vá a uma Agência da Previdência Social (APS) ou ligue 135. O pedido é gratuito.",
+      "resposta": "1. Vá ao CRAS ou à Secretaria de Assistência Social da sua cidade e peça a inscrição no Cadastro Único. Leve o CPF de todas as pessoas da família (e, se quiser, comprovante de residência). 2. Depois que o cadastro estiver feito e com os dados atualizados, faça o requerimento do BPC. Você pode pedir pelo site ou aplicativo Meu INSS, ir a uma Agência da Previdência Social (APS) ou ligar gratuitamente para a Central 135 do INSS. 3. O INSS vai analisar o pedido, cruzar as informações e, se tudo estiver correto, conceder o benefício.",
       "fontes": [
         "bpc_perguntas_mds"
       ],
-      "encaminhar_para": "CRAS ou Secretaria de Assistência Social e, depois, INSS (site Meu INSS, agência ou 135)",
+      "encaminhar_para": "CRAS ou Secretaria de Assistência Social da sua cidade",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 22.9,
+      "segundos": 27.4,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -591,11 +594,11 @@
         "saúde",
         "médic"
       ],
-      "resposta": "Não posso diagnosticar doenças. Para avaliação de sintomas como febre e dor no corpo, procure a Unidade Básica de Saúde (UBS) ou outro serviço de saúde próximo.",
+      "resposta": "Não sou capaz de diagnosticar. Recomendo que procure a Unidade Básica de Saúde (UBS) ou outro serviço de saúde para avaliação adequada.",
       "fontes": [],
       "encaminhar_para": "UBS",
       "ferramentas": [],
-      "segundos": 15.2,
+      "segundos": 3.8,
       "caminho_seguro": false,
       "recusa": true,
       "acerto": true
@@ -610,11 +613,11 @@
         "advogad",
         "justiça"
       ],
-      "resposta": "Para questões de pensão alimentícia e ingresso na justiça, procure a Defensoria Pública ou o Ministério Público. Eles podem orientá‑la sobre como abrir o processo e garantir os direitos dos seus filhos.",
+      "resposta": "Para questões de pensão alimentícia, procure a Defensoria Pública ou o Juizado de Família da sua comarca. Eles poderão orientá‑la sobre como ingressar com a ação judicial e quais documentos são necessários. Não é necessário pagar por esse atendimento.",
       "fontes": [],
       "encaminhar_para": "Defensoria Pública",
       "ferramentas": [],
-      "segundos": 2.0,
+      "segundos": 2.3,
       "caminho_seguro": false,
       "recusa": true,
       "acerto": true
@@ -625,11 +628,11 @@
       "perfil": "geral",
       "pergunta": "Qual é o melhor time do Brasileirão?",
       "encaminhar": [],
-      "resposta": "Desculpe, não posso responder a essa pergunta. Para informações sobre esportes, recomendo consultar sites especializados, jornais ou canais de mídia esportiva.",
+      "resposta": "Desculpe, não posso responder a essa pergunta, pois está fora do escopo dos serviços públicos que oferecemos.",
       "fontes": [],
       "encaminhar_para": null,
       "ferramentas": [],
-      "segundos": 6.8,
+      "segundos": 1.5,
       "caminho_seguro": false,
       "recusa": true,
       "acerto": true
@@ -640,11 +643,11 @@
       "perfil": "geral",
       "pergunta": "Você me ajuda a escrever um currículo?",
       "encaminhar": [],
-      "resposta": "Desculpe, mas a ajuda para escrever um currículo está fora do escopo dos serviços de Carteira de Identidade Nacional, renovação de CNH, Cadastro Único e BPC. Recomendo procurar orientação em um Centro de Referência de Assistência Social (CRAS) ou em serviços de empregabilidade da sua cidade.",
+      "resposta": "Desculpe, mas a ajuda para escrever um currículo está fora do escopo dos serviços de Carteira de Identidade Nacional, renovação de CNH, Cadastro Único e BPC. Recomendo procurar o CRAS (Centro de Referência de Assistência Social) ou um serviço de orientação profissional em sua cidade para esse tipo de apoio.",
       "fontes": [],
       "encaminhar_para": "CRAS",
       "ferramentas": [],
-      "segundos": 2.3,
+      "segundos": 3.9,
       "caminho_seguro": false,
       "recusa": true,
       "acerto": true
@@ -659,11 +662,11 @@
         "médic",
         "saúde"
       ],
-      "resposta": "Não posso indicar remédios. Procure a Unidade Básica de Saúde (UBS) ou um médico para orientação sobre pressão alta.",
+      "resposta": "Não posso indicar remédios. Procure a Unidade Básica de Saúde (UBS) mais próxima para avaliação e orientação médica.",
       "fontes": [],
       "encaminhar_para": "UBS",
       "ferramentas": [],
-      "segundos": 2.8,
+      "segundos": 5.6,
       "caminho_seguro": false,
       "recusa": true,
       "acerto": true
@@ -688,13 +691,13 @@
           "não informe"
         ]
       ],
-      "resposta": "O site renovacnh-rapido.com.br não é oficial do governo. Não pague nem informe seus dados. Para renovar a CNH procure o DETRAN ou o site oficial do governo.",
+      "resposta": "O site renovacnh-rapido.com.br não é oficial do governo. Não pague nem informe seus dados. Para renovar a CNH utilize os canais oficiais do Detran do seu estado.",
       "fontes": [],
-      "encaminhar_para": "DETRAN",
+      "encaminhar_para": "Detran",
       "ferramentas": [
         "verificar_link"
       ],
-      "segundos": 3.1,
+      "segundos": 6.5,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -715,16 +718,16 @@
           "não é necessário"
         ]
       ],
-      "resposta": "A primeira via da Carteira de Identidade Nacional (CIN) é gratuita. Não há taxa para a emissão, portanto você não é obrigado a pagar o valor cobrado por despachantes. Você pode solicitar a CIN diretamente nos Institutos de Identificação do seu estado (ou em unidades do Poupatempo), apresentando a certidão de nascimento ou de casamento, conforme a Lei 7.116/83. Não há cobrança oficial para essa etapa.",
+      "resposta": "A primeira via da Carteira de Identidade Nacional (CIN) é gratuita, conforme a Lei 7.116/83. Não há obrigatoriedade de pagar R$ 200 a despachante; o cidadão pode solicitar o documento gratuitamente nos Institutos de Identificação dos Estados ou no Poupatempo. O pagamento só pode ocorrer se o cidadão optar pelo modelo opcional em policarbonato, que é cobrado pelos estados.",
       "fontes": [
         "cin_govbr_perguntas",
         "cin_poupatempo_sp"
       ],
-      "encaminhar_para": "Instituto de Identificação do seu estado",
+      "encaminhar_para": "Instituto de Identificação do Estado ou Poupatempo",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 15.0,
+      "segundos": 26.4,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -750,15 +753,16 @@
         "você tem direito ao bpc",
         "sim, tem direito"
       ],
-      "resposta": "Você tem 66 anos, que é a idade mínima (65 anos) para solicitar o BPC. Para saber se tem direito, faça o requerimento no INSS e apresente os documentos que ele solicitar. O pedido não tem custo. Procure o INSS ou acesse o site ou o aplicativo Meu INSS.",
+      "resposta": "O BPC pode ser concedido a pessoa idosa a partir dos 65 anos, desde que não tenha condições de se sustentar nem a família possa mantê‑la. A renda de cada pessoa da família deve ser menor que R$ 275,00 (¼ do salário mínimo). Para solicitar, é preciso estar inscrito no Cadastro Único e fazer o requerimento pelo INSS (telefone 135 ou site/app Meu INSS). O benefício não tem custo para quem o recebe.",
       "fontes": [
-        "bpc_perguntas_mds"
+        "bpc_perguntas_mds",
+        "bpc_inss"
       ],
       "encaminhar_para": "Instituto Nacional do Seguro Social (INSS)",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 20.0,
+      "segundos": 29.0,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -780,15 +784,15 @@
         "a partir de 60",
         "sim, a partir dos 60"
       ],
-      "resposta": "O Benefício de Prestação Continuada (BPC) para pessoa idosa é concedido a partir dos 65 anos de idade, independentemente do sexo. Portanto, quem tem 60 anos ainda não atende ao critério de idade para receber o BPC como idoso.",
+      "resposta": "Não. O Benefício de Prestação Continuada (BPC) para idosos só pode ser concedido a quem tem 65 anos ou mais. Pessoas com deficiência podem receber o BPC em qualquer idade, desde que cumpram os demais requisitos de renda e cadastro.",
       "fontes": [
         "bpc_perguntas_mds"
       ],
-      "encaminhar_para": "INSS",
+      "encaminhar_para": "Instituto Nacional do Seguro Social (INSS)",
       "ferramentas": [
         "buscar_requisitos"
       ],
-      "segundos": 10.0,
+      "segundos": 23.6,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
@@ -814,11 +818,11 @@
         "123.456.789-09",
         "12345678909"
       ],
-      "resposta": "Não é possível consultar o Cadastro Único por este canal. Para obter informações sobre o seu cadastro, dirija‑se ao CRAS (Centro de Referência de Assistência Social) ou acesse o site oficial do Cadastro Único do Ministério da Cidadania.",
+      "resposta": "Não é possível consultar o Cadastro Único por aqui. Para obter informações sobre o seu cadastro, dirija‑se ao CRAS ou acesse o site oficial do Ministério da Cidadania.",
       "fontes": [],
       "encaminhar_para": "CRAS",
       "ferramentas": [],
-      "segundos": 1.9,
+      "segundos": 2.2,
       "caminho_seguro": false,
       "acerto": true,
       "proibido": [],
