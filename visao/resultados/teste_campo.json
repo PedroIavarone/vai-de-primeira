@@ -1,0 +1,239 @@
+{
+  "resumo": {
+    "imagens": 20,
+    "limiar_detector": 0.5,
+    "detectados_no_limiar": 1,
+    "conf_detector_mediana": 0.011,
+    "qualidade_certa_entre_detectados": 1,
+    "qualidade_certa_no_melhor_recorte": 9,
+    "tipo_certo_entre_detectados": 1,
+    "qualidade_prevista_no_melhor_recorte": {
+      "null": 9,
+      "ok": 6,
+      "borrado": 2,
+      "reflexo": 3
+    }
+  },
+  "imagens": [
+    {
+      "arquivo": "certidao_borrado_1.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "borrado",
+      "conf_detector_max": 0.0,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": null,
+      "tipo_previsto": null,
+      "latencia_ms": 12
+    },
+    {
+      "arquivo": "certidao_borrado_2.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "borrado",
+      "conf_detector_max": 0.0,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": null,
+      "tipo_previsto": null,
+      "latencia_ms": 9
+    },
+    {
+      "arquivo": "certidao_cortado_1.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "cortado",
+      "conf_detector_max": 0.011,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": null,
+      "latencia_ms": 9
+    },
+    {
+      "arquivo": "certidao_ok_1.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "ok",
+      "conf_detector_max": 0.0,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": null,
+      "tipo_previsto": null,
+      "latencia_ms": 10
+    },
+    {
+      "arquivo": "certidao_reflexo_1.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "reflexo",
+      "conf_detector_max": 0.0,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": null,
+      "tipo_previsto": null,
+      "latencia_ms": 12
+    },
+    {
+      "arquivo": "certidao_reflexo_2.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "reflexo",
+      "conf_detector_max": 0.0,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": null,
+      "tipo_previsto": null,
+      "latencia_ms": 16
+    },
+    {
+      "arquivo": "cin_borrado_1.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "borrado",
+      "conf_detector_max": 0.011,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": "borrado",
+      "tipo_previsto": null,
+      "latencia_ms": 13
+    },
+    {
+      "arquivo": "cin_borrado_2.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "borrado",
+      "conf_detector_max": 0.0,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": null,
+      "tipo_previsto": null,
+      "latencia_ms": 12
+    },
+    {
+      "arquivo": "cin_cortado_1.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "cortado",
+      "conf_detector_max": 0.0,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": null,
+      "tipo_previsto": null,
+      "latencia_ms": 13
+    },
+    {
+      "arquivo": "cin_cortado_2.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "cortado",
+      "conf_detector_max": 0.0,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": null,
+      "tipo_previsto": null,
+      "latencia_ms": 13
+    },
+    {
+      "arquivo": "cin_ok_1.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "ok",
+      "conf_detector_max": 0.384,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": null,
+      "latencia_ms": 20
+    },
+    {
+      "arquivo": "cin_ok_2.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "ok",
+      "conf_detector_max": 0.035,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": null,
+      "latencia_ms": 27
+    },
+    {
+      "arquivo": "cin_reflexo_1.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "reflexo",
+      "conf_detector_max": 0.095,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": "reflexo",
+      "tipo_previsto": null,
+      "latencia_ms": 20
+    },
+    {
+      "arquivo": "cnh_borrado_1.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "borrado",
+      "conf_detector_max": 0.049,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": "borrado",
+      "tipo_previsto": null,
+      "latencia_ms": 19
+    },
+    {
+      "arquivo": "cnh_cortado_1.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "cortado",
+      "conf_detector_max": 0.0,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": null,
+      "tipo_previsto": null,
+      "latencia_ms": 12
+    },
+    {
+      "arquivo": "cnh_cortado_2.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "cortado",
+      "conf_detector_max": 0.073,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": null,
+      "latencia_ms": 12
+    },
+    {
+      "arquivo": "cnh_ok_1.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "ok",
+      "conf_detector_max": 0.759,
+      "detectado": true,
+      "qualidade_prevista": "ok",
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": "cnh",
+      "latencia_ms": 4439
+    },
+    {
+      "arquivo": "cnh_ok_2.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "ok",
+      "conf_detector_max": 0.165,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": null,
+      "latencia_ms": 9
+    },
+    {
+      "arquivo": "cnh_reflexo_1.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "reflexo",
+      "conf_detector_max": 0.399,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": "reflexo",
+      "tipo_previsto": null,
+      "latencia_ms": 9
+    },
+    {
+      "arquivo": "cnh_reflexo_2.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "reflexo",
+      "conf_detector_max": 0.493,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": "reflexo",
+      "tipo_previsto": null,
+      "latencia_ms": 13
+    }
+  ]
+}
