@@ -67,6 +67,7 @@ A API fica em `http://127.0.0.1:8000`. Para outro endereço, crie `frontend/.env
 ## Validação
 - Fluxo completo testado no navegador: cadastro, sair, entrar, adicionar serviço, conferir uma foto, ver o Índice de Prontidão subir e apagar os dados.
 - Conferido no `localStorage` que o CPF inteiro e a senha não aparecem em lugar nenhum.
+- **Lighthouse, acessibilidade: 100** na tela de entrada, em modo celular (iPhone 16) ([`evidencias/lighthouse_acessibilidade_login.jpg`](evidencias/lighthouse_acessibilidade_login.jpg)). O Lighthouse só cobre parte da acessibilidade: o teclado, a ordem do foco e a leitura em voz foram conferidos à mão.
 
 ## Equipe
 Pedro Iavarone Custódio (RM567638) · Rodrigo Ferreira Nery (RM568246)
