@@ -1,0 +1,66 @@
+tempo_ms,R_A_ohm,R_B_ohm,fase
+0.0,16000,16000,estimulo
+2.0,15762,15507,estimulo
+4.0,15762,15000,estimulo
+6.0,15762,14491,estimulo
+8.0,15762,13942,estimulo
+10.0,15689,13387,estimulo
+12.0,15523,12817,estimulo
+14.0,15523,12191,estimulo
+16.1,15523,11561,estimulo
+18.1,15523,10875,estimulo
+20.1,15364,10168,estimulo
+22.1,15281,9402,estimulo
+24.1,15281,8603,estimulo
+26.1,15281,7723,estimulo
+28.1,15281,6724,estimulo
+30.1,15055,5574,estimulo
+32.1,15035,4191,estimulo
+34.1,15035,2296,estimulo
+36.1,15035,100,estimulo
+38.1,15035,100,estimulo
+40.1,14785,100,estimulo
+42.1,14785,100,estimulo
+44.1,14785,100,estimulo
+46.1,14785,100,estimulo
+48.1,14785,100,estimulo
+50.2,14532,100,estimulo
+52.2,14532,100,estimulo
+54.2,14532,100,estimulo
+56.2,14532,100,estimulo
+58.2,14532,100,estimulo
+60.2,14274,100,estimulo
+62.2,14274,100,estimulo
+64.2,14274,100,estimulo
+66.2,14274,100,estimulo
+68.2,14274,100,estimulo
+70.2,14011,100,estimulo
+72.2,14011,100,estimulo
+74.2,14011,100,estimulo
+76.2,14011,100,estimulo
+78.2,14011,100,estimulo
+80.3,14011,100,sem estimulo (chave aberta)
+82.3,14011,100,sem estimulo (chave aberta)
+84.3,14011,100,sem estimulo (chave aberta)
+86.3,14011,100,sem estimulo (chave aberta)
+88.3,14011,100,sem estimulo (chave aberta)
+90.3,14011,100,sem estimulo (chave aberta)
+92.3,14011,100,sem estimulo (chave aberta)
+94.3,14011,100,sem estimulo (chave aberta)
+96.3,14011,100,sem estimulo (chave aberta)
+98.3,14011,100,sem estimulo (chave aberta)
+100.3,14011,100,sem estimulo (chave aberta)
+102.3,14011,100,sem estimulo (chave aberta)
+104.3,14011,100,sem estimulo (chave aberta)
+106.3,14011,100,sem estimulo (chave aberta)
+108.3,14011,100,sem estimulo (chave aberta)
+110.3,14011,100,sem estimulo (chave aberta)
+112.3,14011,100,sem estimulo (chave aberta)
+114.3,14011,100,sem estimulo (chave aberta)
+116.4,14011,100,sem estimulo (chave aberta)
+118.4,14011,100,sem estimulo (chave aberta)
+120.4,14011,100,sem estimulo (chave aberta)
+122.4,14011,100,sem estimulo (chave aberta)
+124.4,14011,100,sem estimulo (chave aberta)
+126.4,14011,100,sem estimulo (chave aberta)
+136.4,14011,100,sem estimulo (chave aberta)
