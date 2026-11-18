@@ -34,7 +34,7 @@ def processar(arquivos, texto_colado, gerar):
     if not documentos:
         raise gr.Error("Envie pelo menos um arquivo (PDF, TXT, DOCX ou HTML) ou cole um texto.")
     saida = Path(tempfile.mkdtemp(prefix="corpus_"))
-    relatorio = executar(None, saida, documentos=documentos, gerar=gerar, revisao=False)
+    relatorio = executar(None, saida, documentos=documentos, gerar=gerar, revisao=True)  # aplica revisao/revisao.csv aos exemplos já revisados
 
     primeiro = documentos[0]
     antes_depois = (f"**Documento:** `{primeiro.fonte}`\n\n**Antes (texto extraído):**\n```\n{primeiro.bruto[:900]}\n```\n"
