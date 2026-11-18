@@ -28,6 +28,8 @@ todo dia às 07:00
 | **Agendamento** | `main.py --agendar` executa todo dia às 07:00 | Ninguém precisa lembrar de rodar o robô |
 | **Banco de dados e idempotência** | `robo/registro.py` (SQLite): avisos enviados, revisão humana e execuções | A mesma pessoa não recebe o mesmo aviso duas vezes, e tudo fica auditável |
 
+**Por que esses temas:** o problema é a pessoa descobrir tarde demais que precisa agir. Resolver isso exige achar quem precisa agir numa base que já existe (planilha), avisar pelo canal que a pessoa usa (e-mail), não mandar ninguém para um link quebrado ou falso (verificação de sites), escrever de um jeito que quem lê com dificuldade entenda (IA generativa com regras), rodar sem depender de alguém lembrar (agendamento) e não avisar duas vezes nem perder o histórico (banco de dados). Cada tema cobre uma dessas partes; sem qualquer um deles, o aviso não chega, chega errado ou chega repetido.
+
 ## Resiliência e segurança
 - **Log** de cada execução em `saida/logs/`, com o id do cidadão (nunca o e-mail).
 - **Novas tentativas com espera crescente** (1 s, 2 s, 4 s) no e-mail, nos sites e no LLM, com tempo limite em todas as chamadas.
@@ -64,6 +66,12 @@ python validar.py                                # compara o robô com os casos 
 **50 de 50 casos corretos** em `validacao/casos.csv` (resultado em [`validacao/resultado.md`](validacao/resultado.md)). Os casos incluem as fronteiras das regras: CNH com 30 e 31 dias para vencer e vencendo no dia, Cadastro Único na data exata de corte de 2 anos, 64 e 65 anos, bebê com 60 e 61 dias, site que imita o gov.br e linhas com dado inválido. Como 100% numa amostra pequena pode esconder erro, a análise considera também os casos de fronteira, que são onde uma regra mal escrita falharia primeiro. Evidências das execuções e das falhas simuladas em [`evidencias/`](evidencias/).
 
 `python validar.py` compara as decisões do robô com casos rotulados à mão (`validacao/casos.csv`) e gera `validacao/resultado.md`, com acertos, precisão e recall por tipo de aviso e a lista dos casos com erro. `python main.py --simular-falha <tipo>` demonstra cada falha tratada, com o registro no log.
+
+## Limites
+- **Dados sintéticos:** a base de 200 cidadãos e os 50 casos rotulados foram feitos pela equipe. Os 50 acertos medem se as regras fazem o que foi especificado, não se as regras certas foram escolhidas; isso só um piloto com a prefeitura mostraria.
+- **Regras fixas:** prazos como 30 dias para a CNH e 2 anos para o Cadastro Único estão no código. Se a regra oficial mudar, alguém precisa atualizar.
+- **Texto do LLM:** é conferido por regras (sem promessa de direito, sem link, tamanho máximo), mas a clareza para quem lê com dificuldade não foi medida com pessoas.
+- **Canal único:** o aviso sai só por e-mail. Quem não tem e-mail fica de fora até existir SMS ou aviso no app.
 
 ## Dados, ética e ODS
 O robô trabalha só com **dados fictícios** e segue a LGPD por desenho: só avisa quem deu **consentimento**, todo e-mail traz como parar de receber, o LLM recebe apenas a situação genérica (por exemplo, "a CNH vai vencer") e a faixa etária, **nunca nome, e-mail, data ou município**, e o Excel do gestor não tem nome nem contato. O principal risco ético é tratar uma sinalização como decisão: por isso o possível direito ao BPC é apenas um convite para procurar o CRAS e sempre passa por revisão humana. Também existe o risco de excluir quem não tem e-mail; no produto, o mesmo aviso pode sair por SMS ou pelo totem da unidade. O robô contribui com o **ODS 10** (reduz desigualdades ao levar a informação a quem mais perde viagens e benefícios), o **ODS 9** (acesso à tecnologia no serviço público) e o **ODS 11** (serviços públicos mais acessíveis na cidade e no campo).
