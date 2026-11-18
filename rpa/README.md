@@ -61,6 +61,8 @@ python validar.py                                # compara o robô com os casos 
 **Saídas** em `saida/`: `relatorios/demanda_<execução>.xlsx`, `relatorios/execucao_<execução>.json`, `logs/`, `caixa_de_teste/` e `avisos.sqlite`.
 
 ## Validação
+**50 de 50 casos corretos** em `validacao/casos.csv` (resultado em [`validacao/resultado.md`](validacao/resultado.md)). Os casos incluem as fronteiras das regras: CNH com 30 e 31 dias para vencer e vencendo no dia, Cadastro Único na data exata de corte de 2 anos, 64 e 65 anos, bebê com 60 e 61 dias, site que imita o gov.br e linhas com dado inválido. Como 100% numa amostra pequena pode esconder erro, a análise considera também os casos de fronteira, que são onde uma regra mal escrita falharia primeiro. Evidências das execuções e das falhas simuladas em [`evidencias/`](evidencias/).
+
 `python validar.py` compara as decisões do robô com casos rotulados à mão (`validacao/casos.csv`) e gera `validacao/resultado.md`, com acertos, precisão e recall por tipo de aviso e a lista dos casos com erro. `python main.py --simular-falha <tipo>` demonstra cada falha tratada, com o registro no log.
 
 ## Dados, ética e ODS

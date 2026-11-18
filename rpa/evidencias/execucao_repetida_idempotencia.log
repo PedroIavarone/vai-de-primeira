@@ -1,0 +1,8 @@
+2026-11-17 22:44:20,253 INFO    robo: execução 20261117-224420 iniciada (data de referência 2026-11-12)
+2026-11-17 22:44:20,281 WARNING base: linha 197 da base vai para revisão humana: data inválida: '2026-02-31'
+2026-11-17 22:44:20,281 WARNING base: linha 198 da base vai para revisão humana: e-mail inválido para quem pediu avisos: 'c197exemplo.test'
+2026-11-17 22:44:20,281 WARNING base: linha 199 da base vai para revisão humana: idade inválida: 'abc'
+2026-11-17 22:44:20,281 WARNING base: linha 200 da base vai para revisão humana: idade fora do intervalo: 150
+2026-11-17 22:44:20,281 WARNING base: linha 201 da base vai para revisão humana: id repetido: C001
+2026-11-17 22:44:20,281 INFO    base: base lida: 195 cidadãos válidos, 5 linhas para revisão humana
+2026-11-17 22:44:20,818 INFO    robo: execução 20261117-224420 concluída: {'situacao': 'concluída', 'com_aviso': 102, 'situacao: já avisado antes': 91, 'situacao: sem consentimento: não enviado': 11, 'revisao_humana': 23}

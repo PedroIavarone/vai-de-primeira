@@ -1,0 +1,29 @@
+{
+  "execucao": "20261117-224400",
+  "data_referencia": "2026-11-12",
+  "simulacao_de_falha": "nenhuma",
+  "situacao": "concluída",
+  "cidadaos_lidos": 195,
+  "com_aviso": 102,
+  "situacao: enviado": 91,
+  "situacao: sem consentimento: não enviado": 11,
+  "avisos_por_tipo": {
+    "link_suspeito": 8,
+    "cnh_vencendo": 25,
+    "cadunico_desatualizado": 50,
+    "bpc_possivel": 20,
+    "nascimento": 10,
+    "cnh_vencida": 10
+  },
+  "textos": {
+    "llm": 11,
+    "template": 1,
+    "llm_invalido": 1,
+    "llm_erro": 0
+  },
+  "links_oficiais_no_ar": 4,
+  "links_oficiais_fora_do_ar": 0,
+  "revisao_humana": 23,
+  "log": "saida/logs/execucao_20261117-224400.log",
+  "excel": "saida/relatorios/demanda_20261117-224400.xlsx"
+}

@@ -1,0 +1,27 @@
+2026-11-17 23:28:44,359 INFO    robo: execução 20261117-232844 iniciada (data de referência 2026-11-12)
+2026-11-17 23:28:44,361 WARNING base: linha 8 da base vai para revisão humana: data inválida: '31/02/2026'
+2026-11-17 23:28:44,361 WARNING base: linha 9 da base vai para revisão humana: e-mail inválido para quem pediu avisos: 'email-invalido'
+2026-11-17 23:28:44,361 WARNING base: linha 10 da base vai para revisão humana: idade inválida: 'abc'
+2026-11-17 23:28:44,361 WARNING base: linha 11 da base vai para revisão humana: id repetido: P001
+2026-11-17 23:28:44,361 INFO    base: base lida: 7 cidadãos válidos, 4 linhas para revisão humana
+2026-11-17 23:28:44,914 WARNING resiliencia: LLM (cadunico_desatualizado) falhou (tentativa 1 de 3): Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}. Nova tentativa em 5 s
+2026-11-17 23:28:49,987 WARNING resiliencia: LLM (cadunico_desatualizado) falhou (tentativa 2 de 3): Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}. Nova tentativa em 10 s
+2026-11-17 23:29:00,080 ERROR   resiliencia: LLM (cadunico_desatualizado) falhou após 3 tentativas: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-11-17 23:29:00,080 WARNING mensagens: LLM indisponível para cadunico_desatualizado; usando texto pronto
+2026-11-17 23:29:00,171 WARNING resiliencia: LLM (bpc_possivel) falhou (tentativa 1 de 3): Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}. Nova tentativa em 5 s
+2026-11-17 23:29:05,263 WARNING resiliencia: LLM (bpc_possivel) falhou (tentativa 2 de 3): Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}. Nova tentativa em 10 s
+2026-11-17 23:29:15,341 ERROR   resiliencia: LLM (bpc_possivel) falhou após 3 tentativas: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-11-17 23:29:15,342 WARNING mensagens: LLM indisponível para bpc_possivel; usando texto pronto
+2026-11-17 23:29:15,429 WARNING resiliencia: LLM (cnh_vencendo) falhou (tentativa 1 de 3): Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}. Nova tentativa em 5 s
+2026-11-17 23:29:20,498 WARNING resiliencia: LLM (cnh_vencendo) falhou (tentativa 2 de 3): Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}. Nova tentativa em 10 s
+2026-11-17 23:29:30,578 ERROR   resiliencia: LLM (cnh_vencendo) falhou após 3 tentativas: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-11-17 23:29:30,578 WARNING mensagens: LLM indisponível para cnh_vencendo; usando texto pronto
+2026-11-17 23:29:30,659 WARNING resiliencia: LLM (nascimento) falhou (tentativa 1 de 3): Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}. Nova tentativa em 5 s
+2026-11-17 23:29:35,743 WARNING resiliencia: LLM (nascimento) falhou (tentativa 2 de 3): Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}. Nova tentativa em 10 s
+2026-11-17 23:29:45,794 ERROR   resiliencia: LLM (nascimento) falhou após 3 tentativas: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-11-17 23:29:45,795 WARNING mensagens: LLM indisponível para nascimento; usando texto pronto
+2026-11-17 23:29:45,866 WARNING resiliencia: LLM (cnh_vencida) falhou (tentativa 1 de 3): Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}. Nova tentativa em 5 s
+2026-11-17 23:29:50,924 WARNING resiliencia: LLM (cnh_vencida) falhou (tentativa 2 de 3): Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}. Nova tentativa em 10 s
+2026-11-17 23:30:01,031 ERROR   resiliencia: LLM (cnh_vencida) falhou após 3 tentativas: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-11-17 23:30:01,031 WARNING mensagens: LLM indisponível para cnh_vencida; usando texto pronto
+2026-11-17 23:30:01,563 INFO    robo: execução 20261117-232844 concluída: {'situacao': 'concluída', 'com_aviso': 5, 'situacao: enviado': 4, 'situacao: sem consentimento: não enviado': 1, 'revisao_humana': 5}

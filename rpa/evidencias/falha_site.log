@@ -1,0 +1,11 @@
+2026-11-17 23:31:30,083 INFO    robo: execução 20261117-233130 iniciada (data de referência 2026-11-12)
+2026-11-17 23:31:30,087 WARNING base: linha 8 da base vai para revisão humana: data inválida: '31/02/2026'
+2026-11-17 23:31:30,087 WARNING base: linha 9 da base vai para revisão humana: e-mail inválido para quem pediu avisos: 'email-invalido'
+2026-11-17 23:31:30,087 WARNING base: linha 10 da base vai para revisão humana: idade inválida: 'abc'
+2026-11-17 23:31:30,087 WARNING base: linha 11 da base vai para revisão humana: id repetido: P001
+2026-11-17 23:31:30,087 INFO    base: base lida: 7 cidadãos válidos, 4 linhas para revisão humana
+2026-11-17 23:31:30,096 WARNING resiliencia: consulta a https://servico-fora-do-ar.sp.gov.br falhou (tentativa 1 de 3): HTTPSConnectionPool(host='servico-fora-do-ar.sp.gov.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10a483b60>: Failed to resolve 'servico-fora-do-ar.sp.gov.br' ([Errno 8] nodename nor servname provided, or not known)")). Nova tentativa em 1 s
+2026-11-17 23:31:31,109 WARNING resiliencia: consulta a https://servico-fora-do-ar.sp.gov.br falhou (tentativa 2 de 3): HTTPSConnectionPool(host='servico-fora-do-ar.sp.gov.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10a582990>: Failed to resolve 'servico-fora-do-ar.sp.gov.br' ([Errno 8] nodename nor servname provided, or not known)")). Nova tentativa em 2 s
+2026-11-17 23:31:33,122 ERROR   resiliencia: consulta a https://servico-fora-do-ar.sp.gov.br falhou após 3 tentativas: HTTPSConnectionPool(host='servico-fora-do-ar.sp.gov.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10a583390>: Failed to resolve 'servico-fora-do-ar.sp.gov.br' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-11-17 23:31:33,123 WARNING canais: site oficial fora do ar ou lento: https://servico-fora-do-ar.sp.gov.br. Os avisos saem sem esse link
+2026-11-17 23:31:34,167 INFO    robo: execução 20261117-233130 concluída: {'situacao': 'concluída', 'com_aviso': 5, 'situacao: enviado': 4, 'situacao: sem consentimento: não enviado': 1, 'revisao_humana': 5}

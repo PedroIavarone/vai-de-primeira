@@ -1,0 +1,17 @@
+2026-11-17 23:28:30,891 INFO    robo: execução 20261117-232830 iniciada (data de referência 2026-11-12)
+2026-11-17 23:28:30,894 WARNING base: linha 8 da base vai para revisão humana: data inválida: '31/02/2026'
+2026-11-17 23:28:30,895 WARNING base: linha 9 da base vai para revisão humana: e-mail inválido para quem pediu avisos: 'email-invalido'
+2026-11-17 23:28:30,895 WARNING base: linha 10 da base vai para revisão humana: idade inválida: 'abc'
+2026-11-17 23:28:30,895 WARNING base: linha 11 da base vai para revisão humana: id repetido: P001
+2026-11-17 23:28:30,895 INFO    base: base lida: 7 cidadãos válidos, 4 linhas para revisão humana
+2026-11-17 23:28:33,207 WARNING resiliencia: envio do aviso de P001 falhou (tentativa 1 de 3): [Errno 61] Connection refused. Nova tentativa em 1 s
+2026-11-17 23:28:34,217 WARNING resiliencia: envio do aviso de P001 falhou (tentativa 2 de 3): [Errno 61] Connection refused. Nova tentativa em 2 s
+2026-11-17 23:28:36,228 ERROR   resiliencia: envio do aviso de P001 falhou após 3 tentativas: [Errno 61] Connection refused
+2026-11-17 23:28:36,841 WARNING resiliencia: envio do aviso de P002 falhou (tentativa 1 de 3): [Errno 61] Connection refused. Nova tentativa em 1 s
+2026-11-17 23:28:37,845 WARNING resiliencia: envio do aviso de P002 falhou (tentativa 2 de 3): [Errno 61] Connection refused. Nova tentativa em 2 s
+2026-11-17 23:28:39,856 ERROR   resiliencia: envio do aviso de P002 falhou após 3 tentativas: [Errno 61] Connection refused
+2026-11-17 23:28:40,648 WARNING resiliencia: envio do aviso de P003 falhou (tentativa 1 de 3): [Errno 61] Connection refused. Nova tentativa em 1 s
+2026-11-17 23:28:41,654 WARNING resiliencia: envio do aviso de P003 falhou (tentativa 2 de 3): [Errno 61] Connection refused. Nova tentativa em 2 s
+2026-11-17 23:28:43,655 ERROR   resiliencia: envio do aviso de P003 falhou após 3 tentativas: [Errno 61] Connection refused
+2026-11-17 23:28:43,656 ERROR   robo: 3 falhas seguidas de e-mail: envios suspensos nesta execução
+2026-11-17 23:28:44,357 INFO    robo: execução 20261117-232830 concluída: {'situacao': 'concluída', 'com_aviso': 5, 'situacao: falha no envio: revisão humana': 3, 'situacao: sem consentimento: não enviado': 1, 'situacao: envio suspenso: revisão humana': 1, 'revisao_humana': 9}

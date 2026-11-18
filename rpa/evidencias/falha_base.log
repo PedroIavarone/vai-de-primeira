@@ -1,0 +1,2 @@
+2026-11-17 23:31:34,472 INFO    robo: execução 20261117-233134 iniciada (data de referência 2026-11-12)
+2026-11-17 23:31:34,474 ERROR   robo: não foi possível ler a base (base de cidadãos não encontrada: testes/arquivo_que_nao_existe.xlsx). Nenhum aviso enviado; a execução termina com segurança
