@@ -35,6 +35,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+@app.on_event("startup")
+def carregar_visao_primeiro():
+    # No macOS, carregar o FAISS do assistente antes do PyTorch da visão derruba o processo (falha de
+    # segmentação). Carregar a visão ao iniciar garante a ordem certa, qualquer que seja a primeira chamada.
+    integracao_visao.obter()
+
+
 TIPOS_IMAGEM = {"image/jpeg", "image/png", "image/webp"}
 TAMANHO_MAXIMO = 8 * 1024 * 1024  # 8 MB
 
