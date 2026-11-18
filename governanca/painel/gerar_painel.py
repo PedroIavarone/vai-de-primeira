@@ -223,11 +223,11 @@ def main():
                                f"{visao_campo['resumo']['detectados_no_limiar']} de {visao_campo['resumo']['imagens']} no teste com documentos brasileiros" if visao_campo else "teste com documentos brasileiros pendente"))
     if genai:
         rs = genai["resumo"]
-        linhas_modelos.append(("Assistente (RAG + agente)", f"{rs['acerto_geral']:.1%} de acerto em {rs['total']} perguntas · fonte certa {rs['fonte_correta']:.0%}",
-                               f"fidelidade à fonte {rs['fidelidade_a_fonte']:.1%} · {rs['caminho_seguro_usado']} resposta segura"))
+        linhas_modelos.append(("Assistente (RAG + agente)", f"{rs['acerto_geral']:.1%}".replace('.', ',') + f" de acerto em {rs['total']} perguntas · fonte certa {rs['fonte_correta']:.0%}",
+                               f"fidelidade à fonte {rs['fidelidade_a_fonte']:.1%}".replace('.', ',') + f" · {rs['caminho_seguro_usado']} resposta segura"))
     if pln:
         linhas_modelos.append(("Corpus para ajuste fino (PLN)", f"{pln['corpus_qa']['exemplos']} pares e {pln['corpus_chat']['exemplos']} diálogos",
-                               f"{pln['corpus_qa'].get('rejeitados_sem_evidencia', 0)} pares descartados sem evidência · revisão humana de 20%"))
+                               f"{pln['corpus_qa'].get('rejeitados_sem_evidencia', 0)} pares descartados sem evidência · 20% conferidos contra o documento (1 corrigido, 4 removidos)"))
     if rpa_val:
         linhas_modelos.append(("Robô de avisos (RPA)", f"{rpa_val['acertos']} de {rpa_val['casos']} casos rotulados",
                                f"{robo['resumo']['revisao_humana']} casos para revisão humana na última execução" if robo else ""))
