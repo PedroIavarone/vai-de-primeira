@@ -27,6 +27,10 @@ Dataset público **MIDV-2020** (subconjunto `photo`): 1.000 fotos de celular de 
 | Qualidade | acurácia 0,997 · F1 macro 0,997 (2 erros em 700) |
 | **Ponta a ponta** em fotos reais (detector → recorte → qualidade) | **100%** (180 de 180), em todas as 8 condições |
 
+**Como ler os 100%:** as 180 fotos reais só têm dois casos reais (160 ok e 20 com reflexo); borrado e cortado existem só como degradação sintética. Zero erros em 180 não é erro zero: pela regra do três, o erro real pode chegar a cerca de 1,7% no geral e a 15% no reflexo, com 95% de confiança. Com documentos brasileiros, o número que vale é o do teste de campo, abaixo.
+
+Curvas de treino: [`resultados/treino_detector_curvas.png`](resultados/treino_detector_curvas.png) (50 épocas, 34 min) e [`resultados/treino_qualidade_curvas.png`](resultados/treino_qualidade_curvas.png) (30 épocas, 10 min), no Apple M4.
+
 ### Uma correção que a avaliação de ponta a ponta revelou
 Na primeira versão, o classificador foi treinado com o documento retificado pelos 4 cantos. Sozinho ele tinha 99,6% de acurácia, mas **de ponta a ponta caía para 85,6%**, porque o detector entrega uma caixa retangular, com um pouco de fundo. Nas fotos com o documento inclinado, os triângulos de fundo eram confundidos com "cortado" ou "reflexo". Treinar com o mesmo tipo de recorte usado na inferência levou o resultado de ponta a ponta para 100%.
 
@@ -93,6 +97,8 @@ Dependências: `ultralytics`, `opencv-python`, `easyocr`, `scikit-learn` e `matp
 
 ## Integração
 `POST /checar-documento` (veja [docs/contratos.md](../docs/contratos.md)) carrega `modelos/detector.pt` e `modelos/qualidade.pt` na primeira chamada. Sem os pesos ou com `VDP_MODO_DEMO=1`, a API responde com dados de demonstração.
+
+No app, a tela **Conferir documentos** (`/conferir`) desenha a caixa sobre a foto enviada e mostra a qualidade, a confiança do modelo (documento e qualidade) e a dica.
 
 ## Próximos passos
 - [x] Preparação dos dados com divisão por documento
