@@ -1,0 +1,240 @@
+{
+  "resumo": {
+    "imagens": 20,
+    "limiar_detector": 0.5,
+    "detectados_no_limiar": 19,
+    "conf_detector_mediana": 0.963,
+    "qualidade_certa_entre_detectados": 13,
+    "qualidade_certa_no_melhor_recorte": 13,
+    "tipo_certo_entre_detectados": 12,
+    "qualidade_prevista_no_melhor_recorte": {
+      "borrado": 4,
+      "null": 1,
+      "ok": 10,
+      "cortado": 1,
+      "reflexo": 4
+    }
+  },
+  "imagens": [
+    {
+      "arquivo": "certidao_borrado_1.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "borrado",
+      "conf_detector_max": 0.939,
+      "detectado": true,
+      "qualidade_prevista": "borrado",
+      "qualidade_no_melhor_recorte": "borrado",
+      "tipo_previsto": "desconhecido",
+      "latencia_ms": 2503
+    },
+    {
+      "arquivo": "certidao_borrado_2.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "borrado",
+      "conf_detector_max": 0.0,
+      "detectado": false,
+      "qualidade_prevista": null,
+      "qualidade_no_melhor_recorte": null,
+      "tipo_previsto": null,
+      "latencia_ms": 12
+    },
+    {
+      "arquivo": "certidao_cortado_1.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "cortado",
+      "conf_detector_max": 0.955,
+      "detectado": true,
+      "qualidade_prevista": "ok",
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": "certidao",
+      "latencia_ms": 855
+    },
+    {
+      "arquivo": "certidao_ok_1.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "ok",
+      "conf_detector_max": 0.961,
+      "detectado": true,
+      "qualidade_prevista": "ok",
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": "certidao",
+      "latencia_ms": 1144
+    },
+    {
+      "arquivo": "certidao_reflexo_1.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "reflexo",
+      "conf_detector_max": 0.955,
+      "detectado": true,
+      "qualidade_prevista": "cortado",
+      "qualidade_no_melhor_recorte": "cortado",
+      "tipo_previsto": "desconhecido",
+      "latencia_ms": 1675
+    },
+    {
+      "arquivo": "certidao_reflexo_2.jpg",
+      "tipo_real": "certidao",
+      "condicao_real": "reflexo",
+      "conf_detector_max": 0.963,
+      "detectado": true,
+      "qualidade_prevista": "reflexo",
+      "qualidade_no_melhor_recorte": "reflexo",
+      "tipo_previsto": "certidao",
+      "latencia_ms": 1142
+    },
+    {
+      "arquivo": "cin_borrado_1.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "borrado",
+      "conf_detector_max": 0.967,
+      "detectado": true,
+      "qualidade_prevista": "borrado",
+      "qualidade_no_melhor_recorte": "borrado",
+      "tipo_previsto": "desconhecido",
+      "latencia_ms": 1833
+    },
+    {
+      "arquivo": "cin_borrado_2.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "borrado",
+      "conf_detector_max": 0.949,
+      "detectado": true,
+      "qualidade_prevista": "borrado",
+      "qualidade_no_melhor_recorte": "borrado",
+      "tipo_previsto": "desconhecido",
+      "latencia_ms": 991
+    },
+    {
+      "arquivo": "cin_cortado_1.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "cortado",
+      "conf_detector_max": 0.964,
+      "detectado": true,
+      "qualidade_prevista": "ok",
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": "desconhecido",
+      "latencia_ms": 780
+    },
+    {
+      "arquivo": "cin_cortado_2.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "cortado",
+      "conf_detector_max": 0.967,
+      "detectado": true,
+      "qualidade_prevista": "ok",
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": "cin",
+      "latencia_ms": 874
+    },
+    {
+      "arquivo": "cin_ok_1.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "ok",
+      "conf_detector_max": 0.973,
+      "detectado": true,
+      "qualidade_prevista": "ok",
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": "cin",
+      "latencia_ms": 1081
+    },
+    {
+      "arquivo": "cin_ok_2.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "ok",
+      "conf_detector_max": 0.975,
+      "detectado": true,
+      "qualidade_prevista": "ok",
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": "cin",
+      "latencia_ms": 1611
+    },
+    {
+      "arquivo": "cin_reflexo_1.jpg",
+      "tipo_real": "cin",
+      "condicao_real": "reflexo",
+      "conf_detector_max": 0.971,
+      "detectado": true,
+      "qualidade_prevista": "reflexo",
+      "qualidade_no_melhor_recorte": "reflexo",
+      "tipo_previsto": "cin",
+      "latencia_ms": 1251
+    },
+    {
+      "arquivo": "cnh_borrado_1.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "borrado",
+      "conf_detector_max": 0.953,
+      "detectado": true,
+      "qualidade_prevista": "borrado",
+      "qualidade_no_melhor_recorte": "borrado",
+      "tipo_previsto": "desconhecido",
+      "latencia_ms": 2415
+    },
+    {
+      "arquivo": "cnh_cortado_1.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "cortado",
+      "conf_detector_max": 0.959,
+      "detectado": true,
+      "qualidade_prevista": "ok",
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": "cnh",
+      "latencia_ms": 720
+    },
+    {
+      "arquivo": "cnh_cortado_2.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "cortado",
+      "conf_detector_max": 0.97,
+      "detectado": true,
+      "qualidade_prevista": "ok",
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": "desconhecido",
+      "latencia_ms": 1116
+    },
+    {
+      "arquivo": "cnh_ok_1.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "ok",
+      "conf_detector_max": 0.959,
+      "detectado": true,
+      "qualidade_prevista": "ok",
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": "cnh",
+      "latencia_ms": 2084
+    },
+    {
+      "arquivo": "cnh_ok_2.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "ok",
+      "conf_detector_max": 0.963,
+      "detectado": true,
+      "qualidade_prevista": "ok",
+      "qualidade_no_melhor_recorte": "ok",
+      "tipo_previsto": "cnh",
+      "latencia_ms": 2137
+    },
+    {
+      "arquivo": "cnh_reflexo_1.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "reflexo",
+      "conf_detector_max": 0.964,
+      "detectado": true,
+      "qualidade_prevista": "reflexo",
+      "qualidade_no_melhor_recorte": "reflexo",
+      "tipo_previsto": "cnh",
+      "latencia_ms": 1742
+    },
+    {
+      "arquivo": "cnh_reflexo_2.jpg",
+      "tipo_real": "cnh",
+      "condicao_real": "reflexo",
+      "conf_detector_max": 0.963,
+      "detectado": true,
+      "qualidade_prevista": "reflexo",
+      "qualidade_no_melhor_recorte": "reflexo",
+      "tipo_previsto": "cnh",
+      "latencia_ms": 2495
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "modelo_base": "../modelos/detector.pt",
+  "epocas_configuradas": 30,
+  "tamanho_imagem_px": 640,
+  "tempo_treino_min": 32.4,
+  "hardware": "arm64 · macOS-26.6.2-arm64-arm-64bit-Mach-O · dispositivo mps",
+  "teste": {
+    "precisao": 0.9997,
+    "recall": 1.0,
+    "mAP50": 0.995,
+    "mAP50_95": 0.9934
+  },
+  "pesos": "runs/detector_br/weights/best.pt"
+}

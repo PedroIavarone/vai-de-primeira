@@ -1,0 +1,10 @@
+# MIDV-2020 (documentos estrangeiros) + documentos brasileiros fictícios sintéticos
+train:
+  - /Users/pedroiavarone/Downloads/GS/vai-de-primeira/visao/datasets/preparado/deteccao/images/treino
+  - /Users/pedroiavarone/Downloads/GS/vai-de-primeira/visao/datasets/br_sintetico/images/treino
+val:
+  - /Users/pedroiavarone/Downloads/GS/vai-de-primeira/visao/datasets/preparado/deteccao/images/validacao
+  - /Users/pedroiavarone/Downloads/GS/vai-de-primeira/visao/datasets/br_sintetico/images/validacao
+test: /Users/pedroiavarone/Downloads/GS/vai-de-primeira/visao/datasets/preparado/deteccao/images/teste
+names:
+  0: documento
