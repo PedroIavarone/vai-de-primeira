@@ -43,7 +43,7 @@ python iot/simulador/simulador_totem.py --cenario todos  # ou normal, cheia, aju
 ```
 **ESP32 no Wokwi:** abra o projeto de `wokwi/` ([no Wokwi](https://wokwi.com/projects/480881468470360065)) e clique em Play. O sketch usa [`esp32/mqtt_vdp.h`](esp32/mqtt_vdp.h) para conectar ao Wi-Fi do Wokwi e publicar no broker.
 
-**Alertas no Telegram (opcional):** crie um bot com o @BotFather e coloque `TELEGRAM_BOT_TOKEN` e `TELEGRAM_CHAT_ID` no `.env` da raiz. Sem eles, os alertas ficam registrados só no banco.
+**Alertas no Telegram:** crie um bot com o @BotFather e coloque `TELEGRAM_BOT_TOKEN` e `TELEGRAM_CHAT_ID` no `.env` da raiz. Testado com o pedido de ajuda ([`evidencias/telegram_alerta_ajuda.jpg`](evidencias/telegram_alerta_ajuda.jpg)). Sem as chaves, os alertas ficam registrados só no banco.
 
 ## Limitações
 - **Broker público:** qualquer pessoa pode publicar nos mesmos tópicos. Por isso toda leitura é validada e o conteúdo não tem dado pessoal. Em produção: broker próprio com usuário, senha e TLS.
@@ -53,7 +53,7 @@ python iot/simulador/simulador_totem.py --cenario todos  # ou normal, cheia, aju
 - **Simulação:** o circuito foi testado no Wokwi, não em placa física. No Wokwi foram testados conexão, ambiente, presença e pedido de ajuda, com a mensagem chegando ao banco do Node-RED; a contagem pela porta foi testada com o simulador em Python.
 
 ## Evidências
-[`evidencias/`](evidencias/): fluxo do Node-RED, monitor serial do Wokwi com presença e ajuda, alertas, eventos e descartes exportados do banco e a resposta de `GET /fila` com a leitura do sensor. Documento da disciplina: [`Documento_Totem_e_Fila_ao_Vivo.docx`](Documento_Totem_e_Fila_ao_Vivo.docx).
+[`evidencias/`](evidencias/): fluxo do Node-RED, monitor serial do Wokwi com presença e ajuda, alerta recebido no Telegram, alertas, eventos e descartes exportados do banco e a resposta de `GET /fila` com a leitura do sensor. Documento da disciplina: [`Documento_Totem_e_Fila_ao_Vivo.docx`](Documento_Totem_e_Fila_ao_Vivo.docx).
 
 ## Estrutura
 | Caminho | Conteúdo |

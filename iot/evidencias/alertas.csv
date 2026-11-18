@@ -12,3 +12,4 @@ id,tipo,local,texto,canal,criado_em
 11,fila_cheia,centro,"Fila cheia na unidade centro: 26 pessoas, cerca de 47 min de espera. O app já sugere a unidade com menos fila. Avalie abrir mais um guichê.",somente_banco,"2026-11-17 23:23:41"
 12,fila_normalizada,centro,"A fila da unidade centro voltou ao normal: 24 pessoas, cerca de 43 min.",somente_banco,"2026-11-17 23:23:46"
 13,ajuda,t1,"Pedido de ajuda no totem t1. Um atendente deve ir até o totem.",somente_banco,"2026-11-17 23:25:46"
+14,ajuda,t1,"Pedido de ajuda no totem t1. Um atendente deve ir até o totem.",telegram,"2026-11-18 08:42:22"
