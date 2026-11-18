@@ -49,8 +49,8 @@ Os formatos de dados trocados entre os módulos estão em [docs/contratos.md](do
 | Módulo | Resultado principal |
 |---|---|
 | Aviso proativo | 50 de 50 casos rotulados; falhas de e-mail, site, LLM e base tratadas |
-| Base de conhecimento | 61 trechos, 169 pares de pergunta e resposta e 37 diálogos (12 recusas), sem dado pessoal |
-| Assistente da Jornada | 96,7% em 30 perguntas (v2); recuperação 20/20 com o corpus do PLN |
+| Base de conhecimento | 61 trechos, 168 pares de pergunta e resposta e 34 diálogos (12 recusas), sem dado pessoal |
+| Assistente da Jornada | 100% em 30 perguntas (v3, com o corpus do PLN como base) |
 | Conferência por vídeo | mAP@0,5 de 0,995 e 100% de ponta a ponta no MIDV-2020; 48 FPS; documentos brasileiros encontrados em 19 de 20 imagens depois do ajuste (antes, 1 de 20) |
 | Totem e fila ao vivo | ESP32 no Wokwi → MQTT → Node-RED → SQLite → `/fila`, com alertas de fila cheia, calor e ajuda |
 | App e modo totem | 11 telas, login local, Índice de Prontidão, VLibras, voz e alto contraste |
