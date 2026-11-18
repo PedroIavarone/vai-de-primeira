@@ -24,7 +24,7 @@ O **Vai de Primeira** inverte essa lógica. O sistema avisa a pessoa antes dos p
 
 Para o gestor público, um painel mostra a prontidão por região, os motivos de recusa de documentos e onde a unidade móvel é mais necessária.
 
-Escopo atual: **Carteira de Identidade Nacional, renovação da CNH e Cadastro Único.**
+Escopo atual: **Carteira de Identidade Nacional, renovação da CNH, Cadastro Único e orientação sobre o BPC.**
 
 ## Arquitetura
 
@@ -45,9 +45,21 @@ Escopo atual: **Carteira de Identidade Nacional, renovação da CNH e Cadastro �
 
 Os formatos de dados trocados entre os módulos estão em [docs/contratos.md](docs/contratos.md).
 
+### Resultados
+| Módulo | Resultado principal |
+|---|---|
+| Aviso proativo | 50 de 50 casos rotulados; falhas de e-mail, site, LLM e base tratadas |
+| Base de conhecimento | 61 trechos, 169 pares de pergunta e resposta e 37 diálogos (12 recusas), sem dado pessoal |
+| Assistente da Jornada | 96,7% em 30 perguntas (v2); recuperação 20/20 com o corpus do PLN |
+| Conferência por vídeo | mAP@0,5 de 0,995 e 100% de ponta a ponta no MIDV-2020; 48 FPS; teste com documentos brasileiros em `visao/resultados/` |
+| Totem e fila ao vivo | ESP32 no Wokwi → MQTT → Node-RED → SQLite → `/fila`, com alertas de fila cheia, calor e ajuda |
+| App e modo totem | 11 telas, login local, Índice de Prontidão, VLibras, voz e alto contraste |
+| Memória de picos | Memristor diferencia picos esporádicos e recorrentes e guarda o estado sem estímulo |
+| Painel e governança | Painel do gestor, matriz de riscos, LGPD e documento de integração |
+
 ## Tecnologias
 
-Python · FastAPI · LangChain · Groq · YOLO · OpenCV · React · Vite · ESP32 · MQTT · Node-RED · SQLite
+Python · FastAPI · LangChain · Groq · spaCy · YOLO · OpenCV · React · Vite · ESP32 · MQTT · Node-RED · SQLite · Plotly · Falstad
 
 ## Executando localmente
 
