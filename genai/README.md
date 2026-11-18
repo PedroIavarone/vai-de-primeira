@@ -30,9 +30,11 @@ Avaliação com 30 perguntas (20 no tema, 5 fora do tema, 5 pegadinhas). Detalhe
 
 | Acerto geral | No tema | Fora do tema | Pegadinhas | Fonte certa | Fidelidade |
 |---|---|---|---|---|---|
-| **96,7%** | 95% | 100% | 100% | 100% | 95,5%* |
+| **100%** | 100% | 100% | 100% | 100% | 95,7%* |
 
-\* O caso marcado foi um falso alarme, confirmado como fiel na revisão humana.
+\* O caso marcado foi um falso alarme, conferido contra a fonte. Resultado da v3, com o corpus do PLN como base. Uma resposta fiel à fonte ainda citou um valor desatualizado do BPC (veja a análise de erros).
+
+**Exemplos de entradas e saídas:** as 30 perguntas da avaliação, com a resposta, as fontes, as ferramentas usadas e o encaminhamento de cada uma, estão em [`avaliacao/respostas.csv`](avaliacao/respostas.csv); cinco delas estão na documentação técnica.
 
 ## Execução
 ```bash
@@ -53,4 +55,8 @@ Saída no formato de `POST /perguntar` em [docs/contratos.md](../docs/contratos.
 - [x] Interface de teste em Gradio
 - [x] Avaliação com 30 perguntas
 - [x] Base de conhecimento a partir do corpus do módulo `pln/`
-- [ ] Repetir a avaliação completa com o LLM sobre a nova base (`python src/avaliar.py`)
+- [x] Repetir a avaliação completa com o LLM sobre a nova base
+- [ ] Guardar a data de cada fonte e evitar valores em reais que mudam todo ano
+- [ ] Modelo pequeno local, ajustado com os corpora de perguntas e de diálogos do módulo `pln/`, para não depender de API externa
+- [ ] Fontes de outros estados além de São Paulo
+- [ ] Avaliar a clareza das respostas com pessoas do público
