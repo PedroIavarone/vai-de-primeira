@@ -29,7 +29,7 @@ python governanca/painel/gerar_painel.py
 | Índice de Prontidão | Calcula a chance de resolver na primeira ida com regras explicáveis | O cidadão decide se vai; o índice não bloqueia ninguém |
 | Assistente | Responde com base em páginas oficiais e cita a fonte | Pedido fora do tema ou de direito individual é encaminhado (CRAS, Defensoria) |
 | Robô de avisos | Encontra quem precisa agir e escreve o aviso | Dado inválido, falha de envio e **toda sinalização de BPC** vão para revisão humana |
-| Corpus de PLN | Gera perguntas e respostas com evidência | 20% dos exemplos passam por revisão humana antes do ajuste fino |
+| Corpus de PLN | Gera perguntas e respostas com evidência | 20% dos exemplos são conferidos contra o documento antes do ajuste fino (1 corrigido, 4 removidos) |
 | Totem e fila | Mede a fila e alerta | A equipe decide abrir guichê ou orientar a fila |
 
 ## Matriz de riscos de IA
