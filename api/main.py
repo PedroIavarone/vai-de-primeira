@@ -27,10 +27,10 @@ app = FastAPI(
     version="0.1.0",
 )
 
-# Front em React + Vite roda em localhost:5173.
+# Front em React + Vite roda em localhost (porta 5173 por padrão; aceita outra porta local).
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origin_regex=r"http://(localhost|127\.0\.0\.1)(:\d+)?",
     allow_methods=["*"],
     allow_headers=["*"],
 )
