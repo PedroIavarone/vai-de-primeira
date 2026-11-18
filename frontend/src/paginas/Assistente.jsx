@@ -6,6 +6,15 @@ import { perguntar } from "../servicos/api";
 import { salvarServico, usuarioAtual } from "../servicos/armazenamento";
 import { SERVICOS } from "../servicos/catalogo";
 
+// Mostra o endereço do site oficial (ex.: gov.br) em vez do nome interno da fonte.
+function nomeDoSite(url, reserva) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return reserva;
+  }
+}
+
 const SUGESTOES = {
   cin: "O que preciso levar para tirar a identidade nova?",
   cnh: "Minha CNH vai vencer. Como faço para renovar?",
@@ -50,7 +59,8 @@ export function Resposta({ resposta }) {
               {i > 0 && " · "}
               {resposta.urls?.[i] ? (
                 <a href={resposta.urls[i]} target="_blank" rel="noreferrer">
-                  {f}
+                  {nomeDoSite(resposta.urls[i], f)}
+                  <span className="visualmente-oculto"> (abre em nova aba)</span>
                 </a>
               ) : (
                 f
