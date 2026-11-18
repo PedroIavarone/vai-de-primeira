@@ -37,7 +37,20 @@ Na primeira versão, o classificador foi treinado com o documento retificado pel
 ### Limites
 - Cada foto do MIDV-2020 tem um único documento grande e bem enquadrado, o que facilita a detecção.
 - Borrado e cortado são avaliados só com degradações sintéticas. De ponta a ponta, apenas ok e reflexo têm rótulo real.
-- Os documentos do dataset são estrangeiros. A identificação de tipo por OCR foi pensada para documentos brasileiros e precisa ser validada com modelos espécime e fotos tiradas pela equipe.
+- Os documentos do dataset são estrangeiros. O teste com documentos brasileiros está na seção abaixo.
+
+## Teste de campo com documentos brasileiros
+20 imagens de CIN, CNH e certidão brasileiras fictícias, com marca de espécime, em 4 condições ([`teste_campo/`](teste_campo/)). Resultado em [`resultados/teste_campo.md`](resultados/teste_campo.md) e [`resultados/teste_campo_ajustado.md`](resultados/teste_campo_ajustado.md).
+
+| Detector | Documento encontrado (limiar 0,50) | Confiança mediana | Qualidade certa | Tipo certo (OCR) | MIDV-2020 (mAP@0,5 · ponta a ponta) |
+|---|---|---|---|---|---|
+| Treinado só no MIDV-2020 | **1 de 20** | 0,011 | 1 de 1 | 1 de 1 | 0,995 · 100% |
+| Ajustado com documentos brasileiros sintéticos | **19 de 20** | 0,963 | 13 de 19 | 12 de 19 | 0,995 · 100% |
+
+- **Causa:** mudança de domínio. O detector nunca tinha visto o layout, as cores e as proporções dos documentos brasileiros. Imagens grandes pioravam: reduzir para 512 px de largura subia de 1 para 7 de 20.
+- **Correção:** [`src/gerar_documentos_br.py`](src/gerar_documentos_br.py) gera 750 fotos sintéticas de documentos brasileiros fictícios (CIN, CNH, CPF, certidão e conta de energia) sobre fundos procedurais, com perspectiva, rotação, reflexo, desfoque e compressão. Os fundos não imitam o fundo das imagens do teste, para o teste continuar medindo generalização. O detector foi ajustado por 30 épocas com MIDV-2020 + essas imagens (`datasets/misto_br.yaml`). O detector anterior ficou em `modelos/detector_midv.pt`.
+- **O que ainda erra:** a qualidade "cortado" foi lida como "ok" em 5 casos, porque o recorte do teste deixa o documento só um pouco para fora da foto; e o OCR não identifica o tipo nos documentos borrados, o que é esperado. Quando o tipo não é lido, o app pergunta à pessoa qual documento ela fotografou.
+- **Limite:** o ajuste e o teste usam documentos gerados por computador, por ferramentas diferentes. Falta testar com fotos de celular de documentos espécime impressos.
 
 ## Desempenho
 Apple M4, 16 GB de RAM, inferência na GPU (MPS). Entrada de 576×1024 px, redimensionada para 640 px no detector e 224 px na qualidade. Medido em 100 imagens do teste, depois do aquecimento.
