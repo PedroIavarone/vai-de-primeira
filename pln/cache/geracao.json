@@ -1,0 +1,1669 @@
+{
+"9804dabd37cb8f8f48d67f0840e97264": {
+"pares": [
+{
+"pergunta": "O que é o BPC?",
+"resposta": "É um benefício da Assistência Social que paga um salário mínimo por mês.",
+"evidencia": "O Benefício de Prestação Continuada (BPC) é da Assistência Social. Quem tem direito a ele recebe 1 salário mínimo por mês (atualmente no valor de R$ 1.100,00)."
+},
+{
+"pergunta": "Quando uma pessoa idosa pode receber o BPC?",
+"resposta": "Quando completa 65 anos, independentemente do sexo.",
+"evidencia": "Quando faz 65 anos de idade, seja homem ou mulher."
+},
+{
+"pergunta": "Quem tem direito ao BPC?",
+"resposta": "Pessoas com deficiência de qualquer idade e idosos com 65 anos ou mais que não podem se sustentar sozinhos, desde que a família tenha baixa renda.",
+"evidencia": "Pessoas com deficiência de qualquer idade e pessoas com 65 anos ou mais que não podem se manter sozinhas ou ser mantidas pela família."
+}
+]
+},
+"45d6dec42c57dbe2416ee3ec2df02b20": {
+"pares": [
+{
+"pergunta": "Preciso ter contribuído ao INSS para receber o BPC?",
+"resposta": "Não, o BPC não é aposentadoria.",
+"evidencia": "Não. O BPC não é aposentadoria."
+},
+{
+"pergunta": "Como sabem se a minha família tem baixa renda para o BPC?",
+"resposta": "Somam a renda mensal da família e dividem pelo número de pessoas; se o resultado for menor que R$ 275,00, tem direito.",
+"evidencia": "Se o resultado for menor que R$ 275,00, a pessoa idosa ou com deficiência tem direito ao benefício, pois está numa família de baixa renda."
+},
+{
+"pergunta": "Quem conta na hora de calcular a renda da família?",
+"resposta": "São incluídas as pessoas que moram na mesma casa: idoso ou pessoa com deficiência, cônjuge ou companheiro, pais ou padrasto/madrasta, irmãos solteiros, filhos e enteados solteiros, e crianças ou adolescentes sob tutela.",
+"evidencia": "Você deve considerar as pessoas que vivem numa mesma moradia, como: o idoso ou a pessoa com deficiência; o cônjuge ou o companheiro; os pais e, na ausência deles, a madrasta ou o padrasto; os irmãos solteiros; os filhos e os enteados solteiros (filhos do companheiro ou cônjuge) e as crianças ou adolescentes sob tutela."
+}
+]
+},
+"385969ce56ae4fa80c93a7f667f6d072": {
+"pares": [
+{
+"pergunta": "O que não conta como renda na hora de calcular o benefício?",
+"resposta": "Não são incluídos a remuneração de pessoa com deficiência como aprendiz ou estagiário, recursos de programas como o Bolsa Família, auxílios eventuais e o BPC de até um salário‑mínimo para outro familiar.",
+"evidencia": "Não entram no cálculo da renda familiar:"
+},
+{
+"pergunta": "Quais gastos podem ser considerados despesas para o BPC?",
+"resposta": "Podem ser incluídos os gastos mensais com medicamentos, alimentação especial, fraldas descartáveis e consultas, desde que tenham prescrição médica e declaração do órgão de saúde pública.",
+"evidencia": "O valor mensal gasto com medicamentos, alimentação especial, fraldas descartáveis e consultas, desde que tenham prescrição médica e declaração do órgão da rede pública de saúde da cidade que não fornece tais itens."
+},
+{
+"pergunta": "Um estrangeiro pode solicitar o BPC?",
+"resposta": "Sim, desde que tenha moradia no Brasil, esteja inscrito no Cadastro Único, apresente CPF de todos os membros da família e um documento oficial brasileiro com foto.",
+"evidencia": "Sim. Porém, precisa ter moradia no Brasil. O procedimento é o mesmo dos brasileiros: precisa estar inscrito no Cadastro Único e com os dados atualizados, apresentar o CPF de todos os membros da família e também um documento oficial brasileiro de identificação com foto."
+}
+]
+},
+"4ac84c4fea2abfdd39ab18c9c048a1ff": {
+"pares": [
+{
+"pergunta": "Onde devo ir primeiro para começar a solicitar o BPC?",
+"resposta": "Primeiro procure o CRAS ou a Secretaria de Assistência Social da sua cidade para se inscrever no Cadastro Único.",
+"evidencia": "A primeira coisa a fazer é procurar o Centro de Referência da Assistência Social (CRAS) ou a Secretaria de Assistência Social da sua cidade. Lá a equipe encaminha para uma entrevista para que a pessoa se inscreva no Cadastro Único."
+},
+{
+"pergunta": "Como faço o pedido do BPC depois de estar cadastrado?",
+"resposta": "Acesse o site ou o aplicativo Meu INSS e faça o requerimento online, ou vá a uma Agência da Previdência Social ou ligue para a Central 135 (ligação gratuita).",
+"evidencia": "Depois disso, é preciso acessar o site Meu INSS ou o aplicativo Meu INSS no celular e fazer o requerimento do BPC online. O requerente também pode ir a uma Agência da Previdência Social (APS) se sentir necessidade. Se a pessoa preferir, a Central 135 do INSS também realiza o requerimento do benefício. A ligação é de graça."
+},
+{
+"pergunta": "Preciso pagar alguém para solicitar o BPC?",
+"resposta": "Não, o pedido do BPC não tem custo e não é preciso pagar ninguém.",
+"evidencia": "É PRECISO PAGAR ALGUÉM PARA PEDIR O BPC? Não."
+}
+]
+},
+"eaf89f0cd364dd47620bb0deb2f2dc1d": {
+"pares": [
+{
+"pergunta": "Onde eu devo ir para solicitar o BPC e o que preciso levar?",
+"resposta": "Vá ao CRAS ou à Secretaria de Assistência Social da sua cidade e leve o CPF de todas as pessoas da família; pode levar comprovante de residência se quiser.",
+"evidencia": "Vá ao CRAS ou Secretaria de Assistência Social da sua cidade, levando com você o número do Cadastro de Pessoa Física (CPF) de todos as pessoas da família (isso vale também para as crianças e adolescentes). Você pode levar também um comprovante de residência, se quiser."
+},
+{
+"pergunta": "Preciso levar algum documento além do CPF para me cadastrar no BPC?",
+"resposta": "Não, apenas o CPF é obrigatório para todas as pessoas da família, inclusive crianças e adolescentes.",
+"evidencia": "Apenas o CPF. Ele é obrigatório para todos as pessoas da família, mesmo que sejam crianças ou adolescentes."
+},
+{
+"pergunta": "E se eu não tiver nenhum documento, ainda posso pedir o BPC?",
+"resposta": "Sim, o INSS pode confirmar seus dados em outros bancos e, se necessário, solicitar os documentos originais depois.",
+"evidencia": "Sim, desde que a informação consiga ser confirmada pelo INSS por meio de consultas a outros banco de dados. Mesmo que isso ocorra, o INSS pode pedir, a qualquer tempo, os documentos originais."
+}
+]
+},
+"dcc56c54c27e79a8afbbfc9fc8a56039": {
+"pares": [
+{
+"pergunta": "Quem pode ser o responsável pela unidade familiar (RF) no BPC?",
+"resposta": "Pode ser qualquer pessoa da família com mais de 16 anos que mora e divide renda e despesas com o idoso ou pessoa com deficiência.",
+"evidencia": "Qualquer pessoa da família com mais de 16 anos que more e divida renda e despesas com o idoso ou a pessoa com deficiência."
+},
+{
+"pergunta": "Preciso ser eu o responsável da família para solicitar o BPC?",
+"resposta": "Não, o requerente do BPC não precisa ser o responsável pela unidade familiar.",
+"evidencia": "O requerente do BPC não precisa ser o RF da família."
+},
+{
+"pergunta": "Como devo proceder para cadastrar uma pessoa incapaz que recebe BPC?",
+"resposta": "Se a pessoa incapaz tem menos de 16 anos, está interditada sem família de referência, internada ou em acolhimento há mais de 12 meses, não se inclui no Cadastro Único; deve‑se preencher o Formulário de Impossibilidade e procurar o INSS.",
+"evidencia": "Nessas situações, é preenchido o FORMULÁRIO DE IMPOSSIBILIDADE DE INCLUSÃO OU ATUALIZAÇÃO NO CADASTRO ÚNICO. O requerente deve procurar diretamente o INSS para dar entrada no BPC."
+}
+]
+},
+"cd5fe48b6c33cc2890397cf89737acda": {
+"pares": [
+{
+"pergunta": "Um idoso que está internado no hospital pode receber o BPC?",
+"resposta": "Sim.",
+"evidencia": "Sim."
+},
+{
+"pergunta": "Como faço o cadastro de um idoso que está internado há mais de um ano?",
+"resposta": "Ele deve ser inscrito no Cadastro Único como família unipessoal, com o próprio idoso como responsável e o endereço do hospital.",
+"evidencia": "Se essas pessoas estiverem nesses locais há mais de 12 meses, elas devem ser inscritas no Cadastro Único como família unipessoal, na qual o próprio beneficiário é o RF, com o endereço do hospital ou da unidade de acolhimento."
+},
+{
+"pergunta": "Preciso que o idoso seja interditado para conseguir o BPC?",
+"resposta": "Não, a interdição não é necessária.",
+"evidencia": "Não."
+}
+]
+},
+"3328884ff086601004ee0455717a0912": {
+"pares": [
+{
+"pergunta": "Se eu não puder me deslocar por estar doente, como faço para que outra pessoa cuide do meu BPC?",
+"resposta": "Você pode nomear um procurador, tutor, guardião ou curador e deve cadastrar a procuração no INSS.",
+"evidencia": "Nos casos de ausência, doença contagiosa ou impossibilidade de locomoção do beneficiário, pode ser nomeado procurador, tutor, guardião ou curador. Para isso, é necessário cadastrar a procuração no INSS, atentando para a sua renovação, quando necessário. A solicitação pode ser feita por meio do site ou Aplicativo Meu INSS ou pela Central 135."
+},
+{
+"pergunta": "Preciso atualizar o cadastro da minha família mesmo que nada tenha mudado?",
+"resposta": "Sim, a atualização deve ser feita pelo menos a cada 2 anos, mesmo sem alterações.",
+"evidencia": "Mesmo que não tenha ocorrido nenhuma alteração, a atualização cadastral deve ser feita pelo menos a cada 2 anos."
+},
+{
+"pergunta": "Minha família já está cadastrada, mas eu não apareço como beneficiário do BPC. O que devo fazer?",
+"resposta": "Você deve ser incluído no cadastro; se a família recusar, avise que o pagamento do BPC pode ser prejudicado.",
+"evidencia": "O beneficiário do BPC deve ser incluído no cadastro. Se a família não quiser cadastrar a pessoa que recebe o benefício, ela deve ser orientada de que o pagamento do BPC pode ser prejudicado."
+}
+]
+},
+"e2fa22a5868294990f15a7f2b3bce3bb": {
+"pares": [
+{
+"pergunta": "Preciso me inscrever no Cadastro Único para conseguir a Carteira do Idoso?",
+"resposta": "Sim, a inscrição no Cadastro Único permite acessar a Carteira do Idoso e a Tarifa Social de Energia Elétrica.",
+"evidencia": "Recomenda-se que os beneficiários da RMV sejam inscritos no Cadastro Único. Dessa maneira, essas pessoas podem acessar outros programas sociais, como a Carteira do Idoso e a Tarifa Social de Energia Elétrica."
+},
+{
+"pergunta": "Até quando eu posso fazer a inscrição no Cadastro Único se já recebo o BPC?",
+"resposta": "A data depende do seu mês de aniversário, mas você pode se inscrever a qualquer momento.",
+"evidencia": "Isso vai depender do mês de aniversário do beneficiário... O requerente pode fazer a inscrição no Cadastro a qualquer tempo."
+},
+{
+"pergunta": "O INSS só recebe meu pedido de BPC ou faz mais alguma coisa?",
+"resposta": "O INSS também cruza as informações do seu requerimento com outras bases de dados e verifica registros de benefício, emprego e renda sua e da família.",
+"evidencia": "Não. O INSS também realiza o cruzamento das informações prestadas no requerimento com outras bases de dados. Ele verifica se existe registro de benefício previdenciário e de emprego e renda do requerente ou beneficiário e das demais pessoas da família."
+}
+]
+},
+"72f86e294df47c7914fcd7f15c09ebc8": {
+"pares": [
+{
+"pergunta": "O que acontece se as informações do meu grupo familiar não baterem com o Cadastro Único?",
+"resposta": "O INSS registra uma pendência de atualização cadastral e você tem até 30 dias para regularizar a situação.",
+"evidencia": "Se as informações da composição do grupo familiar estiverem diferentes do Cadastro Único, o INSS cadastra pendência de atualização cadastral. A pendência deve ser resolvida em até 30 dias pelo requerente ou beneficiário (ou pelo RF)."
+},
+{
+"pergunta": "Posso receber o BPC ao mesmo tempo que outro benefício do INSS, como aposentadoria?",
+"resposta": "Não, o BPC não pode ser recebido junto com outro benefício pago pelo INSS.",
+"evidencia": "Não. O BPC não pode ser recebido com outro benefício pago pelo INSS (como, por exemplo, seguro desemprego, aposentadoria e pensão)."
+},
+{
+"pergunta": "É possível receber Bolsa Família e BPC ao mesmo tempo?",
+"resposta": "Sim, mas a família precisa continuar atendendo ao critério de renda, mesmo somando o valor do BPC.",
+"evidencia": "Sim. Mas para continuar recebendo o Bolsa Família, é necessário que a família atenda ao critério de renda, mesmo somando o valor do BPC."
+}
+]
+},
+"805555127f058711ea54b873cdc9e9f3": {
+"pares": [
+{
+"pergunta": "Como funciona a avaliação médica e social para o BPC?",
+"resposta": "As avaliações são agendadas e feitas pela Perícia Médica do Ministério da Economia e pelo Serviço Social do INSS.",
+"evidencia": "As avaliações são agendadas. Elas são realizadas pela Perícia Médica do Ministério da Economica e pelo Serviço Social do INSS."
+},
+{
+"pergunta": "Como eu descubro se meu BPC foi aprovado?",
+"resposta": "Você pode consultar no site ou no aplicativo Meu INSS, ligar para a Central 135 ou aguardar a carta que o INSS envia informando a concessão.",
+"evidencia": "Essa informação pode ser consultada por meio do site ou do aplicativo Meu INSS. É possível ligar também para a Central 135. ... o INSS envia uma carta ao requerente para informar se o benefício foi concedido (liberado) ou indeferido."
+},
+{
+"pergunta": "Se eu pedi o BPC em julho e só liberaram em setembro, quando começam a pagar?",
+"resposta": "O pagamento começa a contar a partir da data em que você deu entrada, ou seja, desde julho.",
+"evidencia": "Desde a data que pessoa deu entrada no BPC. No caso em específico, desde julho."
+}
+]
+},
+"04a038f8d938deb0f48dda7f1ebbdebc": {
+"pares": [
+{
+"pergunta": "O que faço se meu pedido de BPC for negado?",
+"resposta": "Posso entrar com recurso contra a decisão nos canais de atendimento do INSS em até 60 dias depois de saber da negativa.",
+"evidencia": "Ele pode entrar com recurso contra o indeferimento do benefício nos canais de atendimento do INSS em até 60 dias depois que soube da decisão."
+},
+{
+"pergunta": "Quanto tempo levo para receber o BPC depois que ele é concedido?",
+"resposta": "O valor fica disponível para saque em até 45 dias a partir da concessão do benefício.",
+"evidencia": "O valor estará liberado para saque, a partir da concessão, em até 45 dias após a concessão do benefício."
+},
+{
+"pergunta": "Como é feito o pagamento do BPC?",
+"resposta": "O primeiro pagamento é presencial; depois o beneficiário recebe um cartão magnético gratuito para receber o BPC, ou pode receber em conta corrente ou poupança.",
+"evidencia": "O primeiro pagamento é feito presencialmente. Depois, é disponibilizado um cartão magnético, que é usado apenas para o pagamento do BPC. O cartão é gratuito e o beneficiário não precisa comprar nenhum serviço ou produto do banco. É possível também receber o pagamento do BPC por meio de conta corrente ou conta poupança."
+}
+]
+},
+"f9262e942f670f2bc8be16137c9c9166": {
+"pares": [
+{
+"pergunta": "Se meu benefício do BPC foi bloqueado, o que eu devo fazer?",
+"resposta": "Você tem até 30 dias para entrar em contato com o INSS pela Central 135, assim saberá o motivo e o benefício será desbloqueado.",
+"evidencia": "O beneficiário tem até 30 dias para entrar em contato com o INSS, por meio da Central 135. Ele saberá o motivo o bloqueio e o crédito do benefício será desbloqueado."
+},
+{
+"pergunta": "Por que o pagamento do BPC pode ser suspenso?",
+"resposta": "Ele pode ser suspenso se você não atender mais aos critérios, como aumento da renda familiar, não estar no Cadastro Único ou houver alguma irregularidade.",
+"evidencia": "O BPC é suspenso quando a pessoa não atende mais os critérios para manter o benefício. A renda por pessoa da família pode ter aumentado, por exemplo. O BPC também é suspenso quando o requerente ou o beneficiário não está inscrito no Cadastro Único e nos casos em que é identificada alguma irregularidade."
+},
+{
+"pergunta": "Posso trabalhar como aprendiz e continuar recebendo o BPC?",
+"resposta": "Sim, quem tem deficiência pode acumular o BPC com contrato de aprendizagem por até dois anos.",
+"evidencia": "No caso de contrato de aprendizagem, a pessoa com deficiência pode acumular com o pagamento do BPC por até 2 anos."
+}
+]
+},
+"1761f4fd4de94dd219544134e3c9525f": {
+"pares": [
+{
+"pergunta": "Se eu não pegar o dinheiro do BPC por 60 dias, o que acontece?",
+"resposta": "O benefício fica suspenso.",
+"evidencia": "Se não for feito o saque em até 60 dias, o BPC é suspenso."
+},
+{
+"pergunta": "Como faço para reativar o BPC depois que ele foi suspenso?",
+"resposta": "Preenchendo o Formulário Único de Alteração da Situação do Benefício, que está no site ou no app Meu INSS.",
+"evidencia": "É preciso preencher o Formulário Único de Alteração da Situação do Benefício, disponível no site ou aplicativo Meu INSS."
+},
+{
+"pergunta": "Quando o BPC é reativado, recebo o dinheiro que ficou parado durante a suspensão?",
+"resposta": "Sim, tem direito ao pagamento dos créditos devidos durante a suspensão.",
+"evidencia": "Sim. O beneficiário que teve o BPC suspenso, mas foi reativado, tem direito ao pagamento dos créditos devidos durante o período em que o benefício esteve suspenso."
+}
+]
+},
+"40affc864b6046c76a8ab4d105518a0b": {
+"pares": [
+{
+"pergunta": "O que significa quando dizem que o BPC foi cessado?",
+"resposta": "É o cancelamento do benefício no INSS.",
+"evidencia": "É o cancelamento do benefício no INSS."
+},
+{
+"pergunta": "Se o BPC for cancelado, ainda posso conseguir outro benefício?",
+"resposta": "Sim, a cessação não impede a concessão de um novo benefício, desde que os requisitos sejam atendidos.",
+"evidencia": "Sim. A cessação do BPC não impede a concessão de um novo benefício, desde que sejam atendidos os requisitos exigidos."
+},
+{
+"pergunta": "Como faço para denunciar alguém que recebe o BPC indevidamente?",
+"resposta": "A denúncia pode ser feita no site Fala.BR, na Ouvidoria do INSS ou do Ministério da Cidadania, ou ligando para a Central 135 do INSS.",
+"evidencia": "A denúncia deve ser feita no site Fala.BR ou na Ouvidoria do INSS e do Ministério da Cidadania. Se preferir, pode-se ligar para a Central 135 do INSS."
+}
+]
+},
+"bb6abcd2cd60870775853e7190c7f555": {
+"pares": [
+{
+"pergunta": "Como faço para conseguir desconto na conta de luz sendo beneficiário do BPC?",
+"resposta": "Leve seu nome, número do benefício, CPF e documento com foto, além do código da unidade consumidora à companhia de energia da sua casa; o desconto vale só para conta residencial, própria ou alugada.",
+"evidencia": "O beneficiário do BPC ou um dos integrantes de sua família deve procurar a companhia de energia elétrica que atende a sua residência e fornecer as seguintes informações: Nome do beneficiário; Número do Benefício (NB); Cadastro de Pessoa Física (CPF) e Carteira de Identidade - ou outro documento de identificação oficial com foto; e Código da Unidade Consumidora. O desconto só vale para conta de luz residencial, seja ela própria ou alugada."
+},
+{
+"pergunta": "Se o beneficiário do BPC morrer, a família recebe pensão?",
+"resposta": "Não, os dependentes não recebem pensão por morte se a única renda era o BPC.",
+"evidencia": "Não. Se a única renda da pessoa que faleceu era o BPC, os dependentes não recebem pensão por morte."
+},
+{
+"pergunta": "Como posso consultar quem recebe o BPC e os pagamentos?",
+"resposta": "Acesse a lista de beneficiários e pagamentos mensais pelo serviço \"Benefícios ao Cidadão\" no portaltransparencia.gov.br.",
+"evidencia": "É possível acessar a lista de beneficiários e os pagamentos mensais do BPC por meio da consulta \"Benefícios ao Cidadão\", no endereço portaltransparencia.gov.br"
+}
+]
+},
+"abb5958814774f7833d6ef413a797f21": {
+"pares": [
+{
+"pergunta": "Qual lei cria o benefício para quem tem mais de 70 anos?",
+"resposta": "É a Lei nº 6.179/1974, que institui o amparo previdenciário para maiores de 70 anos e inválidos.",
+"evidencia": "Lei nº 6.179/1974, que institui o amparo previdenciário para maiores de 70 anos de idade e inválidos (RMV)."
+},
+{
+"pergunta": "Qual lei organiza a Assistência Social?",
+"resposta": "A Lei nº 8.742/1993, conhecida como LOAS, dispõe sobre a organização da Assistência Social.",
+"evidencia": "Lei nº 8.742/1993 - LOAS, que dispõe sobre a organização da Assistência Social."
+},
+{
+"pergunta": "Qual decreto trata do Cadastro Único para programas sociais?",
+"resposta": "É o Decreto nº 6.135/2007, que dispõe sobre o Cadastro Único para Programas Sociais do Governo Federal.",
+"evidencia": "Decreto nº 6.135/2007, que dispõe sobre o Cadastro Único para Programas Sociais do Governo Federal e dá outras providências."
+}
+]
+},
+"b611042f94bd8a506b746afc491f9d05": {
+"pares": [
+{
+"pergunta": "Qual decreto alterou o regulamento do BPC?",
+"resposta": "O Decreto nº 9.462/2018 alterou o regulamento do Benefício de Prestação Continuada.",
+"evidencia": "Decreto nº 9.462/2018, que altera o Regulamento do Benefício de Prestação Continuada"
+},
+{
+"pergunta": "Existe alguma portaria que fala sobre quem não se inscreveu no CadÚnico a tempo?",
+"resposta": "Sim, a Portaria MDS nº 2.651/2018 trata dos procedimentos para beneficiários que não fizeram a inscrição no CadÚnico dentro do prazo.",
+"evidencia": "Portaria MDS nº 2.651/2018, que dispõe sobre procedimentos relativos ao Benefício de Prestação Continuada cujos beneficiários não realizaram inscrição no CadÚnico no prazo estabelecido na legislação"
+},
+{
+"pergunta": "As regras do BPC foram alteradas por causa da Covid?",
+"resposta": "Sim, a Portaria MC nº 508/2020 prorroga os prazos das portarias que retomam a inscrição no CadÚnico devido à emergência de saúde pública da Covid‑19.",
+"evidencia": "Portaria MC nº 508/2020, que prorroga os prazos das Portarias nº 419/2020, nº 427/2020 e nº 469/2020, que trata da retomada dos procedimentos de inscrição no Cadastro Único para Programas Sociais do Governo Federal, face ao estado de emergência de saúde pública de importância nacional decorrente do coronavírus, COVID-19"
+}
+]
+},
+"7dfd50f3f82eec985c7ccdf04508b62c": {
+"pares": [
+{
+"pergunta": "Como faço para me cadastrar no Cadastro Único?",
+"resposta": "O cadastro é feito pessoalmente, num posto de atendimento na cidade onde a família mora.",
+"evidencia": "O cadastro é feito pessoalmente, num posto de atendimento na cidade onde a família mora."
+},
+{
+"pergunta": "Preciso pagar alguma taxa para se inscrever no Cadastro Único?",
+"resposta": "Não, o cadastro é gratuito para famílias de baixa renda.",
+"evidencia": "Qualquer família de baixa renda pode se cadastrar no Cadastro Único, é de graça!"
+},
+{
+"pergunta": "Quais documentos preciso levar para fazer o cadastro?",
+"resposta": "Leve um documento com foto, CPF ou título de eleitor, comprovante de residência (ou declaração) e, para cada pessoa da família, ao menos um documento como CPF, certidão de nascimento ou casamento, identidade, carteira de trabalho ou título de eleitor.",
+"evidencia": "O responsável pela família, vai declarar as informações de todas as pessoas da família, por isso precisa levar um documento com foto como, por exemplo, sua carteira de identidade ou sua carteira de trabalho. Além disso, precisa levar o seu CPF (preferencialmente) ou seu Título de Eleitor e um comprovante de residência. Além dos seus documentos, você deve levar pelo menos um documento de cada pessoa da sua família: CPF, certidão de nascimento ou casamento, carteira de identidade, carteira de trabalho ou título de eleitor."
+}
+]
+},
+"7119d527f58040c3657d73c340dce28d": {
+"pares": [
+{
+"pergunta": "Como descubro onde fica o posto de atendimento do Cadastro Único na minha cidade?",
+"resposta": "Você pode consultar no aplicativo ou procurar um CRAS mais próximo.",
+"evidencia": "Para saber onde estão os Postos de Atendimento do Cadastro Único da sua cidade você pode consultar no aplicativo ou encontrar um CRAS mais próximo Clicando Aqui ."
+},
+{
+"pergunta": "Quem tem direito de se inscrever no Cadastro Único?",
+"resposta": "Famílias com renda mensal de até meio salário‑mínimo por pessoa devem se cadastrar; famílias com renda maior podem ser cadastradas para programas específicos.",
+"evidencia": "Podem participar do Cadastro Único as famílias que vivem com renda mensal de até meio salário-mínimo por pessoa podem e devem ser registradas no Cadastro Único. Famílias com renda acima desse valor podem ser cadastradas para participar de programas ou serviços específicos."
+},
+{
+"pergunta": "Que documentos preciso levar para me inscrever no Cadastro Único?",
+"resposta": "Leve um documento com foto, seu CPF ou título de eleitor, comprovante de residência e os documentos (incluindo CPFs) de todas as pessoas da família que moram com você.",
+"evidencia": "O responsável pela família precisa levar um documento com foto como, por exemplo, sua carteira de identidade. Além disso, precisa levar o seu CPF ou seu Título de Eleitor, comprovante de residência e os documentos de todas as pessoas da família que moram com ela.É importante levar os CPFs de todos."
+}
+]
+},
+"2b9c26a153d978f4c8cbe06c077abb63": {
+"pares": [
+{
+"pergunta": "Como faço para acessar o aplicativo do Cadastro Único?",
+"resposta": "Você pode usar o aplicativo pela web no link indicado ou baixá‑lo gratuitamente nas lojas Google Play (Android) ou Apple Store (iOS).",
+"evidencia": "Você pode acessar o aplicativo do Cadastro Único no formato Web no seguinte link ou baixando gratuitamente pelas lojas: GooglePlay (Android) ou Apple Store (IOS) ( clique aqui )."
+},
+{
+"pergunta": "Preciso levar toda a família ao local de cadastramento?",
+"resposta": "Não, só a pessoa maior de 16 anos (preferencialmente mulher) pode fazer o cadastro de toda a família.",
+"evidencia": "No dia da entrevista, não será preciso que toda a família vá ao local de cadastramento. Se você for maior de 16 anos, (preferencialmente mulher), poderá cadastrar toda a família."
+},
+{
+"pergunta": "Quando a família pode usar o Representante Legal para se cadastrar?",
+"resposta": "O Representante Legal pode cadastrar a família quando não há ninguém que possa ser o Responsável Familiar; ele tem autoridade legal (tutela, curatela ou guarda) e não mora nem divide renda com a família.",
+"evidencia": "Caso a família não tenha pessoas que possam ser o Responsável pela família é possível realizar o cadastramento da família pelo Representante Legal – RL. O Representante Legal é uma pessoa que possui atribuição legal para representar, por meio de tutela, curatela ou guarda, uma determinada pessoa ou família que NÃO possua um Responsável Familiar – RF, segundo os conceitos do Cadastro Único, e que deseja se cadastrar."
+}
+]
+},
+"834f4766c06ec0a307081835a2032b48": {
+"pares": [
+{
+"pergunta": "Que documento de endereço eu preciso levar?",
+"resposta": "Precisa levar um comprovante de endereço ou, se não tiver, uma declaração de residência assinada pelo responsável familiar.",
+"evidencia": "Comprovante de endereço ou, na falta deste, declaração de residência assinada pelo RF."
+},
+{
+"pergunta": "Quais documentos de identificação são aceitos para eu me inscrever?",
+"resposta": "Você pode levar CPF, título de eleitor, registro de nascimento indígena (RANI) ou outros documentos como certidão de casamento, RG ou carteira de trabalho.",
+"evidencia": "Deve comparecer com pelo menos um desses documentos: - CPF; ou - Título de Eleitor; ou - Registro Administrativo de Nascimento Indígena (RANI); ou - Outros documentos de identificação, como Certidão de Casamento, Carteira de Identidade (RG) e Carteira de Trabalho."
+},
+{
+"pergunta": "Se eu for representante legal de alguém, que documentos preciso?",
+"resposta": "Precisa do seu CPF e de um documento que comprove a representação legal da pessoa representada.",
+"evidencia": "- CPF; e - Documento comprobatório da representação legal Da pessoa representada"
+}
+]
+},
+"0c0ab6325717e588b955f40f9c2d9b49": {
+"pares": [
+{
+"pergunta": "Quais documentos eu preciso levar para me cadastrar no CadÚnico?",
+"resposta": "Preciso levar a Certidão de Nascimento ou Casamento, a Carteira de Identidade (RG), a Carteira de Trabalho e o Título de Eleitor.",
+"evidencia": "Certidão de Nascimento; ou - Certidão de Casamento; ou - Carteira de Identidade – RG; ou - Carteira de Trabalho; ou - Título de Eleitor."
+},
+{
+"pergunta": "O que acontece se eu não levar todos os documentos na hora de me cadastrar?",
+"resposta": "O cadastro será feito, mas ficará incompleto e você não poderá participar dos programas sociais até apresentar os documentos faltantes.",
+"evidencia": "Caso tenha faltado algum documento seu ou de alguém de sua família na hora do cadastramento, é obrigação da prefeitura fazer o cadastro mesmo assim. Mas, atenção: nesse caso, o seu cadastro vai ficar incompleto e você não poderá participar dos programas sociais."
+},
+{
+"pergunta": "Com que frequência devo atualizar meu cadastro no CadÚnico?",
+"resposta": "Deve atualizar a cada dois anos ou sempre que houver alguma mudança na família, como nascimento, mudança de endereço ou renda.",
+"evidencia": "Você vai precisar atualizar o seu cadastro a cada dois anos ou sempre que tiver alguma mudança na família."
+}
+]
+},
+"e9bc98dc255758d6267b9d7833cb0a5c": {
+"pares": [
+{
+"pergunta": "Como faço para acessar o aplicativo do Cadastro Único?",
+"resposta": "Você pode usar a versão web pelo link indicado ou baixar o app gratuitamente nas lojas Google Play (Android) ou Apple Store (iOS).",
+"evidencia": "Você pode acessar o aplicativo do Cadastro Único no formato Web no seguinte l ink ou baixando gratuitamente pelas lojas: GooglePlay (Android) ou Apple Store (IOS) ( clique aqui )."
+},
+{
+"pergunta": "Que documentos preciso levar como responsável familiar para se inscrever no Cadastro Único?",
+"resposta": "Precisa levar CPF (de preferência) ou Título de Eleitor, um documento de identificação com foto e comprovante de endereço ou, se não houver, declaração de residência assinada pelo responsável familiar.",
+"evidencia": "- CPF, de preferência; ou - Título de Eleitor; - Documento de identificação com foto; e - Comprovante de endereço ou, na falta deste, declaração de residência assinada pelo RF."
+},
+{
+"pergunta": "Quais documentos são aceitos para os demais membros da família?",
+"resposta": "Pode apresentar CPF (de preferência), Título de Eleitor, Certidão de Nascimento ou Casamento, Carteira de Identidade ou Carteira de Trabalho.",
+"evidencia": "- CPF, de preferência; - Título de Eleitor; - Certidão da Nascimento ou Casamento; - Carteira de Identidade ou - Carteira de Trabalho."
+}
+]
+},
+"ae778093f543b1e1bf908679122a88d1": {
+"pares": [
+{
+"pergunta": "Quais documentos eu preciso levar para inscrever os demais membros da minha família?",
+"resposta": "É preciso apresentar um dos documentos: CPF (de preferência), Título de Eleitor, Certidão de Nascimento ou Casamento, Carteira de Identidade ou Carteira de Trabalho.",
+"evidencia": "- CPF, de preferência\\n- Título de Eleitor\\n- Certidão de Nascimento ou Casamento\\n- Carteira de Identidade ou\\n- Carteira de Trabalho."
+},
+{
+"pergunta": "O que serve como comprovante de endereço?",
+"resposta": "Pode ser um comprovante de endereço, preferencialmente a conta de luz, ou, se não houver, uma declaração de residência assinada pelo responsável familiar.",
+"evidencia": "- Comprovante de endereço ou, na falta deste, declaração de residência assinada pelo RF"
+},
+{
+"pergunta": "Como eu obtenho mais informações ou esclareço dúvidas sobre esse serviço?",
+"resposta": "Ligue para o telefone 121; a ligação é gratuita para celular e telefone fixo.",
+"evidencia": "telefone 121 (a ligação é gratuita tanto para celular como para telefone fixo)"
+}
+]
+},
+"15a1f7a66ab15b83041a00e5198e9bcb": {
+"pares": [
+{
+"pergunta": "Como será o atendimento que eu devo receber?",
+"resposta": "O atendimento segue princípios como urbanidade, respeito, acessibilidade, cortesia, presunção de boa‑fé, igualdade, eficiência, segurança e ética.",
+"evidencia": "O(A) usuário(a) deverá receber, conforme os princípios expressos na Lei nº 13.460/17, um atendimento pautado nas seguintes diretrizes: · Urbanidade; · Respeito; · Acessibilidade; · Cortesia; · Presunção da boa-fé do usuário; · Igualdade; · Eficiência; · Segurança; e · Ética"
+},
+{
+"pergunta": "Tenho direito a ser atendido presencialmente? Em que condições?",
+"resposta": "Sim, você tem direito a atendimento presencial em locais limpos, seguros, sinalizados, acessíveis e adequados ao serviço.",
+"evidencia": "O(A) usuário(a) do serviço público, conforme estabelecido pela Lei nº 13.460/17, tem direito a atendimento presencial, quando necessário, em instalações salubres, seguras, sinalizadas, acessíveis e adequadas ao serviço e ao atendimento."
+},
+{
+"pergunta": "Quem tem prioridade no atendimento?",
+"resposta": "Têm prioridade pessoas com deficiência, idosos com 60 anos ou mais, gestantes, lactantes, quem tem criança no colo e pessoas obesas.",
+"evidencia": "Tem direito a atendimento prioritário as pessoas com deficiência, os(as) idosos(as) com idade igual ou superior a 60 anos, as gestantes, as lactantes, as pessoas com crianças de colo e os(as) obesos(as), conforme estabelecido pela Lei nº 10.048, de 8 de novembro de 2000"
+}
+]
+},
+"1c4b1dcb10f1bf7cff92415f22641432": {
+"pares": [
+{
+"pergunta": "O que é a nova Carteira de Identidade Nacional?",
+"resposta": "É um documento nacional que padroniza a emissão e o modelo para todos os 27 órgãos de identificação, tornando a identificação mais segura.",
+"evidencia": "É um documento nacional que pela primeira vez estabelece um padrão de emissão e modelo para todos os 27 órgãos de identificação, coibindo as fraudes de identificação no Brasil."
+},
+{
+"pergunta": "O número do CPF vai ser usado como número de registro na nova Carteira?",
+"resposta": "Sim, o CPF passa a ser o número do registro nacional, independentemente do estado onde a carteira for emitida.",
+"evidencia": "Além disso, o número do CPF passa a ser o número do registro nacional, isso significa que independente de qual Estado da Federação seja emitida, o cidadão continuará com o mesmo número."
+},
+{
+"pergunta": "Posso usar a Carteira de Identidade no celular?",
+"resposta": "Sim, há uma versão digital que pode ser acessada no aplicativo GOV.BR, além da versão física.",
+"evidencia": "A Carteira de Identidade também tem formato digital, no aplicativo GOV.BR."
+}
+]
+},
+"31d27e56c93bbd42849c3648d19158cf": {
+"pares": [
+{
+"pergunta": "Como eu verifico se a minha carteira de identidade é verdadeira?",
+"resposta": "Use o QR Code da carteira com qualquer smartphone para checar a autenticidade e saber se foi furtada ou extraviada.",
+"evidencia": "O novo modelo apresenta um QR Code, que permite verificar a autenticidade do documento, bem como saber se foi furtado ou extraviado, por meio de qualquer smartphone."
+},
+{
+"pergunta": "Onde eu posso tirar a nova carteira de identidade?",
+"resposta": "Nos Institutos de Identificação dos Estados e do Distrito Federal, nos 12 estados que já estão aptos a emitir o novo documento.",
+"evidencia": "Os brasileiros podem emitir a nova carteira nos Institutos de Identificação dos Estados e do Distrito Federal. Atualmente, 12 estados brasileiros já estão aptos a emitir o novo documento: Acre, Alagoas, Amazonas, Goiás, Mato Grosso, Minas Gerais, Pernambuco, Piauí, Paraná, Rio de Janeiro, Rio Grande do Sul e Santa Catarina."
+},
+{
+"pergunta": "Quantas novas carteiras já foram emitidas até agora?",
+"resposta": "Até outubro de 2023, foram emitidas mais de dois milhões de CINs físicas e mais de 330 mil foram baixadas no aplicativo GOV.BR.",
+"evidencia": "Até outubro de 2023, mais de dois milhões de CINs físicas foram emitidas e mais de 330 mil baixadas no aplicativo GOV.BR."
+}
+]
+},
+"16739269dd38dae250d9139f6d9bd931": {
+"pares": [
+{
+"pergunta": "Que documentos eu preciso levar para tirar a primeira carteira de identidade?",
+"resposta": "É preciso apresentar a certidão de nascimento ou a certidão de casamento.",
+"evidencia": "Pela Lei 7.116/83, são necessários a certidão de nascimento ou casamento."
+},
+{
+"pergunta": "A primeira carteira de identidade custa alguma coisa?",
+"resposta": "Não, a primeira via é gratuita, tanto em papel quanto em formato digital.",
+"evidencia": "No Brasil adotou-se o modelo obrigatório e gratuito na primeira via em papel e em formato digital pelo aplicativo GOV.BR."
+},
+{
+"pergunta": "Os documentos de identidade antigos ainda são válidos?",
+"resposta": "Sim, eles continuam válidos até 28 de fevereiro de 2032.",
+"evidencia": "Não. Os documentos de identidade nos modelos antigos são válidos até 28 de fevereiro de 2032."
+}
+]
+},
+"e5bf8ade2fb3309ed8869f757023b338": {
+"pares": [
+{
+"pergunta": "Quanto tempo a nova carteira de identidade vale?",
+"resposta": "Depende da idade: 5 anos se tem até 12 anos, 10 anos se tem até 60 anos, e validade indeterminada acima de 60 anos.",
+"evidencia": "O prazo de validade do novo documento varia conforme a idade da pessoa: - 0 a 12 anos incompletos – validade de 5 anos. - 12 a 60 anos incompletos – validade de 10 anos. - Acima de 60 anos – validade indeterminada."
+},
+{
+"pergunta": "Como faço para ter a carteira de identidade em formato digital?",
+"resposta": "Acesse o app GOV.BR e emita a CIN digital, depois de receber a versão física, como já acontece com a CNH.",
+"evidencia": "As pessoas que começam a receber o documento impresso já podem acessar no app GOV.BR para emitir a CIN em formato digital. O processo é similar ao que já ocorre com a CNH."
+},
+{
+"pergunta": "A nova carteira de identidade substitui o passaporte?",
+"resposta": "Não, ela só pode ser usada em viagens internacionais nos países com acordo, como os do Mercosul.",
+"evidencia": "Não. Embora uma das grandes vantagens da nova Carteira de Identidade seja ter os dados visuais estruturados conforme regramento internacional e o mesmo código que é usado nos passaportes, a CIN poderá ser usada em viagens internacionais apenas nos locais em que o Brasil possuir acordo internacional, como os países do Mercosul."
+}
+]
+},
+"4cd9a9730c8fc411ad265d229c7cc57f": {
+"pares": [
+{
+"pergunta": "Vou precisar pagar para tirar a primeira via da Carteira de Identidade Nacional?",
+"resposta": "Não, a primeira via é emitida gratuitamente.",
+"evidencia": "Não há taxa para essa etapa"
+},
+{
+"pergunta": "Posso usar a nova Carteira de Identidade Nacional para viajar para países do Mercosul?",
+"resposta": "Sim, a CIN serve como documento de viagem nesses países.",
+"evidencia": "Além disso, a CIN pode ser usada como documento de viagem em países do MERCOSUL."
+},
+{
+"pergunta": "Preciso levar algum documento quando faço o agendamento para a Carteira?",
+"resposta": "Não, nesta fase não é necessário apresentar documentos.",
+"evidencia": "Não precisa de documentos para essa fase"
+}
+]
+},
+"3ec3d9b0a509c0e31b6ebfb4912c20c9": {
+"pares": [
+{
+"pergunta": "Posso usar véu ou hijab na foto do documento?",
+"resposta": "Sim, esses itens são permitidos por motivo religioso, mas você deve preencher o formulário de autodeclaração.",
+"evidencia": "- Véu, hijab, cocar, turbante, boina, touca e lenço são permitidos por motivo religioso. Clique aqui e acesse o formulário de autodeclaração."
+},
+{
+"pergunta": "Posso usar óculos escuros na foto?",
+"resposta": "Só se você tem deficiência visual e apresentar laudo ou atestado médico.",
+"evidencia": "- Óculos escuros são permitidos apenas para pessoas com deficiência visual, mediante apresentação de laudo ou atestado médico."
+},
+{
+"pergunta": "Preciso entregar certidões plastificadas?",
+"resposta": "Não, certidões plastificadas não são aceitas.",
+"evidencia": "Se forem plastificadas, essas medidas podem ser prejudicadas. Sendo assim, não aceitamos se estiver plastificada."
+}
+]
+},
+"90c0e42bd49039fd00741ab9bca1cd7b": {
+"pares": [
+{
+"pergunta": "O que é a certidão digital e ela vale tanto quanto a versão em papel?",
+"resposta": "É um arquivo PDF assinado digitalmente pelo cartório e tem a mesma validade legal da versão física.",
+"evidencia": "A certidão digital é um arquivo PDF assinado digitalmente pelo cartório, tendo a mesma validade legal da versão física."
+},
+{
+"pergunta": "Quanto tempo preciso esperar para a carteira de identidade ficar pronta?",
+"resposta": "A carteira de identidade fica pronta em até 26 dias úteis.",
+"evidencia": "A carteira de identidade fica pronta em até 26 dias úteis."
+},
+{
+"pergunta": "Posso receber a carteira de identidade pelos correios?",
+"resposta": "Sim, você pode solicitar o envio do documento pelos correios.",
+"evidencia": "Você pode solicitar o envio do seu documento pelos correios."
+}
+]
+},
+"9eb61c0d51eec5c92012c314d545450c": {
+"pares": [
+{
+"pergunta": "Como faço para acessar a minha CIN digital no celular?",
+"resposta": "Basta adicionar a carteira no aplicativo Gov.br, na seção de carteira de documentos.",
+"evidencia": "você pode acessar a versão digital da CIN adicionando a carteira no aplicativo Gov.br, em carteira de documentos."
+},
+{
+"pergunta": "Que documentos preciso levar se eu for solteiro?",
+"resposta": "Preciso da certidão de nascimento original ou autenticada, em formato físico ou digital, acompanhada de cópia simples.",
+"evidencia": "Certidão de nascimento original ou autenticada, em formato físico ou digital"
+},
+{
+"pergunta": "O que é a averbação que aparece na certidão de casamento?",
+"resposta": "É a anotação feita pelo cartório na certidão que indica mudanças no estado civil, como separação ou divórcio.",
+"evidencia": "A averbação é a anotação feita pelo cartório diretamente na certidão, indicando alterações no estado civil, como separação, divórcio, união estável ou falecimento do cônjuge."
+}
+]
+},
+"8a5fe4f71edf9bcb2cc61d0e4bb318d6": {
+"pares": [
+{
+"pergunta": "Eu nasci fora do Brasil, quando devo escolher a nacionalidade brasileira?",
+"resposta": "Você deve formalizar a opção pela nacionalidade ao atingir a maioridade civil.",
+"evidencia": "nos termos do art. 12 da Constituição Federal de 1988, os brasileiros nascidos no exterior e registrados em cartórios locais deverão formalizar a opção pela nacionalidade brasileira ao atingir a maioridade civil."
+},
+{
+"pergunta": "Posso usar documentos que dizem \"Pendente de opção pela nacionalidade brasileira\" se já tenho 18 anos?",
+"resposta": "Não, esses documentos só são aceitos para menores de 18 anos.",
+"evidencia": "Documentos que conste a informação de PENDENTE DE OPÇÃO PELA NACIONALIDADE BRASILEIRA somente serão aceitos para atendimento de cidadãos menores de 18 anos."
+},
+{
+"pergunta": "Sou casado e preciso atualizar meu estado civil, que documentos devo levar?",
+"resposta": "Leve a certidão de casamento original ou autenticada, física ou digital, com a averbação do estado civil atual e uma cópia simples.",
+"evidencia": "Apresentar a certidão de casamento original ou autenticada, em formato físico ou digital, com a averbação do estado civil atual, acompanhada de uma cópia simples."
+}
+]
+},
+"a54430141f1851599dc01763355ae27f": {
+"pares": [
+{
+"pergunta": "Quais documentos preciso levar se sou naturalizado e quero fazer a CIN?",
+"resposta": "Leve o Certificado de Naturalização original e uma cópia simples, ou a publicação do Diário Oficial com a Portaria de concessão, além do documento que contenha o número do CPF.",
+"evidencia": "Certificado de Naturalização original e uma cópia simples, ou a publicação do Diário Oficial com a Portaria de concessão da Naturalização. Número do CPF: informar ou apresentar documento oficial que o contenha"
+},
+{
+"pergunta": "Meu filho tem menos de 16 anos, o que precisamos levar para a CIN?",
+"resposta": "Além dos documentos exigidos, ele deve estar acompanhado pelo responsável legal com identidade e CPF (original e cópia), ou levar autorização assinada e o documento de identificação com CPF se o responsável não puder ir.",
+"evidencia": "Menores de 16 anos, além dos documentos exigidos, precisam estar acompanhados por seu responsável legal com documento de identificação e CPF (original e cópia). Se o responsável não puder comparecer, leve a autorização assinada por ele e o documento de identificação com CPF (original e cópia)."
+},
+{
+"pergunta": "Como faço para incluir que sou doador de órgãos na CIN?",
+"resposta": "É possível só se você tem mais de 18 anos; acesse o formulário indicado e leve‑o assinado.",
+"evidencia": "Incluir a informação de Doador de órgãos na CIN, somente para maiores de 18 anos. - Para isso, acesse esse formulário e leve ele assinado."
+}
+]
+},
+"41ce3b24118a5ffd32f4f90bd53e814f": {
+"pares": [
+{
+"pergunta": "O que é o processo de emissão segura da carteira de identidade?",
+"resposta": "É o procedimento que verifica e valida documentos complementares para quem tem mais de 18 anos e nunca teve cadastro em São Paulo, aumentando a segurança e evitando fraudes.",
+"evidencia": "Esse procedimento é chamado de \"processo de emissão segura da carteira de identidade\"."
+},
+{
+"pergunta": "Quais documentos devo levar além da certidão para acelerar a emissão da identidade?",
+"resposta": "Leve a via original e uma cópia do RG de outro estado ou boletim de ocorrência, da carteira profissional, da carteira de trabalho, da CNH ou permissão, do certificado militar ou reservista e do título de eleitor.",
+"evidencia": "Por isso, pedimos que traga a via original e uma cópia dos seguintes documentos:\n- RG emitido em outro estado ou boletim de ocorrência, se foi furtado ou roubado\n- Carteira de identificação profissional\n- Carteira de trabalho\n- CNH ou permissão para dirigir\n- Certificado militar ou reservista\n- Título de eleitor"
+},
+{
+"pergunta": "Se eu não puder assinar o documento, o que devo apresentar?",
+"resposta": "Apresente também um laudo médico, caso a impossibilidade de assinar não tenha causa facilmente identificável.",
+"evidencia": "Caso a pessoa não consiga assinar o documento e a impossibilidade tiver causa não facilmente identificável, apresente também laudo médico"
+}
+]
+},
+"c29f0cf4c652f175a46d4f5850f238ad": {
+"pares": [
+{
+"pergunta": "Como faço para colocar meu tipo sanguíneo na carteira de identidade?",
+"resposta": "É preciso apresentar um documento assinado por profissional de saúde com sua identificação e uma cópia simples; menores de 5 anos não podem incluir.",
+"evidencia": "Para inclusão, é necessária a apresentação de documento comprobatório assinado por profissional da área da saúde, contendo sua identificação profissional, acompanhado de cópia simples. A inclusão não é permitida para menores de 5 (cinco) anos."
+},
+{
+"pergunta": "Como incluo a informação da minha CIPTEA na minha identidade?",
+"resposta": "Leve a CIPTEA original e uma cópia simples, e verifique que o documento está dentro do prazo de validade.",
+"evidencia": "Apresentar a CIPTEA original no momento do atendimento, acompanhada de cópia simples; O documento deve estar dentro do prazo de validade."
+},
+{
+"pergunta": "O que acontece se meus dados na Receita Federal estiverem diferentes?",
+"resposta": "O atendimento será feito com base na certidão que você apresentar e será enviado um pedido de correção à Receita Federal; levar cópia do RG de São Paulo pode ajudar.",
+"evidencia": "Ao consultar a base da Receita Federal, se forem encontradas diferenças de dados, o atendimento será feito com base na certidão apresentada, e um pedido de correção será enviado por nós à Receita Federal. Deixar uma cópia do seu RG de São Paulo pode ajudar no processo de emissão."
+}
+]
+},
+"5934658e5d8d2e7bea5e448fe0156681": {
+"pares": [
+{
+"pergunta": "Quem pode ser responsável legal para autorizar documentos?",
+"resposta": "Pode ser pai, mãe, tutor, guardião, responsável nomeado por juiz, responsável de instituições acolhedoras, gestor Saica ou responsável com autorização do conselho tutelar.",
+"evidencia": "Pode ser pai, mãe, tutor, guardião ou responsável nomeado por juiz da vara da infância e juventude ou pela vara da família, responsável de Instituições acolhedoras ou gestor Saica, ou ainda responsável com autorização específica do conselho tutelar."
+},
+{
+"pergunta": "Pessoas com deficiência podem usar fotos próprias nos documentos?",
+"resposta": "Sim, podem tirar fotos com seus objetos ou recursos de acessibilidade ou, se a condição clínica justificar, usar suas próprias fotos.",
+"evidencia": "PESSOAS COM DEFICIÊNCIA OU TRANSTORNO DO NEURODESENVOLVIMENTO : conforme incisos II e III da Lei 18054/2024 podem tirar fotos com seus objetos ou recursos de acessibilidade ou, quando a condição clínica justificar, fornecer suas próprias fotos."
+},
+{
+"pergunta": "É preciso ter ao menos 5 anos para incluir o tipo sanguíneo?",
+"resposta": "Sim, a inclusão do tipo sanguíneo só é permitida se a pessoa tiver pelo menos 5 anos na data do exame laboratorial.",
+"evidencia": "A inclusão do tipo sanguíneo é permitida desde que a pessoa tenha pelo menos 5 anos na data da emissão do exame laboratorial."
+}
+]
+},
+"eac5d0fb560c6021662bf02675c9e7d3": {
+"pares": [
+{
+"pergunta": "Como faço para agendar a prova da renovação da CNH?",
+"resposta": "Você deve agendar pessoalmente na unidade do DETRAN onde está fazendo a renovação.",
+"evidencia": "Informamos que deverá agendar pessoalmente a prova na unidade do DETRAN em que está realizando o procedimento da Renovação."
+},
+{
+"pergunta": "E se eu mudei de endereço, ainda dá para renovar a CNH?",
+"resposta": "Se mudou de endereço, deve solicitar a transferência da habilitação vencida em vez de renovar a CNH.",
+"evidencia": "Se o motorista mudou de endereço, deve solicitar a transferência de habilitação vencida, em vez da renovação da CNH."
+},
+{
+"pergunta": "Quem tem direito à isenção de taxas na renovação da CNH?",
+"resposta": "Policiais e bombeiros militares, policiais civis e agentes penitenciários em exercício, quando a condução de veículo é parte da função, têm isenção.",
+"evidencia": "A regra de isenção de taxas se aplica para os serviços de Renovação, Adição ou Mudança de Categoria da Carteira Nacional de Habilitação (CNH), no qual são isentos de taxa dos DETRAN/SP: policiais e bombeiros militares, policiais civis e agentes penitenciários do Estado que estejam em exercício e para os quais a condução de veículo é atividade inerente ao exercício da função."
+}
+]
+},
+"5e3aa605d129675445e5b9afaebf1a31": {
+"pares": [
+{
+"pergunta": "Como são marcados os exames médicos e psicológicos?",
+"resposta": "O Detran-SP usa um sistema eletrônico que distribui os agendamentos de forma aleatória e impessoal entre os profissionais credenciados.",
+"evidencia": "É um método que faz a distribuição de forma aleatória e impessoal dos agendamentos de exames médicos e psicológicos, dentre os profissionais credenciados pelo Detran-SP."
+},
+{
+"pergunta": "O exame psicológico é obrigatório para todos os motoristas?",
+"resposta": "Não, só é obrigatório se o motorista exercer atividade remunerada com o veículo.",
+"evidencia": "* Nesses procedimentos, o exame psicológico somente será obrigatório se o motorista exercer atividade remunerada com o veículo."
+},
+{
+"pergunta": "O que faz o sistema eletrônico do Detran-SP?",
+"resposta": "Ele distribui os exames de forma equitativa.",
+"evidencia": "O Detran-SP conta com um sistema eletrônico para a distribuição de exames de forma equitativa."
+}
+]
+},
+"77e464e295e63db1c3d97be974fd1d45": {
+"pares": [
+{
+"pergunta": "Posso trocar o médico ou psicólogo que vai fazer meus exames?",
+"resposta": "Só é possível trocar nos casos de clínica fechada ou se o profissional marcado não estiver na clínica; a mudança deve ser solicitada em uma unidade de atendimento com agendamento.",
+"evidencia": "Não. A possibilidade de troca do profissional é prevista em apenas dois casos: 1. Quando a clínica está fechada. 2. Quando o cidadão já agendou o exame com o profissional e este está ausente de sua clínica."
+},
+{
+"pergunta": "Preciso remarcar meus exames, o que faço?",
+"resposta": "Você deve entrar em contato direto com a clínica para a qual foi encaminhado e verificar se pode remarcar.",
+"evidencia": "Se for necessário reagendar os exames, o cidadão deverá entrar em contato diretamente com a clínica para a qual foi encaminhado e verificar a possibilidade de remarcação."
+},
+{
+"pergunta": "Depois de ser considerado inapto no exame toxicológico, quanto tempo preciso esperar para pedir a mudança de categoria?",
+"resposta": "É preciso aguardar 90 dias para solicitar o rebaixamento ou refazer a avaliação.",
+"evidencia": "O condutor considerado inapto no exame toxicológico deverá aguardar o prazo de 90 (noventa) dias para solicitar o rebaixamento da categoria ou refazer a avaliação, caso desejar."
+}
+]
+},
+"8349e49e40f3e784ebc6c9713282e14f": {
+"pares": [
+{
+"pergunta": "Minha casa foi inundada e preciso da segunda via da CNH, preciso pagar por ela?",
+"resposta": "Não, a segunda via da CNH é gratuita para quem teve a moradia afetada por enchentes ou deslizamentos.",
+"evidencia": "O condutor registrado no Estado de São Paulo que tiver a moradia afetada por acidentes causados por fenômenos da natureza, como enchentes e deslizamentos de terra, não precisará pagar pela segunda via da Carteira Nacional de Habilitação (CNH)."
+},
+{
+"pergunta": "Depois que acabar o estado de emergência, quanto tempo tenho para solicitar a segunda via da CNH sem pagar?",
+"resposta": "Você pode solicitar a segunda via gratuitamente até 60 dias após o fim do estado de emergência ou calamidade.",
+"evidencia": "O cidadão poderá solicitar a 2ª via da CNH de forma gratuita até 60 dias após o término do estado de emergência ou de calamidade."
+},
+{
+"pergunta": "Preciso marcar horário para ir ao Detran e pedir a segunda via da CNH se fui vítima de enchente?",
+"resposta": "Não, pode ir a qualquer unidade de atendimento sem agendamento.",
+"evidencia": "O motorista que for vítima de catástrofes naturais pode comparecer a qualquer unidade de atendimento (não há necessidade de agendamento) para pedir a 2ª via do documento, sem custos."
+}
+]
+},
+"1900f2619d5f08021dc4c5bc0d1e1f18": {
+"pares": [
+{
+"pergunta": "Como faço para retirar a nova CNH?",
+"resposta": "A retirada deve ser feita presencialmente dentro do prazo informado pela unidade.",
+"evidencia": "A retirada do documento deve ser feita presencialmente no prazo informado pela unidade."
+},
+{
+"pergunta": "Tenho direito à isenção da taxa se for a segunda via da CNH?",
+"resposta": "Sim, a isenção vale só para a 2ª via; se a CNH estiver vencida, o motorista paga as taxas normais.",
+"evidencia": "A isenção da taxa será concedida apenas para a emissão da 2ª via da CNH. Caso o documento esteja vencido, o condutor deverá realizar o fluxo normal de renovação (serviço sujeito ao pagamento de taxas)."
+},
+{
+"pergunta": "Quem pode retirar a CNH por mim?",
+"resposta": "Um representante legal como pais, irmãos, filhos, cônjuge, companheiro, com documento que comprove o parentesco ou estado civil, ou um procurador legal.",
+"evidencia": "* Representante legal – Pais, irmãos, filhos, cônjuge e companheiro, mediante apresentação de documento original que comprove o parentesco ou o estado civil (RG, certidão de nascimento, certidão de casamento ou escritura de união estável); ou procurador legal."
+}
+]
+},
+"6c927af94d39b773b78aa45fbd7a073b": {
+"pares": [
+{
+"pergunta": "O que acontece se eu dirigir com a CNH vencida?",
+"resposta": "Você será multado e o documento será apreendido.",
+"evidencia": "Se ele for flagrado dirigindo após 30 dias do vencimento de habilitação, será multado e terá documento apreendido."
+},
+{
+"pergunta": "Como faço para solicitar o rebaixamento de categoria da minha CNH?",
+"resposta": "A solicitação pode ser feita pelo portal do Detran‑SP, após cadastrar‑se e fazer login.",
+"evidencia": "A solicitação de rebaixamento de categoria pode ser feita pelo portal do Detran-SP, desde que o motorista tenha cadastro e faça login."
+},
+{
+"pergunta": "Quais documentos preciso para pedir o rebaixamento de categoria?",
+"resposta": "É preciso o requerimento preenchido e assinado, documento de identidade e, se for por procurador, a procuração e a identidade do procurador.",
+"evidencia": "Requerimento para rebaixamento de categoria devidamente preenchido e assinado, conforme modelo disponível no portal do Detran-SP; Documento de identificação pessoal do motorista; Se o requerimento for assinado por procurador, será obrigatório o envio de procuração juntamente com o documento de identificação pessoal do procurador."
+}
+]
+},
+"7d276b05cf52385503a216cb9de7d7ae": {
+"pares": [
+{
+"pergunta": "O que faço se não concordo com a decisão da junta médica?",
+"resposta": "Posso recorrer da decisão ao Conselho Estadual de Trânsito de São Paulo (Cetran) em segunda instância.",
+"evidencia": "Se o cidadão não concordar com o resultado da Junta médica ou psicológica de recursos (1ª instância), poderá recorrer da decisão ao Conselho Estadual de Trânsito de São Paulo (Cetran) em 2ª instância."
+},
+{
+"pergunta": "Quanto tempo tenho para entrar com o recurso?",
+"resposta": "Tenho 30 dias, contados a partir da ciência do resultado da junta médica ou psicológica.",
+"evidencia": "O prazo para apresentar o recurso em 2ª instância é de 30 dias contados a partir da ciência do resultado da Junta médica ou psicológica de recursos."
+},
+{
+"pergunta": "Onde devo levar o recurso e preciso marcar horário?",
+"resposta": "O recurso deve ser protocolado nos postos Poupatempo Alesp da capital ou na unidade do Detran da sua cidade, e o atendimento presencial só é feito com agendamento.",
+"evidencia": "Na capital: - Nos Postos Poupatempo Alesp, Cidade Ademar, Itaquera, Lapa, Sé, Santo Amaro ou Canindé (Shopping D). O atendimento presencial somente será realizado mediante agendamento."
+}
+]
+},
+"1d9a3154937d3c6dd9759baf36660400": {
+"pares": [
+{
+"pergunta": "Quais documentos eu preciso levar para contestar o resultado da junta médica ou psicológica?",
+"resposta": "É preciso levar o requerimento de contestação preenchido, o Formulário Renach com os dados do exame e a identificação do perito, o requerimento de instauração da junta, o Formulário Renach com a identificação e voto dos três peritos, e, se houver, outros documentos específicos.",
+"evidencia": "- Requerimento para contestação de resultado de junta médica/psicológica destinado ao Cetran devidamente preenchido, conforme modelo disponível no portal do Detran-SP ( clique aqui ) - Formulário Renach com todas as informações do exame médico ou da avaliação psicológica, inclusive a identificação do médico ou psicólogo perito (documento providenciado pela unidade de atendimento). - Requerimento de instauração de Junta médica ou psicológica junto a unidade de atendimento (documento providenciado pela unidade de atendimento). - Formulário Renach com a identificação e voto dos três médicos ou psicólogos peritos que participaram da Junta (documento providenciado pela unidade de atendimento)."
+},
+{
+"pergunta": "Se eu for representado por um procurador, que documentos devo apresentar?",
+"resposta": "Deve apresentar o original e uma cópia simples da procuração, seja por instrumento público vigente ou por instrumento particular com reconhecimento de firma (autenticidade ou semelhança) emitido nos últimos três meses; se a procuração for para advogado, não é exigido reconhecimento de firma.",
+"evidencia": "apresentar original e cópia simples de procuração por instrumento público (vigente) ou por instrumento particular (com reconhecimento de firma por autenticidade ou semelhança, emitida nos últimos três meses). Observação: para a procuração dada a advogado não é exigido o reconhecimento de firma."
+},
+{
+"pergunta": "Como devo organizar a documentação que vou entregar?",
+"resposta": "A documentação deve ser organizada em ordem cronológica de datas.",
+"evidencia": "Atenção! A organização da documentação deve ser em ordem cronológica de datas."
+}
+]
+},
+"102711db8ce486b100289be8be0de21e": {
+"pares": [
+{
+"pergunta": "Quanto preciso pagar pelos exames médicos ou psicológicos?",
+"resposta": "Você deve pagar três taxas, uma para cada médico ou psicólogo da Junta.",
+"evidencia": "O cidadão deverá pagar 3 taxas de exame médico ou avaliação psicológica, uma para cada médico ou psicólogo da Junta."
+},
+{
+"pergunta": "Em quanto tempo devo pedir a reavaliação se não concordo com o resultado?",
+"resposta": "Você tem 30 dias, contados a partir da ciência do resultado, para solicitar a Junta médica ou psicológica.",
+"evidencia": "O prazo para apresentar o requerimento (solicitar a Junta médica ou psicológica) é de 30 dias contados a partir da ciência do resultado do exame médico ou da avaliação psicológica."
+},
+{
+"pergunta": "Como faço para agendar a Junta Médica ou Psicológica?",
+"resposta": "O agendamento deve ser feito exclusivamente pelo SEI, o Sistema Eletrônico de Informações, como usuário externo.",
+"evidencia": "A solicitação de agendamento de Junta Médica ou Junta Psicológica será feita exclusivamente pelo SEI - Sistema Eletrônico de Informações , via usuário externo."
+}
+]
+},
+"3d12be68c2f859e5096af1fb3b1767ca": {
+"pares": [
+{
+"pergunta": "Como eu faço para solicitar a avaliação médica ou psicológica?",
+"resposta": "Você deve solicitar exclusivamente pelo SEI – Sistema Eletrônico de Informações.",
+"evidencia": "O próprio interessado ou seu procurador deve solicitar exclusivamente pelo SEI - Sistema Eletrônico de Informações ."
+},
+{
+"pergunta": "Quantas taxas preciso pagar para o exame médico ou avaliação psicológica?",
+"resposta": "São três taxas, uma para cada médico ou psicólogo da Junta.",
+"evidencia": "O cidadão deverá pagar 3 taxas de exame médico ou avaliação psicológica, uma para cada médico ou psicólogo da Junta."
+},
+{
+"pergunta": "O que acontece se a reavaliação da Junta for favorável?",
+"resposta": "Você pode prosseguir com o processo de habilitação.",
+"evidencia": "Se a reavaliação feita em Junta for favorável ao pedido do candidato/condutor, este poderá prosseguir com o processo de habilitação."
+}
+]
+},
+"c94e3baa9e27f59500a01e2467881268": {
+"pares": [
+{
+"pergunta": "Preciso fazer um curso de direção defensiva para renovar a CNH?",
+"resposta": "Sim, a renovação da CNH exige um curso teórico de direção defensiva e primeiros socorros.",
+"evidencia": "Portaria Detran-SP nº 289/16 Dispõe sobre o Curso Teórico de Direção Defensiva e de Primeiros Socorros para renovação da Carteira Nacional de Habilitação - CNH"
+},
+{
+"pergunta": "Posso substituir o curso teórico obrigatório por outro tipo de curso?",
+"resposta": "Sim, o curso pode ser substituído se estiver enquadrado em uma das hipóteses previstas no Artigo 11.",
+"evidencia": "Artigo 11 - A realização de curso diverso substituirá o curso teórico previsto nesta Portaria, desde que enquadrado em uma das seguintes hipóteses: I – diretor geral, diretor de ensino e instrutor teórico ou de prática de direção veicular para Centros de Formação de Condutores; II – examinador de trânsito; III – formação teórica para obtenção da permissão para dirigir, atendida a carga horária de 30 (trinta) horas/aula, nos termos do art. 53 da Portaria DETRAN n° 325/2022; IV – transporte de produtos perigosos, de escolares, coletivo de passageiros e condução de veículo de emergência; V – condutor residente ou domiciliado em município abrangido por sentença judicial, quando de sua realização antes do advento desta Portaria"
+},
+{
+"pergunta": "Quantas horas de aula o curso teórico para obter a permissão para dirigir deve ter?",
+"resposta": "O curso deve ter carga horária de 30 horas/aula.",
+"evidencia": "III – formação teórica para obtenção da permissão para dirigir, atendida a carga horária de 30 (trinta) horas/aula"
+}
+]
+},
+"136b9218604bac31aff5526a036635d0": {
+"pares": [
+{
+"pergunta": "Como faço para ficar dispensado do curso teórico?",
+"resposta": "É preciso atender aos requisitos de compatibilidade especificados para a dispensa.",
+"evidencia": "Para comprovação da dispensa do curso teórico deverão ser atendidos os seguintes requisitos: I - compatibilidade com as"
+},
+{
+"pergunta": "Quem pode fazer a reciclagem de condutor infrator?",
+"resposta": "Qualquer condutor infrator pode fazer a reciclagem, presencial ou à distância, inclusive por determinação judicial.",
+"evidencia": "IX – reciclagem de condutores infratores, presencial ou à distância, ainda que decorrente de determinação judicial"
+},
+{
+"pergunta": "O curso MOPP pode substituir o curso teórico?",
+"resposta": "Sim, o curso de transporte de produtos perigosos – MOPP pode dispensar o curso teórico se seguir a Resolução CONTRAN n° 789/20.",
+"evidencia": "O curso de transporte de produtos perigosos – MOPP, para fins de dispensa total do curso teórico, será aceito desde que adequado ao conteúdo da Resolução CONTRAN n° 789/20."
+}
+]
+},
+"cd2ccecd26d0c6dc6683f994b4c84735": {
+"pares": [
+{
+"pergunta": "Onde eu devo ir para renovar a minha CNH?",
+"resposta": "Você deve ir à Ciretran onde solicitou a renovação da CNH.",
+"evidencia": "Na Ciretran onde a Renovação da CNH foi solicitada."
+},
+{
+"pergunta": "Preciso levar a CNH física ou a digital serve para dirigir?",
+"resposta": "O porte da CNH é obrigatório, tanto a versão impressa quanto a digital têm o mesmo valor jurídico.",
+"evidencia": "o porte da CNH ainda é obrigatório, seja o documento impresso ou a CNH digital (versão eletrônica da CNH com o mesmo valor jurídico da impressa)."
+},
+{
+"pergunta": "Em que lugar posso fazer o exame toxicológico para a renovação?",
+"resposta": "O exame toxicológico só pode ser feito nas clínicas credenciadas ao Senatran.",
+"evidencia": "Informamos que só poderá realizar o exame toxicológico nas clínicas credenciadas ao Senatran."
+}
+]
+},
+"83f90e7ad1df0aba2635628f77aeaaee": {
+"pares": [
+{
+"pergunta": "Depois que a CNH vence, quanto tempo eu tenho para renová‑la?",
+"resposta": "Você tem até 30 dias após o vencimento para fazer a renovação.",
+"evidencia": "o prazo é de trinta dias após vencimento."
+},
+{
+"pergunta": "Posso fazer a renovação da CNH a qualquer momento?",
+"resposta": "Sim, a renovação pode ser feita presencialmente a qualquer momento.",
+"evidencia": "Você pode renovar sua habilitação a qualquer momento de modo presencial."
+},
+{
+"pergunta": "Quanto tempo leva para concluir todo o processo de renovação da CNH?",
+"resposta": "O processo deve ser concluído em até 12 meses a partir da primeira realização do exame médico ou psicológico.",
+"evidencia": "O prazo de 12 meses para conclusão dos processos de habilitação... tem como início a data de realização do exame de aptidão física e mental (exame médico) ou da avaliação psicológica... devendo a emissão da PPD/CNH ocorrer dentro desse prazo."
+}
+]
+},
+"57e67ec1c7672f97e943712e95278b15": {
+"pares": [
+{
+"pergunta": "Quando preciso fazer novo exame médico para renovar a CNH?",
+"resposta": "Só depois que o prazo de validade do exame de aptidão física e mental acabar.",
+"evidencia": "Ou seja, somente após o prazo de validade haverá a necessidade de realizar novos exames."
+},
+{
+"pergunta": "Preciso fazer exame psicológico ao renovar a CNH?",
+"resposta": "Só se você trabalha remuneradamente com o veículo.",
+"evidencia": "você deverá fazer o exame médico e o psicológico, este último caso exerça atividade remunerada com o veículo."
+},
+{
+"pergunta": "O que devo fazer se tenho doença que pode reduzir minha capacidade de dirigir?",
+"resposta": "Procure imediatamente um médico credenciado pelo Detran‑SP para avaliar a necessidade de antecipar a renovação.",
+"evidencia": "Pessoa com indícios de doença ou progressividade de doença que possa diminuir sua capacidade para conduzir veículos deve procurar um dos médicos credenciados pelo Detran-SP aptos a avaliar pessoas com deficiência ou mobilidade reduzida imediatamente, para saber se é necessário antecipar a renovação de seu documento de habilitação."
+}
+]
+},
+"7be41aa282177f9ff2e55d0c27e98b2c": {
+"pares": [
+{
+"pergunta": "Preciso fazer prova ou curso de renovação se minha CNH está vencida há muito tempo?",
+"resposta": "Sim, quem tem a habilitação no Brasil antes de 22/11/1999 e a CNH vencida desde 22/11/2005 precisa fazer a prova ou o curso de renovação.",
+"evidencia": "É obrigado a fazer a prova ou o curso de renovação o motorista: habilitado no Brasil antes de 22 de novembro de 1999 com documento vencido desde 22 de novembro de 2005"
+},
+{
+"pergunta": "Como faço para pedir a troca de categoria da minha CNH?",
+"resposta": "Você pode solicitar o rebaixamento da categoria pelo portal do Detran‑SP, fazendo login com seu cadastro.",
+"evidencia": "A solicitação de rebaixamento de categoria pode ser feita pelo portal do Detran-SP, desde que o motorista tenha cadastro e faça login."
+},
+{
+"pergunta": "Quais documentos preciso enviar para solicitar o rebaixamento da categoria?",
+"resposta": "É preciso o requerimento preenchido e assinado, seu documento de identidade e, se usar procurador, a procuração e o RG do procurador.",
+"evidencia": "Documentos necessários para a solicitação:\n- Requerimento para rebaixamento de categoria devidamente preenchido e assinado, conforme modelo disponível no portal do Detran-SP ( clique aqui ).\n- Documento de identificação pessoal do motorista.\n- Se o requerimento for assinado por procurador, será obrigatório o envio de procuração juntamente com o documento de identificação pessoal do procurador."
+}
+]
+},
+"68afa4cb29a95df8046dd0e63914894c": {
+"pares": [
+{
+"pergunta": "Minha CNH ainda está válida, mas preciso mudar alguma informação. O que faço?",
+"resposta": "É preciso emitir uma nova via da CNH usando o procedimento de Alteração de dados.",
+"evidencia": "- Se a CNH do motorista não estiver vencida, será necessário emitir uma nova via do documento de habilitação por meio do procedimento de \"Alteração de dados\"."
+},
+{
+"pergunta": "Como faço para voltar à categoria que eu tinha antes de ser rebaixado?",
+"resposta": "Você deve manifestar sua vontade na unidade de registro do seu prontuário e fazer os exames previstos para a renovação da categoria, pedindo isso antes de iniciar a reabilitação da CNH cassada.",
+"evidencia": "para retornar à categoria anterior basta o condutor manifestar sua vontade na unidade de registro de seu prontuário de habilitação e proceder com os exames previstos para renovação da referida categoria. A solicitação de retorno para a categoria anterior deverá ser feita antes de iniciar o processo de reabilitação da CNH cassada."
+},
+{
+"pergunta": "Já comecei o processo de reabilitação da CNH cassada. Ainda consigo voltar à categoria anterior?",
+"resposta": "Não, depois de iniciar a reabilitação não é mais possível retornar à categoria anterior; será necessário passar por processo de adição e mudança de categoria.",
+"evidencia": "Após o início do processo, ... não será mais possível retornar à categoria, devendo passar por processo de adição e mudança de categoria para solicitá-la novamente."
+}
+]
+},
+"e4bda2781674d6f6d020925f662c34a1": {
+"pares": [
+{
+"pergunta": "Posso voltar à categoria A se eu só solicitei a categoria B ao reiniciar a habilitação?",
+"resposta": "Não, não pode voltar à categoria A porque o processo foi emitido só para a categoria B.",
+"evidencia": "não poderá retornar à categoria A, uma vez que seu processo de nova habilitação foi emitido apenas na categoria B"
+},
+{
+"pergunta": "O que preciso fazer para recuperar as categorias que perdi por restrição médica?",
+"resposta": "É preciso fazer exame médico em banca especial e exame prático em banca especial nas categorias que deseja voltar.",
+"evidencia": "deverá realizar exame médico em banca especial, além de exame prático em banca especial nas categorias A e D"
+},
+{
+"pergunta": "Como acompanho a entrega da CNH depois de pagar a taxa?",
+"resposta": "Use o número do AR do documento e faça o rastreamento no site dos Correios.",
+"evidencia": "pesquise com o número do AR do seu documento, pesquise no site dos Correios – correios.com.br – em \"Rastreamento de objetos\" a entrega da sua CNH"
+}
+]
+},
+"c03f79ac8b9f0ab510a65f3373f3f1d9": {
+"pares": [
+{
+"pergunta": "O que faço se o site do Detran-SP não mostra o número do meu AR ou ainda não emitiu o documento?",
+"resposta": "Clique no botão “Registrar manifestação” para enviar sua solicitação ao SAC, que analisará e entrará em contato.",
+"evidencia": "Caso a pesquisa no site do Detran-SP não tenha informado o número do seu AR ou o documento ainda não tenha sido emitido, clique no botão \"Registrar manifestação\" para encaminhar uma manifestação junto ao Serviço de Atendimento ao Cidadão - SAC, que analisará sua solicitação e entrará em contato."
+},
+{
+"pergunta": "Quais dados preciso informar ao registrar a manifestação?",
+"resposta": "É preciso informar nome completo, CPF, e‑mail ou telefone e escolher o assunto “Habilitação” e o motivo “CNH e PID via Correios”.",
+"evidencia": "É necessário informar nome completo, CPF e e‑mail ou telefone, além de classificar corretamente sua manifestação (assunto \"Habilitação\", motivo \"CNH e PID via Correios\") para dar mais agilidade ao atendimento."
+},
+{
+"pergunta": "Onde devo levar a renovação da CNH antiga sem foto (PGU)?",
+"resposta": "Na unidade do Detran‑SP do município que consta no documento.",
+"evidencia": "a renovação do documento de habilitação no formato antigo (sem foto, chamada de Prontuário Geral Único ou PGU), deve ser providenciada na unidade do Detran‑SP de registro do documento (ou seja, na unidade do Detran‑SP do município que consta no documento)."
+}
+]
+},
+"9f5de0cd6846c5026112e9e2345e140f": {
+"pares": [
+{
+"pergunta": "Preciso pagar para remarcar a prova?",
+"resposta": "Não, o reagendamento da prova é gratuito.",
+"evidencia": "Não, o reagendamento da prova é gratuito."
+},
+{
+"pergunta": "Posso fazer o exame toxicológico em qualquer laboratório?",
+"resposta": "Sim, o exame pode ser feito em qualquer localidade porque os laboratórios são credenciados pela Senatran.",
+"evidencia": "Como os laboratórios são credenciados pela Secretaria Nacional de Trânsito (Senatran), o exame pode ser feito em qualquer localidade."
+},
+{
+"pergunta": "Ainda dá para trocar o antigo PGU pela CNH?",
+"resposta": "Só quem pediu antes de 12/04/2021 pode ter o pedido analisado; pedidos feitos depois são indeferidos.",
+"evidencia": "apenas as solicitações de substituição do PGU apresentadas antes da entrada em vigor da Lei nº 14.071/2020 serão analisadas e eventualmente deferidas, caso tenham cumprido todos os requisitos exigidos"
+}
+]
+},
+"b17c28277714d1ef221268ff3b2b2ae5": {
+"pares": [
+{
+"pergunta": "Como piloto, preciso fazer exame físico e mental para renovar a CNH?",
+"resposta": "Não, se você apresentar o cartão saúde ou o Certificado Médico Aeronáutico emitido pelas Forças Armadas ou pela Anac, fica dispensado.",
+"evidencia": "estão dispensados da realização do exame de aptidão física e mental"
+},
+{
+"pergunta": "Minha CNH vai valer até a mesma data do meu certificado médico?",
+"resposta": "Sim, a validade da CNH será a mesma do documento apresentado.",
+"evidencia": "se o Extrato Anac apresentado pelo tripulante ter como validade a data de 31/12/2023, a CNH será emitida com o mesmo prazo."
+},
+{
+"pergunta": "Sou militar da Aeronáutica, que documentos devo levar para renovar a CNH?",
+"resposta": "Além dos documentos de praxe, leve o cartão saúde das Forças Armadas com carimbo das Resoluções Contran nº 789/20, 849/21 e 1001/23.",
+"evidencia": "no caso de militares, além dos documentos de praxe, cartão saúde expedido pelas Forças Armadas (Marinha, Exército e Aeronáutica), com carimbo das Resoluções Contran nº 789/20 , 849/21 e 1001/23 (§4º do art. 4º)"
+}
+]
+},
+"6595f23bdfd897f95f8988777c22d008": {
+"pares": [
+{
+"pergunta": "Como faço a renovação da CNH, preciso fazer exame médico?",
+"resposta": "Você pode escolher renovar usando seu exame ANAC ou militar, ou fazer o exame médico com um credenciado do Detran, que permite validade de até 10 anos.",
+"evidencia": "o tripulante deve optar se deseja renovar o documento de habilitação utilizando seu exame Anac ou militar (seguindo a data de validade dele) ou efetuar o exame médico por um credenciado do Detran (podendo obter sua CNH com validade de até 10 anos)."
+},
+{
+"pergunta": "Preciso estar presente pessoalmente para que o exame seja válido?",
+"resposta": "Sim, o exame só vale depois que sua presença física for registrada com coleta de biometria no início e no fim da avaliação psicológica.",
+"evidencia": "O exame só terá validade após o registro da presença física do candidato à habilitação/motorista, através da coleta da biometria - no início e no término da avaliação psicológica."
+},
+{
+"pergunta": "Posso usar a foto que já foi tirada antes para renovar a CNH?",
+"resposta": "Sim, você pode reutilizar a foto já coletada, o que agiliza o processo, mas a escolha é sua.",
+"evidencia": "O reuso da foto anteriormente coletada pelo Detran-SP torna o processo mais rápido, já que dispensa a transferência do atendimento para a mesa onde é feita a coleta de imagem. Porém, aceitar ou não o reuso é uma escolha do motorista."
+}
+]
+},
+"a8d58b731982be45409705b678a91397": {
+"dialogo": [
+{
+"usuario": "Como funciona o agendamento dos exames médicos e psicológicos?",
+"atendente": "É um método que faz a distribuição de forma aleatória e impessoal dos agendamentos de exames médicos e psicológicos, dentre os profissionais credenciados pelo Detran-SP.",
+"evidencia": "É um método que faz a distribuição de forma aleatória e impessoal dos agendamentos de exames médicos e psicológicos, dentre os profissionais credenciados pelo Detran-SP."
+},
+{
+"usuario": "Preciso fazer exame psicológico mesmo se não trabalho com o carro?",
+"atendente": "O exame psicológico só é obrigatório se o motorista exercer atividade remunerada com o veículo.",
+"evidencia": "* Nesses procedimentos, o exame psicológico somente será obrigatório se o motorista exercer atividade remunerada com o veículo."
+}
+]
+},
+"0c72a58f4641487aca949b161f282152": {
+"dialogo": [
+{
+"usuario": "Preciso nomear um procurador se eu não puder me locomover?",
+"atendente": "Sim, nos casos de ausência, doença contagiosa ou impossibilidade de locomoção, pode ser nomeado procurador, tutor, guardião ou curador.",
+"evidencia": "Nos casos de ausência, doença contagiosa ou impossibilidade de locomoção do beneficiário, pode ser nomeado procurador, tutor, guardião ou curador."
+},
+{
+"usuario": "E com que frequência devo atualizar o cadastro, mesmo que nada tenha mudado?",
+"atendente": "A atualização cadastral deve ser feita pelo menos a cada 2 anos, mesmo sem alterações.",
+"evidencia": "Mesmo que não tenha ocorrido nenhuma alteração, a atualização cadastral deve ser feita pelo menos a cada 2 anos."
+}
+]
+},
+"e089d8f7342eba006cad3ff9bfe7269d": {
+"dialogo": [
+{
+"usuario": "Quem deve ser incluído no cálculo da renda da família?",
+"atendente": "Devem ser incluídas as pessoas que moram na mesma casa, como o idoso ou pessoa com deficiência, o cônjuge ou companheiro, os pais ou, na falta deles, a madrasta ou padrasto, os irmãos solteiros, os filhos e enteados solteiros, e as crianças ou adolescentes sob tutela.",
+"evidencia": "Você deve considerar as pessoas que vivem numa mesma moradia, como: o idoso ou a pessoa com deficiência; o cônjuge ou o companheiro; os pais e, na ausência deles, a madrasta ou o padrasto; os irmãos solteiros; os filhos e os enteados solteiros (filhos do companheiro ou cônjuge) e as crianças ou adolescentes sob tutela."
+},
+{
+"usuario": "Quais rendimentos são considerados para calcular a renda familiar?",
+"atendente": "São considerados salários, proventos, pensões, pensões alimentícias, benefícios de previdência pública ou privada, seguro‑desemprego, comissões, pró‑labore, outros rendimentos do trabalho não assalariado, rendimentos do mercado informal ou autônomo e rendimentos do patrimônio.",
+"evidencia": "Entram no cálculo da renda familiar: Salários; Proventos; Pensões; Pensões alimentícias; Benefícios de previdência pública ou privada; Seguro desemprego; Comissões; Pró-labore; Outros rendimentos do trabalho não assalariado; Rendimentos do mercado informal ou autônomo; Rendimentos auferidos do patrimônio."
+}
+]
+},
+"c81c9c37f6fb689fe91ba7987d8499b6": {
+"dialogo": [
+{
+"usuario": "Qual é o prazo para solicitar a Junta Médica ou Psicológica após o resultado?",
+"atendente": "O prazo é de 30 dias contados a partir da ciência do resultado do exame médico ou da avaliação psicológica.",
+"evidencia": "O prazo para apresentar o requerimento (solicitar a Junta médica ou psicológica) é de 30 dias contados a partir da ciência do resultado do exame médico ou da avaliação psicológica."
+},
+{
+"usuario": "Como faço a solicitação de agendamento da Junta?",
+"atendente": "A solicitação de agendamento será feita exclusivamente pelo SEI - Sistema Eletrônico de Informações, via usuário externo.",
+"evidencia": "A solicitação de agendamento de Junta Médica ou Junta Psicológica será feita exclusivamente pelo SEI - Sistema Eletrônico de Informações , via usuário externo."
+}
+]
+},
+"604ee45512e35dce636daa8bf23b3f38": {
+"dialogo": [
+{
+"usuario": "Qual decreto altera o regulamento do BPC?",
+"atendente": "O Decreto nº 9.462/2018 altera o Regulamento do Benefício de Prestação Continuada.",
+"evidencia": "Decreto nº 9.462/2018, que altera o Regulamento do Benefício de Prestação Continuada, aprovado pelo Decreto nº 6.214/2007, e o Decreto nº 6.135/2007, que dispõe sobre o Cadastro Único para Programas Sociais do Governo Federal - CadÚnico."
+},
+{
+"usuario": "E onde encontro as regras de requerimento do BPC?",
+"atendente": "Na Portaria Conjunta INSS, MC e ME nº 7/2020, que regulamenta regras e procedimentos de requerimento, concessão, manutenção e revisão do BPC.",
+"evidencia": "Portaria Conjunta INSS, MC e ME nº 7/2020, que regulamenta regras e procedimentos de requerimento, concessão, manutenção e revisão do Benefício de Prestação Continuada da Assistência Social (BPC)."
+}
+]
+},
+"0df3339dad67cd87a5e9a1771ba964d1": {
+"dialogo": [
+{
+"usuario": "Como solicito o desconto na conta de luz?",
+"atendente": "Você deve procurar a companhia de energia elétrica que atende sua residência e fornecer Nome do beneficiário, Número do Benefício (NB), CPF e Carteira de Identidade, e Código da Unidade Consumidora.",
+"evidencia": "Nome do beneficiário; Número do Benefício (NB); Cadastro de Pessoa Física (CPF) e Carteira de Identidade - ou outro documento de identificação oficial com foto; e Código da Unidade Consumidora."
+},
+{
+"usuario": "E como faço para me desligar voluntariamente do BPC?",
+"atendente": "Você pode pedir o desligamento pelo site ou aplicativo Meu INSS ou pela Central 135.",
+"evidencia": "O beneficiário pode pedir o desligamento pelo site ou aplicativo Meu INSS ou pela Central 135."
+}
+]
+},
+"854e9561c024c617f0d49dedeb8c9414": {
+"dialogo": [
+{
+"usuario": "Por que meu BPC foi cancelado?",
+"atendente": "É o cancelamento do benefício no INSS.",
+"evidencia": "É o cancelamento do benefício no INSS."
+},
+{
+"usuario": "Como eu faço para denunciar um recebimento indevido do BPC?",
+"atendente": "A denúncia deve ser feita no site Fala.BR ou na Ouvidoria do INSS e do Ministério da Cidadania, ou ligando para a Central 135 do INSS.",
+"evidencia": "A denúncia deve ser feita no site Fala.BR ou na Ouvidoria do INSS e do Ministério da Cidadania. Se preferir, pode-se ligar para a Central 135 do INSS."
+}
+]
+},
+"9a231b5af0d4788d3f2ce4b48b77bbd5": {
+"dialogo": [
+{
+"usuario": "Preciso estar inscrito no Cadastro Único para receber o BPC?",
+"atendente": "Sim, recomenda‑se que os beneficiários da RMV sejam inscritos no Cadastro Único.",
+"evidencia": "Recomenda‑se que os beneficiários da RMV sejam inscritos no Cadastro Único."
+},
+{
+"usuario": "E quando eu devo fazer essa inscrição?",
+"atendente": "A inscrição depende do seu mês de aniversário, mas pode ser feita a qualquer tempo.",
+"evidencia": "Isso vai depender do mês de aniversário do beneficiário."
+}
+]
+},
+"07a804b51522b56fce21e75ed48528c8": {
+"dialogo": [
+{
+"usuario": "Não encontrei o número do AR no site, o que devo fazer?",
+"atendente": "Clique no botão \"Registrar manifestação\" para encaminhar sua solicitação ao SAC.",
+"evidencia": "clique no botão \"Registrar manifestação\" para encaminhar uma manifestação junto ao Serviço de Atendimento ao Cidadão - SAC, que analisará sua solicitação e entrará em contato."
+},
+{
+"usuario": "E onde eu devo levar o documento antigo para renová‑lo?",
+"atendente": "A renovação deve ser feita na unidade do Detran‑SP do município que consta no documento.",
+"evidencia": "deve ser providenciada na unidade do Detran-SP de registro do documento (ou seja, na unidade do Detran-SP do município que consta no documento)."
+}
+]
+},
+"1799fb528856cf2978a4530cc8b90727": {
+"dialogo": [
+{
+"usuario": "Posso receber o BPC estando internado no hospital?",
+"atendente": "Sim.",
+"evidencia": "Sim."
+},
+{
+"usuario": "E como faço o cadastro se estou internado há menos de 12 meses?",
+"atendente": "Deve observar as normas do Cadastro Único para incluir a pessoa.",
+"evidencia": "nos casos em que estejam há menos de 12 meses nesses locais, devem ser observadas as normas do Cadastro Único para incluir essas pessoas."
+}
+]
+},
+"f945d1a87451f65df567eba22adee0ce": {
+"dialogo": [
+{
+"usuario": "Como faço para retirar a nova CNH?",
+"atendente": "A retirada do documento deve ser feita presencialmente no prazo informado pela unidade.",
+"evidencia": "A retirada do documento deve ser feita presencialmente no prazo informado pela unidade."
+},
+{
+"usuario": "E onde devo apresentar o documento para solicitar a isenção de taxa?",
+"atendente": "Para tanto é necessária a apresentação: 1) Oficio assinado pela sua chefia imediata, manifestando o interesse da Administração para que a isenção seja aplicada; 2) ODocumento de identificação funcional.",
+"evidencia": "Para tanto é necessária a apresentação: 1) Oficio assinado pela sua chefia imediata, manifestando o interesse da Administração para que a isenção seja aplicada; 2) ODocumento de identificação funcional."
+}
+]
+},
+"f2093ff095e1ae9e23da9822cbbb130d": {
+"dialogo": [
+{
+"usuario": "Em quanto tempo devo renovar a CNH depois que ela vence?",
+"atendente": "O prazo é de trinta dias após vencimento.",
+"evidencia": "De acordo com o disposto no inciso V do art. 162 do Código de Trânsito Brasileiro, o prazo é de trinta dias após vencimento."
+},
+{
+"usuario": "Posso fazer a renovação a qualquer momento?",
+"atendente": "Sim, você pode renovar sua habilitação a qualquer momento de modo presencial.",
+"evidencia": "Você pode renovar sua habilitação a qualquer momento de modo presencial."
+}
+]
+},
+"9fed3a00bca46dd303d4d42dedd99b67": {
+"dialogo": [
+{
+"usuario": "Preciso formalizar a opção pela nacionalidade brasileira. O que devo fazer quando atingir a maioridade?",
+"atendente": "Você deve formalizar a opção pela nacionalidade brasileira ao atingir a maioridade civil, conforme o art. 12 da Constituição Federal de 1988.",
+"evidencia": "Nos termos do art. 12 da Constituição Federal de 1988, os brasileiros nascidos no exterior e registrados em cartórios locais deverão formalizar a opção pela nacionalidade brasileira ao atingir a maioridade civil."
+},
+{
+"usuario": "E quais documentos preciso apresentar se eu for casado?",
+"atendente": "Apresente a certidão de casamento original ou autenticada, em formato físico ou digital, com a averbação do estado civil atual, acompanhada de uma cópia simples.",
+"evidencia": "Apresentar a certidão de casamento original ou autenticada, em formato físico ou digital, com a averbação do estado civil atual, acompanhada de uma cópia simples."
+}
+]
+},
+"d7c3a66cb8f2ef9e4675842e0a6a580c": {
+"dialogo": [
+{
+"usuario": "Quem pode ser o Responsável pela Unidade Familiar?",
+"atendente": "Pode ser qualquer pessoa da família com mais de 16 anos que more e divida renda e despesas com o idoso ou a pessoa com deficiência.",
+"evidencia": "Qualquer pessoa da família com mais de 16 anos que more e divida renda e despesas com o idoso ou a pessoa com deficiência"
+},
+{
+"usuario": "E se a pessoa incapaz tem menos de 16 anos, o que devo fazer?",
+"atendente": "Pessoas incapazes com menos de 16 anos não precisam fazer a inclusão no Cadastro Único.",
+"evidencia": "há pessoas incapazes que não precisam fazer a inclusão no Cadastro Único: aquelas com menos de 16 anos"
+}
+]
+},
+"ec872014fb3ab65c7f5d022fe3ae59d7": {
+"dialogo": [
+{
+"usuario": "Preciso apresentar algum documento para incluir meu tipo sanguíneo?",
+"atendente": "Sim, é necessário apresentar documento comprobatório assinado por profissional da área da saúde, contendo sua identificação profissional, acompanhado de cópia simples.",
+"evidencia": "Para inclusão, é necessária a apresentação de documento comprobatório assinado por profissional da área da saúde, contendo sua identificação profissional, acompanhado de cópia simples."
+},
+{
+"usuario": "E como faço para incluir a informação da minha CIPTEA na minha identidade?",
+"atendente": "Você deve apresentar a CIPTEA original no momento do atendimento, acompanhada de cópia simples.",
+"evidencia": "Apresentar a CIPTEA original no momento do atendimento, acompanhada de cópia simples;"
+}
+]
+},
+"67a9c9086fd97a2a14d7e0da557b7f3a": {
+"dialogo": [
+{
+"usuario": "Como eu verifico se a minha carteira é autêntica?",
+"atendente": "A carteira tem um QR Code que, ao ser escaneado com o smartphone, permite confirmar a autenticidade e informar se foi furtada ou extraviada.",
+"evidencia": "O novo modelo apresenta um QR Code, que permite verificar a autenticidade do documento, bem como saber se foi furtado ou extraviado, por meio de qualquer smartphone."
+},
+{
+"usuario": "E onde eu faço a emissão da nova carteira?",
+"atendente": "A emissão pode ser feita nos Institutos de Identificação dos Estados e do Distrito Federal, nos 12 estados que já estão aptos.",
+"evidencia": "Os brasileiros podem emitir a nova carteira nos Institutos de Identificação dos Estados e do Distrito Federal. Atualmente, 12 estados brasileiros já estão aptos a emitir o novo documento: Acre, Alagoas, Amazonas, Goiás, Mato Grosso, Minas Gerais, Pernambuco, Piauí, Paraná, Rio de Janeiro, Rio Grande do Sul e Santa Catarina."
+}
+]
+},
+"6d6da102b1e1eae4b94fb973d106cbb0": {
+"dialogo": [
+{
+"usuario": "O que não é considerado renda da família para o cálculo do BPC?",
+"atendente": "Não entram no cálculo da renda familiar: remuneração de aprendiz ou estagiário, recursos do Bolsa Família, auxílios temporários e BPC de até um salário‑mínimo.",
+"evidencia": "Não entram no cálculo da renda familiar:\nRemuneração da pessoa com deficiência na condição de aprendiz ou estagiário;\nRecursos de programas de transferência de renda, como o Programa Bolsa Família (PBF);\nBenefícios e auxílios assistenciais eventuais e temporários;\nBPC ou benefício previdenciário no valor de até 1 (um) salário-mínimo (apenas para concessão do BPC a outro idoso ou a pessoa com deficiência da mesma família)"
+},
+{
+"usuario": "E quem pode solicitar o BPC?",
+"atendente": "O requerente é a pessoa que pede o benefício no INSS.",
+"evidencia": "É a pessoa que pede o benefício no INSS."
+}
+]
+},
+"28cd0a95f7e9ac4f470edf7c0aa0c8a2": {
+"dialogo": [
+{
+"usuario": "O reagendamento da prova tem custo?",
+"atendente": "Não, o reagendamento da prova é gratuito.",
+"evidencia": "Não, o reagendamento da prova é gratuito."
+},
+{
+"usuario": "Em qual local posso fazer o exame toxicológico?",
+"atendente": "O exame pode ser feito em qualquer localidade, pois os laboratórios são credenciados pela Senatran.",
+"evidencia": "Como os laboratórios são credenciados pela Secretaria Nacional de Trânsito (Senatran), o exame pode ser feito em qualquer localidade."
+}
+]
+},
+"b0e1e1ba2e5205de62f52f7cc3c0fa8e": {
+"dialogo": [
+{
+"usuario": "Preciso fazer o curso de direção defensiva para renovar a CNH, o que é esse curso?",
+"atendente": "É um curso que a legislação considera ter conteúdo similar ao das autoescolas sobre direção defensiva, primeiros socorros e legislação de trânsito.",
+"evidencia": "É um curso que a legislação considera ter conteúdo similar ao das autoescolas sobre direção defensiva, primeiros socorros e legislação de trânsito."
+},
+{
+"usuario": "E se eu já fiz outro curso, ele pode substituir o curso teórico?",
+"atendente": "A realização de curso diverso substituirá o curso teórico previsto nesta Portaria, desde que enquadrado em uma das seguintes hipóteses:",
+"evidencia": "A realização de curso diverso substituirá o curso teórico previsto nesta Portaria, desde que enquadrado em uma das seguintes hipóteses:"
+}
+]
+},
+"0223d9cf7c691d122cc45a76cc85a93d": {
+"dialogo": [
+{
+"usuario": "O que acontece se eu não fizer o saque do BPC em até 60 dias?",
+"atendente": "O benefício será suspenso.",
+"evidencia": "Se não for feito o saque em até 60 dias, o BPC é suspenso."
+},
+{
+"usuario": "Como faço para reativar o benefício depois da suspensão?",
+"atendente": "Preencha o Formulário Único de Alteração da Situação do Benefício, disponível no site ou no aplicativo Meu INSS.",
+"evidencia": "É preciso preencher o Formulário Único de Alteração da Situação do Benefício, disponível no site ou aplicativo Meu INSS."
+}
+]
+},
+"f071cf9aeed41e563828a946fa9bca20": {
+"dialogo": [
+{
+"usuario": "Preciso fazer prova ou curso para renovar minha CNH?",
+"atendente": "Sim, é obrigatório fazer a prova ou o curso de renovação nas situações previstas.",
+"evidencia": "É obrigado a fazer a prova ou o curso de renovação o motorista: habilitado no Brasil antes de 22 de novembro de 1999 com documento vencido desde 22 de novembro de 2005; habilitado no exterior que já obteve a CNH, mas não recebeu instrução de direção defensiva e primeiros socorros em sua formação."
+},
+{
+"usuario": "E onde eu faço a solicitação de rebaixamento de categoria?",
+"atendente": "A solicitação pode ser feita pelo portal do Detran‑SP, após cadastro e login.",
+"evidencia": "A solicitação de rebaixamento de categoria pode ser feita pelo portal do Detran-SP, desde que o motorista tenha cadastro e faça login."
+}
+]
+},
+"e324f2200d9f5ff1b304f12869245b17": {
+"dialogo": [
+{
+"usuario": "Como funciona a certidão digital?",
+"atendente": "É um PDF assinado digitalmente, com validade legal igual à versão física, e só pode ser usado digitalmente no site do Registro Civil durante o atendimento.",
+"evidencia": "A certidão digital é um arquivo PDF assinado digitalmente pelo cartório, tendo a mesma validade legal da versão física."
+},
+{
+"usuario": "E onde eu retiro a carteira de identidade?",
+"atendente": "Você deve retirar o documento no local onde fez o pedido.",
+"evidencia": "Retirar documento onde fez o pedido"
+}
+]
+},
+"45a479548d938c1e56d88c3df8b67305": {
+"dialogo": [
+{
+"usuario": "Quem pode ser responsável legal para autorizar o documento?",
+"atendente": "Pode ser pai, mãe, tutor, guardião ou responsável nomeado por juiz da vara da infância e juventude ou pela vara da família, responsável de Instituições acolhedoras ou gestor Saica, ou ainda responsável com autorização específica do conselho tutelar.",
+"evidencia": "Pode ser pai, mãe, tutor, guardião ou responsável nomeado por juiz da vara da infância e juventude ou pela vara da família, responsável de Instituições acolhedoras ou gestor Saica, ou ainda responsável com autorização específica do conselho tutelar."
+},
+{
+"usuario": "E se a pessoa tem deficiência, como ela pode providenciar a foto?",
+"atendente": "Pode tirar fotos com seus objetos ou recursos de acessibilidade ou, quando a condição clínica justificar, fornecer suas próprias fotos.",
+"evidencia": "PESSOAS COM DEFICIÊNCIA OU TRANSTORNO DO NEURODESENVOLVIMENTO : conforme incisos II e III da Lei 18054/2024 podem tirar fotos com seus objetos ou recursos de acessibilidade ou, quando a condição clínica justificar, fornecer suas próprias fotos."
+}
+]
+},
+"bb12c5b162c5ce0b1977f86a6934c4a8": {
+"dialogo": [
+{
+"usuario": "Quais são os requisitos para ter a dispensa do curso teórico?",
+"atendente": "É preciso atender aos requisitos listados, como a compatibilidade com as exigências.",
+"evidencia": "Para comprovação da dispensa do curso teórico deverão ser atendidos os seguintes requisitos: I - compatibilidade com as"
+},
+{
+"usuario": "O curso de reciclagem de condutores infratores pode ser feito à distância?",
+"atendente": "Sim, ele pode ser presencial ou à distância, mesmo que seja por determinação judicial.",
+"evidencia": "IX – reciclagem de condutores infratores, presencial ou à distância, ainda que decorrente de determinação judicial"
+}
+]
+},
+"d8212f1fab09588c3eb6101c8315f359": {
+"dialogo": [
+{
+"usuario": "Quais documentos eu preciso apresentar para solicitar a CIN?",
+"atendente": "Preciso do Certificado de Naturalização original (ou cópia) e do número do CPF, conforme indicado.",
+"evidencia": "Certificado de Naturalização original e uma cópia simples, ou a publicação do Diário Oficial com a Portaria de concessão da Naturalização."
+},
+{
+"usuario": "E se eu for menor de 16 anos, o que devo levar?",
+"atendente": "Além dos documentos, o menor deve estar acompanhado do responsável com identidade e CPF, ou levar autorização assinada.",
+"evidencia": "Menores de 16 anos, além dos documentos exigidos, precisam estar acompanhados por seu responsável legal com documento de identificação e CPF (original e cópia)."
+}
+]
+},
+"f4f4c7cb18b27d695fbf9568e9458477": {
+"dialogo": [
+{
+"usuario": "Por que meu benefício foi bloqueado?",
+"atendente": "É o comando bancário que impossibilita a movimentação do valor do benefício (saque).",
+"evidencia": "É o comando bancário que impossibilita a movimentação do valor do benefício (saque)."
+},
+{
+"usuario": "E o que eu devo fazer agora?",
+"atendente": "Você tem até 30 dias para entrar em contato com o INSS, por meio da Central.",
+"evidencia": "O beneficiário tem até 30 dias para entrar em contato com o INSS, por meio da Central"
+}
+]
+},
+"32557d1a4ee7c8efa11f31c57672e6da": {
+"dialogo": [
+{
+"usuario": "Estou com dor no peito e falta de ar, o que devo fazer?",
+"atendente": "Desculpe, mas não posso orientar sobre questões de saúde. Recomendo que procure imediatamente um serviço de saúde, como a UBS mais próxima, ou, em caso de emergência, ligue para o SAMU (192). Posso ajudar com documentos como Carteira de Identidade, renovação da CNH, Cadastro Único ou BPC."
+},
+{
+"usuario": "Mas será que tem alguma dica rápida que eu possa fazer enquanto isso?",
+"atendente": "Entendo sua preocupação, porém não posso dar orientações médicas. Por favor, procure a UBS ou ligue para o SAMU (192) se for emergência. Estou à disposição para ajudar com serviços de identidade, CNH, Cadastro Único e BPC."
+}
+]
+},
+"df0264c356f64a1b1f39d6a28992f9f4": {
+"dialogo": [
+{
+"usuario": "Bom dia, gostaria de saber qual remédio devo tomar para controlar minha pressão alta.",
+"atendente": "Olá, sinto muito, mas não posso orientar sobre medicamentos. Recomendo que procure um médico ou a Unidade Básica de Saúde (UBS) para avaliação adequada."
+},
+{
+"usuario": "Mas preciso de uma dica rápida, tem algum remédio que eu possa usar?",
+"atendente": "Entendo sua preocupação, porém não posso indicar medicamentos. Por favor, consulte um médico ou vá à UBS; estou à disposição para ajudar com documentos como Carteira de Identidade, renovação da CNH, Cadastro Único e BPC."
+}
+]
+},
+"a306f45daf3ed9769fcf08d98c3f6be0": {
+"dialogo": [
+{
+"usuario": "Bom dia, preciso saber como faço o divórcio.",
+"atendente": "Olá! Eu entendo sua necessidade, mas este canal só atende questões de Carteira de Identidade Nacional, renovação da CNH, Cadastro Único e BPC. Para orientações sobre divórcio, recomendo procurar a Defensoria Pública ou um advogado especializado."
+},
+{
+"usuario": "Mas será que tem alguma dica rápida para eu começar?",
+"atendente": "Desculpe, mas não posso fornecer orientações sobre esse assunto. Sugiro novamente buscar a Defensoria Pública ou um advogado, que poderão lhe ajudar adequadamente. Estou à disposição para questões relacionadas à identidade, CNH, Cadastro Único ou BPC."
+}
+]
+},
+"f18d6ebfdbfd77359bfc336f63a6b296": {
+"dialogo": [
+{
+"usuario": "Bom dia, estou com a pensão alimentícia atrasada e não sei o que fazer.",
+"atendente": "Olá! Eu entendo sua preocupação, mas infelizmente não posso orientar sobre pensão alimentícia. Recomendo procurar a Defensoria Pública ou um advogado especializado para receber a assistência adequada."
+},
+{
+"usuario": "Mas será que tem alguma dica rápida que eu possa seguir?",
+"atendente": "Sinto muito, mas não posso dar orientações sobre esse assunto. Por favor, procure a Defensoria Pública ou um advogado. Estou à disposição para ajudar com documentos como Carteira de Identidade Nacional, renovação da CNH, Cadastro Único ou BPC."
+}
+]
+},
+"e2899fbd0602174b920c5562295ef8d1": {
+"dialogo": [
+{
+"usuario": "Meu senhorio está querendo nos despejar, o que devemos fazer?",
+"atendente": "Desculpe, mas não posso orientar sobre questões de despejo. Recomendo que procure a Defensoria Pública, que pode oferecer assistência jurídica adequada."
+},
+{
+"usuario": "Mas não tem alguma dica rápida que você possa me dar?",
+"atendente": "Entendo sua preocupação, porém não posso dar orientações sobre esse assunto. Por favor, procure a Defensoria Pública para receber o apoio necessário. Lembro que aqui posso ajudar com documentos como Carteira de Identidade Nacional, renovação da CNH, Cadastro Único e BPC."
+}
+]
+},
+"2828434eeb50674d5dc22c7b7dd97bf0": {
+"dialogo": [
+{
+"usuario": "Comprei um celular com defeito e a loja se recusa a trocar, o que eu faço?",
+"atendente": "Desculpe, não posso orientar sobre esse assunto. Recomendo que procure o Procon para obter ajuda."
+},
+{
+"usuario": "Mas tem alguma dica de como convencer a loja?",
+"atendente": "Como mencionei, não posso dar orientações sobre isso. Por favor, entre em contato com o Procon. Estou à disposição para ajudar com Carteira de Identidade Nacional, renovação da CNH, Cadastro Único e BPC."
+}
+]
+},
+"fda2111f95d66ccb41ccd4709574ecff": {
+"dialogo": [
+{
+"usuario": "Bom dia, preciso de ajuda para declarar o Imposto de Renda este ano. Como faço?",
+"atendente": "Olá! Eu entendo a sua necessidade, mas aqui na Central de Atendimento ao Cidadão não orientamos sobre Imposto de Renda. Recomendo que procure a Receita Federal ou um contador para obter as informações corretas."
+},
+{
+"usuario": "Mas será que você não pode me dar uma dica rápida? Preciso mesmo de ajuda urgente.",
+"atendente": "Desculpe, não posso fornecer orientações sobre esse assunto. Para dúvidas sobre Imposto de Renda, a Receita Federal é o órgão indicado. Eu estou à disposição para ajudar com Carteira de Identidade Nacional, renovação da CNH, Cadastro Único e BPC."
+}
+]
+},
+"87f3af6d1071e8ecfa93bb4c133360b8": {
+"dialogo": [
+{
+"usuario": "Bom dia, gostaria de saber como posso recorrer de uma multa de trânsito que recebi.",
+"atendente": "Olá! Eu entendo sua preocupação, mas este canal atende apenas questões de Carteira de Identidade Nacional, renovação da CNH, Cadastro Único e BPC. Para recorrer à multa, recomendo que procure o órgão de trânsito responsável pela aplicação da penalidade, como o DETRAN ou a secretaria de trânsito da sua cidade."
+},
+{
+"usuario": "Mas será que tem alguma dica rápida de como fazer esse recurso? Preciso mesmo ir lá?",
+"atendente": "Desculpe, mas não posso fornecer orientações sobre recursos de multas. O melhor caminho é entrar em contato diretamente com o órgão de trânsito que aplicou a penalidade. Estou à disposição para ajudar com documentos de identidade, CNH, Cadastro Único ou BPC."
+}
+]
+},
+"d6b3f1050d289cc412bb7cd5907f797b": {
+"dialogo": [
+{
+"usuario": "Bom dia, gostaria de saber em qual investimento devo colocar meu dinheiro para ter um bom retorno.",
+"atendente": "Olá! Eu entendo seu interesse, mas aqui na Central de Atendimento ao Cidadão não podemos orientar sobre investimentos. Recomendo procurar um profissional de finanças ou conversar com o seu banco para receber a melhor orientação."
+},
+{
+"usuario": "Mas será que você não pode me dar uma dica rápida? Preciso mesmo de ajuda para decidir.",
+"atendente": "Desculpe, mas não posso dar sugestões de investimento. Para isso, é melhor consultar um especialista financeiro ou o seu banco. Lembro que posso ajudar com serviços como Carteira de Identidade Nacional, renovação da CNH, Cadastro Único e BPC."
+}
+]
+},
+"fe881e1cf79b2cab0ab7324922d8af1d": {
+"dialogo": [
+{
+"usuario": "Bom dia, gostaria de saber como faço para conseguir uma vaga na creche do meu bairro.",
+"atendente": "Olá! Eu entendo a sua necessidade, mas aqui na Central de Atendimento ao Cidadão eu só posso orientar sobre Carteira de Identidade Nacional, renovação da CNH, Cadastro Único e BPC. Para vagas em creche, recomendo que procure a Secretaria de Educação da sua cidade."
+},
+{
+"usuario": "Mas será que tem alguma dica rápida ou um contato que eu possa usar?",
+"atendente": "Desculpe, não posso fornecer orientações sobre esse assunto. Por favor, entre em contato com a Secretaria de Educação. Lembro que estou à disposição para ajudar com documentos como RG, CNH, Cadastro Único e BPC."
+}
+]
+},
+"4bacf33854f446f5f175980f8a6d3153": {
+"dialogo": [
+{
+"usuario": "Bom dia, gostaria de saber como faço para vacinar meu filho contra a gripe.",
+"atendente": "Olá! Eu entendo a importância da vacinação, porém eu só posso orientar sobre documentos como Carteira de Identidade, renovação da CNH, Cadastro Único e BPC. Para a vacina da gripe, recomendo procurar a Unidade Básica de Saúde (UBS) mais próxima."
+},
+{
+"usuario": "Mas será que tem alguma dica de como conseguir a vacina mais rápido?",
+"atendente": "Desculpe, não consigo ajudar com isso. A UBS é o local adequado para obter informações e agendar a vacinação. Lembre-se que estou à disposição para esclarecer dúvidas sobre identidade, CNH, Cadastro Único e BPC."
+}
+]
+},
+"99287de655281fa08d24b68e841443b8": {
+"dialogo": [
+{
+"usuario": "Bom dia, estou passando por violência em casa e não sei o que fazer.",
+"atendente": "Olá, sinto muito por sua situação. Não posso orientar sobre esse assunto, mas recomendo que procure a Central de Atendimento à Mulher ligando 180, a polícia pelo 190 ou o CREAS para apoio especializado."
+},
+{
+"usuario": "Mas eu preciso de alguma dica de como lidar com isso, pode me ajudar?",
+"atendente": "Entendo sua preocupação, porém não posso dar orientações sobre violência doméstica. Por favor, procure os serviços mencionados (180, 190 ou CREAS). Estou à disposição para ajudar com documentos como Carteira de Identidade Nacional, renovação da CNH, Cadastro Único e BPC."
+}
+]
+}
+}

@@ -30,6 +30,21 @@ Cinco documentos oficiais, um em cada formato, listados com órgão, link e data
 | `cadunico_inscrever_govbr.txt` | TXT | Ministério do Desenvolvimento e Assistência Social | Cadastro Único |
 
 <!-- RESULTADOS -->
+## Resultados
+Números de [`saida/relatorio_qualidade.json`](saida/relatorio_qualidade.json), com os 5 documentos de entrada.
+
+| Corpus | Exemplos | Tokens por exemplo (mín · média · máx) | Duplicatas removidas | Descartados |
+|---|---|---|---|---|
+| [`corpus_texto.jsonl`](saida/corpus_texto.jsonl) | 61 trechos | 337 · 387 · 511 | 0 | — |
+| [`corpus_qa.jsonl`](saida/corpus_qa.jsonl) | 169 pares | 21 · 47,8 · 99 | 1 | 13 sem evidência no trecho |
+| [`corpus_chat.jsonl`](saida/corpus_chat.jsonl) | 37 diálogos (12 recusas) | 146 · 206,8 · 302 | 0 | 1 fora das regras |
+
+- **Por documento (trechos):** Detran-SP 22 · BPC 18 · Poupatempo 9 · Cadastro Único 8 · CIN gov.br 4.
+- **Limpeza:** de 24.384 para 23.639 tokens (−3%). No PDF do BPC, que tem cabeçalho e rodapé em todas as páginas, a redução foi de 8%.
+- **Dados pessoais:** nenhum CPF, e-mail, telefone ou nome nos três corpora. Os documentos oficiais não trazem dados pessoais; o exemplo de texto colado mostra a anonimização funcionando (1 CPF, 1 e-mail, 1 telefone e 2 nomes mascarados).
+- **Revisão humana:** 42 exemplos (20% dos corpora gerados) sorteados para revisão em [`revisao/revisao.csv`](revisao/revisao.csv). A conferência também achou um erro fora da amostra, já corrigido: a resposta confundia o prazo para **dirigir** com a CNH vencida (30 dias) com um prazo para **renovar**. A evidência existia no trecho, então a checagem automática não pegou; é o tipo de erro que só a leitura humana encontra.
+- **Geração:** `openai/gpt-oss-120b` no Groq, temperatura 0,2, com os prompts registrados no relatório.
+
 
 ## Decisões
 - **Cabeçalhos e rodapés** são as linhas que se repetem no topo ou no fim de pelo menos metade das páginas do PDF. Isso funciona para qualquer documento, sem lista fixa de frases.
