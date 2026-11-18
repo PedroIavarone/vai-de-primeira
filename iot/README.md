@@ -47,9 +47,13 @@ python iot/simulador/simulador_totem.py --cenario todos  # ou normal, cheia, aju
 
 ## Limitações
 - **Broker público:** qualquer pessoa pode publicar nos mesmos tópicos. Por isso toda leitura é validada e o conteúdo não tem dado pessoal. Em produção: broker próprio com usuário, senha e TLS.
+- **Queda de conexão:** nos testes, o broker derrubou a conexão do Node-RED por 16 s e as mensagens desse intervalo se perderam. O Node-RED agora usa sessão persistente (client id fixo, clean session desligado), e o broker guarda as mensagens QoS 1. O ESP32 publica com QoS 0 (limite da PubSubClient): um evento enviado durante uma reconexão pode se perder.
 - **Contagem por sensores de passagem:** duas pessoas lado a lado contam como uma, e quem para na porta pode gerar contagem dupla. Uma câmera com contagem por visão seria mais precisa, mas é mais cara e levanta questões de privacidade.
 - **Espera estimada** por tempo médio fixo (1,8 min por pessoa). O ideal é aprender esse tempo com o histórico de cada unidade.
-- **Simulação:** o circuito foi testado no Wokwi, não em placa física.
+- **Simulação:** o circuito foi testado no Wokwi, não em placa física. No Wokwi foram testados conexão, ambiente, presença e pedido de ajuda, com a mensagem chegando ao banco do Node-RED; a contagem pela porta foi testada com o simulador em Python.
+
+## Evidências
+[`evidencias/`](evidencias/): fluxo do Node-RED, monitor serial do Wokwi com presença e ajuda, alertas, eventos e descartes exportados do banco e a resposta de `GET /fila` com a leitura do sensor. Documento da disciplina: [`Documento_Totem_e_Fila_ao_Vivo.docx`](Documento_Totem_e_Fila_ao_Vivo.docx).
 
 ## Estrutura
 | Caminho | Conteúdo |

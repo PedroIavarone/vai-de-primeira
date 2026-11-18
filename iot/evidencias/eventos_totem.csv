@@ -1,0 +1,9 @@
+id,totem,tipo,valor,recebido_em
+1,t1,presenca,true,"2026-11-12 10:26:25"
+2,t1,ajuda,true,"2026-11-12 10:26:26"
+3,t1,presenca,false,"2026-11-12 10:26:27"
+4,t1,presenca,true,"2026-11-17 23:23:05"
+5,t1,ajuda,true,"2026-11-17 23:23:06"
+6,t1,presenca,false,"2026-11-17 23:23:08"
+7,t1,presenca,true,"2026-11-17 23:25:09"
+8,t1,ajuda,true,"2026-11-17 23:25:46"
