@@ -148,6 +148,7 @@ def main():
     genai = ler_json("genai/avaliacao/resultados.json")
     visao = ler_json("visao/resultados/ponta_a_ponta.json")
     visao_campo = ler_json("visao/resultados/teste_campo.json")
+    visao_ajustado = ler_json("visao/resultados/teste_campo_ajustado.json")
     pln = ler_json("pln/saida/relatorio_qualidade.json")
     rpa_val = ler_json("rpa/validacao/resultado.json")
 
@@ -196,7 +197,8 @@ def main():
     linhas_modelos = []
     if visao:
         linhas_modelos.append(("Conferência por foto (visão)", f"{visao['acerto_geral']:.0%} de ponta a ponta em {visao['fotos_teste']} fotos de teste (MIDV-2020)",
-                               f"{visao_campo['resumo']['detectados_no_limiar']} de {visao_campo['resumo']['imagens']} no teste com documentos brasileiros" if visao_campo else "teste com documentos brasileiros pendente"))
+                               (f"{visao_ajustado['resumo']['detectados_no_limiar']} de {visao_ajustado['resumo']['imagens']} documentos brasileiros após o ajuste "
+                                f"(antes: {visao_campo['resumo']['detectados_no_limiar']} de {visao_campo['resumo']['imagens']})") if visao_ajustado and visao_campo else "teste com documentos brasileiros pendente"))
     if genai:
         rs = genai["resumo"]
         linhas_modelos.append(("Assistente (RAG + agente)", f"{rs['acerto_geral']:.1%}".replace('.', ',') + f" de acerto em {rs['total']} perguntas · fonte certa {rs['fonte_correta']:.0%}",
