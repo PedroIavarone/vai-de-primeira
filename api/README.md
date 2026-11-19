@@ -6,7 +6,7 @@ Ponto único de acesso do app e do totem. Recebe as solicitações do cidadão, 
 - `GET /fila`: espera atual de cada unidade (leitura do totem quando houver, estimativa nas demais).
 - `POST /checar-documento`: recebe uma imagem e devolve tipo, qualidade e orientação.
 - `POST /perguntar`: pergunta em linguagem natural, resposta com fontes oficiais.
-- `POST /prontidao`: Índice de Prontidão (0 a 100) com componentes e pendências. Regras em `prontidao.py`.
+- `POST /prontidao`: Índice de Prontidão (0 a 100) com componentes e pendências. Regras em `prontidao.py` (versão 2.0, rigorosa): só conta documento obrigatório com foto boa; fila e orientação só somam quando todos os documentos obrigatórios estão ok. Na CIN, o CPF impresso na certidão, lido pelo OCR, vale como CPF.
 
 ## Integração
 Contratos completos em [docs/contratos.md](../docs/contratos.md). Endpoints ainda não ligados ao módulo definitivo respondem com dados de demonstração (`"simulado": true`).

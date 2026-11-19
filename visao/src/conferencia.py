@@ -14,6 +14,7 @@ Limiares (justificativa no README do módulo):
   CONF_QUALIDADE = 0.60  abaixo disso a orientação pede uma nova foto, sem afirmar o defeito
 """
 import logging
+import re
 import time
 import unicodedata
 from pathlib import Path
@@ -57,6 +58,9 @@ def _normalizar(texto: str) -> str:
     return " ".join(sem_acento.upper().split())
 
 
+_CPF_NO_TEXTO = re.compile(r"\b\d{3}[.\s]?\d{3}[.\s]?\d{3}[-\s]?\d{2}\b")
+
+
 def tipo_por_texto(texto: str) -> str:
     alvo = _normalizar(texto)
     for tipo, palavras in PALAVRAS_TIPO:
@@ -97,6 +101,10 @@ class Conferencia:
         return self.qualidade.names[int(r.probs.top1)], float(r.probs.top1conf)
 
     def identificar_tipo(self, recorte: np.ndarray) -> str:
+        return self.ler_documento(recorte)[0]
+
+    def ler_documento(self, recorte: np.ndarray) -> tuple[str, bool]:
+        """Tipo do documento pelo OCR e se um número de CPF aparece impresso nele (ex.: certidões novas)."""
         if self._ocr is None:
             try:
                 import easyocr
@@ -105,9 +113,9 @@ class Conferencia:
                 log.warning("OCR indisponível (%s); tipo = desconhecido", erro)
                 self._ocr = False
         if not self._ocr:
-            return "desconhecido"
+            return "desconhecido", False
         texto = " ".join(self._ocr.readtext(recorte, detail=0, paragraph=True))
-        return tipo_por_texto(texto)
+        return tipo_por_texto(texto), bool(_CPF_NO_TEXTO.search(texto))
 
     # ---------- uso ----------
     def analisar(self, imagem: np.ndarray, identificar_tipo: bool = True) -> dict:
@@ -119,8 +127,10 @@ class Conferencia:
                 continue
             qualidade, conf_q = self.avaliar_qualidade(recorte)
             dica = DICAS[qualidade] if conf_q >= CONF_QUALIDADE else DICA_INCERTA
+            tipo, tem_cpf = self.ler_documento(recorte) if identificar_tipo else ("desconhecido", False)
             documentos.append({
-                "tipo": self.identificar_tipo(recorte) if identificar_tipo else "desconhecido",
+                "tipo": tipo,
+                "cpf_visivel": tem_cpf,
                 "confianca": round(conf_det, 3),
                 "qualidade": qualidade,
                 "confianca_qualidade": round(conf_q, 3),
