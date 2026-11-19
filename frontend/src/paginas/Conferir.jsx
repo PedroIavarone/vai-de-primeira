@@ -6,7 +6,7 @@ import { buscarFila, calcularProntidao, checarDocumento } from "../servicos/api"
 import { salvarServico, usuarioAtual } from "../servicos/armazenamento";
 import { DOCUMENTOS_DO_SERVICO, LISTA_SERVICOS, QUALIDADES, SERVICOS, TIPOS_DOCUMENTO } from "../servicos/catalogo";
 
-const porcento = (v) => `${Math.round(v * 100)}%`;
+const porcento = (v) => `${Math.min(99, Math.round(v * 100))}%`; // modelo nunca tem 100% de certeza
 
 const SERVICOS_CONFERIR = LISTA_SERVICOS.filter((s) => s.conferir);
 
@@ -25,6 +25,7 @@ export default function Conferir() {
   const [erro, setErro] = useState("");
   const [dica, setDica] = useState("");
   const [semTipo, setSemTipo] = useState(null);
+  const [arrastando, setArrastando] = useState(false);
 
   function confirmarTipo(tipo) {
     if (!tipo) return;
@@ -50,7 +51,7 @@ export default function Conferir() {
       servico: servicoId,
       unidade_id: unidadeId || null,
       orientado,
-      documentos: Object.values(documentos).map(({ tipo, qualidade }) => ({ tipo, qualidade })),
+      documentos: Object.values(documentos).map(({ tipo, qualidade, cpf_visivel }) => ({ tipo, qualidade, cpf_visivel: Boolean(cpf_visivel) })),
     };
     calcularProntidao(pedido)
       .then((r) => {
@@ -58,6 +59,7 @@ export default function Conferir() {
         salvarServico(servicoId, {
           indice: r.indice,
           faixa: r.faixa,
+          falta: r.pendencias?.[0] || null, // primeira pendência, mostrada no cartão de Meus serviços
           status: registro?.status === "concluido" ? "concluido" : "em_andamento",
         });
       })
@@ -66,9 +68,26 @@ export default function Conferir() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [servicoId, unidadeId, orientado, documentos]);
 
-  async function enviarFoto(e) {
+  function escolherFoto(e) {
     const arquivo = e.target.files?.[0];
     e.target.value = "";
+    enviarFoto(arquivo);
+  }
+
+  // Arrastar e soltar a foto (no computador), além de tirar ou escolher.
+  function soltarFoto(e) {
+    e.preventDefault();
+    setArrastando(false);
+    if (carregando) return;
+    const arquivo = [...(e.dataTransfer.files || [])].find((f) => f.type.startsWith("image/"));
+    if (!arquivo) {
+      setErro("Solte uma imagem (JPG, PNG ou WEBP).");
+      return;
+    }
+    enviarFoto(arquivo);
+  }
+
+  async function enviarFoto(arquivo) {
     if (!arquivo) return;
     setErro("");
     setDica("");
@@ -150,16 +169,27 @@ export default function Conferir() {
         <p>
           Documentos pedidos: <strong>{SERVICOS[servicoId].levar.join("; ")}</strong>
         </p>
-        <label className="botao" htmlFor="foto" style={{ marginBottom: "1rem" }}>
-          {carregando ? "Conferindo a foto..." : "Tirar ou escolher uma foto"}
-        </label>
+        <div
+          className={`zona-foto${arrastando ? " arrastando" : ""}`}
+          onDragOver={(e) => {
+            e.preventDefault();
+            setArrastando(true);
+          }}
+          onDragLeave={() => setArrastando(false)}
+          onDrop={soltarFoto}
+        >
+          <label className="botao" htmlFor="foto">
+            {carregando ? "Conferindo a foto..." : "Tirar ou escolher uma foto"}
+          </label>
+          <span className="secundario">{arrastando ? "Solte a foto aqui" : "ou arraste a foto para cá"}</span>
+        </div>
         <input
           id="foto"
           className="visualmente-oculto"
           type="file"
           accept="image/jpeg,image/png,image/webp"
           capture="environment"
-          onChange={enviarFoto}
+          onChange={escolherFoto}
           disabled={carregando}
         />
         <Aviso tipo="erro">{erro}</Aviso>
@@ -194,11 +224,19 @@ export default function Conferir() {
                 </p>
                 {d.confianca != null && (
                   <p className="pequeno secundario" style={{ margin: "0 0 0.5rem" }}>
-                    Confiança do modelo: documento {porcento(d.confianca)}
-                    {d.confianca_qualidade != null && <> · qualidade {porcento(d.confianca_qualidade)}</>}
+                    Certeza da IA: achou o documento ({porcento(d.confianca)})
+                    {d.confianca_qualidade != null && (
+                      <> · {(QUALIDADES[d.qualidade] || d.qualidade).toLowerCase()} ({porcento(d.confianca_qualidade)})</>
+                    )}
                   </p>
                 )}
                 {d.dica && <p style={{ margin: 0 }}>{d.dica}</p>}
+                {d.tipo === "certidao" && d.qualidade === "ok" && d.cpf_visivel && (
+                  <p className="pequeno" style={{ margin: "0.5rem 0 0" }}>✓ CPF encontrado na certidão: não precisa mandar o CPF.</p>
+                )}
+                {resultado?.obrigatorios && d.tipo !== "desconhecido" && !resultado.obrigatorios.includes(d.tipo) && (
+                  <p className="pequeno secundario" style={{ margin: "0.5rem 0 0" }}>Este documento não é pedido para este serviço, então não conta no Índice.</p>
+                )}
               </li>
             ))}
           </ul>

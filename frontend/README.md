@@ -13,15 +13,15 @@ Quem precisa tirar a identidade nova, renovar a CNH, atualizar o Cadastro Único
 ## O que o app faz
 | Tela | Rota | O que faz |
 |---|---|---|
-| Entrar e criar cadastro | `/login`, `/cadastro` | Login local. CPF com máscara e validação, senha mínima de 6 caracteres e aceite de avisos que começa desmarcado |
-| Meus serviços | `/meus-servicos` | Serviços que a pessoa quer resolver, com situação e último Índice de Prontidão. Adicionar e remover |
+| Entrar e criar cadastro | `/login`, `/cadastro` | Login local. Ao lado do formulário, o que a pessoa ganha ao entrar e a unidade com menor espera agora. CPF com máscara e validação, senha com botão Mostrar, mínimo de 6 caracteres e aceite de avisos que começa desmarcado |
+| Meus serviços | `/meus-servicos` | Um cartão por serviço: anel com o Índice de Prontidão, o que ainda falta, etapas (Preparando, Pronta para ir, Resolvido) e uma ação principal. "Pronta para ir" acende sozinha quando o índice chega à faixa pronta. Adicionar e remover (menu ⋯) |
 | Jornada do serviço | `/servico/:id` | O que levar, onde ir, se é gratuito e as fontes oficiais. Botão para ouvir o resumo |
-| **Conferir documentos** | `/conferir` | Foto de cada documento → conferência de qualidade pela IA (`POST /checar-documento`) → **Índice de Prontidão** (`POST /prontidao`) com o que falta |
+| **Conferir documentos** | `/conferir` | Foto de cada documento → conferência de qualidade pela IA (`POST /checar-documento`), com a **caixa desenhada sobre o documento e a confiança do modelo** → **Índice de Prontidão** (`POST /prontidao`) com o que falta |
 | Fila agora | `/fila` | Espera de cada unidade (`GET /fila`), com contagem real do totem quando há sensor |
-| Tirar dúvidas | `/assistente` | Assistente com IA (`POST /perguntar`): resposta em linguagem adaptada ao perfil, lista de documentos, se é gratuito e a fonte. Pergunta por voz e resposta em voz |
+| Tirar dúvidas | `/assistente` | Assistente com IA (`POST /perguntar`): resposta em linguagem adaptada ao perfil, lista de documentos, se é gratuito e a fonte, com link para o site oficial (ex.: gov.br). Pergunta por voz e resposta em voz |
 | Meus dados | `/privacidade` | Dados guardados (CPF mascarado), consentimento de avisos e **apagar meus dados** |
 | Por que existimos | `/por-que` | História da Dona Francisca e a relação com os ODS 10, 9, 4 e 11 |
-| Modo totem | `/totem` | Sem login, letra e botões grandes, resposta falada, botão "Preciso de ajuda" e fila das unidades. Volta ao início sozinho depois de 90 s |
+| Modo totem | `/totem` | Tela de quiosque, sem o menu do site e sem login: 4 botões grandes com custo, resposta falada, Libras, contraste, "Preciso de ajuda" e a espera das unidades da menor para a maior. Volta ao início sozinho depois de 90 s; o atendente sai segurando o logo por 3 s |
 
 **Processamento inteligente:** a solicitação do cidadão (uma foto ou uma pergunta) vai para a API, que usa a conferência por visão computacional e o assistente com recuperação em documentos oficiais. A resposta volta como ação: o Índice de Prontidão sobe ou desce, e o app mostra exatamente o que falta para ir com segurança. Quando o texto do documento não dá para ler, a pessoa diz qual documento fotografou e a qualidade conferida pela IA continua valendo.
 
@@ -65,9 +65,10 @@ npm run build      # versão de produção em dist/
 A API fica em `http://127.0.0.1:8000`. Para outro endereço, crie `frontend/.env` com `VITE_API_URL=http://endereco:porta`. Sem a chave do Groq ou sem os modelos de visão, a API responde em modo de demonstração e o app avisa.
 
 ## Validação
-- Fluxo completo testado no navegador: cadastro, sair, entrar, adicionar serviço, conferir uma foto, ver o Índice de Prontidão subir e apagar os dados.
+- Fluxo completo testado no navegador: cadastro, sair, senha errada (mensagem genérica), entrar, adicionar serviço, ver o que levar, conferir uma certidão com reflexo (Índice continua 0) e depois uma boa, com o CPF lido na própria certidão (Índice vai a 80, "pronta para ir"), perguntar ao assistente e apagar os dados.
+- As 11 rotas abrem sem erro no console, com título, rótulo em todos os campos e texto alternativo nas imagens. O contraste das cores do cabeçalho fica entre 5,0:1 e 14,8:1 (mínimo AA: 4,5:1).
 - Conferido no `localStorage` que o CPF inteiro e a senha não aparecem em lugar nenhum.
-- **Lighthouse, acessibilidade: 100** na tela de entrada, em modo celular (iPhone 16), e no modo totem, em tela larga ([`login`](evidencias/lighthouse_acessibilidade_login.jpg), [`totem`](evidencias/lighthouse_acessibilidade_totem.jpg)). O Lighthouse só cobre parte da acessibilidade: os itens de verificação manual que ele lista (ordem do foco, foco em conteúdo novo) continuam como próximo passo, junto com um teste com leitor de tela.
+- **Lighthouse, acessibilidade: 100** na tela de entrada, em modo celular (iPhone 16), e no modo totem, em tela larga ([`login`](evidencias/lighthouse_acessibilidade_login.jpg), [`totem`](evidencias/lighthouse_acessibilidade_totem.jpg)). Essas notas são de antes do redesenho das telas de entrada, Meus serviços e totem; depois dele, as 10 rotas foram conferidas de novo (um título por tela, rótulo em todos os campos, nome em todos os botões, sem erro no console, sem rolagem lateral no celular). O Lighthouse só cobre parte da acessibilidade: os itens de verificação manual que ele lista (ordem do foco, foco em conteúdo novo) continuam como próximo passo, junto com um teste com leitor de tela.
 
 ## Equipe
 Pedro Iavarone Custódio (RM567638) · Rodrigo Ferreira Nery (RM568246)

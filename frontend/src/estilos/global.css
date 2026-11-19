@@ -286,9 +286,121 @@ a { color: var(--azul); font-weight: 700; }
 .balao--assistente { align-self: flex-start; background: var(--cartao); border: 1px solid var(--borda); }
 
 /* Totem: tudo maior, toque fácil */
-.totem { font-size: 1.5rem; }
-.totem h1 { font-size: 2.6rem; }
-.totem .botao { min-height: 96px; font-size: 1.6rem; width: 100%; }
+/* Entrar: a promessa ao lado do formulário */
+.entrar { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: start; padding-top: 12px; }
+.entrar__servicos { display: inline-block; font-size: .9rem; font-weight: 700; color: var(--azul); background: var(--azul-claro); border: 1px solid #c8d8f0; border-radius: 999px; padding: 4px 12px; }
+.entrar__promessa h1 { font-size: 2.6rem; line-height: 1.12; margin: 16px 0 24px; }
+.entrar__lista { display: flex; flex-direction: column; gap: 18px; margin-bottom: 24px; }
+.entrar__lista li { display: flex; gap: 14px; align-items: flex-start; }
+.entrar__lista b { display: block; }
+.entrar__icone { width: 40px; height: 40px; flex-shrink: 0; border-radius: 10px; background: var(--azul-claro); display: grid; place-items: center; font-size: 1.2rem; color: var(--azul); font-weight: 700; }
+.entrar__fila { display: inline-flex; align-items: center; gap: 8px; flex-wrap: nowrap; white-space: nowrap; background: var(--cartao); border: 1px solid var(--borda); border-radius: 12px; padding: 10px 14px; }
+.entrar__fila .ponto { width: 10px; height: 10px; border-radius: 50%; background: var(--verde); }
+.entrar__form h2 { margin-top: 0; }
+.entrar__form .botao { width: 100%; }
+.entrar__ou { text-align: center; color: var(--cinza); font-size: .95rem; margin: 14px 0 8px; }
+.entrar__nota { margin: 14px 0 0; }
+.campo-senha { display: flex; gap: 8px; }
+.campo-senha input { flex: 1; }
+.campo-senha button { min-width: 92px; border: 2px solid var(--borda); border-radius: 10px; background: var(--cartao); color: var(--azul); font: inherit; font-weight: 700; cursor: pointer; }
+:root[data-contraste="alto"] .entrar__servicos, :root[data-contraste="alto"] .entrar__icone { background: #000; border-color: var(--azul); }
+:root[data-contraste="alto"] .campo-senha button { background: #000; border-color: var(--azul); }
+@media (max-width: 860px) { .entrar__fila { display: block; white-space: normal; line-height: 1.8; } .entrar__fila .ponto { display: inline-block; margin-right: 6px; } .entrar { grid-template-columns: 1fr; gap: 24px; } .entrar__promessa h1 { font-size: 2rem; } }
+
+/* Meus serviços: cartão que responde "já posso ir?" */
+.grade-servicos { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); }
+.grade-servicos > .cartao { margin-bottom: 0; }
+.cartao-servico { display: flex; flex-direction: column; gap: 16px; }
+.cartao-servico__topo { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.cartao-servico__topo h3 { margin-bottom: 6px; }
+.etiqueta { display: inline-block; font-size: .9rem; font-weight: 700; padding: 2px 10px; border-radius: 999px; border: 1.5px solid; }
+.etiqueta--gratis { color: var(--verde); }
+.etiqueta--custo { color: var(--laranja); }
+.cartao-servico__indice { display: flex; align-items: center; gap: 18px; }
+.cartao-servico__indice p { margin: 0 0 4px; }
+.anel { width: 92px; height: 92px; flex-shrink: 0; }
+.anel-fundo { fill: none; stroke: var(--cinza-claro); stroke-width: 8; }
+.anel-valor { fill: none; stroke-width: 8; stroke-linecap: round; stroke: var(--cinza); }
+.anel text { font: 700 26px "Atkinson Hyperlegible", Arial, sans-serif; fill: var(--grafite); }
+.anel--vazio .anel-valor { stroke: none; }
+.anel--pronta .anel-valor { stroke: var(--verde); }
+.anel--quase .anel-valor { stroke: var(--laranja); }
+.anel--nao_pronta .anel-valor { stroke: var(--vermelho); }
+.faixa { font-weight: 700; font-size: 1.2rem; }
+.faixa--pronta { color: var(--verde); } .faixa--quase { color: var(--laranja); } .faixa--nao_pronta { color: var(--vermelho); } .faixa--vazio { color: var(--cinza); }
+.etapas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.etapas button { white-space: nowrap; min-height: 44px; border: 1px solid var(--borda); border-radius: 10px; background: var(--cinza-claro); color: var(--cinza); font: inherit; font-size: .95rem; font-weight: 700; cursor: pointer; }
+.etapas button:disabled { cursor: default; }
+.etapas button.feita { color: var(--verde); background: #eef8f2; border-color: #b9dcc8; }
+.etapas button[aria-pressed="true"] { background: var(--azul); border-color: var(--azul); color: #fff; }
+.cartao-servico > .botao { width: 100%; justify-content: center; }
+.menu-mais { position: relative; }
+.menu-mais > button { min-width: 44px; min-height: 44px; border: 1px solid var(--borda); border-radius: 10px; background: var(--cartao); color: var(--grafite); font-size: 1.4rem; line-height: 1; cursor: pointer; }
+.menu-mais__lista { position: absolute; right: 0; top: 50px; z-index: 5; display: flex; flex-direction: column; gap: 8px; padding: 10px; min-width: 230px; background: var(--cartao); border: 1px solid var(--borda); border-radius: 12px; box-shadow: 0 8px 24px rgba(16, 24, 40, .14); }
+.adicionar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 24px; }
+.adicionar > span { font-weight: 700; }
+:root[data-contraste="alto"] .etapas button { background: #000; color: #fff; border-color: #fff; }
+:root[data-contraste="alto"] .etapas button.feita { background: #000; color: var(--verde); border-color: var(--verde); }
+:root[data-contraste="alto"] .etapas button[aria-pressed="true"] { background: var(--azul); color: #000; }
+:root[data-contraste="alto"] .anel text { fill: #fff; }
+
+/* Modo totem: quiosque em tela cheia, sem o menu do site */
+.totem-tela { min-height: 100vh; display: flex; flex-direction: column; background: var(--fundo); }
+.totem-topo { display: flex; align-items: center; gap: 16px; padding: 14px 40px; background: var(--azul); color: #fff; flex-wrap: wrap; }
+.totem-logo { width: 60px; height: 60px; border-radius: 14px; border: 0; background: #fff; padding: 6px; cursor: pointer; flex-shrink: 0; }
+.totem-logo img { width: 100%; height: 100%; }
+.totem-unidade { display: flex; flex-direction: column; line-height: 1.2; }
+.totem-unidade b { font-size: 1.6rem; }
+.totem-unidade span { font-size: 1rem; opacity: .88; }
+.totem-acessos { margin-left: auto; display: flex; gap: 10px; flex-wrap: wrap; }
+.totem-acessos button { min-height: 58px; padding: 0 20px; border-radius: 12px; border: 2px solid transparent; background: rgba(255, 255, 255, .16); color: #fff; font: inherit; font-size: 1.15rem; font-weight: 700; cursor: pointer; }
+.totem-acessos button:hover { background: rgba(255, 255, 255, .28); }
+.totem-acessos button[aria-pressed="true"] { background: #fff; color: var(--azul); }
+.totem-hora { font-size: 1.9rem; font-weight: 700; margin-left: 8px; }
+.totem-conteudo { flex: 1; width: 100%; max-width: 1400px; margin: 0 auto; padding: 32px 40px 24px; }
+.totem-conteudo h1 { font-size: 2.8rem; margin: 0 0 24px; }
+.totem-conteudo h2 { font-size: 1.6rem; margin: 30px 0 16px; }
+.totem-servicos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.totem-servico { width: 100%; min-height: 210px; border: 0; border-radius: 18px; background: var(--azul); color: #fff; padding: 26px; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; text-align: left; font: inherit; cursor: pointer; }
+.totem-servico:hover { background: var(--azul-escuro); }
+.totem-servico:disabled { opacity: .6; cursor: wait; }
+.totem-servico b { display: block; font-size: 1.8rem; line-height: 1.1; }
+.totem-servico span span, .totem-ajuda span span { display: block; font-size: 1.15rem; opacity: .92; margin-top: 4px; }
+.totem-icone { font-size: 2.8rem; line-height: 1; }
+.totem-ajuda { width: 100%; margin-top: 20px; min-height: 100px; border: 0; border-radius: 18px; background: var(--vermelho); color: #fff; display: flex; align-items: center; gap: 22px; padding: 0 32px; text-align: left; font: inherit; cursor: pointer; }
+.totem-ajuda b { display: block; font-size: 2rem; }
+.totem-seta { margin-left: auto; font-size: 2.5rem; }
+.totem-fila { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.totem-unidade-fila { position: relative; border: 1.5px solid var(--borda); border-radius: 16px; padding: 18px 22px; background: var(--cartao); }
+.totem-unidade-fila > b { font-size: 1.3rem; }
+.totem-unidade-fila.menor { border: 3px solid var(--verde); background: #eef8f2; }
+.totem-selo { position: absolute; top: -15px; left: 18px; background: var(--verde); color: #fff; font-weight: 700; font-size: .95rem; padding: 4px 10px; border-radius: 999px; }
+.totem-espera { display: block; margin-top: 6px; font-size: 1.05rem; }
+.totem-espera b { font-size: 2.5rem; margin-right: 6px; }
+.totem-lotacao { display: block; height: 10px; border-radius: 5px; background: var(--cinza-claro); margin-top: 10px; overflow: hidden; }
+.totem-lotacao span { display: block; height: 100%; border-radius: 5px; }
+.lotacao-tranquila { background: var(--verde); } .lotacao-moderada { background: var(--laranja); } .lotacao-cheia { background: var(--vermelho); }
+.totem-resposta { background: var(--cartao); border: 1px solid var(--borda); border-radius: 18px; padding: 28px; font-size: 1.35rem; }
+.totem-resposta p, .totem-resposta li { font-size: 1.4rem; }
+.totem-resposta .pequeno { font-size: 1.1rem; }
+.totem-voltar { margin-top: 18px; min-height: 72px; padding: 0 28px; border-radius: 14px; border: 2px solid var(--azul); background: var(--fundo); color: var(--azul); font: inherit; font-size: 1.4rem; font-weight: 700; cursor: pointer; }
+.totem-carregando { font-size: 1.5rem; font-weight: 700; color: var(--azul); }
+.totem-rodape { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 12px 40px; border-top: 1px solid var(--borda); color: var(--cinza); font-size: 1rem; }
+:root[data-contraste="alto"] .totem-topo { background: #000; border-bottom: 2px solid #fff; }
+:root[data-contraste="alto"] .totem-acessos button { background: #000; color: var(--azul); border-color: var(--azul); }
+:root[data-contraste="alto"] .totem-servico, :root[data-contraste="alto"] .totem-ajuda { background: #000; color: var(--azul); border: 3px solid var(--azul); }
+:root[data-contraste="alto"] .totem-unidade-fila.menor { background: #000; }
+:root[data-contraste="alto"] .totem-selo { color: #000; }
+:root[data-contraste="alto"] .totem-unidade-fila > b, :root[data-contraste="alto"] .totem-espera { color: #fff; }
+@media (max-width: 900px) {
+  .totem-servicos { grid-template-columns: repeat(2, 1fr); }
+  .totem-fila { grid-template-columns: 1fr; }
+  .totem-topo, .totem-conteudo, .totem-rodape { padding-left: 16px; padding-right: 16px; }
+}
+@media (max-width: 520px) {
+  .totem-servicos { grid-template-columns: 1fr; }
+  .etapas button { white-space: normal; font-size: .85rem; line-height: 1.2; padding: 4px; }
+}
 
 .rodape {
   text-align: center;
@@ -298,3 +410,9 @@ a { color: var(--azul); font-weight: 700; }
 }
 
 ul.limpa { list-style: none; padding: 0; margin: 0; }
+
+/* Conferir: área para arrastar e soltar a foto */
+.zona-foto { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding: 18px; margin-bottom: 1rem; border: 2px dashed var(--borda); border-radius: 14px; }
+.zona-foto .botao { margin: 0; }
+.zona-foto.arrastando { border-color: var(--azul); background: #e8f0fb; }
+:root[data-contraste="alto"] .zona-foto.arrastando { background: #000; border-color: #fff; }

@@ -27,6 +27,7 @@ export default function CartaoProntidao({ resultado }) {
       </div>
       <p className="pequeno secundario">
         Documentos {componentes.documentos} de 60 · Fila {componentes.fila} de 25 · Orientação {componentes.orientacao} de 15
+        {resultado.documentos_completos === false && <> · fila e orientação só contam com todos os documentos certos</>}
       </p>
       {pendencias.length > 0 ? (
         <>

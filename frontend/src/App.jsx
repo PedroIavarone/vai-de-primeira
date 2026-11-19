@@ -2,7 +2,8 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import { Layout, RotaProtegida } from "./componentes/Layout";
 import Assistente from "./paginas/Assistente";
 import Conferir from "./paginas/Conferir";
-import { Cadastro, Login } from "./paginas/Entrada";
+import { Cadastro } from "./paginas/Entrada";
+import Login from "./paginas/Login";
 import Fila from "./paginas/Fila";
 import MeusServicos from "./paginas/MeusServicos";
 import NaoEncontrada from "./paginas/NaoEncontrada";
@@ -16,6 +17,8 @@ const protegida = (elemento) => <RotaProtegida>{elemento}</RotaProtegida>;
 export default function App() {
   return (
     <Routes>
+      {/* O totem é um quiosque: ocupa a tela toda, sem o cabeçalho e o menu do site. */}
+      <Route path="totem" element={<Totem />} />
       <Route element={<Layout />}>
         <Route index element={<Navigate to="/meus-servicos" replace />} />
         <Route path="login" element={<Login />} />
@@ -27,7 +30,6 @@ export default function App() {
         <Route path="assistente" element={<Assistente />} />
         <Route path="privacidade" element={protegida(<Privacidade />)} />
         <Route path="por-que" element={<PorQue />} />
-        <Route path="totem" element={<Totem />} />
         <Route path="*" element={<NaoEncontrada />} />
       </Route>
     </Routes>

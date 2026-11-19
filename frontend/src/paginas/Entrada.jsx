@@ -1,64 +1,8 @@
 import { useState } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Aviso, Botao, CampoTexto } from "../componentes/Basicos";
-import { cadastrar, entrar } from "../servicos/armazenamento";
+import { cadastrar } from "../servicos/armazenamento";
 import { cpfValido, mascararDigitacao } from "../servicos/cpf";
-
-export function Login() {
-  const [cpf, setCpf] = useState("");
-  const [senha, setSenha] = useState("");
-  const [erro, setErro] = useState("");
-  const [enviando, setEnviando] = useState(false);
-  const navegar = useNavigate();
-  const local = useLocation();
-
-  async function enviar(e) {
-    e.preventDefault();
-    setErro("");
-    setEnviando(true);
-    try {
-      await entrar(cpf, senha);
-      navegar(local.state?.voltarPara || "/meus-servicos", { replace: true });
-    } catch (falha) {
-      setErro(falha.message);
-    } finally {
-      setEnviando(false);
-    }
-  }
-
-  return (
-    <div style={{ maxWidth: 480, margin: "0 auto" }}>
-      <h1>Entrar</h1>
-      <p className="secundario">Veja seus serviços, confira seus documentos e saiba se já pode ir.</p>
-      <form className="cartao" onSubmit={enviar} noValidate>
-        <CampoTexto
-          rotulo="CPF"
-          inputMode="numeric"
-          autoComplete="username"
-          placeholder="000.000.000-00"
-          value={cpf}
-          onChange={(e) => setCpf(mascararDigitacao(e.target.value))}
-          required
-        />
-        <CampoTexto
-          rotulo="Senha"
-          type="password"
-          autoComplete="current-password"
-          value={senha}
-          onChange={(e) => setSenha(e.target.value)}
-          required
-        />
-        <Aviso tipo="erro">{erro}</Aviso>
-        <Botao type="submit" disabled={enviando}>
-          {enviando ? "Entrando..." : "Entrar"}
-        </Botao>
-      </form>
-      <p>
-        Ainda não tem cadastro? <Link to="/cadastro">Criar cadastro</Link>
-      </p>
-    </div>
-  );
-}
 
 const VAZIO = { nome: "", cpf: "", nascimento: "", municipio: "", email: "", senha: "", aceitaAvisos: false };
 
