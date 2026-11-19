@@ -122,10 +122,14 @@ export function Cadastro() {
         <CampoTexto rotulo="Data de nascimento" type="date" value={dados.nascimento} onChange={mudar("nascimento")} erro={erros.nascimento} />
         <CampoTexto rotulo="Cidade onde mora" autoComplete="address-level2" value={dados.municipio} onChange={mudar("municipio")} erro={erros.municipio} />
         <CampoTexto
-          rotulo="E-mail (opcional)"
+          rotulo={dados.aceitaAvisos ? "E-mail" : "E-mail (opcional)"}
           type="email"
           autoComplete="email"
-          dica="Só é usado se você quiser receber avisos."
+          dica={
+            dados.aceitaAvisos
+              ? "Obrigatório, porque você marcou que quer receber avisos."
+              : "Só é obrigatório se você marcar, abaixo, que quer receber avisos."
+          }
           value={dados.email}
           onChange={mudar("email")}
           erro={erros.email}
