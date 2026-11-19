@@ -109,7 +109,10 @@ class Redator:
 
 def montar_email(primeiro_nome: str, partes: list[tuple[Aviso, str]], link_suspeito: str, links_ok: dict,
                  links_servico: dict) -> tuple[str, str]:
-    assunto = "Vai de Primeira: " + ("você tem um aviso" if len(partes) == 1 else f"você tem {len(partes)} avisos")
+    if not partes:  # só o alerta de site falso, sem prazo a avisar
+        assunto = "Vai de Primeira: cuidado com um site falso"
+    else:
+        assunto = "Vai de Primeira: " + ("você tem um aviso" if len(partes) == 1 else f"você tem {len(partes)} avisos")
     linhas = [f"Olá, {primeiro_nome}!", ""]
     for aviso, texto in partes:
         linhas.append(f"- {texto}")
