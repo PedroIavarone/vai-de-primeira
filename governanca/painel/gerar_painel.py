@@ -228,6 +228,7 @@ def main():
 <style>
  body {{ margin:0; font-family:"Atkinson Hyperlegible",Arial,sans-serif; background:#F2F4F7; color:#1F2933; font-size:16px; }}
  header {{ background:{AZUL}; color:#fff; padding:14px 24px; display:flex; align-items:center; gap:16px; flex-wrap:wrap; }}
+ header .nome {{ margin:0 0 2px; font-size:13px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:#d3e2f6; }}
  header .marca {{ width:44px; height:44px; border-radius:10px; background:#fff; display:grid; place-items:center; flex-shrink:0; }}
  header h1 {{ margin:0; font-size:1.45rem; }} header p {{ margin:2px 0 0; opacity:.9; font-size:.95rem; }}
  .filtros {{ margin-left:auto; display:flex; gap:10px; align-items:center; flex-wrap:wrap; }}
@@ -257,7 +258,7 @@ def main():
 </style></head><body>
 <header>
  <span class="marca"><svg width="28" height="28" viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="{AZUL}" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
- <div><h1>Painel do gestor</h1><p>Contagens por região. Nenhum dado pessoal.</p></div>
+ <div><p class="nome">Vai de Primeira</p><h1>Painel do gestor</h1><p>Contagens por região. Nenhum dado pessoal.</p></div>
  <div class="filtros">
   <label>Região: <select id="f-regiao"><option value="">Todas</option>{opcoes_regiao}</select></label>
   <label>Serviço: <select id="f-servico"><option value="">Todos</option>{opcoes_servico}</select></label>
