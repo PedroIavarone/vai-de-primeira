@@ -1,1201 +1,1201 @@
 id,regiao,servico,usou_app,indice,faixa,espera_min,deslocamento_min,resolveu,motivo
-A0000,Grande SP,cadunico,False,5,nao_pronta,58,22,False,Documento faltando
-A0001,Zona Leste SP,cadunico,False,5,nao_pronta,55,33,True,
-A0002,Zona Sul SP,cin,True,90,pronta,39,45,True,
-A0003,Zona Leste SP,cnh,False,47,nao_pronta,52,56,False,Documento ilegível ou danificado
-A0004,Sorocaba,cnh,True,80,pronta,46,60,True,
-A0005,Sorocaba,cadunico,False,100,pronta,7,43,True,
-A0006,Sorocaba,cadunico,True,80,pronta,61,55,True,
-A0007,Zona Leste SP,cnh,False,45,nao_pronta,44,19,False,Documento faltando
-A0008,Grande SP,cnh,False,60,quase,44,28,True,
-A0009,Grande SP,cin,True,30,nao_pronta,43,16,False,Documento faltando
-A0010,Grande SP,cadunico,True,100,pronta,3,28,True,
-A0011,Zona Leste SP,cin,True,20,nao_pronta,52,78,True,
-A0012,Zona Leste SP,cadunico,True,80,pronta,79,61,True,
-A0013,Zona Leste SP,cin,True,90,pronta,45,44,True,
-A0014,Grande SP,cadunico,False,15,nao_pronta,38,41,False,Documento faltando
-A0015,Sorocaba,cnh,False,65,quase,49,48,True,
-A0016,Grande SP,cin,False,75,quase,37,25,True,
-A0017,Grande SP,cin,True,80,pronta,69,26,True,
-A0018,Zona Leste SP,cadunico,True,90,pronta,25,40,True,
-A0019,Zona Sul SP,cnh,False,47,nao_pronta,59,43,False,Documento ilegível ou danificado
-A0020,Sorocaba,cnh,False,65,quase,62,90,False,Desistiu pela espera
-A0021,Grande SP,cadunico,False,90,pronta,43,38,True,
-A0022,Grande SP,cnh,False,39,nao_pronta,39,19,False,Documento ilegível ou danificado
-A0023,Grande SP,cin,False,75,quase,45,24,False,"Outro (sistema, horário, regra)"
-A0024,Zona Leste SP,cin,True,90,pronta,44,43,True,
-A0025,Sorocaba,cadunico,True,80,pronta,51,97,True,
-A0026,Sorocaba,cnh,False,80,pronta,51,72,True,
-A0027,Grande SP,cnh,False,47,nao_pronta,49,44,False,Documento ilegível ou danificado
-A0028,Sudoeste Paulista,cnh,True,90,pronta,36,75,True,
-A0029,Sorocaba,cin,False,5,nao_pronta,70,53,False,Documento faltando
-A0030,Zona Leste SP,cadunico,False,65,quase,50,28,False,Desistiu pela espera
-A0031,Grande SP,cnh,True,65,quase,49,42,True,
-A0032,Grande SP,cnh,False,85,pronta,7,45,True,
-A0033,Sorocaba,cin,False,5,nao_pronta,47,46,False,Documento faltando
-A0034,Grande SP,cin,True,80,pronta,46,44,True,
-A0035,Grande SP,cin,False,85,pronta,9,24,True,
-A0036,Sorocaba,cin,False,44,nao_pronta,81,33,False,Documento ilegível ou danificado
-A0037,Zona Leste SP,cnh,False,42,nao_pronta,35,53,False,Documento faltando
-A0038,Sudoeste Paulista,cadunico,False,44,nao_pronta,86,81,False,Documento ilegível ou danificado
-A0039,Sorocaba,cin,False,80,pronta,74,78,False,Desistiu pela espera
-A0040,Grande SP,cin,False,49,nao_pronta,3,50,False,Documento ilegível ou danificado
-A0041,Zona Sul SP,cin,False,90,pronta,40,42,True,
-A0042,Sorocaba,cin,True,80,pronta,66,58,True,
-A0043,Grande SP,cadunico,False,75,quase,36,17,True,
-A0044,Sorocaba,cin,True,100,pronta,17,57,True,
-A0045,Grande SP,cnh,True,90,pronta,26,38,True,
-A0046,Grande SP,cnh,False,75,quase,42,23,True,
-A0047,Zona Sul SP,cin,True,65,quase,52,61,True,
-A0048,Zona Leste SP,cadunico,True,75,quase,45,54,False,"Outro (sistema, horário, regra)"
-A0049,Grande SP,cadunico,False,85,pronta,19,31,True,
-A0050,Zona Sul SP,cadunico,True,80,pronta,65,34,True,
-A0051,Zona Sul SP,cin,True,90,pronta,32,37,True,
-A0052,Zona Sul SP,cnh,False,50,quase,80,22,False,Documento faltando
-A0053,Zona Sul SP,cin,True,80,pronta,61,52,True,
-A0054,Grande SP,cadunico,False,40,nao_pronta,3,37,False,Documento faltando
-A0055,Grande SP,cin,False,25,nao_pronta,15,48,False,Documento faltando
-A0056,Zona Sul SP,cadunico,False,80,pronta,63,45,True,
-A0057,Grande SP,cnh,True,90,pronta,21,32,True,
-A0058,Sudoeste Paulista,cin,True,20,nao_pronta,94,91,False,Documento faltando
-A0059,Zona Leste SP,cnh,True,80,pronta,68,60,True,
-A0060,Sorocaba,cnh,True,80,pronta,49,62,True,
-A0061,Sorocaba,cadunico,False,15,nao_pronta,28,40,False,Documento faltando
-A0062,Zona Sul SP,cnh,True,80,pronta,52,72,True,
-A0063,Zona Sul SP,cnh,False,27,nao_pronta,33,44,False,Documento faltando
-A0064,Sorocaba,cnh,False,45,nao_pronta,37,76,False,Documento faltando
-A0065,Sorocaba,cin,True,20,nao_pronta,53,52,False,Documento faltando
-A0066,Sorocaba,cin,False,65,quase,59,52,False,Desistiu pela espera
-A0067,Sorocaba,cin,True,80,pronta,69,77,True,
-A0068,Zona Sul SP,cin,True,80,pronta,47,34,True,
-A0069,Grande SP,cadunico,True,100,pronta,20,19,True,
-A0070,Sorocaba,cin,False,65,quase,65,87,True,
-A0071,Sorocaba,cnh,True,50,quase,72,41,False,Documento faltando
-A0072,Zona Sul SP,cnh,False,57,quase,38,58,False,Documento ilegível ou danificado
-A0073,Grande SP,cin,False,30,nao_pronta,34,34,False,Documento faltando
-A0074,Zona Sul SP,cadunico,False,54,quase,41,47,True,
-A0075,Sudoeste Paulista,cin,False,15,nao_pronta,31,103,False,Documento faltando
-A0076,Sudoeste Paulista,cadunico,False,5,nao_pronta,72,107,False,Documento faltando
-A0077,Sorocaba,cadunico,False,29,nao_pronta,91,74,False,Documento ilegível ou danificado
-A0078,Zona Leste SP,cadunico,False,15,nao_pronta,44,48,False,Documento faltando
-A0079,Grande SP,cnh,True,90,pronta,22,32,False,"Outro (sistema, horário, regra)"
-A0080,Sudoeste Paulista,cadunico,True,75,quase,41,98,True,
-A0081,Sudoeste Paulista,cnh,True,90,pronta,37,80,True,
-A0082,Sudoeste Paulista,cnh,False,45,nao_pronta,42,132,False,Documento faltando
-A0083,Zona Sul SP,cnh,False,35,nao_pronta,56,49,True,
-A0084,Zona Leste SP,cin,False,65,quase,55,54,False,Desistiu pela espera
-A0085,Grande SP,cnh,False,90,pronta,37,24,True,
-A0086,Zona Sul SP,cin,True,40,nao_pronta,11,50,False,Documento faltando
-A0087,Grande SP,cin,False,39,nao_pronta,41,37,False,Documento ilegível ou danificado
-A0088,Zona Sul SP,cnh,False,90,pronta,34,41,True,
-A0089,Zona Leste SP,cadunico,True,90,pronta,36,45,True,
-A0090,Grande SP,cin,False,90,pronta,23,30,True,
-A0091,Zona Leste SP,cadunico,False,65,quase,56,73,False,Desistiu pela espera
-A0092,Grande SP,cnh,True,100,pronta,11,25,True,
-A0093,Sudoeste Paulista,cin,False,5,nao_pronta,56,118,True,
-A0094,Zona Leste SP,cadunico,False,65,quase,59,50,False,Desistiu pela espera
-A0095,Grande SP,cnh,False,90,pronta,25,31,True,
-A0096,Zona Sul SP,cnh,True,75,quase,41,36,True,
-A0097,Grande SP,cnh,True,90,pronta,36,29,True,
-A0098,Zona Leste SP,cnh,False,75,quase,41,83,False,"Outro (sistema, horário, regra)"
-A0099,Grande SP,cadunico,False,100,pronta,9,27,True,
-A0100,Zona Sul SP,cnh,False,45,nao_pronta,44,47,False,Documento faltando
-A0101,Sorocaba,cin,True,80,pronta,80,58,True,
-A0102,Zona Sul SP,cadunico,True,100,pronta,10,61,True,
-A0103,Zona Sul SP,cadunico,True,30,nao_pronta,21,44,False,Documento faltando
-A0104,Zona Leste SP,cin,True,90,pronta,26,72,True,
-A0105,Zona Sul SP,cnh,False,47,nao_pronta,65,44,False,Documento ilegível ou danificado
-A0106,Zona Leste SP,cadunico,True,90,pronta,34,39,False,"Outro (sistema, horário, regra)"
-A0107,Zona Sul SP,cnh,True,90,pronta,36,47,True,
-A0108,Sorocaba,cin,False,65,quase,66,69,True,
-A0109,Zona Leste SP,cin,False,5,nao_pronta,55,43,True,
-A0110,Zona Leste SP,cin,True,80,pronta,73,49,True,
-A0111,Grande SP,cadunico,False,90,pronta,39,35,True,
-A0112,Zona Leste SP,cnh,False,75,quase,32,41,True,
-A0113,Sudoeste Paulista,cadunico,True,80,pronta,50,98,True,
-A0114,Zona Sul SP,cnh,True,80,pronta,72,62,True,
-A0115,Grande SP,cin,False,40,nao_pronta,16,30,False,Documento faltando
-A0116,Sudoeste Paulista,cadunico,True,90,pronta,34,72,False,"Outro (sistema, horário, regra)"
-A0117,Sudoeste Paulista,cnh,False,65,quase,52,53,False,Desistiu pela espera
-A0118,Grande SP,cnh,True,60,quase,32,30,True,
-A0119,Grande SP,cnh,False,49,nao_pronta,5,48,False,Documento ilegível ou danificado
-A0120,Zona Leste SP,cadunico,False,5,nao_pronta,52,55,False,Documento faltando
-A0121,Grande SP,cin,False,75,quase,28,26,True,
-A0122,Sudoeste Paulista,cadunico,False,15,nao_pronta,40,107,False,Documento faltando
-A0123,Sorocaba,cin,False,65,quase,65,59,True,
-A0124,Grande SP,cnh,False,72,quase,35,26,True,
-A0125,Sorocaba,cadunico,False,90,pronta,44,90,True,
-A0126,Zona Leste SP,cnh,True,50,quase,52,58,True,
-A0127,Grande SP,cadunico,False,49,nao_pronta,11,47,True,
-A0128,Grande SP,cadunico,True,90,pronta,22,39,True,
-A0129,Zona Leste SP,cin,False,15,nao_pronta,43,84,False,Documento faltando
-A0130,Sudoeste Paulista,cnh,False,80,pronta,52,118,True,
-A0131,Sudoeste Paulista,cin,True,20,nao_pronta,58,86,False,Documento faltando
-A0132,Grande SP,cadunico,False,90,pronta,40,38,True,
-A0133,Zona Sul SP,cin,False,80,pronta,54,76,True,
-A0134,Sorocaba,cadunico,False,80,pronta,46,25,True,
-A0135,Zona Leste SP,cadunico,False,75,quase,34,44,False,"Outro (sistema, horário, regra)"
-A0136,Zona Sul SP,cin,False,25,nao_pronta,16,55,True,
-A0137,Zona Sul SP,cnh,True,80,pronta,61,48,True,
-A0138,Zona Sul SP,cnh,False,45,nao_pronta,38,43,False,Documento faltando
-A0139,Sorocaba,cadunico,True,80,pronta,55,47,True,
-A0140,Zona Sul SP,cin,True,90,pronta,31,40,True,
-A0141,Sudoeste Paulista,cnh,False,35,nao_pronta,59,65,False,Documento faltando
-A0142,Sorocaba,cin,True,80,pronta,48,74,True,
-A0143,Grande SP,cnh,False,25,nao_pronta,20,29,False,Documento faltando
-A0144,Zona Leste SP,cadunico,False,15,nao_pronta,25,48,False,Documento faltando
-A0145,Grande SP,cadunico,True,80,pronta,61,29,True,
-A0146,Sudoeste Paulista,cnh,False,15,nao_pronta,41,87,False,Documento faltando
-A0147,Zona Leste SP,cadunico,False,65,quase,53,59,True,
-A0148,Zona Leste SP,cin,False,44,nao_pronta,61,50,True,
-A0149,Sorocaba,cadunico,True,80,pronta,97,63,True,
-A0150,Grande SP,cadunico,True,90,pronta,34,35,True,
-A0151,Zona Sul SP,cnh,False,35,nao_pronta,78,25,False,Documento faltando
-A0152,Grande SP,cin,True,80,pronta,63,39,True,
-A0153,Grande SP,cin,True,90,pronta,44,27,True,
-A0154,Zona Leste SP,cadunico,True,90,pronta,34,55,True,
-A0155,Grande SP,cadunico,False,100,pronta,3,35,True,
-A0156,Zona Sul SP,cin,False,5,nao_pronta,64,40,True,
-A0157,Grande SP,cnh,False,60,quase,45,43,False,Documento faltando
-A0158,Zona Sul SP,cnh,False,35,nao_pronta,52,69,True,
-A0159,Zona Leste SP,cin,False,100,pronta,3,45,True,
-A0160,Zona Sul SP,cin,True,80,pronta,84,30,False,Desistiu pela espera
-A0161,Sorocaba,cnh,True,80,pronta,56,62,True,
-A0162,Zona Sul SP,cin,True,80,pronta,53,38,True,
-A0163,Sorocaba,cin,True,80,pronta,91,64,True,
-A0164,Zona Sul SP,cnh,True,60,quase,35,37,True,
-A0165,Grande SP,cin,True,90,pronta,29,30,True,
-A0166,Zona Leste SP,cnh,False,40,nao_pronta,12,55,False,Documento faltando
-A0167,Sudoeste Paulista,cnh,False,65,quase,60,108,False,Desistiu pela espera
-A0168,Zona Leste SP,cnh,True,90,pronta,41,43,True,
-A0169,Grande SP,cnh,False,27,nao_pronta,26,37,False,Documento faltando
-A0170,Sorocaba,cnh,True,100,pronta,10,66,True,
-A0171,Sorocaba,cnh,True,90,pronta,37,54,True,
-A0172,Sorocaba,cnh,True,62,quase,48,67,True,
-A0173,Grande SP,cnh,False,90,pronta,45,42,True,
-A0174,Grande SP,cin,False,90,pronta,29,31,True,
-A0175,Sorocaba,cadunico,True,90,pronta,45,34,True,
-A0176,Sorocaba,cin,True,90,pronta,43,67,True,
-A0177,Zona Leste SP,cin,True,80,pronta,60,55,True,
-A0178,Grande SP,cin,False,20,nao_pronta,51,20,False,Documento faltando
-A0179,Sorocaba,cnh,True,80,pronta,59,83,True,
-A0180,Zona Leste SP,cnh,False,80,pronta,50,41,True,
-A0181,Sudoeste Paulista,cadunico,False,5,nao_pronta,52,95,False,Documento faltando
-A0182,Zona Sul SP,cnh,True,80,pronta,61,53,True,
-A0183,Sorocaba,cin,False,54,quase,36,72,True,
-A0184,Grande SP,cadunico,True,100,pronta,10,19,True,
-A0185,Grande SP,cin,True,100,pronta,15,47,False,"Outro (sistema, horário, regra)"
-A0186,Zona Sul SP,cin,True,90,pronta,28,45,True,
-A0187,Sorocaba,cin,True,90,pronta,32,40,False,"Outro (sistema, horário, regra)"
-A0188,Grande SP,cadunico,False,30,nao_pronta,24,34,False,Documento faltando
-A0189,Sudoeste Paulista,cin,True,90,pronta,37,104,True,
-A0190,Grande SP,cin,False,100,pronta,19,36,True,
-A0191,Sorocaba,cin,False,65,quase,67,19,True,
-A0192,Grande SP,cnh,False,60,quase,31,38,False,Documento faltando
-A0193,Sorocaba,cadunico,True,20,nao_pronta,72,84,True,
-A0194,Grande SP,cin,True,90,pronta,27,36,False,"Outro (sistema, horário, regra)"
-A0195,Grande SP,cadunico,False,54,quase,38,42,True,
-A0196,Zona Sul SP,cin,True,80,pronta,75,63,True,
-A0197,Zona Leste SP,cadunico,True,90,pronta,23,71,True,
-A0198,Grande SP,cadunico,True,90,pronta,27,15,True,
-A0199,Zona Sul SP,cadunico,False,44,nao_pronta,79,58,True,
-A0200,Sorocaba,cnh,True,80,pronta,54,54,True,
-A0201,Zona Sul SP,cadunico,False,20,nao_pronta,61,45,False,Documento faltando
-A0202,Sudoeste Paulista,cnh,False,17,nao_pronta,97,92,False,Documento faltando
-A0203,Sorocaba,cadunico,False,90,pronta,41,75,True,
-A0204,Sudoeste Paulista,cadunico,False,54,quase,21,93,False,Documento ilegível ou danificado
-A0205,Grande SP,cadunico,True,100,pronta,17,35,True,
-A0206,Zona Sul SP,cnh,False,35,nao_pronta,51,53,False,Documento faltando
-A0207,Sudoeste Paulista,cadunico,True,30,nao_pronta,25,94,False,Documento faltando
-A0208,Zona Sul SP,cnh,False,5,nao_pronta,61,53,False,Documento faltando
-A0209,Zona Leste SP,cadunico,False,54,quase,44,55,True,
-A0210,Zona Leste SP,cnh,False,90,pronta,39,35,True,
-A0211,Zona Leste SP,cin,False,90,pronta,38,53,True,
-A0212,Sorocaba,cadunico,False,29,nao_pronta,62,37,True,
-A0213,Zona Leste SP,cin,False,20,nao_pronta,54,84,False,Documento faltando
-A0214,Zona Sul SP,cnh,True,50,quase,65,36,True,
-A0215,Zona Leste SP,cin,False,15,nao_pronta,43,60,True,
-A0216,Zona Sul SP,cadunico,True,80,pronta,85,70,False,Desistiu pela espera
-A0217,Grande SP,cnh,False,30,nao_pronta,40,35,False,Documento faltando
-A0218,Zona Sul SP,cadunico,False,90,pronta,34,43,True,
-A0219,Zona Sul SP,cnh,False,60,quase,43,55,True,
-A0220,Grande SP,cnh,True,100,pronta,18,16,True,
-A0221,Zona Sul SP,cnh,True,80,pronta,53,54,True,
-A0222,Grande SP,cnh,True,80,pronta,53,35,True,
-A0223,Sorocaba,cadunico,True,44,nao_pronta,86,67,False,Documento ilegível ou danificado
-A0224,Sudoeste Paulista,cnh,False,47,nao_pronta,65,87,False,Documento ilegível ou danificado
-A0225,Zona Sul SP,cin,True,65,quase,60,12,True,
-A0226,Zona Leste SP,cin,True,80,pronta,61,61,True,
-A0227,Sorocaba,cnh,True,80,pronta,53,68,False,Desistiu pela espera
-A0228,Sorocaba,cadunico,False,29,nao_pronta,50,90,False,Documento ilegível ou danificado
-A0229,Grande SP,cin,False,44,nao_pronta,51,15,False,Documento ilegível ou danificado
-A0230,Grande SP,cadunico,True,100,pronta,4,34,True,
-A0231,Sudoeste Paulista,cnh,True,90,pronta,27,123,True,
-A0232,Sudoeste Paulista,cnh,False,60,quase,25,125,True,
-A0233,Sorocaba,cadunico,True,80,pronta,47,69,True,
-A0234,Sorocaba,cin,True,80,pronta,75,82,True,
-A0235,Sorocaba,cnh,True,80,pronta,80,57,True,
-A0236,Zona Leste SP,cnh,True,80,pronta,52,65,False,Desistiu pela espera
-A0237,Grande SP,cin,True,100,pronta,8,33,True,
-A0238,Zona Sul SP,cnh,True,62,quase,73,55,True,
-A0239,Zona Leste SP,cnh,True,80,pronta,49,60,True,
-A0240,Sudoeste Paulista,cnh,False,5,nao_pronta,64,125,True,
-A0241,Sudoeste Paulista,cadunico,True,80,pronta,64,103,True,
-A0242,Grande SP,cadunico,True,80,pronta,50,35,True,
-A0243,Grande SP,cadunico,False,25,nao_pronta,3,29,False,Documento faltando
-A0244,Zona Leste SP,cin,True,80,pronta,47,28,True,
-A0245,Sorocaba,cnh,True,80,pronta,74,56,True,
-A0246,Zona Leste SP,cnh,True,50,quase,67,50,True,
-A0247,Sorocaba,cin,True,80,pronta,76,92,True,
-A0248,Zona Leste SP,cin,True,80,pronta,62,32,True,
-A0249,Sudoeste Paulista,cin,True,90,pronta,38,93,True,
-A0250,Sorocaba,cadunico,True,54,quase,30,63,True,
-A0251,Grande SP,cnh,True,57,quase,45,33,True,
-A0252,Zona Leste SP,cnh,False,50,quase,76,63,False,Documento faltando
-A0253,Sorocaba,cin,False,65,quase,49,44,False,Desistiu pela espera
-A0254,Grande SP,cnh,False,82,pronta,3,35,True,
-A0255,Grande SP,cnh,False,35,nao_pronta,47,55,False,Documento faltando
-A0256,Grande SP,cin,False,30,nao_pronta,35,29,True,
-A0257,Zona Sul SP,cin,True,90,pronta,39,40,True,
-A0258,Zona Leste SP,cadunico,True,90,pronta,45,32,False,"Outro (sistema, horário, regra)"
-A0259,Zona Sul SP,cin,True,80,pronta,66,62,True,
-A0260,Grande SP,cnh,False,45,nao_pronta,30,30,False,Documento faltando
-A0261,Grande SP,cin,True,90,pronta,39,45,True,
-A0262,Zona Leste SP,cnh,True,80,pronta,61,62,True,
-A0263,Sorocaba,cadunico,False,30,nao_pronta,37,46,False,Documento faltando
-A0264,Sudoeste Paulista,cnh,False,35,nao_pronta,63,112,False,Documento faltando
-A0265,Zona Sul SP,cin,True,80,pronta,79,23,True,
-A0266,Sorocaba,cin,True,65,quase,67,62,False,Desistiu pela espera
-A0267,Zona Sul SP,cnh,True,65,quase,75,39,True,
-A0268,Grande SP,cin,False,29,nao_pronta,62,32,False,Documento ilegível ou danificado
-A0269,Zona Sul SP,cin,True,80,pronta,59,40,True,
-A0270,Sorocaba,cnh,False,50,quase,77,63,True,
-A0271,Zona Sul SP,cnh,False,35,nao_pronta,68,21,False,Documento faltando
-A0272,Zona Leste SP,cin,True,80,pronta,84,46,True,
-A0273,Sudoeste Paulista,cnh,True,80,pronta,60,71,True,
-A0274,Zona Sul SP,cnh,True,65,quase,66,40,True,
-A0275,Grande SP,cnh,False,90,pronta,41,47,True,
-A0276,Zona Sul SP,cadunico,True,65,quase,47,45,False,Desistiu pela espera
-A0277,Grande SP,cin,True,75,quase,28,31,True,
-A0278,Grande SP,cnh,False,82,pronta,9,32,True,
-A0279,Sorocaba,cin,False,20,nao_pronta,67,92,False,Documento faltando
-A0280,Zona Sul SP,cin,True,90,pronta,26,58,True,
-A0281,Grande SP,cin,True,75,quase,37,32,False,"Outro (sistema, horário, regra)"
-A0282,Zona Sul SP,cnh,False,15,nao_pronta,39,42,False,Documento faltando
-A0283,Zona Sul SP,cadunico,False,80,pronta,96,56,True,
-A0284,Sorocaba,cnh,False,72,quase,36,35,True,
-A0285,Grande SP,cnh,False,37,nao_pronta,7,45,False,Documento faltando
-A0286,Grande SP,cadunico,True,54,quase,23,46,False,Documento ilegível ou danificado
-A0287,Zona Leste SP,cin,False,20,nao_pronta,46,62,False,Documento faltando
-A0288,Grande SP,cadunico,False,90,pronta,28,23,True,
-A0289,Sudoeste Paulista,cnh,True,80,pronta,60,104,True,
-A0290,Sorocaba,cin,True,80,pronta,54,67,True,
-A0291,Zona Leste SP,cin,True,20,nao_pronta,65,53,True,
-A0292,Sorocaba,cin,False,75,quase,40,77,False,"Outro (sistema, horário, regra)"
-A0293,Grande SP,cin,False,64,quase,20,30,False,Documento ilegível ou danificado
-A0294,Sudoeste Paulista,cnh,True,75,quase,37,80,True,
-A0295,Grande SP,cadunico,True,44,nao_pronta,47,22,False,Documento ilegível ou danificado
-A0296,Sorocaba,cin,False,44,nao_pronta,77,63,False,Documento ilegível ou danificado
-A0297,Sorocaba,cnh,True,72,quase,43,83,True,
-A0298,Grande SP,cin,True,90,pronta,31,42,True,
-A0299,Sorocaba,cadunico,True,100,pronta,12,73,True,
-A0300,Sudoeste Paulista,cadunico,False,5,nao_pronta,47,108,False,Documento faltando
-A0301,Sudoeste Paulista,cin,True,90,pronta,45,97,True,
-A0302,Sorocaba,cadunico,True,90,pronta,42,55,True,
-A0303,Grande SP,cin,False,100,pronta,3,41,True,
-A0304,Zona Sul SP,cadunico,True,44,nao_pronta,74,30,True,
-A0305,Grande SP,cnh,False,55,quase,6,41,True,
-A0306,Zona Sul SP,cadunico,True,80,pronta,75,57,True,
-A0307,Zona Leste SP,cin,False,80,pronta,60,49,True,
-A0308,Sorocaba,cadunico,True,65,quase,56,68,False,Desistiu pela espera
-A0309,Zona Leste SP,cnh,True,62,quase,51,58,True,
-A0310,Zona Sul SP,cnh,False,35,nao_pronta,70,47,True,
-A0311,Sudoeste Paulista,cadunico,False,75,quase,37,71,True,
-A0312,Sudoeste Paulista,cin,True,100,pronta,16,126,True,
-A0313,Sudoeste Paulista,cadunico,True,80,pronta,61,61,True,
-A0314,Zona Leste SP,cnh,True,80,pronta,56,67,True,
-A0315,Zona Sul SP,cnh,True,90,pronta,44,57,True,
-A0316,Grande SP,cin,False,40,nao_pronta,6,44,True,
-A0317,Sudoeste Paulista,cadunico,True,80,pronta,63,142,True,
-A0318,Sorocaba,cnh,False,62,quase,63,53,False,Documento ilegível ou danificado
-A0319,Zona Sul SP,cnh,True,80,pronta,53,25,True,
-A0320,Grande SP,cnh,False,90,pronta,21,30,True,
-A0321,Zona Leste SP,cadunico,True,20,nao_pronta,51,36,False,Documento faltando
-A0322,Sudoeste Paulista,cin,True,80,pronta,53,119,True,
-A0323,Sorocaba,cin,False,5,nao_pronta,60,36,False,Documento faltando
-A0324,Sorocaba,cnh,False,40,nao_pronta,19,76,True,
-A0325,Zona Leste SP,cnh,False,50,quase,72,63,True,
-A0326,Grande SP,cadunico,False,80,pronta,55,27,True,
-A0327,Sorocaba,cnh,False,39,nao_pronta,39,68,False,Documento ilegível ou danificado
-A0328,Sorocaba,cadunico,False,90,pronta,44,49,True,
-A0329,Zona Sul SP,cin,True,80,pronta,53,38,False,Desistiu pela espera
-A0330,Sorocaba,cin,False,20,nao_pronta,70,62,True,
-A0331,Sorocaba,cadunico,True,80,pronta,74,48,True,
-A0332,Zona Sul SP,cnh,True,80,pronta,100,32,True,
-A0333,Zona Sul SP,cin,False,90,pronta,42,44,True,
-A0334,Grande SP,cin,False,75,quase,39,32,True,
-A0335,Grande SP,cin,True,100,pronta,20,40,True,
-A0336,Grande SP,cin,True,80,pronta,54,32,True,
-A0337,Grande SP,cnh,True,80,pronta,47,24,True,
-A0338,Sorocaba,cin,True,80,pronta,99,33,True,
-A0339,Grande SP,cnh,False,45,nao_pronta,35,35,False,Documento faltando
-A0340,Zona Sul SP,cadunico,True,54,quase,43,54,True,
-A0341,Zona Sul SP,cnh,False,75,quase,22,45,True,
-A0342,Grande SP,cnh,False,90,pronta,27,43,True,
-A0343,Zona Leste SP,cnh,True,80,pronta,71,43,True,
-A0344,Sorocaba,cnh,False,65,quase,82,54,True,
-A0345,Grande SP,cnh,True,90,pronta,38,31,True,
-A0346,Zona Sul SP,cnh,True,90,pronta,38,36,True,
-A0347,Sorocaba,cadunico,False,65,quase,47,65,True,
-A0348,Zona Leste SP,cnh,True,80,pronta,67,50,True,
-A0349,Zona Sul SP,cin,True,80,pronta,71,29,True,
-A0350,Sorocaba,cnh,True,75,quase,44,64,True,
-A0351,Zona Sul SP,cadunico,True,80,pronta,60,51,True,
-A0352,Sudoeste Paulista,cnh,True,80,pronta,51,110,True,
-A0353,Sorocaba,cnh,False,57,quase,43,33,False,Documento ilegível ou danificado
-A0354,Grande SP,cnh,True,90,pronta,41,38,True,
-A0355,Grande SP,cnh,False,15,nao_pronta,35,27,False,Documento faltando
-A0356,Sorocaba,cin,False,20,nao_pronta,75,33,False,Documento faltando
-A0357,Sorocaba,cadunico,False,80,pronta,47,74,False,Desistiu pela espera
-A0358,Zona Leste SP,cin,False,44,nao_pronta,103,51,False,Documento ilegível ou danificado
-A0359,Zona Sul SP,cin,True,80,pronta,50,54,True,
-A0360,Grande SP,cadunico,True,90,pronta,29,29,False,"Outro (sistema, horário, regra)"
-A0361,Sudoeste Paulista,cnh,True,62,quase,77,131,True,
-A0362,Zona Sul SP,cnh,False,62,quase,66,46,True,
-A0363,Sorocaba,cnh,True,80,pronta,60,80,True,
-A0364,Sorocaba,cadunico,False,80,pronta,70,57,True,
-A0365,Sudoeste Paulista,cin,True,80,pronta,76,103,True,
-A0366,Zona Leste SP,cin,True,80,pronta,74,39,True,
-A0367,Grande SP,cnh,True,90,pronta,37,20,True,
-A0368,Sudoeste Paulista,cadunico,True,65,quase,55,89,True,
-A0369,Grande SP,cin,True,75,quase,24,42,True,
-A0370,Zona Sul SP,cnh,True,90,pronta,25,58,True,
-A0371,Zona Sul SP,cadunico,True,90,pronta,38,45,True,
-A0372,Sudoeste Paulista,cin,False,80,pronta,62,77,True,
-A0373,Grande SP,cadunico,True,100,pronta,8,37,True,
-A0374,Sudoeste Paulista,cnh,False,60,quase,27,119,False,Documento faltando
-A0375,Zona Leste SP,cnh,False,35,nao_pronta,60,47,False,Documento faltando
-A0376,Grande SP,cnh,False,15,nao_pronta,27,47,False,Documento faltando
-A0377,Zona Sul SP,cadunico,True,90,pronta,43,35,True,
-A0378,Grande SP,cnh,False,62,quase,49,39,False,Documento ilegível ou danificado
-A0379,Grande SP,cnh,False,100,pronta,4,28,True,
-A0380,Grande SP,cnh,False,25,nao_pronta,3,35,False,Documento faltando
-A0381,Zona Sul SP,cadunico,False,44,nao_pronta,72,42,False,Documento ilegível ou danificado
-A0382,Zona Sul SP,cin,False,65,quase,61,26,False,Desistiu pela espera
-A0383,Zona Sul SP,cnh,False,50,quase,63,60,True,
-A0384,Sudoeste Paulista,cadunico,True,100,pronta,14,87,True,
-A0385,Grande SP,cnh,False,82,pronta,15,56,True,
-A0386,Sudoeste Paulista,cin,True,90,pronta,31,141,True,
-A0387,Zona Sul SP,cadunico,False,44,nao_pronta,64,52,False,Documento ilegível ou danificado
-A0388,Grande SP,cadunico,False,30,nao_pronta,36,28,False,Documento faltando
-A0389,Zona Leste SP,cadunico,True,80,pronta,61,27,True,
-A0390,Zona Sul SP,cnh,False,47,nao_pronta,82,52,False,Documento ilegível ou danificado
-A0391,Zona Sul SP,cin,False,54,quase,33,55,False,Documento ilegível ou danificado
-A0392,Zona Sul SP,cin,True,90,pronta,32,60,True,
-A0393,Grande SP,cnh,False,100,pronta,18,36,False,"Outro (sistema, horário, regra)"
-A0394,Grande SP,cnh,True,90,pronta,39,41,True,
-A0395,Sorocaba,cin,False,80,pronta,67,71,True,
-A0396,Zona Leste SP,cin,False,5,nao_pronta,70,74,False,Documento faltando
-A0397,Sudoeste Paulista,cnh,True,80,pronta,65,96,True,
-A0398,Sudoeste Paulista,cin,True,80,pronta,68,104,True,
-A0399,Grande SP,cnh,True,90,pronta,38,29,True,
-A0400,Sorocaba,cnh,True,80,pronta,66,69,True,
-A0401,Sorocaba,cnh,False,62,quase,75,67,True,
-A0402,Grande SP,cin,True,54,quase,23,45,True,
-A0403,Zona Sul SP,cin,True,90,pronta,41,45,True,
-A0404,Zona Leste SP,cin,True,80,pronta,51,51,True,
-A0405,Sorocaba,cadunico,False,5,nao_pronta,58,49,False,Documento faltando
-A0406,Zona Leste SP,cnh,False,47,nao_pronta,53,55,True,
-A0407,Sudoeste Paulista,cadunico,True,75,quase,40,73,True,
-A0408,Sudoeste Paulista,cin,True,80,pronta,63,120,True,
-A0409,Zona Leste SP,cin,True,80,pronta,55,47,True,
-A0410,Zona Leste SP,cadunico,False,65,quase,96,60,True,
-A0411,Grande SP,cin,False,75,quase,45,33,True,
-A0412,Zona Sul SP,cin,True,90,pronta,39,27,True,
-A0413,Grande SP,cnh,False,90,pronta,32,30,True,
-A0414,Grande SP,cnh,True,60,quase,22,46,False,Documento faltando
-A0415,Sudoeste Paulista,cin,False,5,nao_pronta,69,33,False,Documento faltando
-A0416,Zona Sul SP,cadunico,True,80,pronta,72,61,True,
-A0417,Grande SP,cin,True,100,pronta,19,39,True,
-A0418,Zona Leste SP,cin,False,5,nao_pronta,74,36,True,
-A0419,Grande SP,cadunico,False,49,nao_pronta,3,32,False,Documento ilegível ou danificado
-A0420,Sudoeste Paulista,cin,True,80,pronta,75,119,True,
-A0421,Zona Leste SP,cadunico,True,90,pronta,29,54,True,
-A0422,Sorocaba,cnh,True,80,pronta,77,32,True,
-A0423,Grande SP,cadunico,False,40,nao_pronta,14,30,False,Documento faltando
-A0424,Sudoeste Paulista,cadunico,True,90,pronta,37,124,True,
-A0425,Zona Sul SP,cadunico,False,65,quase,72,28,False,Desistiu pela espera
-A0426,Sorocaba,cadunico,True,80,pronta,71,70,True,
-A0427,Grande SP,cadunico,False,64,quase,18,33,True,
-A0428,Zona Sul SP,cadunico,False,29,nao_pronta,49,32,False,Documento ilegível ou danificado
-A0429,Grande SP,cnh,True,100,pronta,7,41,True,
-A0430,Grande SP,cin,False,30,nao_pronta,40,50,False,Documento faltando
-A0431,Grande SP,cin,False,39,nao_pronta,30,42,False,Documento ilegível ou danificado
-A0432,Zona Sul SP,cnh,False,100,pronta,18,42,True,
-A0433,Sorocaba,cin,True,100,pronta,20,40,True,
-A0434,Grande SP,cnh,False,90,pronta,29,31,True,
-A0435,Zona Leste SP,cin,True,80,pronta,60,51,True,
-A0436,Sorocaba,cnh,False,35,nao_pronta,92,49,True,
-A0437,Sudoeste Paulista,cin,False,29,nao_pronta,64,85,False,Documento ilegível ou danificado
-A0438,Sorocaba,cnh,True,80,pronta,75,64,True,
-A0439,Zona Leste SP,cnh,False,50,quase,69,64,True,
-A0440,Zona Leste SP,cnh,False,50,quase,53,52,False,Documento faltando
-A0441,Zona Leste SP,cin,True,20,nao_pronta,67,59,False,Documento faltando
-A0442,Sudoeste Paulista,cin,False,90,pronta,44,113,True,
-A0443,Sorocaba,cin,True,80,pronta,64,56,False,Desistiu pela espera
-A0444,Grande SP,cin,True,90,pronta,31,35,True,
-A0445,Grande SP,cin,True,20,nao_pronta,60,29,False,Documento faltando
-A0446,Zona Leste SP,cin,False,20,nao_pronta,77,56,False,Documento faltando
-A0447,Sudoeste Paulista,cnh,True,90,pronta,32,125,True,
-A0448,Zona Sul SP,cnh,True,80,pronta,72,25,True,
-A0449,Grande SP,cin,False,100,pronta,3,48,True,
-A0450,Zona Leste SP,cin,True,20,nao_pronta,93,43,True,
-A0451,Zona Sul SP,cin,False,65,quase,69,54,True,
-A0452,Zona Leste SP,cin,True,80,pronta,51,44,True,
-A0453,Zona Leste SP,cnh,True,80,pronta,59,45,True,
-A0454,Grande SP,cadunico,True,30,nao_pronta,32,47,False,Documento faltando
-A0455,Zona Leste SP,cnh,False,47,nao_pronta,46,63,False,Documento ilegível ou danificado
-A0456,Sorocaba,cadunico,False,80,pronta,82,50,True,
-A0457,Sudoeste Paulista,cadunico,False,5,nao_pronta,51,37,False,Documento faltando
-A0458,Zona Leste SP,cnh,True,80,pronta,56,43,True,
-A0459,Zona Sul SP,cin,True,80,pronta,72,46,True,
-A0460,Sorocaba,cnh,False,20,nao_pronta,61,80,False,Documento faltando
-A0461,Sudoeste Paulista,cadunico,False,5,nao_pronta,66,93,False,Documento faltando
-A0462,Grande SP,cin,False,100,pronta,10,42,True,
-A0463,Zona Leste SP,cin,False,15,nao_pronta,38,60,True,
-A0464,Zona Sul SP,cin,False,65,quase,55,38,False,Desistiu pela espera
-A0465,Sorocaba,cin,False,80,pronta,83,57,True,
-A0466,Grande SP,cnh,False,60,quase,37,50,False,Documento faltando
-A0467,Grande SP,cadunico,True,100,pronta,18,23,True,
-A0468,Sorocaba,cadunico,False,75,quase,23,60,True,
-A0469,Zona Sul SP,cadunico,True,80,pronta,49,45,True,
-A0470,Sudoeste Paulista,cin,True,80,pronta,53,127,True,
-A0471,Sudoeste Paulista,cin,True,80,pronta,103,83,True,
-A0472,Grande SP,cadunico,False,20,nao_pronta,67,29,False,Documento faltando
-A0473,Grande SP,cadunico,False,85,pronta,9,27,True,
-A0474,Sorocaba,cin,True,80,pronta,75,29,True,
-A0475,Sudoeste Paulista,cadunico,True,90,pronta,44,119,True,
-A0476,Zona Sul SP,cnh,False,65,quase,52,39,True,
-A0477,Zona Sul SP,cin,True,80,pronta,84,52,True,
-A0478,Grande SP,cnh,False,82,pronta,6,19,True,
-A0479,Zona Leste SP,cnh,False,62,quase,53,60,True,
-A0480,Zona Leste SP,cin,False,20,nao_pronta,69,67,True,
-A0481,Zona Sul SP,cadunico,True,65,quase,59,46,True,
-A0482,Grande SP,cin,True,90,pronta,23,49,True,
-A0483,Sorocaba,cin,True,80,pronta,50,64,True,
-A0484,Zona Sul SP,cin,False,80,pronta,70,44,True,
-A0485,Grande SP,cadunico,True,100,pronta,11,25,True,
-A0486,Sorocaba,cadunico,False,65,quase,59,55,True,
-A0487,Zona Sul SP,cnh,False,60,quase,44,53,True,
-A0488,Sorocaba,cnh,False,35,nao_pronta,66,48,True,
-A0489,Zona Leste SP,cnh,True,80,pronta,50,54,True,
-A0490,Sudoeste Paulista,cadunico,False,29,nao_pronta,48,86,False,Documento ilegível ou danificado
-A0491,Grande SP,cadunico,True,90,pronta,34,19,True,
-A0492,Zona Sul SP,cadunico,False,80,pronta,62,46,True,
-A0493,Grande SP,cnh,True,75,quase,29,35,False,"Outro (sistema, horário, regra)"
-A0494,Zona Leste SP,cin,True,80,pronta,46,40,False,Desistiu pela espera
-A0495,Sorocaba,cnh,True,90,pronta,24,51,True,
-A0496,Zona Leste SP,cin,False,20,nao_pronta,48,58,False,Documento faltando
-A0497,Grande SP,cin,True,90,pronta,26,31,True,
-A0498,Sorocaba,cnh,True,80,pronta,49,38,True,
-A0499,Zona Leste SP,cnh,False,50,quase,47,29,True,
-A0500,Zona Leste SP,cnh,False,44,nao_pronta,89,48,False,Documento ilegível ou danificado
-A0501,Zona Sul SP,cnh,False,62,quase,58,53,True,
-A0502,Zona Sul SP,cin,True,80,pronta,81,52,True,
-A0503,Grande SP,cnh,False,55,quase,15,14,True,
-A0504,Zona Sul SP,cnh,True,50,quase,57,53,False,Documento faltando
-A0505,Zona Sul SP,cadunico,True,80,pronta,96,46,True,
-A0506,Grande SP,cin,False,75,quase,31,39,False,"Outro (sistema, horário, regra)"
-A0507,Zona Leste SP,cin,False,65,quase,47,53,True,
-A0508,Zona Leste SP,cin,False,65,quase,48,66,False,Desistiu pela espera
-A0509,Grande SP,cnh,False,67,quase,9,32,False,Documento ilegível ou danificado
-A0510,Grande SP,cnh,True,100,pronta,9,18,True,
-A0511,Zona Leste SP,cnh,False,62,quase,80,44,False,Documento ilegível ou danificado
-A0512,Zona Sul SP,cnh,False,80,pronta,63,49,True,
-A0513,Zona Sul SP,cadunico,True,80,pronta,53,31,True,
-A0514,Sudoeste Paulista,cin,True,90,pronta,44,68,True,
-A0515,Zona Sul SP,cnh,True,45,nao_pronta,41,52,False,Documento faltando
-A0516,Zona Leste SP,cnh,True,72,quase,38,71,False,Documento ilegível ou danificado
-A0517,Sorocaba,cadunico,True,80,pronta,89,52,True,
-A0518,Zona Leste SP,cadunico,False,5,nao_pronta,53,58,False,Documento faltando
-A0519,Grande SP,cin,True,100,pronta,19,35,True,
-A0520,Grande SP,cin,True,80,pronta,65,40,True,
-A0521,Sorocaba,cadunico,True,80,pronta,52,75,True,
-A0522,Grande SP,cadunico,False,64,quase,3,43,False,Documento ilegível ou danificado
-A0523,Sorocaba,cin,True,80,pronta,62,51,True,
-A0524,Sudoeste Paulista,cnh,True,60,quase,22,78,True,
-A0525,Grande SP,cadunico,False,90,pronta,23,49,True,
-A0526,Grande SP,cin,True,90,pronta,31,30,False,"Outro (sistema, horário, regra)"
-A0527,Grande SP,cin,False,80,pronta,56,38,True,
-A0528,Sudoeste Paulista,cnh,True,80,pronta,72,146,True,
-A0529,Zona Sul SP,cnh,False,35,nao_pronta,60,59,False,Documento faltando
-A0530,Sorocaba,cin,True,80,pronta,48,75,True,
-A0531,Zona Leste SP,cin,False,65,quase,66,59,False,Desistiu pela espera
-A0532,Sorocaba,cadunico,True,65,quase,56,92,True,
-A0533,Grande SP,cadunico,False,90,pronta,23,29,True,
-A0534,Grande SP,cin,False,30,nao_pronta,23,26,False,Documento faltando
-A0535,Sorocaba,cnh,True,80,pronta,63,47,True,
-A0536,Grande SP,cadunico,True,90,pronta,21,27,True,
-A0537,Sorocaba,cin,True,80,pronta,56,68,True,
-A0538,Grande SP,cin,True,100,pronta,3,48,True,
-A0539,Zona Sul SP,cin,False,29,nao_pronta,54,56,False,Documento ilegível ou danificado
-A0540,Grande SP,cadunico,False,15,nao_pronta,23,35,False,Documento faltando
-A0541,Grande SP,cin,False,39,nao_pronta,21,41,False,Documento ilegível ou danificado
-A0542,Zona Leste SP,cadunico,True,80,pronta,52,53,True,
-A0543,Zona Leste SP,cin,True,44,nao_pronta,51,65,False,Documento ilegível ou danificado
-A0544,Sudoeste Paulista,cadunico,True,80,pronta,55,116,True,
-A0545,Sorocaba,cnh,False,5,nao_pronta,75,81,True,
-A0546,Grande SP,cin,True,100,pronta,13,38,True,
-A0547,Grande SP,cnh,False,60,quase,29,41,False,Documento faltando
-A0548,Sudoeste Paulista,cadunico,False,15,nao_pronta,41,56,True,
-A0549,Sorocaba,cnh,True,90,pronta,43,96,True,
-A0550,Sorocaba,cin,False,5,nao_pronta,48,70,True,
-A0551,Sudoeste Paulista,cadunico,True,80,pronta,52,98,True,
-A0552,Zona Leste SP,cin,False,80,pronta,50,61,True,
-A0553,Sudoeste Paulista,cnh,True,90,pronta,28,62,True,
-A0554,Sudoeste Paulista,cin,True,75,quase,42,112,False,"Outro (sistema, horário, regra)"
-A0555,Sorocaba,cadunico,False,65,quase,50,24,False,Desistiu pela espera
-A0556,Grande SP,cin,True,90,pronta,38,44,True,
-A0557,Grande SP,cnh,False,55,quase,3,41,True,
-A0558,Sorocaba,cnh,True,82,pronta,8,49,False,Documento ilegível ou danificado
-A0559,Sorocaba,cnh,False,50,quase,71,37,False,Documento faltando
-A0560,Zona Sul SP,cadunico,False,85,pronta,16,49,True,
-A0561,Sorocaba,cin,True,80,pronta,80,56,True,
-A0562,Sorocaba,cnh,True,80,pronta,49,73,True,
-A0563,Sudoeste Paulista,cadunico,False,65,quase,98,112,False,Desistiu pela espera
-A0564,Zona Leste SP,cadunico,False,80,pronta,73,41,True,
-A0565,Zona Leste SP,cin,True,90,pronta,43,48,True,
-A0566,Grande SP,cadunico,True,80,pronta,63,32,True,
-A0567,Grande SP,cadunico,True,54,quase,44,36,True,
-A0568,Zona Sul SP,cin,True,80,pronta,71,22,True,
-A0569,Zona Leste SP,cnh,True,90,pronta,34,20,True,
-A0570,Grande SP,cnh,False,45,nao_pronta,42,27,True,
-A0571,Sorocaba,cadunico,True,80,pronta,50,67,True,
-A0572,Zona Leste SP,cadunico,False,20,nao_pronta,67,57,True,
-A0573,Zona Sul SP,cin,True,80,pronta,73,45,True,
-A0574,Zona Sul SP,cnh,False,45,nao_pronta,40,65,False,Documento faltando
-A0575,Grande SP,cin,True,80,pronta,54,18,True,
-A0576,Zona Leste SP,cin,True,80,pronta,69,44,True,
-A0577,Zona Leste SP,cnh,True,70,quase,16,32,True,
-A0578,Sorocaba,cin,True,30,nao_pronta,38,55,False,Documento faltando
-A0579,Sudoeste Paulista,cadunico,False,29,nao_pronta,61,96,True,
-A0580,Zona Leste SP,cin,True,80,pronta,49,41,True,
-A0581,Sorocaba,cin,False,65,quase,63,72,False,Desistiu pela espera
-A0582,Zona Leste SP,cadunico,True,80,pronta,51,69,True,
-A0583,Grande SP,cin,False,80,pronta,48,26,True,
-A0584,Grande SP,cadunico,True,80,pronta,61,35,True,
-A0585,Zona Leste SP,cadunico,False,44,nao_pronta,71,48,False,Documento ilegível ou danificado
-A0586,Sorocaba,cadunico,False,80,pronta,62,80,True,
-A0587,Sudoeste Paulista,cin,True,80,pronta,60,105,True,
-A0588,Zona Sul SP,cadunico,False,65,quase,61,48,True,
-A0589,Grande SP,cadunico,True,100,pronta,18,37,True,
-A0590,Grande SP,cin,True,75,quase,42,31,True,
-A0591,Grande SP,cin,True,100,pronta,18,32,True,
-A0592,Grande SP,cadunico,True,44,nao_pronta,63,42,False,Documento ilegível ou danificado
-A0593,Sudoeste Paulista,cadunico,False,90,pronta,45,100,True,
-A0594,Grande SP,cin,False,20,nao_pronta,51,33,True,
-A0595,Zona Leste SP,cin,True,100,pronta,18,36,True,
-A0596,Sudoeste Paulista,cadunico,True,65,quase,49,114,True,
-A0597,Zona Sul SP,cnh,False,5,nao_pronta,64,43,False,Documento faltando
-A0598,Sudoeste Paulista,cadunico,False,30,nao_pronta,31,97,True,
-A0599,Zona Leste SP,cin,False,65,quase,51,47,True,
-A0600,Sorocaba,cin,False,29,nao_pronta,64,40,False,Documento ilegível ou danificado
-A0601,Sudoeste Paulista,cnh,False,62,quase,48,81,True,
-A0602,Zona Leste SP,cadunico,False,80,pronta,53,38,True,
-A0603,Zona Leste SP,cin,False,5,nao_pronta,61,15,False,Documento faltando
-A0604,Sorocaba,cnh,False,45,nao_pronta,28,35,True,
-A0605,Grande SP,cadunico,True,75,quase,43,35,True,
-A0606,Grande SP,cadunico,False,75,quase,31,26,False,"Outro (sistema, horário, regra)"
-A0607,Sudoeste Paulista,cadunico,False,29,nao_pronta,78,49,False,Documento ilegível ou danificado
-A0608,Sorocaba,cin,True,65,quase,64,71,True,
-A0609,Zona Sul SP,cadunico,True,80,pronta,78,43,False,Desistiu pela espera
-A0610,Zona Leste SP,cadunico,False,29,nao_pronta,51,84,False,Documento ilegível ou danificado
-A0611,Zona Leste SP,cnh,True,80,pronta,73,60,True,
-A0612,Zona Sul SP,cnh,False,62,quase,75,39,True,
-A0613,Grande SP,cnh,True,80,pronta,73,30,True,
-A0614,Sorocaba,cin,False,65,quase,63,63,True,
-A0615,Sorocaba,cin,True,80,pronta,46,64,True,
-A0616,Zona Leste SP,cadunico,True,90,pronta,42,51,True,
-A0617,Sudoeste Paulista,cin,True,90,pronta,44,70,False,"Outro (sistema, horário, regra)"
-A0618,Sudoeste Paulista,cadunico,False,80,pronta,78,74,True,
-A0619,Grande SP,cin,False,80,pronta,53,40,True,
-A0620,Grande SP,cadunico,True,100,pronta,8,42,True,
-A0621,Zona Leste SP,cnh,True,80,pronta,55,55,True,
-A0622,Zona Leste SP,cin,False,65,quase,49,64,True,
-A0623,Grande SP,cin,False,54,quase,26,24,True,
-A0624,Sorocaba,cnh,True,50,quase,67,65,False,Documento faltando
-A0625,Zona Leste SP,cin,True,80,pronta,55,45,False,Desistiu pela espera
-A0626,Zona Sul SP,cadunico,False,15,nao_pronta,22,59,False,Documento faltando
-A0627,Grande SP,cin,False,80,pronta,47,36,True,
-A0628,Grande SP,cadunico,False,25,nao_pronta,11,34,False,Documento faltando
-A0629,Sudoeste Paulista,cin,True,80,pronta,49,91,True,
-A0630,Sorocaba,cnh,True,60,quase,27,61,True,
-A0631,Grande SP,cin,True,90,pronta,35,11,True,
-A0632,Grande SP,cnh,False,45,nao_pronta,21,41,False,Documento faltando
-A0633,Zona Sul SP,cnh,False,50,quase,65,42,True,
-A0634,Sorocaba,cnh,False,57,quase,42,44,True,
-A0635,Grande SP,cin,True,90,pronta,38,25,True,
-A0636,Grande SP,cin,True,100,pronta,17,42,True,
-A0637,Sorocaba,cnh,True,80,pronta,51,13,True,
-A0638,Sudoeste Paulista,cadunico,False,44,nao_pronta,68,89,False,Documento ilegível ou danificado
-A0639,Grande SP,cin,True,90,pronta,28,38,True,
-A0640,Sorocaba,cnh,False,47,nao_pronta,50,63,False,Documento ilegível ou danificado
-A0641,Zona Sul SP,cnh,False,75,quase,42,57,True,
-A0642,Zona Leste SP,cnh,True,80,pronta,74,67,True,
-A0643,Sorocaba,cin,False,5,nao_pronta,53,63,True,
-A0644,Zona Leste SP,cnh,True,80,pronta,49,54,True,
-A0645,Zona Leste SP,cin,False,5,nao_pronta,69,48,False,Documento faltando
-A0646,Zona Leste SP,cadunico,False,65,quase,69,46,True,
-A0647,Grande SP,cin,True,90,pronta,27,32,True,
-A0648,Zona Leste SP,cin,True,90,pronta,41,70,True,
-A0649,Sudoeste Paulista,cnh,False,35,nao_pronta,57,82,False,Documento faltando
-A0650,Zona Leste SP,cnh,True,65,quase,77,68,False,Desistiu pela espera
-A0651,Sorocaba,cin,True,80,pronta,70,68,True,
-A0652,Sudoeste Paulista,cadunico,True,80,pronta,72,120,True,
-A0653,Sudoeste Paulista,cadunico,True,90,pronta,37,72,True,
-A0654,Sudoeste Paulista,cnh,True,90,pronta,39,107,True,
-A0655,Grande SP,cadunico,True,80,pronta,68,44,True,
-A0656,Zona Leste SP,cin,True,80,pronta,65,27,True,
-A0657,Sudoeste Paulista,cin,True,29,nao_pronta,54,95,False,Documento ilegível ou danificado
-A0658,Zona Leste SP,cin,False,5,nao_pronta,81,42,True,
-A0659,Zona Leste SP,cadunico,True,80,pronta,48,26,False,Desistiu pela espera
-A0660,Grande SP,cadunico,False,100,pronta,15,38,True,
-A0661,Zona Leste SP,cadunico,False,80,pronta,69,59,True,
-A0662,Grande SP,cnh,True,90,pronta,24,45,True,
-A0663,Grande SP,cnh,False,25,nao_pronta,20,42,False,Documento faltando
-A0664,Sorocaba,cnh,True,65,quase,53,79,True,
-A0665,Zona Leste SP,cnh,True,90,pronta,42,62,True,
-A0666,Zona Sul SP,cnh,False,27,nao_pronta,31,42,True,
-A0667,Sudoeste Paulista,cnh,True,80,pronta,75,89,False,Desistiu pela espera
-A0668,Zona Sul SP,cnh,False,82,pronta,8,58,True,
-A0669,Zona Leste SP,cadunico,True,80,pronta,64,64,True,
-A0670,Zona Sul SP,cnh,True,80,pronta,61,50,True,
-A0671,Grande SP,cnh,True,90,pronta,38,31,True,
-A0672,Grande SP,cadunico,True,75,quase,24,26,False,"Outro (sistema, horário, regra)"
-A0673,Sudoeste Paulista,cadunico,True,90,pronta,39,109,True,
-A0674,Sorocaba,cin,True,80,pronta,70,51,True,
-A0675,Zona Sul SP,cnh,True,65,quase,57,48,False,Desistiu pela espera
-A0676,Sorocaba,cin,True,75,quase,23,65,False,"Outro (sistema, horário, regra)"
-A0677,Sorocaba,cin,True,80,pronta,52,63,False,Desistiu pela espera
-A0678,Zona Sul SP,cadunico,True,65,quase,47,34,True,
-A0679,Zona Leste SP,cadunico,False,30,nao_pronta,43,39,False,Documento faltando
-A0680,Sorocaba,cin,False,44,nao_pronta,48,48,False,Documento ilegível ou danificado
-A0681,Zona Sul SP,cin,True,80,pronta,77,32,True,
-A0682,Sorocaba,cin,True,80,pronta,49,54,True,
-A0683,Zona Sul SP,cnh,False,60,quase,45,38,True,
-A0684,Grande SP,cadunico,True,90,pronta,39,46,True,
-A0685,Sorocaba,cadunico,False,75,quase,42,69,True,
-A0686,Zona Leste SP,cin,False,90,pronta,35,28,True,
-A0687,Sorocaba,cin,False,80,pronta,80,42,True,
-A0688,Sudoeste Paulista,cadunico,True,20,nao_pronta,58,95,False,Documento faltando
-A0689,Sudoeste Paulista,cnh,True,60,quase,42,88,True,
-A0690,Grande SP,cadunico,True,100,pronta,11,34,True,
-A0691,Zona Sul SP,cadunico,False,65,quase,60,50,False,Desistiu pela espera
-A0692,Grande SP,cadunico,True,90,pronta,31,42,True,
-A0693,Grande SP,cnh,True,80,pronta,59,34,True,
-A0694,Zona Sul SP,cnh,True,90,pronta,27,50,True,
-A0695,Sudoeste Paulista,cin,True,100,pronta,19,56,False,"Outro (sistema, horário, regra)"
-A0696,Sorocaba,cnh,True,50,quase,62,63,True,
-A0697,Zona Sul SP,cin,True,80,pronta,67,59,True,
-A0698,Zona Leste SP,cnh,True,72,quase,37,61,False,Documento ilegível ou danificado
-A0699,Grande SP,cnh,True,90,pronta,22,33,True,
-A0700,Grande SP,cnh,True,90,pronta,42,24,True,
-A0701,Grande SP,cnh,True,100,pronta,16,32,True,
-A0702,Grande SP,cnh,False,45,nao_pronta,41,25,True,
-A0703,Sudoeste Paulista,cnh,False,30,nao_pronta,22,124,False,Documento faltando
-A0704,Grande SP,cnh,False,45,nao_pronta,34,34,False,Documento faltando
-A0705,Zona Sul SP,cadunico,True,80,pronta,54,33,True,
-A0706,Grande SP,cadunico,True,90,pronta,36,39,True,
-A0707,Zona Leste SP,cin,True,65,quase,49,43,True,
-A0708,Sudoeste Paulista,cadunico,False,5,nao_pronta,84,147,False,Documento faltando
-A0709,Zona Leste SP,cadunico,True,80,pronta,56,31,True,
-A0710,Zona Leste SP,cin,True,90,pronta,45,65,True,
-A0711,Sorocaba,cadunico,True,80,pronta,50,80,True,
-A0712,Zona Leste SP,cadunico,True,80,pronta,56,52,True,
-A0713,Sorocaba,cin,False,80,pronta,56,49,True,
-A0714,Sudoeste Paulista,cadunico,False,75,quase,36,67,False,"Outro (sistema, horário, regra)"
-A0715,Grande SP,cadunico,False,20,nao_pronta,47,33,False,Documento faltando
-A0716,Sudoeste Paulista,cadunico,False,5,nao_pronta,47,103,False,Documento faltando
-A0717,Zona Sul SP,cadunico,True,80,pronta,58,34,True,
-A0718,Zona Leste SP,cadunico,True,80,pronta,56,54,False,Desistiu pela espera
-A0719,Sudoeste Paulista,cadunico,False,80,pronta,95,131,True,
-A0720,Zona Leste SP,cin,False,65,quase,49,45,False,Desistiu pela espera
-A0721,Sorocaba,cin,False,65,quase,75,54,True,
-A0722,Zona Sul SP,cadunico,True,80,pronta,48,43,True,
-A0723,Zona Leste SP,cin,True,90,pronta,42,44,True,
-A0724,Grande SP,cin,True,90,pronta,32,17,True,
-A0725,Sorocaba,cin,True,65,quase,53,47,False,Desistiu pela espera
-A0726,Grande SP,cnh,False,70,quase,17,40,True,
-A0727,Grande SP,cin,True,100,pronta,3,45,True,
-A0728,Sorocaba,cin,False,65,quase,65,74,False,Desistiu pela espera
-A0729,Sudoeste Paulista,cadunico,False,64,quase,17,88,True,
-A0730,Zona Sul SP,cnh,False,35,nao_pronta,47,36,False,Documento faltando
-A0731,Sudoeste Paulista,cadunico,True,80,pronta,67,66,True,
-A0732,Zona Leste SP,cadunico,False,65,quase,56,62,False,Desistiu pela espera
-A0733,Grande SP,cin,False,75,quase,36,46,True,
-A0734,Zona Sul SP,cadunico,True,80,pronta,49,55,True,
-A0735,Zona Leste SP,cadunico,False,65,quase,74,32,True,
-A0736,Zona Leste SP,cin,False,80,pronta,88,39,True,
-A0737,Sudoeste Paulista,cnh,True,90,pronta,34,77,True,
-A0738,Sudoeste Paulista,cin,True,90,pronta,41,112,True,
-A0739,Grande SP,cin,True,80,pronta,58,20,False,Desistiu pela espera
-A0740,Sorocaba,cin,True,100,pronta,20,58,True,
-A0741,Grande SP,cin,False,90,pronta,26,40,True,
-A0742,Grande SP,cin,False,90,pronta,23,32,True,
-A0743,Sorocaba,cin,False,65,quase,73,62,False,Desistiu pela espera
-A0744,Sorocaba,cadunico,False,5,nao_pronta,74,53,False,Documento faltando
-A0745,Zona Sul SP,cnh,False,50,quase,46,48,True,
-A0746,Zona Leste SP,cnh,True,80,pronta,57,53,True,
-A0747,Sudoeste Paulista,cnh,True,62,quase,57,71,True,
-A0748,Sudoeste Paulista,cin,True,80,pronta,51,112,True,
-A0749,Sudoeste Paulista,cadunico,True,20,nao_pronta,75,80,False,Documento faltando
-A0750,Zona Sul SP,cin,False,65,quase,75,21,False,Desistiu pela espera
-A0751,Sudoeste Paulista,cadunico,False,65,quase,59,70,True,
-A0752,Grande SP,cnh,True,100,pronta,7,34,True,
-A0753,Zona Sul SP,cin,False,5,nao_pronta,74,48,True,
-A0754,Zona Sul SP,cin,False,80,pronta,65,48,False,Desistiu pela espera
-A0755,Sudoeste Paulista,cnh,True,62,quase,78,104,True,
-A0756,Zona Leste SP,cnh,True,65,quase,50,63,True,
-A0757,Sorocaba,cnh,True,72,quase,25,44,True,
-A0758,Zona Sul SP,cadunico,False,80,pronta,48,35,True,
-A0759,Zona Leste SP,cnh,False,62,quase,79,55,True,
-A0760,Grande SP,cin,False,5,nao_pronta,64,18,True,
-A0761,Grande SP,cin,False,49,nao_pronta,3,40,False,Documento ilegível ou danificado
-A0762,Grande SP,cnh,True,90,pronta,33,32,True,
-A0763,Sudoeste Paulista,cnh,True,90,pronta,32,118,True,
-A0764,Grande SP,cnh,True,80,pronta,50,24,True,
-A0765,Zona Sul SP,cin,False,5,nao_pronta,65,28,False,Documento faltando
-A0766,Sudoeste Paulista,cin,False,39,nao_pronta,37,85,False,Documento ilegível ou danificado
-A0767,Sorocaba,cadunico,False,5,nao_pronta,56,84,False,Documento faltando
-A0768,Sudoeste Paulista,cnh,True,62,quase,63,120,True,
-A0769,Zona Leste SP,cin,True,80,pronta,57,37,True,
-A0770,Grande SP,cadunico,False,100,pronta,12,32,True,
-A0771,Grande SP,cadunico,True,90,pronta,26,46,True,
-A0772,Zona Sul SP,cnh,False,90,pronta,43,38,True,
-A0773,Sudoeste Paulista,cadunico,True,80,pronta,66,84,True,
-A0774,Grande SP,cadunico,True,65,quase,65,30,True,
-A0775,Grande SP,cnh,False,25,nao_pronta,12,44,False,Documento faltando
-A0776,Sorocaba,cnh,False,35,nao_pronta,82,31,False,Documento faltando
-A0777,Sudoeste Paulista,cin,False,44,nao_pronta,53,122,False,Documento ilegível ou danificado
-A0778,Sorocaba,cnh,True,90,pronta,35,42,True,
-A0779,Zona Sul SP,cadunico,True,80,pronta,70,53,True,
-A0780,Zona Leste SP,cnh,False,20,nao_pronta,68,56,True,
-A0781,Grande SP,cadunico,False,54,quase,27,17,True,
-A0782,Grande SP,cin,True,90,pronta,33,32,True,
-A0783,Grande SP,cadunico,True,90,pronta,30,32,True,
-A0784,Sorocaba,cnh,True,80,pronta,53,74,True,
-A0785,Zona Sul SP,cin,True,90,pronta,44,43,True,
-A0786,Grande SP,cin,False,100,pronta,5,34,True,
-A0787,Sudoeste Paulista,cin,True,90,pronta,38,88,True,
-A0788,Sorocaba,cnh,False,80,pronta,64,67,True,
-A0789,Zona Sul SP,cin,True,90,pronta,42,61,True,
-A0790,Sorocaba,cnh,True,80,pronta,56,65,True,
-A0791,Zona Leste SP,cnh,True,80,pronta,63,71,True,
-A0792,Sudoeste Paulista,cnh,True,50,quase,48,95,True,
-A0793,Grande SP,cnh,False,55,quase,3,33,True,
-A0794,Grande SP,cadunico,False,80,pronta,51,39,True,
-A0795,Grande SP,cadunico,False,65,quase,50,43,True,
-A0796,Sorocaba,cadunico,False,20,nao_pronta,71,58,True,
-A0797,Zona Sul SP,cnh,True,80,pronta,48,56,True,
-A0798,Sorocaba,cadunico,False,54,quase,29,44,False,Documento ilegível ou danificado
-A0799,Grande SP,cin,True,100,pronta,3,29,True,
-A0800,Sudoeste Paulista,cadunico,False,5,nao_pronta,51,122,False,Documento faltando
-A0801,Grande SP,cnh,True,100,pronta,8,45,True,
-A0802,Sorocaba,cnh,False,35,nao_pronta,96,48,False,Documento faltando
-A0803,Grande SP,cin,False,85,pronta,3,32,True,
-A0804,Sorocaba,cnh,True,80,pronta,66,32,True,
-A0805,Grande SP,cnh,False,15,nao_pronta,21,31,True,
-A0806,Zona Leste SP,cin,True,80,pronta,65,74,True,
-A0807,Sudoeste Paulista,cnh,True,80,pronta,55,105,True,
-A0808,Zona Sul SP,cnh,False,90,pronta,44,42,True,
-A0809,Grande SP,cnh,True,90,pronta,25,41,True,
-A0810,Zona Leste SP,cin,True,30,nao_pronta,36,66,False,Documento faltando
-A0811,Sorocaba,cnh,False,80,pronta,81,46,True,
-A0812,Zona Leste SP,cadunico,True,80,pronta,68,66,True,
-A0813,Zona Sul SP,cnh,False,60,quase,42,41,False,Documento faltando
-A0814,Sorocaba,cadunico,False,20,nao_pronta,56,64,False,Documento faltando
-A0815,Sorocaba,cin,False,65,quase,54,48,True,
-A0816,Grande SP,cnh,True,100,pronta,20,28,True,
-A0817,Sorocaba,cnh,False,62,quase,62,25,True,
-A0818,Zona Sul SP,cnh,True,80,pronta,48,28,True,
-A0819,Sudoeste Paulista,cnh,False,35,nao_pronta,59,105,False,Documento faltando
-A0820,Sorocaba,cin,False,15,nao_pronta,43,58,False,Documento faltando
-A0821,Sudoeste Paulista,cnh,False,57,quase,22,59,True,
-A0822,Sorocaba,cadunico,True,80,pronta,69,37,True,
-A0823,Zona Leste SP,cadunico,True,80,pronta,63,45,True,
-A0824,Grande SP,cadunico,False,15,nao_pronta,41,22,False,Documento faltando
-A0825,Sudoeste Paulista,cin,True,80,pronta,68,84,True,
-A0826,Zona Leste SP,cnh,True,62,quase,61,38,True,
-A0827,Zona Sul SP,cnh,False,50,quase,88,49,False,Documento faltando
-A0828,Grande SP,cin,False,100,pronta,11,39,True,
-A0829,Zona Leste SP,cadunico,False,65,quase,56,63,True,
-A0830,Sorocaba,cadunico,False,65,quase,72,60,True,
-A0831,Grande SP,cin,False,90,pronta,23,30,True,
-A0832,Grande SP,cin,False,30,nao_pronta,27,46,False,Documento faltando
-A0833,Zona Sul SP,cin,False,44,nao_pronta,73,48,False,Documento ilegível ou danificado
-A0834,Zona Leste SP,cnh,False,35,nao_pronta,54,71,False,Documento faltando
-A0835,Zona Sul SP,cnh,True,62,quase,53,43,False,Documento ilegível ou danificado
-A0836,Zona Sul SP,cin,True,90,pronta,44,43,True,
-A0837,Grande SP,cin,False,30,nao_pronta,41,38,False,Documento faltando
-A0838,Sorocaba,cnh,True,62,quase,67,66,False,Documento ilegível ou danificado
-A0839,Zona Sul SP,cadunico,False,5,nao_pronta,52,53,False,Documento faltando
-A0840,Zona Leste SP,cnh,False,80,pronta,83,44,True,
-A0841,Sudoeste Paulista,cnh,False,65,quase,82,86,True,
-A0842,Grande SP,cnh,True,100,pronta,20,39,True,
-A0843,Sorocaba,cadunico,True,80,pronta,55,60,True,
-A0844,Zona Leste SP,cnh,False,15,nao_pronta,28,53,False,Documento faltando
-A0845,Zona Leste SP,cadunico,True,90,pronta,40,46,True,
-A0846,Grande SP,cin,False,85,pronta,6,25,True,
-A0847,Zona Sul SP,cnh,False,45,nao_pronta,40,45,False,Documento faltando
-A0848,Sudoeste Paulista,cin,False,65,quase,52,83,True,
-A0849,Grande SP,cadunico,False,80,pronta,48,25,True,
-A0850,Grande SP,cadunico,True,90,pronta,39,38,True,
-A0851,Zona Leste SP,cin,True,80,pronta,49,55,True,
-A0852,Zona Sul SP,cadunico,False,20,nao_pronta,95,44,False,Documento faltando
-A0853,Grande SP,cin,False,85,pronta,11,33,True,
-A0854,Zona Sul SP,cnh,True,80,pronta,56,73,True,
-A0855,Grande SP,cin,False,54,quase,32,14,True,
-A0856,Sudoeste Paulista,cnh,False,47,nao_pronta,54,82,False,Documento ilegível ou danificado
-A0857,Sorocaba,cadunico,False,39,nao_pronta,31,87,False,Documento ilegível ou danificado
-A0858,Sorocaba,cnh,True,80,pronta,74,50,True,
-A0859,Sudoeste Paulista,cnh,True,90,pronta,42,94,True,
-A0860,Zona Leste SP,cin,False,65,quase,64,55,True,
-A0861,Grande SP,cin,False,75,quase,23,19,False,"Outro (sistema, horário, regra)"
-A0862,Zona Leste SP,cin,False,80,pronta,48,64,True,
-A0863,Zona Leste SP,cin,True,80,pronta,58,54,True,
-A0864,Zona Sul SP,cin,False,30,nao_pronta,36,29,False,Documento faltando
-A0865,Zona Leste SP,cadunico,False,80,pronta,70,37,False,Desistiu pela espera
-A0866,Grande SP,cnh,True,90,pronta,25,35,True,
-A0867,Grande SP,cin,True,100,pronta,5,61,True,
-A0868,Sorocaba,cin,False,20,nao_pronta,83,68,False,Documento faltando
-A0869,Zona Leste SP,cin,False,5,nao_pronta,97,55,False,Documento faltando
-A0870,Grande SP,cnh,False,37,nao_pronta,4,44,False,Documento faltando
-A0871,Sudoeste Paulista,cadunico,True,80,pronta,66,61,True,
-A0872,Zona Sul SP,cin,False,65,quase,60,37,True,
-A0873,Zona Leste SP,cnh,True,65,quase,91,41,False,Desistiu pela espera
-A0874,Sorocaba,cadunico,False,90,pronta,43,57,True,
-A0875,Sudoeste Paulista,cadunico,True,65,quase,67,131,True,
-A0876,Grande SP,cadunico,False,90,pronta,35,30,True,
-A0877,Sorocaba,cnh,True,60,quase,37,72,True,
-A0878,Zona Leste SP,cnh,False,50,quase,48,57,True,
-A0879,Sorocaba,cadunico,False,80,pronta,60,54,True,
-A0880,Zona Leste SP,cnh,True,80,pronta,60,46,True,
-A0881,Zona Sul SP,cadunico,False,65,quase,53,39,False,Desistiu pela espera
-A0882,Sorocaba,cnh,True,80,pronta,70,57,True,
-A0883,Sorocaba,cnh,False,57,quase,34,36,False,Documento ilegível ou danificado
-A0884,Sudoeste Paulista,cnh,False,5,nao_pronta,65,123,False,Documento faltando
-A0885,Grande SP,cin,True,90,pronta,35,27,True,
-A0886,Zona Leste SP,cadunico,False,5,nao_pronta,59,58,False,Documento faltando
-A0887,Zona Leste SP,cadunico,True,80,pronta,48,53,True,
-A0888,Zona Sul SP,cadunico,False,5,nao_pronta,64,43,False,Documento faltando
-A0889,Grande SP,cnh,True,90,pronta,37,37,True,
-A0890,Sorocaba,cnh,False,35,nao_pronta,78,95,False,Documento faltando
-A0891,Sudoeste Paulista,cadunico,False,5,nao_pronta,79,92,False,Documento faltando
-A0892,Zona Sul SP,cnh,False,35,nao_pronta,68,52,False,Documento faltando
-A0893,Zona Sul SP,cadunico,False,15,nao_pronta,41,53,False,Documento faltando
-A0894,Zona Leste SP,cin,True,80,pronta,87,42,True,
-A0895,Grande SP,cin,False,30,nao_pronta,44,34,True,
-A0896,Sudoeste Paulista,cin,True,65,quase,71,93,True,
-A0897,Grande SP,cin,True,90,pronta,36,50,True,
-A0898,Sorocaba,cnh,False,35,nao_pronta,66,48,False,Documento faltando
-A0899,Zona Sul SP,cnh,True,80,pronta,65,51,True,
-A0900,Sorocaba,cin,False,54,quase,37,63,True,
-A0901,Grande SP,cnh,False,72,quase,33,29,False,Documento ilegível ou danificado
-A0902,Zona Leste SP,cnh,False,44,nao_pronta,59,46,False,Documento ilegível ou danificado
-A0903,Grande SP,cadunico,False,75,quase,29,33,False,"Outro (sistema, horário, regra)"
-A0904,Zona Leste SP,cnh,True,80,pronta,46,59,True,
-A0905,Grande SP,cin,False,54,quase,30,25,False,Documento ilegível ou danificado
-A0906,Zona Sul SP,cadunico,False,15,nao_pronta,28,43,False,Documento faltando
-A0907,Grande SP,cin,True,100,pronta,10,33,True,
-A0908,Sorocaba,cnh,False,35,nao_pronta,66,54,True,
-A0909,Grande SP,cin,True,90,pronta,24,34,True,
-A0910,Grande SP,cnh,True,80,pronta,46,34,True,
-A0911,Zona Sul SP,cadunico,True,90,pronta,28,43,True,
-A0912,Sudoeste Paulista,cadunico,True,90,pronta,32,89,False,"Outro (sistema, horário, regra)"
-A0913,Grande SP,cin,False,90,pronta,38,37,True,
-A0914,Zona Leste SP,cnh,False,35,nao_pronta,75,61,True,
-A0915,Zona Sul SP,cin,True,80,pronta,59,27,True,
-A0916,Sudoeste Paulista,cnh,False,35,nao_pronta,75,98,False,Documento faltando
-A0917,Sorocaba,cnh,True,80,pronta,50,57,True,
-A0918,Grande SP,cin,False,85,pronta,11,42,True,
-A0919,Zona Leste SP,cadunico,False,15,nao_pronta,28,54,False,Documento faltando
-A0920,Zona Sul SP,cin,False,5,nao_pronta,66,42,False,Documento faltando
-A0921,Zona Sul SP,cnh,False,35,nao_pronta,85,37,False,Documento faltando
-A0922,Grande SP,cnh,True,80,pronta,54,26,True,
-A0923,Grande SP,cadunico,False,39,nao_pronta,22,25,True,
-A0924,Zona Sul SP,cadunico,True,80,pronta,88,42,True,
-A0925,Zona Leste SP,cnh,False,55,quase,16,56,True,
-A0926,Zona Sul SP,cin,True,80,pronta,55,56,True,
-A0927,Sorocaba,cin,False,5,nao_pronta,60,45,True,
-A0928,Zona Leste SP,cnh,False,75,quase,27,42,True,
-A0929,Grande SP,cadunico,True,80,pronta,65,37,True,
-A0930,Sorocaba,cadunico,False,65,quase,51,68,True,
-A0931,Sorocaba,cin,False,39,nao_pronta,33,52,False,Documento ilegível ou danificado
-A0932,Grande SP,cin,False,80,pronta,48,33,True,
-A0933,Grande SP,cin,True,54,quase,32,37,True,
-A0934,Grande SP,cnh,False,27,nao_pronta,21,32,False,Documento faltando
-A0935,Grande SP,cnh,True,100,pronta,3,27,True,
-A0936,Grande SP,cnh,True,100,pronta,3,30,True,
-A0937,Zona Leste SP,cin,False,20,nao_pronta,67,47,True,
-A0938,Zona Leste SP,cin,False,39,nao_pronta,42,61,False,Documento ilegível ou danificado
-A0939,Zona Leste SP,cadunico,False,5,nao_pronta,55,39,False,Documento faltando
-A0940,Sorocaba,cadunico,True,80,pronta,102,56,True,
-A0941,Zona Sul SP,cnh,False,50,quase,49,46,False,Documento faltando
-A0942,Sorocaba,cnh,False,35,nao_pronta,59,56,False,Documento faltando
-A0943,Grande SP,cin,True,80,pronta,47,50,True,
-A0944,Zona Sul SP,cin,True,80,pronta,53,47,True,
-A0945,Grande SP,cnh,True,100,pronta,18,25,True,
-A0946,Sudoeste Paulista,cin,False,5,nao_pronta,49,68,False,Documento faltando
-A0947,Zona Sul SP,cadunico,True,65,quase,62,37,True,
-A0948,Grande SP,cin,False,85,pronta,17,45,True,
-A0949,Zona Leste SP,cin,False,80,pronta,60,33,True,
-A0950,Grande SP,cin,True,100,pronta,3,23,True,
-A0951,Sorocaba,cadunico,False,65,quase,63,63,False,Desistiu pela espera
-A0952,Grande SP,cadunico,True,90,pronta,26,37,True,
-A0953,Grande SP,cadunico,True,90,pronta,28,45,True,
-A0954,Sudoeste Paulista,cin,True,80,pronta,58,105,False,Desistiu pela espera
-A0955,Zona Sul SP,cin,False,80,pronta,53,28,True,
-A0956,Sorocaba,cnh,False,35,nao_pronta,58,65,False,Documento faltando
-A0957,Zona Leste SP,cnh,False,49,nao_pronta,19,63,False,Documento ilegível ou danificado
-A0958,Zona Sul SP,cnh,False,5,nao_pronta,83,34,True,
-A0959,Zona Leste SP,cin,False,29,nao_pronta,62,32,True,
-A0960,Sudoeste Paulista,cin,False,5,nao_pronta,47,82,False,Documento faltando
-A0961,Grande SP,cin,True,100,pronta,10,29,True,
-A0962,Zona Sul SP,cin,False,44,nao_pronta,89,23,False,Documento ilegível ou danificado
-A0963,Grande SP,cnh,True,80,pronta,56,23,False,Desistiu pela espera
-A0964,Sudoeste Paulista,cin,True,80,pronta,88,106,True,
-A0965,Grande SP,cnh,True,72,quase,36,18,True,
-A0966,Sorocaba,cin,True,80,pronta,66,59,True,
-A0967,Grande SP,cadunico,False,100,pronta,11,25,True,
-A0968,Zona Sul SP,cin,True,80,pronta,73,55,True,
-A0969,Sudoeste Paulista,cin,False,29,nao_pronta,46,119,False,Documento ilegível ou danificado
-A0970,Sudoeste Paulista,cin,True,80,pronta,72,115,True,
-A0971,Zona Leste SP,cadunico,False,44,nao_pronta,55,55,False,Documento ilegível ou danificado
-A0972,Sudoeste Paulista,cnh,True,50,quase,65,98,True,
-A0973,Zona Sul SP,cnh,True,62,quase,74,54,False,Documento ilegível ou danificado
-A0974,Sudoeste Paulista,cin,True,80,pronta,61,105,True,
-A0975,Sudoeste Paulista,cadunico,True,80,pronta,68,60,True,
-A0976,Zona Leste SP,cadunico,True,80,pronta,76,40,True,
-A0977,Zona Sul SP,cadunico,True,75,quase,39,45,False,"Outro (sistema, horário, regra)"
-A0978,Sorocaba,cnh,True,80,pronta,62,66,True,
-A0979,Sorocaba,cnh,True,80,pronta,68,43,True,
-A0980,Zona Sul SP,cnh,True,60,quase,45,26,False,Documento faltando
-A0981,Zona Leste SP,cadunico,False,5,nao_pronta,57,56,False,Documento faltando
-A0982,Sorocaba,cin,False,80,pronta,76,75,True,
-A0983,Sudoeste Paulista,cnh,False,35,nao_pronta,54,44,True,
-A0984,Zona Sul SP,cin,False,90,pronta,39,56,True,
-A0985,Sudoeste Paulista,cadunico,False,65,quase,68,83,False,Desistiu pela espera
-A0986,Sudoeste Paulista,cnh,False,5,nao_pronta,56,132,False,Documento faltando
-A0987,Zona Leste SP,cadunico,False,65,quase,52,60,True,
-A0988,Sudoeste Paulista,cadunico,True,100,pronta,9,77,True,
-A0989,Zona Leste SP,cadunico,False,65,quase,47,64,True,
-A0990,Zona Sul SP,cin,True,90,pronta,37,53,False,"Outro (sistema, horário, regra)"
-A0991,Zona Leste SP,cin,True,90,pronta,42,39,True,
-A0992,Sorocaba,cnh,False,52,quase,19,65,True,
-A0993,Zona Sul SP,cnh,True,80,pronta,51,35,True,
-A0994,Sorocaba,cin,True,65,quase,59,52,False,Desistiu pela espera
-A0995,Zona Leste SP,cadunico,True,80,pronta,52,70,True,
-A0996,Sorocaba,cadunico,True,90,pronta,36,74,True,
-A0997,Sorocaba,cin,True,65,quase,61,66,False,Desistiu pela espera
-A0998,Sorocaba,cin,False,29,nao_pronta,46,60,True,
-A0999,Sudoeste Paulista,cadunico,False,5,nao_pronta,81,112,False,Documento faltando
-A1000,Sudoeste Paulista,cadunico,False,75,quase,39,82,True,
-A1001,Zona Sul SP,cin,False,5,nao_pronta,57,57,False,Documento faltando
-A1002,Zona Sul SP,cnh,True,80,pronta,72,40,True,
-A1003,Grande SP,cadunico,False,90,pronta,40,25,True,
-A1004,Zona Sul SP,cadunico,False,75,quase,41,49,False,"Outro (sistema, horário, regra)"
-A1005,Zona Sul SP,cadunico,False,15,nao_pronta,43,51,False,Documento faltando
-A1006,Sudoeste Paulista,cnh,False,47,nao_pronta,50,96,True,
-A1007,Sudoeste Paulista,cnh,True,75,quase,28,107,False,"Outro (sistema, horário, regra)"
-A1008,Sudoeste Paulista,cnh,True,80,pronta,52,69,True,
-A1009,Sudoeste Paulista,cin,True,65,quase,50,89,True,
-A1010,Zona Sul SP,cadunico,False,54,quase,37,61,True,
-A1011,Grande SP,cadunico,False,49,nao_pronta,11,22,False,Documento ilegível ou danificado
-A1012,Sudoeste Paulista,cnh,False,35,nao_pronta,51,107,False,Documento faltando
-A1013,Grande SP,cnh,True,90,pronta,27,34,True,
-A1014,Grande SP,cnh,False,50,quase,46,38,True,
-A1015,Grande SP,cadunico,True,80,pronta,54,47,False,Desistiu pela espera
-A1016,Grande SP,cadunico,False,5,nao_pronta,50,36,False,Documento faltando
-A1017,Grande SP,cnh,True,80,pronta,46,45,False,Desistiu pela espera
-A1018,Grande SP,cadunico,True,100,pronta,20,36,True,
-A1019,Sudoeste Paulista,cadunico,True,80,pronta,72,68,True,
-A1020,Sorocaba,cin,False,5,nao_pronta,50,40,False,Documento faltando
-A1021,Grande SP,cadunico,True,90,pronta,26,46,True,
-A1022,Zona Leste SP,cadunico,True,90,pronta,39,57,True,
-A1023,Zona Sul SP,cin,False,65,quase,75,35,False,Desistiu pela espera
-A1024,Sorocaba,cadunico,True,90,pronta,39,65,False,"Outro (sistema, horário, regra)"
-A1025,Sudoeste Paulista,cadunico,False,5,nao_pronta,67,68,False,Documento faltando
-A1026,Grande SP,cnh,True,90,pronta,37,24,True,
-A1027,Sorocaba,cin,True,80,pronta,49,38,False,Desistiu pela espera
-A1028,Sorocaba,cadunico,False,65,quase,65,39,False,Desistiu pela espera
-A1029,Grande SP,cin,False,90,pronta,21,17,True,
-A1030,Grande SP,cin,True,100,pronta,15,26,True,
-A1031,Grande SP,cin,False,5,nao_pronta,67,39,False,Documento faltando
-A1032,Grande SP,cnh,False,75,quase,34,31,False,"Outro (sistema, horário, regra)"
-A1033,Sorocaba,cadunico,True,90,pronta,39,48,True,
-A1034,Grande SP,cnh,True,90,pronta,24,35,True,
-A1035,Zona Sul SP,cadunico,True,80,pronta,64,66,True,
-A1036,Sorocaba,cnh,False,17,nao_pronta,63,42,False,Documento faltando
-A1037,Zona Leste SP,cin,False,80,pronta,65,29,True,
-A1038,Zona Leste SP,cadunico,True,80,pronta,68,61,True,
-A1039,Zona Leste SP,cnh,True,80,pronta,61,74,True,
-A1040,Zona Sul SP,cnh,True,80,pronta,64,38,True,
-A1041,Zona Sul SP,cadunico,True,20,nao_pronta,110,40,False,Documento faltando
-A1042,Grande SP,cin,True,90,pronta,31,44,True,
-A1043,Zona Sul SP,cin,False,20,nao_pronta,68,59,False,Documento faltando
-A1044,Grande SP,cadunico,True,90,pronta,26,32,True,
-A1045,Zona Sul SP,cin,False,20,nao_pronta,79,51,False,Documento faltando
-A1046,Sorocaba,cin,False,5,nao_pronta,50,49,False,Documento faltando
-A1047,Sorocaba,cin,True,80,pronta,51,65,True,
-A1048,Grande SP,cin,True,100,pronta,3,37,True,
-A1049,Sudoeste Paulista,cnh,False,45,nao_pronta,38,51,False,Documento faltando
-A1050,Zona Sul SP,cnh,False,72,quase,41,20,True,
-A1051,Zona Leste SP,cadunico,True,90,pronta,21,47,True,
-A1052,Grande SP,cnh,False,45,nao_pronta,40,23,True,
-A1053,Sudoeste Paulista,cadunico,True,80,pronta,48,105,True,
-A1054,Grande SP,cnh,True,90,pronta,27,44,True,
-A1055,Grande SP,cadunico,False,25,nao_pronta,12,34,False,Documento faltando
-A1056,Grande SP,cadunico,True,90,pronta,37,22,True,
-A1057,Sorocaba,cadunico,True,80,pronta,85,48,True,
-A1058,Zona Sul SP,cnh,True,90,pronta,45,32,True,
-A1059,Grande SP,cnh,True,70,quase,14,30,False,Documento faltando
-A1060,Zona Sul SP,cadunico,True,80,pronta,47,54,False,Desistiu pela espera
-A1061,Zona Leste SP,cadunico,True,80,pronta,55,66,True,
-A1062,Grande SP,cnh,False,70,quase,15,47,True,
-A1063,Zona Leste SP,cnh,True,75,quase,33,56,True,
-A1064,Sorocaba,cin,False,5,nao_pronta,53,49,False,Documento faltando
-A1065,Sorocaba,cin,False,65,quase,69,55,False,Desistiu pela espera
-A1066,Zona Sul SP,cadunico,True,80,pronta,66,57,True,
-A1067,Zona Leste SP,cadunico,True,80,pronta,60,43,True,
-A1068,Grande SP,cnh,False,60,quase,41,38,True,
-A1069,Zona Sul SP,cnh,False,80,pronta,67,37,True,
-A1070,Zona Sul SP,cadunico,True,80,pronta,64,45,False,Desistiu pela espera
-A1071,Sorocaba,cnh,False,60,quase,30,35,True,
-A1072,Zona Sul SP,cadunico,True,80,pronta,60,62,True,
-A1073,Zona Sul SP,cnh,True,62,quase,46,32,True,
-A1074,Grande SP,cin,True,80,pronta,52,42,True,
-A1075,Zona Leste SP,cnh,True,80,pronta,68,52,True,
-A1076,Zona Sul SP,cnh,False,47,nao_pronta,60,58,False,Documento ilegível ou danificado
-A1077,Zona Leste SP,cnh,True,90,pronta,44,37,True,
-A1078,Sorocaba,cin,True,75,quase,36,51,True,
-A1079,Grande SP,cadunico,True,90,pronta,42,29,True,
-A1080,Zona Leste SP,cnh,True,80,pronta,79,54,True,
-A1081,Sorocaba,cnh,True,80,pronta,50,50,True,
-A1082,Zona Sul SP,cadunico,True,90,pronta,40,45,True,
-A1083,Grande SP,cnh,True,100,pronta,8,43,True,
-A1084,Zona Leste SP,cnh,False,42,nao_pronta,28,52,False,Documento faltando
-A1085,Zona Leste SP,cnh,False,47,nao_pronta,62,30,True,
-A1086,Grande SP,cin,False,54,quase,41,30,False,Documento ilegível ou danificado
-A1087,Zona Sul SP,cin,True,80,pronta,71,63,True,
-A1088,Grande SP,cnh,False,15,nao_pronta,39,45,False,Documento faltando
-A1089,Zona Sul SP,cadunico,False,65,quase,56,62,True,
-A1090,Grande SP,cin,False,15,nao_pronta,41,30,True,
-A1091,Grande SP,cnh,True,100,pronta,15,34,True,
-A1092,Zona Leste SP,cadunico,False,15,nao_pronta,26,60,False,Documento faltando
-A1093,Zona Leste SP,cadunico,False,54,quase,45,33,False,Documento ilegível ou danificado
-A1094,Grande SP,cnh,True,90,pronta,45,35,True,
-A1095,Sudoeste Paulista,cnh,True,80,pronta,62,95,True,
-A1096,Zona Sul SP,cin,False,5,nao_pronta,64,32,False,Documento faltando
-A1097,Sorocaba,cnh,True,90,pronta,26,74,True,
-A1098,Zona Leste SP,cin,False,65,quase,83,40,True,
-A1099,Zona Leste SP,cnh,True,65,quase,55,50,False,Desistiu pela espera
-A1100,Grande SP,cadunico,True,80,pronta,55,42,True,
-A1101,Zona Sul SP,cadunico,True,80,pronta,49,53,True,
-A1102,Zona Sul SP,cin,True,90,pronta,38,52,True,
-A1103,Zona Sul SP,cin,False,65,quase,58,64,False,Desistiu pela espera
-A1104,Sudoeste Paulista,cin,True,90,pronta,34,104,True,
-A1105,Sudoeste Paulista,cin,False,39,nao_pronta,45,27,False,Documento ilegível ou danificado
-A1106,Zona Leste SP,cin,False,90,pronta,40,44,True,
-A1107,Sorocaba,cin,False,80,pronta,54,80,True,
-A1108,Sorocaba,cnh,False,80,pronta,64,79,True,
-A1109,Zona Sul SP,cadunico,False,44,nao_pronta,65,40,True,
-A1110,Zona Leste SP,cadunico,False,80,pronta,75,57,True,
-A1111,Zona Sul SP,cnh,False,50,quase,52,40,False,Documento faltando
-A1112,Grande SP,cnh,True,80,pronta,49,43,True,
-A1113,Grande SP,cin,True,100,pronta,10,31,True,
-A1114,Grande SP,cnh,False,100,pronta,4,29,True,
-A1115,Grande SP,cin,False,49,nao_pronta,17,34,False,Documento ilegível ou danificado
-A1116,Zona Leste SP,cnh,True,90,pronta,34,50,True,
-A1117,Zona Sul SP,cnh,True,80,pronta,47,48,True,
-A1118,Sorocaba,cin,True,80,pronta,52,89,True,
-A1119,Grande SP,cadunico,True,100,pronta,15,23,True,
-A1120,Grande SP,cnh,True,90,pronta,42,41,True,
-A1121,Grande SP,cadunico,False,25,nao_pronta,16,47,False,Documento faltando
-A1122,Sorocaba,cin,True,75,quase,30,53,False,"Outro (sistema, horário, regra)"
-A1123,Sorocaba,cadunico,False,65,quase,79,55,False,Desistiu pela espera
-A1124,Zona Sul SP,cin,False,65,quase,69,66,False,Desistiu pela espera
-A1125,Grande SP,cnh,False,72,quase,33,51,False,Documento ilegível ou danificado
-A1126,Sorocaba,cadunico,False,20,nao_pronta,55,71,True,
-A1127,Zona Leste SP,cin,True,80,pronta,52,51,True,
-A1128,Sorocaba,cadunico,True,90,pronta,26,63,True,
-A1129,Sorocaba,cnh,False,35,nao_pronta,55,22,False,Documento faltando
-A1130,Zona Leste SP,cin,True,80,pronta,77,43,True,
-A1131,Grande SP,cnh,False,44,nao_pronta,64,29,True,
-A1132,Sudoeste Paulista,cin,False,29,nao_pronta,63,111,False,Documento ilegível ou danificado
-A1133,Grande SP,cnh,False,55,quase,15,37,False,Documento faltando
-A1134,Sudoeste Paulista,cadunico,True,80,pronta,80,90,True,
-A1135,Grande SP,cadunico,False,40,nao_pronta,5,55,True,
-A1136,Sudoeste Paulista,cadunico,False,75,quase,28,118,False,"Outro (sistema, horário, regra)"
-A1137,Zona Leste SP,cin,False,65,quase,71,50,False,Desistiu pela espera
-A1138,Grande SP,cnh,True,72,quase,31,32,True,
-A1139,Zona Leste SP,cnh,True,100,pronta,18,43,True,
-A1140,Grande SP,cin,True,80,pronta,49,31,True,
-A1141,Zona Leste SP,cadunico,False,20,nao_pronta,48,56,True,
-A1142,Zona Leste SP,cadunico,True,80,pronta,47,58,True,
-A1143,Zona Leste SP,cin,False,20,nao_pronta,68,79,False,Documento faltando
-A1144,Sudoeste Paulista,cadunico,True,90,pronta,37,89,True,
-A1145,Grande SP,cin,True,100,pronta,3,51,False,"Outro (sistema, horário, regra)"
-A1146,Zona Sul SP,cin,False,54,quase,42,42,False,Documento ilegível ou danificado
-A1147,Zona Sul SP,cnh,False,17,nao_pronta,94,50,False,Documento faltando
-A1148,Zona Sul SP,cadunico,False,29,nao_pronta,66,52,True,
-A1149,Zona Sul SP,cnh,False,90,pronta,44,39,True,
-A1150,Grande SP,cnh,True,100,pronta,14,32,True,
-A1151,Sorocaba,cnh,True,75,quase,41,78,True,
-A1152,Zona Sul SP,cnh,True,90,pronta,39,37,True,
-A1153,Zona Sul SP,cnh,False,65,quase,61,56,True,
-A1154,Zona Leste SP,cnh,True,50,quase,49,44,True,
-A1155,Grande SP,cnh,False,60,quase,27,40,True,
-A1156,Grande SP,cnh,True,90,pronta,23,36,True,
-A1157,Zona Leste SP,cadunico,True,75,quase,41,62,True,
-A1158,Zona Leste SP,cadunico,True,80,pronta,52,60,True,
-A1159,Grande SP,cin,False,100,pronta,3,34,True,
-A1160,Zona Leste SP,cnh,False,50,quase,66,64,False,Documento faltando
-A1161,Sorocaba,cadunico,False,15,nao_pronta,42,47,True,
-A1162,Zona Leste SP,cnh,True,80,pronta,47,34,True,
-A1163,Zona Leste SP,cnh,False,35,nao_pronta,64,60,False,Documento faltando
-A1164,Sudoeste Paulista,cadunico,False,65,quase,65,102,True,
-A1165,Grande SP,cnh,True,80,pronta,48,37,True,
-A1166,Zona Leste SP,cin,False,15,nao_pronta,30,59,True,
-A1167,Zona Sul SP,cin,True,90,pronta,34,52,True,
-A1168,Grande SP,cadunico,True,90,pronta,43,40,True,
-A1169,Grande SP,cnh,True,100,pronta,3,43,True,
-A1170,Sorocaba,cin,False,5,nao_pronta,75,72,False,Documento faltando
-A1171,Zona Sul SP,cadunico,False,85,pronta,4,59,True,
-A1172,Sorocaba,cin,True,80,pronta,56,60,False,Desistiu pela espera
-A1173,Grande SP,cnh,False,55,quase,19,36,True,
-A1174,Sorocaba,cnh,False,35,nao_pronta,46,55,False,Documento faltando
-A1175,Grande SP,cin,True,90,pronta,27,32,True,
-A1176,Grande SP,cadunico,True,100,pronta,17,33,False,"Outro (sistema, horário, regra)"
-A1177,Sudoeste Paulista,cin,False,5,nao_pronta,47,93,True,
-A1178,Sudoeste Paulista,cnh,False,62,quase,54,98,True,
-A1179,Zona Sul SP,cin,False,44,nao_pronta,62,54,False,Documento ilegível ou danificado
-A1180,Zona Sul SP,cnh,True,80,pronta,71,52,True,
-A1181,Grande SP,cnh,False,45,nao_pronta,45,30,False,Documento faltando
-A1182,Zona Sul SP,cadunico,False,90,pronta,39,57,True,
-A1183,Zona Leste SP,cin,False,29,nao_pronta,65,50,False,Documento ilegível ou danificado
-A1184,Grande SP,cadunico,False,90,pronta,36,45,True,
-A1185,Grande SP,cnh,True,100,pronta,3,44,True,
-A1186,Zona Leste SP,cnh,True,80,pronta,58,62,True,
-A1187,Sudoeste Paulista,cadunico,True,80,pronta,60,106,True,
-A1188,Zona Sul SP,cin,True,80,pronta,84,36,True,
-A1189,Grande SP,cadunico,False,90,pronta,45,19,True,
-A1190,Sorocaba,cin,False,20,nao_pronta,72,71,False,Documento faltando
-A1191,Zona Sul SP,cadunico,True,65,quase,65,52,True,
-A1192,Sudoeste Paulista,cadunico,False,39,nao_pronta,39,86,False,Documento ilegível ou danificado
-A1193,Sudoeste Paulista,cin,True,90,pronta,45,127,False,"Outro (sistema, horário, regra)"
-A1194,Grande SP,cnh,True,70,quase,4,29,False,Documento faltando
-A1195,Zona Leste SP,cadunico,False,15,nao_pronta,40,44,False,Documento faltando
-A1196,Zona Sul SP,cnh,True,90,pronta,33,29,True,
-A1197,Grande SP,cin,False,30,nao_pronta,33,19,True,
-A1198,Grande SP,cnh,False,85,pronta,15,21,True,
-A1199,Zona Leste SP,cin,False,80,pronta,77,68,True,
+A0000,Grande SP,cadunico,False,0,nao_pronta,58,22,False,Documento faltando
+A0001,Zona Leste SP,cadunico,False,0,nao_pronta,55,33,True,
+A0002,Zona Sul SP,cin,True,90,pronta,41,51,False,"Outro (sistema, horário, regra)"
+A0003,Zona Leste SP,cnh,False,85,pronta,19,56,True,
+A0004,Zona Sul SP,cin,False,30,nao_pronta,26,54,False,Documento ilegível ou danificado
+A0005,Sudoeste Paulista,cnh,False,65,quase,67,97,True,
+A0006,Grande SP,cadunico,False,0,nao_pronta,20,37,False,Documento faltando
+A0007,Sorocaba,cin,False,30,nao_pronta,32,54,False,Documento faltando
+A0008,Zona Leste SP,cadunico,False,0,nao_pronta,41,54,False,Documento faltando
+A0009,Grande SP,cadunico,False,0,nao_pronta,45,31,True,
+A0010,Sorocaba,cnh,False,30,nao_pronta,62,48,False,Documento faltando
+A0011,Grande SP,cadunico,False,75,quase,37,43,False,"Outro (sistema, horário, regra)"
+A0012,Sudoeste Paulista,cadunico,True,90,pronta,38,108,True,
+A0013,Grande SP,cadunico,False,0,nao_pronta,32,39,True,
+A0014,Zona Sul SP,cnh,False,65,quase,74,40,False,Desistiu pela espera
+A0015,Grande SP,cin,True,90,pronta,35,38,True,
+A0016,Zona Sul SP,cadunico,True,80,pronta,63,45,True,
+A0017,Grande SP,cnh,False,30,nao_pronta,21,26,False,Documento faltando
+A0018,Zona Sul SP,cnh,False,75,quase,32,35,True,
+A0019,Zona Leste SP,cin,False,90,pronta,41,38,True,
+A0020,Grande SP,cadunico,False,65,quase,48,49,True,
+A0021,Zona Leste SP,cnh,False,30,nao_pronta,37,57,False,Documento ilegível ou danificado
+A0022,Zona Sul SP,cin,False,30,nao_pronta,73,33,False,Documento ilegível ou danificado
+A0023,Sorocaba,cadunico,True,90,pronta,42,35,True,
+A0024,Zona Sul SP,cnh,False,65,quase,66,50,False,Desistiu pela espera
+A0025,Grande SP,cadunico,True,90,pronta,42,39,True,
+A0026,Grande SP,cnh,True,90,pronta,36,34,True,
+A0027,Zona Leste SP,cin,False,30,nao_pronta,34,38,False,Documento faltando
+A0028,Sudoeste Paulista,cnh,False,85,pronta,6,94,True,
+A0029,Grande SP,cnh,True,90,pronta,34,15,True,
+A0030,Zona Leste SP,cadunico,False,65,quase,53,43,True,
+A0031,Grande SP,cin,False,30,nao_pronta,43,41,False,Documento faltando
+A0032,Sorocaba,cadunico,True,80,pronta,80,50,True,
+A0033,Grande SP,cin,True,30,nao_pronta,46,44,True,
+A0034,Grande SP,cin,False,30,nao_pronta,30,27,False,Documento faltando
+A0035,Grande SP,cin,True,85,pronta,3,49,False,"Outro (sistema, horário, regra)"
+A0036,Grande SP,cnh,True,90,pronta,35,23,True,
+A0037,Zona Sul SP,cin,True,80,pronta,65,46,True,
+A0038,Zona Sul SP,cnh,True,30,nao_pronta,68,32,False,Documento faltando
+A0039,Sudoeste Paulista,cnh,False,0,nao_pronta,63,92,True,
+A0040,Zona Leste SP,cadunico,True,80,pronta,62,58,True,
+A0041,Zona Leste SP,cnh,True,80,pronta,69,25,False,Desistiu pela espera
+A0042,Sudoeste Paulista,cin,False,0,nao_pronta,17,90,False,Documento faltando
+A0043,Grande SP,cnh,True,90,pronta,26,38,True,
+A0044,Grande SP,cnh,False,75,quase,42,23,True,
+A0045,Zona Sul SP,cin,True,65,quase,64,55,True,
+A0046,Zona Leste SP,cadunico,False,0,nao_pronta,60,68,False,Documento ilegível ou danificado
+A0047,Sorocaba,cnh,False,75,quase,40,65,True,
+A0048,Grande SP,cnh,True,90,pronta,27,46,True,
+A0049,Zona Leste SP,cadunico,False,65,quase,89,37,False,Desistiu pela espera
+A0050,Sudoeste Paulista,cadunico,False,65,quase,71,103,True,
+A0051,Grande SP,cadunico,True,90,pronta,33,25,True,
+A0052,Zona Leste SP,cin,False,0,nao_pronta,40,69,False,Documento faltando
+A0053,Zona Sul SP,cadunico,False,80,pronta,63,45,True,
+A0054,Grande SP,cnh,True,90,pronta,21,32,True,
+A0055,Sudoeste Paulista,cin,True,0,nao_pronta,77,76,False,Documento faltando
+A0056,Zona Leste SP,cadunico,True,80,pronta,49,44,True,
+A0057,Zona Leste SP,cnh,True,80,pronta,49,52,True,
+A0058,Sorocaba,cadunico,False,0,nao_pronta,28,40,False,Documento faltando
+A0059,Zona Sul SP,cnh,True,80,pronta,52,72,True,
+A0060,Zona Sul SP,cnh,False,0,nao_pronta,33,44,False,Documento faltando
+A0061,Sorocaba,cnh,False,30,nao_pronta,37,76,False,Documento faltando
+A0062,Sorocaba,cin,True,30,nao_pronta,65,39,True,
+A0063,Sorocaba,cin,True,30,nao_pronta,51,52,True,
+A0064,Sorocaba,cin,False,0,nao_pronta,69,56,False,Documento faltando
+A0065,Sudoeste Paulista,cin,True,30,nao_pronta,70,102,False,Documento ilegível ou danificado
+A0066,Sorocaba,cnh,True,80,pronta,65,87,True,
+A0067,Sorocaba,cnh,True,30,nao_pronta,72,41,False,Documento faltando
+A0068,Zona Sul SP,cnh,False,30,nao_pronta,38,58,False,Documento ilegível ou danificado
+A0069,Grande SP,cin,False,0,nao_pronta,77,39,False,Documento faltando
+A0070,Sudoeste Paulista,cnh,True,90,pronta,45,95,True,
+A0071,Zona Sul SP,cnh,True,80,pronta,54,62,True,
+A0072,Zona Leste SP,cadunico,False,0,nao_pronta,52,54,True,
+A0073,Zona Sul SP,cnh,False,80,pronta,93,48,True,
+A0074,Grande SP,cin,True,30,nao_pronta,26,17,False,Documento ilegível ou danificado
+A0075,Grande SP,cnh,True,90,pronta,27,37,True,
+A0076,Grande SP,cin,False,75,quase,26,36,True,
+A0077,Grande SP,cin,False,0,nao_pronta,15,31,False,Documento faltando
+A0078,Grande SP,cadunico,True,90,pronta,38,42,True,
+A0079,Grande SP,cnh,True,90,pronta,36,33,True,
+A0080,Sudoeste Paulista,cin,False,30,nao_pronta,46,75,False,Documento faltando
+A0081,Sudoeste Paulista,cnh,False,0,nao_pronta,93,59,False,Documento faltando
+A0082,Sudoeste Paulista,cin,True,90,pronta,41,98,True,
+A0083,Sorocaba,cin,False,75,quase,35,56,True,
+A0084,Grande SP,cnh,False,30,nao_pronta,22,41,False,Documento ilegível ou danificado
+A0085,Grande SP,cin,True,90,pronta,31,51,True,
+A0086,Grande SP,cnh,True,100,pronta,11,25,True,
+A0087,Sudoeste Paulista,cin,False,30,nao_pronta,55,115,False,Documento faltando
+A0088,Sorocaba,cadunico,True,0,nao_pronta,63,74,True,
+A0089,Sorocaba,cin,False,0,nao_pronta,44,58,False,Documento faltando
+A0090,Grande SP,cadunico,True,0,nao_pronta,39,39,False,Documento ilegível ou danificado
+A0091,Sorocaba,cnh,False,75,quase,40,48,False,"Outro (sistema, horário, regra)"
+A0092,Sorocaba,cin,False,90,pronta,25,77,True,
+A0093,Grande SP,cin,True,80,pronta,49,29,True,
+A0094,Grande SP,cnh,True,100,pronta,8,39,True,
+A0095,Zona Leste SP,cnh,False,0,nao_pronta,31,48,False,Documento faltando
+A0096,Grande SP,cadunico,False,0,nao_pronta,43,32,False,Documento faltando
+A0097,Sudoeste Paulista,cadunico,True,65,quase,76,97,True,
+A0098,Sudoeste Paulista,cnh,False,30,nao_pronta,57,90,True,
+A0099,Grande SP,cadunico,True,85,pronta,14,42,False,"Outro (sistema, horário, regra)"
+A0100,Grande SP,cnh,True,100,pronta,13,51,True,
+A0101,Grande SP,cnh,False,30,nao_pronta,41,49,False,Documento faltando
+A0102,Zona Leste SP,cin,True,80,pronta,87,49,True,
+A0103,Sudoeste Paulista,cin,True,80,pronta,50,103,True,
+A0104,Grande SP,cadunico,True,90,pronta,23,39,True,
+A0105,Zona Sul SP,cnh,True,90,pronta,33,53,True,
+A0106,Zona Sul SP,cnh,True,90,pronta,41,43,True,
+A0107,Grande SP,cnh,True,100,pronta,14,37,True,
+A0108,Sudoeste Paulista,cnh,True,80,pronta,48,35,True,
+A0109,Zona Leste SP,cadunico,True,90,pronta,31,66,True,
+A0110,Sorocaba,cadunico,True,80,pronta,52,33,True,
+A0111,Grande SP,cnh,True,30,nao_pronta,32,30,False,Documento faltando
+A0112,Grande SP,cnh,False,0,nao_pronta,5,48,False,Documento ilegível ou danificado
+A0113,Zona Leste SP,cadunico,False,0,nao_pronta,52,55,False,Documento faltando
+A0114,Grande SP,cin,False,30,nao_pronta,22,38,False,Documento faltando
+A0115,Zona Sul SP,cin,False,30,nao_pronta,58,37,True,
+A0116,Zona Leste SP,cnh,False,75,quase,25,39,True,
+A0117,Zona Sul SP,cin,True,90,pronta,44,44,True,
+A0118,Sorocaba,cadunico,True,90,pronta,25,90,True,
+A0119,Grande SP,cadunico,False,80,pronta,48,40,True,
+A0120,Zona Sul SP,cadunico,True,80,pronta,60,51,True,
+A0121,Grande SP,cnh,False,30,nao_pronta,3,38,False,Documento faltando
+A0122,Zona Sul SP,cnh,False,30,nao_pronta,57,53,False,Documento faltando
+A0123,Grande SP,cnh,True,80,pronta,63,51,True,
+A0124,Grande SP,cnh,True,90,pronta,30,31,True,
+A0125,Grande SP,cadunico,True,75,quase,24,41,False,"Outro (sistema, horário, regra)"
+A0126,Sorocaba,cadunico,True,90,pronta,42,38,False,"Outro (sistema, horário, regra)"
+A0127,Zona Sul SP,cnh,True,90,pronta,23,41,True,
+A0128,Sorocaba,cadunico,False,75,quase,44,40,True,
+A0129,Grande SP,cadunico,True,90,pronta,43,33,True,
+A0130,Grande SP,cin,True,0,nao_pronta,19,35,False,Documento faltando
+A0131,Sudoeste Paulista,cin,False,75,quase,37,104,True,
+A0132,Zona Leste SP,cnh,False,30,nao_pronta,24,51,False,Documento faltando
+A0133,Grande SP,cadunico,False,0,nao_pronta,37,43,True,
+A0134,Sorocaba,cnh,False,30,nao_pronta,48,32,False,Documento faltando
+A0135,Zona Sul SP,cnh,False,30,nao_pronta,71,36,False,Documento faltando
+A0136,Zona Leste SP,cin,False,80,pronta,69,24,False,Desistiu pela espera
+A0137,Grande SP,cadunico,True,90,pronta,26,44,True,
+A0138,Zona Sul SP,cadunico,False,80,pronta,54,46,True,
+A0139,Grande SP,cnh,True,90,pronta,35,34,True,
+A0140,Grande SP,cin,True,90,pronta,33,30,True,
+A0141,Grande SP,cnh,True,90,pronta,27,31,True,
+A0142,Sorocaba,cin,False,0,nao_pronta,60,58,False,Documento ilegível ou danificado
+A0143,Zona Sul SP,cin,False,30,nao_pronta,69,35,False,Documento faltando
+A0144,Zona Leste SP,cadunico,True,90,pronta,34,55,True,
+A0145,Grande SP,cadunico,False,100,pronta,3,35,True,
+A0146,Zona Sul SP,cin,False,0,nao_pronta,57,48,True,
+A0147,Zona Sul SP,cin,False,0,nao_pronta,47,42,False,Documento faltando
+A0148,Zona Sul SP,cin,False,30,nao_pronta,71,48,False,Documento faltando
+A0149,Sorocaba,cin,True,90,pronta,41,62,True,
+A0150,Grande SP,cin,True,75,quase,41,21,True,
+A0151,Sorocaba,cadunico,False,0,nao_pronta,75,39,True,
+A0152,Zona Sul SP,cadunico,False,65,quase,69,46,True,
+A0153,Zona Sul SP,cnh,False,0,nao_pronta,43,37,False,Documento faltando
+A0154,Sudoeste Paulista,cadunico,True,65,quase,64,95,True,
+A0155,Sudoeste Paulista,cin,False,30,nao_pronta,53,56,True,
+A0156,Zona Sul SP,cadunico,False,0,nao_pronta,51,46,False,Documento faltando
+A0157,Grande SP,cadunico,True,90,pronta,26,37,True,
+A0158,Grande SP,cin,False,30,nao_pronta,33,40,False,Documento faltando
+A0159,Sorocaba,cnh,False,30,nao_pronta,60,59,True,
+A0160,Sudoeste Paulista,cnh,False,0,nao_pronta,78,110,True,
+A0161,Sudoeste Paulista,cnh,True,90,pronta,37,86,True,
+A0162,Sorocaba,cnh,True,30,nao_pronta,48,67,False,Documento ilegível ou danificado
+A0163,Grande SP,cnh,False,90,pronta,45,42,True,
+A0164,Grande SP,cin,False,30,nao_pronta,23,38,True,
+A0165,Sorocaba,cin,True,100,pronta,16,62,True,
+A0166,Zona Leste SP,cnh,True,80,pronta,49,40,True,
+A0167,Grande SP,cnh,True,100,pronta,15,27,True,
+A0168,Zona Sul SP,cnh,True,30,nao_pronta,41,37,True,
+A0169,Zona Leste SP,cin,True,30,nao_pronta,50,41,False,Documento ilegível ou danificado
+A0170,Sudoeste Paulista,cadunico,False,0,nao_pronta,52,95,False,Documento faltando
+A0171,Zona Sul SP,cnh,True,80,pronta,61,53,True,
+A0172,Sorocaba,cin,False,30,nao_pronta,49,64,False,Documento ilegível ou danificado
+A0173,Zona Sul SP,cnh,False,30,nao_pronta,79,48,False,Documento ilegível ou danificado
+A0174,Zona Leste SP,cnh,True,30,nao_pronta,23,47,False,Documento ilegível ou danificado
+A0175,Grande SP,cin,False,0,nao_pronta,39,33,False,Documento ilegível ou danificado
+A0176,Grande SP,cin,False,30,nao_pronta,50,49,True,
+A0177,Sorocaba,cnh,True,75,quase,42,29,True,
+A0178,Grande SP,cnh,True,30,nao_pronta,25,44,False,Documento faltando
+A0179,Sudoeste Paulista,cnh,True,80,pronta,58,79,True,
+A0180,Sorocaba,cadunico,True,80,pronta,72,84,True,
+A0181,Grande SP,cin,True,30,nao_pronta,50,45,False,Documento ilegível ou danificado
+A0182,Grande SP,cin,True,100,pronta,9,36,True,
+A0183,Grande SP,cin,True,30,nao_pronta,45,38,False,Documento ilegível ou danificado
+A0184,Grande SP,cin,False,0,nao_pronta,14,33,False,Documento faltando
+A0185,Grande SP,cnh,False,65,quase,54,45,True,
+A0186,Sorocaba,cnh,True,80,pronta,54,54,True,
+A0187,Zona Sul SP,cadunico,False,0,nao_pronta,61,45,False,Documento faltando
+A0188,Sudoeste Paulista,cnh,False,0,nao_pronta,97,92,False,Documento faltando
+A0189,Sorocaba,cadunico,False,90,pronta,41,75,True,
+A0190,Sudoeste Paulista,cadunico,False,0,nao_pronta,21,93,False,Documento ilegível ou danificado
+A0191,Grande SP,cadunico,True,100,pronta,17,35,True,
+A0192,Zona Sul SP,cnh,False,30,nao_pronta,51,53,False,Documento faltando
+A0193,Sudoeste Paulista,cadunico,True,0,nao_pronta,25,94,False,Documento faltando
+A0194,Zona Sul SP,cnh,False,0,nao_pronta,61,53,False,Documento faltando
+A0195,Zona Leste SP,cadunico,False,0,nao_pronta,44,55,False,Documento ilegível ou danificado
+A0196,Zona Leste SP,cnh,False,90,pronta,39,35,True,
+A0197,Zona Leste SP,cin,False,90,pronta,40,30,True,
+A0198,Zona Leste SP,cadunico,True,80,pronta,52,64,True,
+A0199,Sudoeste Paulista,cin,False,75,quase,43,102,False,"Outro (sistema, horário, regra)"
+A0200,Grande SP,cadunico,False,0,nao_pronta,23,10,True,
+A0201,Grande SP,cnh,False,30,nao_pronta,24,26,True,
+A0202,Sudoeste Paulista,cin,True,30,nao_pronta,56,90,True,
+A0203,Zona Leste SP,cadunico,True,80,pronta,63,39,True,
+A0204,Zona Sul SP,cadunico,False,0,nao_pronta,72,55,False,Documento faltando
+A0205,Sudoeste Paulista,cnh,True,80,pronta,47,83,True,
+A0206,Sudoeste Paulista,cadunico,False,0,nao_pronta,49,99,False,Documento faltando
+A0207,Zona Sul SP,cnh,True,90,pronta,41,45,True,
+A0208,Grande SP,cadunico,True,90,pronta,39,37,True,
+A0209,Grande SP,cnh,True,80,pronta,46,34,True,
+A0210,Zona Leste SP,cin,True,65,quase,61,69,True,
+A0211,Grande SP,cin,False,30,nao_pronta,27,42,True,
+A0212,Zona Leste SP,cin,True,80,pronta,75,48,True,
+A0213,Zona Leste SP,cin,True,30,nao_pronta,90,40,False,Documento faltando
+A0214,Zona Sul SP,cin,True,80,pronta,65,31,True,
+A0215,Grande SP,cin,True,30,nao_pronta,35,29,False,Documento faltando
+A0216,Sudoeste Paulista,cadunico,False,90,pronta,39,36,True,
+A0217,Grande SP,cnh,True,90,pronta,38,37,True,
+A0218,Grande SP,cadunico,False,65,quase,53,41,False,Desistiu pela espera
+A0219,Sorocaba,cin,True,30,nao_pronta,78,45,False,Documento faltando
+A0220,Grande SP,cin,True,90,pronta,28,36,True,
+A0221,Sudoeste Paulista,cadunico,False,0,nao_pronta,41,76,False,Documento faltando
+A0222,Zona Leste SP,cnh,False,30,nao_pronta,60,79,True,
+A0223,Zona Leste SP,cnh,True,80,pronta,54,50,False,Desistiu pela espera
+A0224,Sorocaba,cadunico,False,80,pronta,77,79,True,
+A0225,Grande SP,cnh,True,80,pronta,70,45,True,
+A0226,Sudoeste Paulista,cadunico,False,65,quase,74,138,False,Desistiu pela espera
+A0227,Grande SP,cin,False,90,pronta,43,35,True,
+A0228,Sudoeste Paulista,cnh,False,65,quase,87,88,True,
+A0229,Sorocaba,cadunico,True,100,pronta,15,47,True,
+A0230,Zona Leste SP,cnh,False,0,nao_pronta,34,43,False,Documento faltando
+A0231,Zona Leste SP,cin,True,90,pronta,34,33,True,
+A0232,Grande SP,cnh,False,0,nao_pronta,39,33,True,
+A0233,Sudoeste Paulista,cnh,True,80,pronta,77,99,True,
+A0234,Grande SP,cadunico,False,0,nao_pronta,40,24,False,Documento ilegível ou danificado
+A0235,Sudoeste Paulista,cnh,True,30,nao_pronta,72,101,False,Documento ilegível ou danificado
+A0236,Zona Sul SP,cnh,True,90,pronta,28,44,True,
+A0237,Zona Leste SP,cnh,False,65,quase,78,48,False,Desistiu pela espera
+A0238,Zona Leste SP,cin,True,80,pronta,47,58,True,
+A0239,Grande SP,cadunico,True,80,pronta,47,32,True,
+A0240,Grande SP,cnh,True,90,pronta,34,44,True,
+A0241,Grande SP,cnh,True,100,pronta,11,40,True,
+A0242,Zona Sul SP,cnh,True,75,quase,36,51,True,
+A0243,Grande SP,cnh,False,100,pronta,3,40,True,
+A0244,Zona Leste SP,cin,True,90,pronta,36,54,True,
+A0245,Sorocaba,cnh,False,30,nao_pronta,55,54,False,Documento faltando
+A0246,Zona Sul SP,cin,False,30,nao_pronta,62,63,False,Documento faltando
+A0247,Zona Sul SP,cnh,True,80,pronta,73,48,False,Desistiu pela espera
+A0248,Zona Sul SP,cadunico,False,65,quase,71,61,True,
+A0249,Sudoeste Paulista,cin,True,80,pronta,71,89,True,
+A0250,Zona Leste SP,cnh,True,80,pronta,65,42,True,
+A0251,Sorocaba,cnh,False,0,nao_pronta,44,44,False,Documento faltando
+A0252,Grande SP,cin,False,30,nao_pronta,30,32,False,Documento ilegível ou danificado
+A0253,Zona Sul SP,cnh,True,80,pronta,68,21,True,
+A0254,Zona Leste SP,cin,True,30,nao_pronta,55,44,False,Documento faltando
+A0255,Zona Leste SP,cin,True,80,pronta,64,45,True,
+A0256,Zona Leste SP,cadunico,False,80,pronta,72,74,True,
+A0257,Grande SP,cin,False,30,nao_pronta,64,39,False,Documento ilegível ou danificado
+A0258,Sorocaba,cadunico,True,65,quase,47,60,False,Desistiu pela espera
+A0259,Grande SP,cin,True,85,pronta,19,39,True,
+A0260,Sudoeste Paulista,cnh,True,80,pronta,46,51,True,
+A0261,Grande SP,cadunico,True,90,pronta,38,36,True,
+A0262,Grande SP,cnh,False,30,nao_pronta,68,45,True,
+A0263,Zona Leste SP,cnh,True,80,pronta,68,32,True,
+A0264,Zona Leste SP,cin,True,80,pronta,81,69,True,
+A0265,Grande SP,cadunico,True,90,pronta,24,21,True,
+A0266,Sorocaba,cin,True,30,nao_pronta,55,48,True,
+A0267,Grande SP,cadunico,False,80,pronta,66,49,True,
+A0268,Grande SP,cadunico,True,90,pronta,28,39,True,
+A0269,Sudoeste Paulista,cadunico,True,80,pronta,71,49,True,
+A0270,Zona Leste SP,cadunico,False,0,nao_pronta,72,61,False,Documento faltando
+A0271,Grande SP,cadunico,False,0,nao_pronta,35,32,True,
+A0272,Grande SP,cadunico,True,90,pronta,42,39,True,
+A0273,Grande SP,cnh,False,30,nao_pronta,24,16,False,Documento faltando
+A0274,Zona Sul SP,cnh,True,90,pronta,33,45,True,
+A0275,Sorocaba,cadunico,False,65,quase,46,80,True,
+A0276,Sudoeste Paulista,cin,False,75,quase,32,86,True,
+A0277,Grande SP,cnh,False,85,pronta,9,49,True,
+A0278,Sorocaba,cin,False,0,nao_pronta,43,48,False,Documento faltando
+A0279,Grande SP,cin,True,90,pronta,31,33,True,
+A0280,Zona Leste SP,cnh,True,30,nao_pronta,90,53,False,Documento faltando
+A0281,Grande SP,cnh,False,0,nao_pronta,19,28,True,
+A0282,Zona Sul SP,cin,True,80,pronta,51,23,True,
+A0283,Grande SP,cin,True,90,pronta,26,34,True,
+A0284,Sorocaba,cnh,True,80,pronta,56,63,True,
+A0285,Zona Leste SP,cin,True,80,pronta,48,37,True,
+A0286,Zona Sul SP,cadunico,True,80,pronta,55,50,True,
+A0287,Zona Sul SP,cnh,False,0,nao_pronta,47,54,False,Documento faltando
+A0288,Zona Sul SP,cin,False,0,nao_pronta,20,25,False,Documento ilegível ou danificado
+A0289,Grande SP,cnh,True,75,quase,31,38,True,
+A0290,Grande SP,cadunico,False,90,pronta,45,36,True,
+A0291,Sudoeste Paulista,cadunico,False,75,quase,37,71,True,
+A0292,Sudoeste Paulista,cin,True,90,pronta,30,147,True,
+A0293,Grande SP,cin,True,90,pronta,30,34,True,
+A0294,Zona Leste SP,cin,False,90,pronta,45,55,True,
+A0295,Zona Sul SP,cin,True,80,pronta,69,54,True,
+A0296,Zona Leste SP,cin,False,30,nao_pronta,43,22,True,
+A0297,Zona Sul SP,cin,False,65,quase,46,56,False,Desistiu pela espera
+A0298,Sudoeste Paulista,cin,True,80,pronta,69,41,True,
+A0299,Sorocaba,cadunico,True,80,pronta,66,58,True,
+A0300,Grande SP,cnh,False,90,pronta,32,34,True,
+A0301,Zona Sul SP,cnh,False,0,nao_pronta,86,57,False,Documento faltando
+A0302,Grande SP,cnh,False,0,nao_pronta,39,23,False,Documento faltando
+A0303,Sorocaba,cadunico,True,80,pronta,48,53,False,Desistiu pela espera
+A0304,Zona Leste SP,cnh,False,30,nao_pronta,72,63,False,Documento faltando
+A0305,Grande SP,cadunico,False,80,pronta,55,27,True,
+A0306,Sorocaba,cnh,False,0,nao_pronta,39,68,False,Documento ilegível ou danificado
+A0307,Sorocaba,cadunico,False,90,pronta,44,49,True,
+A0308,Zona Sul SP,cin,True,80,pronta,79,38,True,
+A0309,Zona Leste SP,cin,True,30,nao_pronta,56,40,False,Documento ilegível ou danificado
+A0310,Zona Sul SP,cin,False,30,nao_pronta,55,35,False,Documento ilegível ou danificado
+A0311,Sudoeste Paulista,cnh,True,65,quase,58,54,True,
+A0312,Sudoeste Paulista,cnh,True,30,nao_pronta,52,104,True,
+A0313,Sorocaba,cnh,False,30,nao_pronta,49,82,False,Documento ilegível ou danificado
+A0314,Zona Sul SP,cadunico,False,80,pronta,48,35,False,Desistiu pela espera
+A0315,Zona Sul SP,cnh,False,30,nao_pronta,85,51,False,Documento faltando
+A0316,Zona Sul SP,cadunico,False,0,nao_pronta,88,25,False,Documento ilegível ou danificado
+A0317,Zona Leste SP,cadunico,False,0,nao_pronta,50,67,True,
+A0318,Zona Sul SP,cnh,True,90,pronta,41,50,True,
+A0319,Sudoeste Paulista,cadunico,True,90,pronta,43,92,True,
+A0320,Sudoeste Paulista,cin,False,0,nao_pronta,52,119,False,Documento faltando
+A0321,Zona Leste SP,cnh,True,80,pronta,71,43,True,
+A0322,Sorocaba,cnh,False,65,quase,82,54,True,
+A0323,Grande SP,cnh,True,90,pronta,38,31,True,
+A0324,Zona Sul SP,cnh,True,90,pronta,38,36,True,
+A0325,Sorocaba,cadunico,False,65,quase,47,65,True,
+A0326,Zona Leste SP,cnh,True,80,pronta,67,50,True,
+A0327,Zona Sul SP,cin,True,90,pronta,27,31,True,
+A0328,Sorocaba,cnh,False,30,nao_pronta,31,47,False,Documento ilegível ou danificado
+A0329,Zona Sul SP,cin,True,90,pronta,28,41,True,
+A0330,Zona Sul SP,cadunico,False,0,nao_pronta,25,50,False,Documento ilegível ou danificado
+A0331,Zona Leste SP,cnh,True,30,nao_pronta,51,62,False,Documento faltando
+A0332,Grande SP,cin,False,30,nao_pronta,39,44,False,Documento ilegível ou danificado
+A0333,Sudoeste Paulista,cnh,False,75,quase,29,50,False,"Outro (sistema, horário, regra)"
+A0334,Grande SP,cin,False,30,nao_pronta,25,52,False,Documento faltando
+A0335,Grande SP,cnh,True,80,pronta,72,53,True,
+A0336,Sudoeste Paulista,cin,False,90,pronta,36,132,True,
+A0337,Sorocaba,cin,True,90,pronta,40,96,True,
+A0338,Sorocaba,cin,True,80,pronta,58,50,True,
+A0339,Zona Leste SP,cadunico,True,90,pronta,27,40,True,
+A0340,Sorocaba,cnh,False,75,quase,29,44,True,
+A0341,Zona Leste SP,cnh,True,90,pronta,38,54,True,
+A0342,Grande SP,cin,True,90,pronta,27,50,True,
+A0343,Grande SP,cnh,True,75,quase,34,41,False,"Outro (sistema, horário, regra)"
+A0344,Sorocaba,cnh,False,75,quase,45,63,False,"Outro (sistema, horário, regra)"
+A0345,Grande SP,cin,True,90,pronta,30,21,True,
+A0346,Grande SP,cnh,True,90,pronta,44,46,True,
+A0347,Grande SP,cnh,False,30,nao_pronta,42,34,False,Documento ilegível ou danificado
+A0348,Grande SP,cin,True,80,pronta,79,31,True,
+A0349,Grande SP,cnh,False,30,nao_pronta,3,44,False,Documento faltando
+A0350,Zona Leste SP,cnh,False,30,nao_pronta,60,47,False,Documento faltando
+A0351,Grande SP,cnh,False,0,nao_pronta,27,47,False,Documento faltando
+A0352,Zona Sul SP,cadunico,True,90,pronta,43,35,True,
+A0353,Grande SP,cnh,False,30,nao_pronta,49,39,False,Documento ilegível ou danificado
+A0354,Grande SP,cnh,False,100,pronta,4,28,True,
+A0355,Grande SP,cnh,False,0,nao_pronta,3,35,False,Documento faltando
+A0356,Zona Sul SP,cadunico,False,0,nao_pronta,72,42,False,Documento ilegível ou danificado
+A0357,Zona Sul SP,cin,False,30,nao_pronta,54,25,False,Documento faltando
+A0358,Zona Leste SP,cnh,True,90,pronta,23,63,True,
+A0359,Zona Leste SP,cadunico,True,80,pronta,59,55,True,
+A0360,Sorocaba,cnh,False,30,nao_pronta,53,45,False,Documento faltando
+A0361,Grande SP,cin,True,90,pronta,42,13,True,
+A0362,Sudoeste Paulista,cin,True,80,pronta,54,143,True,
+A0363,Grande SP,cnh,True,90,pronta,44,48,True,
+A0364,Grande SP,cadunico,False,100,pronta,15,24,True,
+A0365,Grande SP,cin,True,90,pronta,28,34,True,
+A0366,Grande SP,cnh,False,30,nao_pronta,7,46,False,Documento ilegível ou danificado
+A0367,Grande SP,cnh,False,100,pronta,18,36,False,"Outro (sistema, horário, regra)"
+A0368,Grande SP,cnh,True,90,pronta,39,41,True,
+A0369,Sorocaba,cin,False,80,pronta,48,48,False,Desistiu pela espera
+A0370,Sudoeste Paulista,cadunico,False,65,quase,77,74,True,
+A0371,Sudoeste Paulista,cadunico,True,80,pronta,65,96,True,
+A0372,Sudoeste Paulista,cin,True,80,pronta,49,93,True,
+A0373,Grande SP,cin,False,30,nao_pronta,30,48,False,Documento faltando
+A0374,Zona Leste SP,cin,False,30,nao_pronta,29,44,False,Documento ilegível ou danificado
+A0375,Zona Leste SP,cadunico,True,0,nao_pronta,51,45,False,Documento ilegível ou danificado
+A0376,Grande SP,cin,True,90,pronta,27,28,True,
+A0377,Grande SP,cnh,False,0,nao_pronta,36,31,False,Documento ilegível ou danificado
+A0378,Sudoeste Paulista,cin,True,90,pronta,44,113,True,
+A0379,Sudoeste Paulista,cin,False,30,nao_pronta,44,97,False,Documento faltando
+A0380,Zona Sul SP,cnh,False,0,nao_pronta,79,40,False,Documento faltando
+A0381,Grande SP,cin,True,90,pronta,37,42,True,
+A0382,Grande SP,cin,True,0,nao_pronta,56,27,False,Documento ilegível ou danificado
+A0383,Grande SP,cin,False,30,nao_pronta,28,36,False,Documento ilegível ou danificado
+A0384,Sudoeste Paulista,cin,True,90,pronta,28,79,True,
+A0385,Grande SP,cadunico,True,90,pronta,34,23,True,
+A0386,Zona Leste SP,cin,False,30,nao_pronta,54,21,False,Documento ilegível ou danificado
+A0387,Zona Sul SP,cadunico,False,0,nao_pronta,38,34,False,Documento faltando
+A0388,Grande SP,cnh,False,30,nao_pronta,28,28,False,Documento faltando
+A0389,Zona Leste SP,cnh,False,30,nao_pronta,81,39,False,Documento faltando
+A0390,Sudoeste Paulista,cadunico,True,80,pronta,48,69,True,
+A0391,Zona Leste SP,cnh,False,0,nao_pronta,22,62,True,
+A0392,Sorocaba,cin,True,80,pronta,56,83,True,
+A0393,Sorocaba,cnh,True,80,pronta,77,32,True,
+A0394,Grande SP,cadunico,False,0,nao_pronta,14,30,False,Documento faltando
+A0395,Sudoeste Paulista,cadunico,True,90,pronta,37,124,True,
+A0396,Zona Sul SP,cadunico,False,65,quase,72,28,False,Desistiu pela espera
+A0397,Sorocaba,cadunico,True,80,pronta,71,70,True,
+A0398,Grande SP,cadunico,False,0,nao_pronta,18,33,False,Documento ilegível ou danificado
+A0399,Zona Sul SP,cadunico,False,0,nao_pronta,49,32,False,Documento ilegível ou danificado
+A0400,Grande SP,cnh,True,100,pronta,7,41,True,
+A0401,Grande SP,cin,False,30,nao_pronta,27,38,True,
+A0402,Zona Leste SP,cin,True,30,nao_pronta,56,47,False,Documento ilegível ou danificado
+A0403,Zona Leste SP,cadunico,False,80,pronta,46,62,True,
+A0404,Zona Sul SP,cin,True,30,nao_pronta,74,41,False,Documento ilegível ou danificado
+A0405,Zona Sul SP,cnh,True,90,pronta,28,56,True,
+A0406,Grande SP,cin,True,100,pronta,13,44,False,"Outro (sistema, horário, regra)"
+A0407,Sudoeste Paulista,cin,True,80,pronta,69,48,True,
+A0408,Zona Leste SP,cadunico,True,0,nao_pronta,44,53,True,
+A0409,Zona Leste SP,cin,False,0,nao_pronta,19,31,True,
+A0410,Zona Sul SP,cnh,True,30,nao_pronta,24,42,False,Documento faltando
+A0411,Grande SP,cin,True,90,pronta,29,31,True,
+A0412,Sorocaba,cin,True,80,pronta,57,58,True,
+A0413,Zona Sul SP,cin,False,30,nao_pronta,39,49,False,Documento faltando
+A0414,Sudoeste Paulista,cin,False,0,nao_pronta,65,114,True,
+A0415,Sorocaba,cnh,False,85,pronta,13,50,True,
+A0416,Zona Sul SP,cin,True,80,pronta,47,31,True,
+A0417,Zona Sul SP,cnh,True,80,pronta,52,40,True,
+A0418,Zona Leste SP,cadunico,True,90,pronta,40,41,True,
+A0419,Grande SP,cadunico,True,65,quase,53,46,False,Desistiu pela espera
+A0420,Zona Leste SP,cnh,False,30,nao_pronta,55,61,False,Documento ilegível ou danificado
+A0421,Grande SP,cin,True,30,nao_pronta,39,49,False,Documento ilegível ou danificado
+A0422,Sorocaba,cin,True,80,pronta,59,63,True,
+A0423,Sorocaba,cin,True,30,nao_pronta,33,55,False,Documento faltando
+A0424,Zona Sul SP,cin,False,30,nao_pronta,47,66,False,Documento faltando
+A0425,Sorocaba,cin,False,30,nao_pronta,57,43,True,
+A0426,Grande SP,cin,False,100,pronta,9,33,True,
+A0427,Zona Leste SP,cin,False,80,pronta,54,28,True,
+A0428,Sudoeste Paulista,cnh,True,100,pronta,10,104,False,"Outro (sistema, horário, regra)"
+A0429,Grande SP,cadunico,False,0,nao_pronta,36,37,False,Documento faltando
+A0430,Zona Leste SP,cadunico,True,90,pronta,31,37,True,
+A0431,Zona Sul SP,cin,True,80,pronta,55,38,True,
+A0432,Sorocaba,cin,False,30,nao_pronta,50,39,True,
+A0433,Zona Leste SP,cadunico,True,80,pronta,62,71,False,Desistiu pela espera
+A0434,Grande SP,cadunico,True,100,pronta,18,23,True,
+A0435,Sorocaba,cadunico,False,75,quase,23,60,True,
+A0436,Zona Sul SP,cadunico,True,80,pronta,49,45,True,
+A0437,Sudoeste Paulista,cin,True,90,pronta,37,135,True,
+A0438,Sorocaba,cnh,True,0,nao_pronta,66,63,False,Documento faltando
+A0439,Zona Sul SP,cadunico,False,0,nao_pronta,65,42,False,Documento faltando
+A0440,Zona Leste SP,cadunico,True,90,pronta,28,55,True,
+A0441,Grande SP,cnh,True,100,pronta,19,29,True,
+A0442,Zona Sul SP,cnh,False,0,nao_pronta,62,66,False,Documento faltando
+A0443,Zona Sul SP,cadunico,False,0,nao_pronta,51,57,False,Documento faltando
+A0444,Sudoeste Paulista,cin,True,80,pronta,81,102,True,
+A0445,Sorocaba,cadunico,True,90,pronta,44,85,True,
+A0446,Sorocaba,cin,True,90,pronta,45,76,True,
+A0447,Grande SP,cadunico,True,90,pronta,41,43,True,
+A0448,Grande SP,cadunico,False,0,nao_pronta,13,39,True,
+A0449,Zona Sul SP,cnh,False,80,pronta,81,57,True,
+A0450,Grande SP,cnh,False,0,nao_pronta,57,31,True,
+A0451,Grande SP,cadunico,False,90,pronta,28,33,True,
+A0452,Sorocaba,cin,False,30,nao_pronta,49,37,True,
+A0453,Sorocaba,cin,True,90,pronta,36,41,True,
+A0454,Zona Leste SP,cnh,False,0,nao_pronta,48,58,False,Documento faltando
+A0455,Zona Leste SP,cin,False,30,nao_pronta,29,77,True,
+A0456,Grande SP,cadunico,False,75,quase,36,36,False,"Outro (sistema, horário, regra)"
+A0457,Zona Sul SP,cin,False,80,pronta,58,25,True,
+A0458,Grande SP,cadunico,True,90,pronta,33,33,True,
+A0459,Zona Sul SP,cnh,True,90,pronta,39,41,True,
+A0460,Zona Sul SP,cnh,True,90,pronta,32,76,True,
+A0461,Zona Leste SP,cnh,False,30,nao_pronta,24,42,False,Documento faltando
+A0462,Zona Leste SP,cin,False,30,nao_pronta,58,41,True,
+A0463,Zona Leste SP,cnh,True,90,pronta,34,50,True,
+A0464,Sudoeste Paulista,cadunico,True,90,pronta,43,117,True,
+A0465,Sudoeste Paulista,cadunico,True,80,pronta,54,83,True,
+A0466,Zona Leste SP,cnh,True,80,pronta,89,48,True,
+A0467,Zona Sul SP,cnh,False,30,nao_pronta,58,53,False,Documento ilegível ou danificado
+A0468,Zona Sul SP,cin,True,80,pronta,59,49,True,
+A0469,Sudoeste Paulista,cadunico,False,0,nao_pronta,40,39,False,Documento faltando
+A0470,Zona Sul SP,cnh,True,30,nao_pronta,57,53,False,Documento faltando
+A0471,Zona Sul SP,cadunico,True,80,pronta,96,46,True,
+A0472,Grande SP,cin,False,30,nao_pronta,16,53,True,
+A0473,Grande SP,cnh,True,80,pronta,59,45,True,
+A0474,Sorocaba,cin,True,80,pronta,47,73,True,
+A0475,Zona Sul SP,cadunico,False,65,quase,57,38,True,
+A0476,Grande SP,cnh,False,100,pronta,18,42,True,
+A0477,Sudoeste Paulista,cnh,True,90,pronta,36,44,True,
+A0478,Sorocaba,cin,True,30,nao_pronta,63,66,False,Documento faltando
+A0479,Zona Sul SP,cadunico,True,80,pronta,53,31,True,
+A0480,Sudoeste Paulista,cin,True,80,pronta,77,97,True,
+A0481,Grande SP,cnh,True,30,nao_pronta,10,25,True,
+A0482,Sorocaba,cnh,True,80,pronta,81,52,True,
+A0483,Sorocaba,cin,False,0,nao_pronta,33,51,False,Documento faltando
+A0484,Sorocaba,cadunico,True,80,pronta,57,80,True,
+A0485,Zona Sul SP,cnh,True,30,nao_pronta,51,64,True,
+A0486,Sudoeste Paulista,cin,False,0,nao_pronta,82,67,False,Documento faltando
+A0487,Grande SP,cin,True,30,nao_pronta,3,43,False,Documento ilegível ou danificado
+A0488,Sorocaba,cin,True,100,pronta,11,60,True,
+A0489,Grande SP,cnh,False,30,nao_pronta,29,35,False,Documento faltando
+A0490,Sudoeste Paulista,cin,False,30,nao_pronta,58,95,False,Documento ilegível ou danificado
+A0491,Grande SP,cin,True,85,pronta,18,32,True,
+A0492,Grande SP,cin,False,100,pronta,15,49,True,
+A0493,Zona Leste SP,cnh,True,65,quase,60,66,True,
+A0494,Sorocaba,cin,True,80,pronta,57,75,True,
+A0495,Sudoeste Paulista,cadunico,True,80,pronta,65,58,False,Desistiu pela espera
+A0496,Zona Leste SP,cadunico,False,65,quase,48,53,True,
+A0497,Zona Leste SP,cnh,False,30,nao_pronta,61,54,False,Documento faltando
+A0498,Grande SP,cadunico,True,90,pronta,25,40,True,
+A0499,Grande SP,cnh,False,0,nao_pronta,21,37,False,Documento faltando
+A0500,Sudoeste Paulista,cadunico,True,80,pronta,72,126,True,
+A0501,Sudoeste Paulista,cin,False,30,nao_pronta,64,85,False,Documento ilegível ou danificado
+A0502,Sudoeste Paulista,cnh,False,30,nao_pronta,42,101,False,Documento faltando
+A0503,Zona Leste SP,cin,False,0,nao_pronta,48,50,False,Documento faltando
+A0504,Grande SP,cin,False,30,nao_pronta,17,40,False,Documento ilegível ou danificado
+A0505,Zona Leste SP,cnh,True,0,nao_pronta,63,35,False,Documento faltando
+A0506,Grande SP,cnh,True,30,nao_pronta,3,38,False,Documento faltando
+A0507,Grande SP,cin,False,90,pronta,26,38,False,"Outro (sistema, horário, regra)"
+A0508,Grande SP,cadunico,True,90,pronta,38,36,True,
+A0509,Zona Leste SP,cin,True,30,nao_pronta,17,42,False,Documento ilegível ou danificado
+A0510,Grande SP,cin,False,85,pronta,16,20,True,
+A0511,Sorocaba,cnh,True,90,pronta,43,96,True,
+A0512,Sorocaba,cin,False,0,nao_pronta,49,69,True,
+A0513,Grande SP,cnh,True,90,pronta,24,34,True,
+A0514,Zona Leste SP,cnh,True,80,pronta,55,64,True,
+A0515,Sorocaba,cadunico,False,65,quase,70,71,False,Desistiu pela espera
+A0516,Sorocaba,cin,True,30,nao_pronta,35,70,True,
+A0517,Zona Leste SP,cin,False,30,nao_pronta,50,63,True,
+A0518,Zona Sul SP,cin,True,30,nao_pronta,73,40,False,Documento faltando
+A0519,Zona Leste SP,cadunico,False,0,nao_pronta,17,52,False,Documento faltando
+A0520,Grande SP,cadunico,False,0,nao_pronta,34,19,False,Documento faltando
+A0521,Sorocaba,cnh,True,80,pronta,94,55,True,
+A0522,Sorocaba,cin,True,80,pronta,55,63,True,
+A0523,Zona Sul SP,cadunico,False,0,nao_pronta,63,34,False,Documento faltando
+A0524,Zona Leste SP,cadunico,False,75,quase,31,69,False,"Outro (sistema, horário, regra)"
+A0525,Sudoeste Paulista,cadunico,False,65,quase,98,112,False,Desistiu pela espera
+A0526,Zona Leste SP,cadunico,False,80,pronta,73,41,True,
+A0527,Zona Leste SP,cin,True,80,pronta,57,52,True,
+A0528,Zona Sul SP,cnh,True,0,nao_pronta,59,34,False,Documento faltando
+A0529,Zona Leste SP,cin,False,0,nao_pronta,60,60,False,Documento ilegível ou danificado
+A0530,Sudoeste Paulista,cin,False,30,nao_pronta,82,68,False,Documento faltando
+A0531,Sorocaba,cadunico,False,90,pronta,35,35,False,"Outro (sistema, horário, regra)"
+A0532,Grande SP,cnh,False,100,pronta,15,37,True,
+A0533,Zona Leste SP,cnh,False,30,nao_pronta,67,57,True,
+A0534,Zona Sul SP,cin,True,80,pronta,62,57,True,
+A0535,Zona Leste SP,cadunico,True,80,pronta,54,42,True,
+A0536,Sudoeste Paulista,cnh,False,0,nao_pronta,58,117,True,
+A0537,Zona Leste SP,cnh,True,90,pronta,31,54,True,
+A0538,Sorocaba,cin,False,30,nao_pronta,77,58,False,Documento ilegível ou danificado
+A0539,Zona Sul SP,cadunico,False,0,nao_pronta,61,45,True,
+A0540,Zona Leste SP,cin,True,80,pronta,86,39,True,
+A0541,Sudoeste Paulista,cadunico,True,80,pronta,67,98,True,
+A0542,Grande SP,cin,False,0,nao_pronta,17,41,False,Documento faltando
+A0543,Sudoeste Paulista,cin,False,30,nao_pronta,43,75,True,
+A0544,Zona Sul SP,cnh,False,30,nao_pronta,47,56,False,Documento faltando
+A0545,Sudoeste Paulista,cadunico,True,80,pronta,49,32,True,
+A0546,Sorocaba,cnh,True,80,pronta,54,65,True,
+A0547,Grande SP,cin,True,90,pronta,22,34,True,
+A0548,Grande SP,cin,False,30,nao_pronta,38,45,False,Documento faltando
+A0549,Grande SP,cnh,True,90,pronta,42,31,True,
+A0550,Grande SP,cin,True,90,pronta,21,31,True,
+A0551,Sorocaba,cin,True,90,pronta,25,48,True,
+A0552,Grande SP,cnh,False,0,nao_pronta,19,31,True,
+A0553,Grande SP,cnh,False,90,pronta,35,33,True,
+A0554,Grande SP,cin,True,30,nao_pronta,24,42,False,Documento ilegível ou danificado
+A0555,Zona Sul SP,cnh,False,0,nao_pronta,64,43,False,Documento faltando
+A0556,Sudoeste Paulista,cadunico,False,0,nao_pronta,31,97,True,
+A0557,Zona Leste SP,cin,False,30,nao_pronta,62,51,False,Documento faltando
+A0558,Grande SP,cnh,False,30,nao_pronta,15,45,True,
+A0559,Sudoeste Paulista,cin,False,0,nao_pronta,76,75,True,
+A0560,Zona Leste SP,cnh,False,30,nao_pronta,53,38,False,Documento faltando
+A0561,Zona Leste SP,cin,False,0,nao_pronta,84,47,False,Documento faltando
+A0562,Zona Leste SP,cadunico,False,90,pronta,28,29,True,
+A0563,Grande SP,cadunico,True,75,quase,43,35,True,
+A0564,Grande SP,cadunico,False,75,quase,31,26,False,"Outro (sistema, horário, regra)"
+A0565,Sudoeste Paulista,cadunico,False,0,nao_pronta,78,49,False,Documento ilegível ou danificado
+A0566,Sorocaba,cin,True,65,quase,53,77,False,Desistiu pela espera
+A0567,Zona Sul SP,cnh,False,30,nao_pronta,41,56,True,
+A0568,Zona Sul SP,cin,True,80,pronta,58,64,True,
+A0569,Sorocaba,cadunico,True,80,pronta,57,63,True,
+A0570,Grande SP,cadunico,True,80,pronta,50,30,True,
+A0571,Grande SP,cnh,True,80,pronta,73,30,True,
+A0572,Sorocaba,cin,False,30,nao_pronta,44,61,True,
+A0573,Grande SP,cin,True,100,pronta,17,34,True,
+A0574,Zona Leste SP,cnh,False,65,quase,86,68,False,Desistiu pela espera
+A0575,Zona Sul SP,cadunico,False,0,nao_pronta,70,51,False,Documento faltando
+A0576,Zona Sul SP,cadunico,True,80,pronta,52,31,True,
+A0577,Grande SP,cin,True,90,pronta,22,23,True,
+A0578,Grande SP,cadunico,True,80,pronta,48,31,True,
+A0579,Zona Leste SP,cadunico,True,80,pronta,75,56,True,
+A0580,Sorocaba,cnh,False,30,nao_pronta,59,93,False,Documento faltando
+A0581,Zona Leste SP,cnh,True,80,pronta,68,50,True,
+A0582,Zona Sul SP,cnh,True,80,pronta,62,41,True,
+A0583,Zona Leste SP,cnh,False,30,nao_pronta,78,64,False,Documento faltando
+A0584,Zona Leste SP,cin,True,80,pronta,46,45,True,
+A0585,Zona Leste SP,cnh,True,90,pronta,39,37,True,
+A0586,Sorocaba,cnh,False,30,nao_pronta,47,48,False,Documento faltando
+A0587,Zona Sul SP,cin,True,80,pronta,60,50,True,
+A0588,Sorocaba,cadunico,True,80,pronta,46,62,True,
+A0589,Grande SP,cadunico,True,100,pronta,3,41,True,
+A0590,Zona Sul SP,cnh,False,30,nao_pronta,42,33,False,Documento ilegível ou danificado
+A0591,Grande SP,cin,True,90,pronta,35,32,True,
+A0592,Zona Leste SP,cadunico,True,80,pronta,46,72,False,Desistiu pela espera
+A0593,Zona Sul SP,cin,False,30,nao_pronta,83,52,True,
+A0594,Grande SP,cadunico,True,90,pronta,43,32,True,
+A0595,Grande SP,cin,True,100,pronta,3,31,True,
+A0596,Zona Sul SP,cadunico,True,90,pronta,28,60,True,
+A0597,Zona Leste SP,cnh,False,75,quase,42,64,True,
+A0598,Zona Leste SP,cnh,True,80,pronta,74,67,True,
+A0599,Sorocaba,cin,False,0,nao_pronta,63,63,True,
+A0600,Zona Leste SP,cadunico,True,80,pronta,70,64,True,
+A0601,Sorocaba,cin,False,0,nao_pronta,51,72,False,Documento faltando
+A0602,Sudoeste Paulista,cadunico,True,80,pronta,49,105,True,
+A0603,Sorocaba,cin,False,30,nao_pronta,51,52,False,Documento ilegível ou danificado
+A0604,Zona Leste SP,cin,False,0,nao_pronta,44,58,False,Documento faltando
+A0605,Sorocaba,cin,True,80,pronta,69,54,True,
+A0606,Sorocaba,cnh,False,30,nao_pronta,66,46,True,
+A0607,Sorocaba,cadunico,True,80,pronta,48,52,True,
+A0608,Sudoeste Paulista,cnh,True,30,nao_pronta,37,72,False,Documento ilegível ou danificado
+A0609,Sudoeste Paulista,cnh,True,90,pronta,39,107,True,
+A0610,Grande SP,cadunico,True,80,pronta,68,44,True,
+A0611,Zona Leste SP,cin,True,80,pronta,93,55,True,
+A0612,Sorocaba,cadunico,False,80,pronta,64,73,False,Desistiu pela espera
+A0613,Sudoeste Paulista,cadunico,False,0,nao_pronta,52,84,False,Documento faltando
+A0614,Zona Sul SP,cadunico,False,0,nao_pronta,48,24,False,Documento faltando
+A0615,Grande SP,cadunico,False,100,pronta,15,38,True,
+A0616,Zona Leste SP,cadunico,False,80,pronta,69,59,True,
+A0617,Grande SP,cnh,True,90,pronta,24,45,True,
+A0618,Grande SP,cnh,False,0,nao_pronta,20,42,False,Documento faltando
+A0619,Sorocaba,cnh,True,65,quase,53,79,True,
+A0620,Zona Leste SP,cnh,True,90,pronta,42,62,True,
+A0621,Zona Sul SP,cnh,False,0,nao_pronta,31,42,True,
+A0622,Sudoeste Paulista,cnh,True,80,pronta,75,89,False,Desistiu pela espera
+A0623,Zona Sul SP,cnh,False,30,nao_pronta,8,58,False,Documento ilegível ou danificado
+A0624,Zona Leste SP,cadunico,True,80,pronta,64,64,True,
+A0625,Zona Sul SP,cnh,True,80,pronta,61,50,True,
+A0626,Grande SP,cnh,True,90,pronta,38,31,True,
+A0627,Grande SP,cadunico,True,75,quase,24,26,False,"Outro (sistema, horário, regra)"
+A0628,Sudoeste Paulista,cadunico,True,90,pronta,39,109,True,
+A0629,Sorocaba,cin,True,80,pronta,62,43,True,
+A0630,Sorocaba,cadunico,True,80,pronta,57,64,False,Desistiu pela espera
+A0631,Sorocaba,cin,True,65,quase,49,35,True,
+A0632,Grande SP,cadunico,True,0,nao_pronta,3,19,False,Documento ilegível ou danificado
+A0633,Sorocaba,cadunico,False,0,nao_pronta,45,64,False,Documento faltando
+A0634,Zona Sul SP,cnh,True,80,pronta,61,43,True,
+A0635,Grande SP,cin,False,100,pronta,20,31,True,
+A0636,Grande SP,cadunico,True,100,pronta,3,26,True,
+A0637,Grande SP,cadunico,True,90,pronta,38,21,True,
+A0638,Grande SP,cnh,True,90,pronta,29,35,True,
+A0639,Grande SP,cnh,False,0,nao_pronta,17,40,False,Documento faltando
+A0640,Zona Leste SP,cin,False,90,pronta,36,63,True,
+A0641,Sudoeste Paulista,cnh,True,80,pronta,49,84,True,
+A0642,Grande SP,cnh,True,90,pronta,31,34,True,
+A0643,Sorocaba,cin,True,90,pronta,37,56,False,"Outro (sistema, horário, regra)"
+A0644,Sudoeste Paulista,cnh,False,30,nao_pronta,52,91,False,Documento faltando
+A0645,Grande SP,cnh,False,75,quase,40,35,True,
+A0646,Sudoeste Paulista,cnh,False,65,quase,48,77,True,
+A0647,Grande SP,cadunico,True,90,pronta,33,32,True,
+A0648,Grande SP,cnh,False,0,nao_pronta,47,48,False,Documento faltando
+A0649,Grande SP,cnh,False,85,pronta,11,43,True,
+A0650,Grande SP,cnh,True,100,pronta,13,39,True,
+A0651,Sorocaba,cnh,True,80,pronta,60,53,True,
+A0652,Sorocaba,cnh,True,80,pronta,59,48,True,
+A0653,Zona Sul SP,cadunico,False,65,quase,67,32,False,Desistiu pela espera
+A0654,Grande SP,cnh,True,100,pronta,16,32,True,
+A0655,Grande SP,cnh,False,30,nao_pronta,41,25,True,
+A0656,Sudoeste Paulista,cnh,False,0,nao_pronta,22,124,False,Documento faltando
+A0657,Grande SP,cnh,False,30,nao_pronta,34,34,False,Documento faltando
+A0658,Zona Sul SP,cadunico,True,80,pronta,54,33,True,
+A0659,Grande SP,cadunico,True,90,pronta,36,39,True,
+A0660,Zona Leste SP,cin,True,65,quase,95,50,False,Desistiu pela espera
+A0661,Sudoeste Paulista,cnh,True,65,quase,78,88,True,
+A0662,Zona Leste SP,cadunico,False,80,pronta,63,32,True,
+A0663,Sudoeste Paulista,cadunico,True,80,pronta,68,71,True,
+A0664,Grande SP,cadunico,False,80,pronta,52,32,True,
+A0665,Sorocaba,cnh,True,80,pronta,66,49,True,
+A0666,Sudoeste Paulista,cin,False,0,nao_pronta,40,117,False,Documento faltando
+A0667,Grande SP,cadunico,False,0,nao_pronta,47,33,False,Documento faltando
+A0668,Sudoeste Paulista,cadunico,False,0,nao_pronta,47,103,False,Documento faltando
+A0669,Zona Sul SP,cadunico,True,80,pronta,58,34,True,
+A0670,Zona Leste SP,cadunico,True,80,pronta,56,54,False,Desistiu pela espera
+A0671,Sudoeste Paulista,cadunico,False,80,pronta,95,131,True,
+A0672,Zona Leste SP,cin,False,30,nao_pronta,75,60,False,Documento faltando
+A0673,Sudoeste Paulista,cadunico,False,75,quase,38,130,False,"Outro (sistema, horário, regra)"
+A0674,Zona Sul SP,cin,False,75,quase,24,49,True,
+A0675,Zona Leste SP,cin,True,80,pronta,51,52,True,
+A0676,Zona Leste SP,cin,False,0,nao_pronta,51,34,False,Documento faltando
+A0677,Grande SP,cadunico,True,90,pronta,41,26,True,
+A0678,Zona Leste SP,cadunico,True,90,pronta,34,33,True,
+A0679,Zona Sul SP,cnh,False,65,quase,69,39,False,Desistiu pela espera
+A0680,Grande SP,cadunico,False,65,quase,47,43,False,Desistiu pela espera
+A0681,Sorocaba,cnh,True,30,nao_pronta,37,43,False,Documento faltando
+A0682,Sudoeste Paulista,cnh,False,90,pronta,40,43,True,
+A0683,Sudoeste Paulista,cadunico,True,80,pronta,62,89,True,
+A0684,Sorocaba,cnh,True,80,pronta,51,56,True,
+A0685,Zona Sul SP,cadunico,True,80,pronta,97,36,True,
+A0686,Grande SP,cadunico,False,75,quase,22,31,True,
+A0687,Grande SP,cnh,False,65,quase,53,44,False,Desistiu pela espera
+A0688,Grande SP,cadunico,False,75,quase,27,39,True,
+A0689,Grande SP,cnh,False,30,nao_pronta,73,24,False,Documento ilegível ou danificado
+A0690,Grande SP,cin,False,30,nao_pronta,24,31,True,
+A0691,Zona Leste SP,cnh,True,80,pronta,62,60,True,
+A0692,Sorocaba,cadunico,False,80,pronta,78,72,True,
+A0693,Grande SP,cin,True,90,pronta,37,24,True,
+A0694,Zona Sul SP,cnh,False,30,nao_pronta,52,37,False,Documento ilegível ou danificado
+A0695,Sorocaba,cnh,True,80,pronta,57,64,True,
+A0696,Sudoeste Paulista,cnh,True,30,nao_pronta,57,71,True,
+A0697,Sudoeste Paulista,cin,True,90,pronta,41,41,False,"Outro (sistema, horário, regra)"
+A0698,Grande SP,cadunico,False,90,pronta,32,37,True,
+A0699,Sorocaba,cin,False,30,nao_pronta,22,79,False,Documento faltando
+A0700,Zona Leste SP,cnh,True,80,pronta,67,63,True,
+A0701,Grande SP,cin,False,0,nao_pronta,28,32,False,Documento faltando
+A0702,Grande SP,cadunico,True,75,quase,34,32,True,
+A0703,Sudoeste Paulista,cnh,False,65,quase,74,101,True,
+A0704,Zona Sul SP,cnh,True,90,pronta,36,46,True,
+A0705,Zona Sul SP,cnh,False,30,nao_pronta,59,51,False,Documento ilegível ou danificado
+A0706,Sorocaba,cadunico,True,80,pronta,63,69,True,
+A0707,Zona Leste SP,cnh,True,80,pronta,58,45,True,
+A0708,Grande SP,cadunico,True,0,nao_pronta,34,10,False,Documento faltando
+A0709,Sorocaba,cadunico,False,0,nao_pronta,60,63,False,Documento ilegível ou danificado
+A0710,Zona Leste SP,cadunico,False,0,nao_pronta,21,74,False,Documento faltando
+A0711,Grande SP,cadunico,False,0,nao_pronta,35,35,False,Documento faltando
+A0712,Sudoeste Paulista,cin,False,80,pronta,68,90,True,
+A0713,Grande SP,cnh,True,30,nao_pronta,30,29,False,Documento ilegível ou danificado
+A0714,Sudoeste Paulista,cadunico,False,0,nao_pronta,49,61,False,Documento faltando
+A0715,Sorocaba,cadunico,False,75,quase,37,53,True,
+A0716,Sorocaba,cadunico,False,0,nao_pronta,56,84,False,Documento faltando
+A0717,Sudoeste Paulista,cnh,True,30,nao_pronta,63,120,True,
+A0718,Zona Leste SP,cin,True,90,pronta,45,49,True,
+A0719,Grande SP,cnh,True,90,pronta,34,38,True,
+A0720,Sudoeste Paulista,cnh,False,30,nao_pronta,31,117,False,Documento faltando
+A0721,Grande SP,cnh,False,90,pronta,38,28,True,
+A0722,Zona Leste SP,cnh,False,30,nao_pronta,69,52,False,Documento faltando
+A0723,Sorocaba,cadunico,True,90,pronta,25,51,True,
+A0724,Grande SP,cadunico,True,0,nao_pronta,4,31,False,Documento faltando
+A0725,Sudoeste Paulista,cnh,True,100,pronta,10,95,True,
+A0726,Zona Leste SP,cadunico,True,80,pronta,77,58,True,
+A0727,Zona Sul SP,cadunico,True,80,pronta,46,42,True,
+A0728,Zona Leste SP,cnh,True,90,pronta,40,66,True,
+A0729,Sorocaba,cadunico,False,0,nao_pronta,52,30,False,Documento ilegível ou danificado
+A0730,Grande SP,cin,True,90,pronta,28,41,True,
+A0731,Grande SP,cadunico,False,0,nao_pronta,50,38,False,Documento faltando
+A0732,Zona Leste SP,cadunico,True,90,pronta,42,45,True,
+A0733,Zona Leste SP,cadunico,True,80,pronta,51,65,True,
+A0734,Zona Sul SP,cin,True,30,nao_pronta,30,43,False,Documento faltando
+A0735,Sudoeste Paulista,cin,True,90,pronta,40,136,True,
+A0736,Grande SP,cadunico,True,90,pronta,39,39,True,
+A0737,Zona Sul SP,cin,True,80,pronta,80,56,True,
+A0738,Sorocaba,cin,False,30,nao_pronta,89,82,False,Documento ilegível ou danificado
+A0739,Zona Leste SP,cadunico,True,80,pronta,63,71,True,
+A0740,Sudoeste Paulista,cnh,True,30,nao_pronta,48,95,True,
+A0741,Grande SP,cnh,False,30,nao_pronta,3,33,False,Documento faltando
+A0742,Grande SP,cadunico,False,80,pronta,51,39,True,
+A0743,Grande SP,cadunico,False,65,quase,50,43,True,
+A0744,Sorocaba,cadunico,False,0,nao_pronta,71,58,True,
+A0745,Zona Sul SP,cnh,True,80,pronta,48,56,True,
+A0746,Sorocaba,cadunico,False,0,nao_pronta,29,44,False,Documento ilegível ou danificado
+A0747,Grande SP,cin,True,80,pronta,60,44,True,
+A0748,Zona Sul SP,cnh,True,100,pronta,5,63,True,
+A0749,Grande SP,cnh,False,30,nao_pronta,48,21,False,Documento faltando
+A0750,Sorocaba,cin,False,75,quase,32,67,False,"Outro (sistema, horário, regra)"
+A0751,Zona Leste SP,cadunico,False,65,quase,58,41,True,
+A0752,Zona Sul SP,cin,True,80,pronta,73,32,True,
+A0753,Sorocaba,cadunico,True,80,pronta,72,52,True,
+A0754,Zona Leste SP,cnh,True,90,pronta,44,68,True,
+A0755,Zona Leste SP,cin,True,80,pronta,61,66,True,
+A0756,Grande SP,cadunico,False,0,nao_pronta,24,39,False,Documento ilegível ou danificado
+A0757,Sorocaba,cnh,False,0,nao_pronta,40,49,False,Documento ilegível ou danificado
+A0758,Grande SP,cadunico,False,100,pronta,3,42,True,
+A0759,Sorocaba,cadunico,False,80,pronta,49,50,True,
+A0760,Sudoeste Paulista,cin,False,0,nao_pronta,70,78,False,Documento faltando
+A0761,Grande SP,cadunico,False,90,pronta,33,30,False,"Outro (sistema, horário, regra)"
+A0762,Grande SP,cin,True,80,pronta,59,34,True,
+A0763,Grande SP,cnh,False,30,nao_pronta,9,44,False,Documento ilegível ou danificado
+A0764,Sudoeste Paulista,cnh,False,30,nao_pronta,62,40,True,
+A0765,Zona Sul SP,cnh,True,80,pronta,48,28,True,
+A0766,Sudoeste Paulista,cnh,False,30,nao_pronta,59,105,False,Documento faltando
+A0767,Sorocaba,cin,False,0,nao_pronta,44,51,False,Documento faltando
+A0768,Grande SP,cin,True,80,pronta,56,37,True,
+A0769,Zona Sul SP,cin,False,30,nao_pronta,83,36,False,Documento faltando
+A0770,Zona Leste SP,cin,False,30,nao_pronta,82,27,False,Documento ilegível ou danificado
+A0771,Sorocaba,cnh,False,30,nao_pronta,45,83,False,Documento ilegível ou danificado
+A0772,Zona Leste SP,cadunico,False,90,pronta,34,57,False,"Outro (sistema, horário, regra)"
+A0773,Zona Leste SP,cnh,False,0,nao_pronta,63,49,False,Documento ilegível ou danificado
+A0774,Grande SP,cnh,False,30,nao_pronta,32,21,False,Documento faltando
+A0775,Zona Sul SP,cadunico,True,80,pronta,81,55,True,
+A0776,Sudoeste Paulista,cin,False,0,nao_pronta,36,77,False,Documento faltando
+A0777,Grande SP,cadunico,False,75,quase,37,29,False,"Outro (sistema, horário, regra)"
+A0778,Grande SP,cadunico,False,90,pronta,44,35,True,
+A0779,Sudoeste Paulista,cin,False,0,nao_pronta,15,84,False,Documento faltando
+A0780,Grande SP,cin,True,30,nao_pronta,25,43,False,Documento ilegível ou danificado
+A0781,Grande SP,cnh,False,0,nao_pronta,47,39,True,
+A0782,Zona Sul SP,cin,False,80,pronta,66,49,True,
+A0783,Sorocaba,cnh,True,30,nao_pronta,67,66,False,Documento ilegível ou danificado
+A0784,Zona Sul SP,cadunico,False,0,nao_pronta,52,53,False,Documento faltando
+A0785,Zona Leste SP,cnh,False,80,pronta,83,44,True,
+A0786,Sudoeste Paulista,cnh,False,65,quase,82,86,True,
+A0787,Grande SP,cnh,True,100,pronta,20,39,True,
+A0788,Sorocaba,cadunico,True,80,pronta,55,60,True,
+A0789,Zona Leste SP,cnh,False,0,nao_pronta,28,53,False,Documento faltando
+A0790,Zona Leste SP,cadunico,True,90,pronta,40,46,True,
+A0791,Grande SP,cin,False,30,nao_pronta,33,18,False,Documento faltando
+A0792,Zona Leste SP,cadunico,False,65,quase,61,74,True,
+A0793,Sorocaba,cin,False,30,nao_pronta,69,71,True,
+A0794,Zona Sul SP,cin,True,80,pronta,65,50,True,
+A0795,Grande SP,cadunico,False,0,nao_pronta,57,38,False,Documento ilegível ou danificado
+A0796,Sudoeste Paulista,cin,True,80,pronta,75,133,True,
+A0797,Sorocaba,cadunico,True,0,nao_pronta,28,29,False,Documento faltando
+A0798,Grande SP,cin,False,30,nao_pronta,33,23,True,
+A0799,Sudoeste Paulista,cadunico,True,80,pronta,55,108,True,
+A0800,Zona Sul SP,cnh,True,65,quase,50,41,True,
+A0801,Sorocaba,cin,True,80,pronta,74,81,True,
+A0802,Sudoeste Paulista,cin,True,80,pronta,57,120,True,
+A0803,Grande SP,cadunico,True,100,pronta,9,35,True,
+A0804,Grande SP,cadunico,False,100,pronta,16,25,True,
+A0805,Zona Sul SP,cin,False,30,nao_pronta,51,43,False,Documento ilegível ou danificado
+A0806,Grande SP,cnh,True,90,pronta,25,34,True,
+A0807,Grande SP,cnh,True,30,nao_pronta,12,41,True,
+A0808,Zona Leste SP,cnh,False,30,nao_pronta,52,43,False,Documento faltando
+A0809,Zona Leste SP,cin,False,30,nao_pronta,95,65,False,Documento faltando
+A0810,Sorocaba,cin,True,80,pronta,63,68,True,
+A0811,Zona Leste SP,cin,True,75,quase,37,59,False,"Outro (sistema, horário, regra)"
+A0812,Zona Leste SP,cnh,True,80,pronta,58,46,True,
+A0813,Grande SP,cadunico,True,90,pronta,37,43,True,
+A0814,Sorocaba,cin,False,0,nao_pronta,31,61,True,
+A0815,Zona Leste SP,cin,True,80,pronta,74,48,False,Desistiu pela espera
+A0816,Sorocaba,cadunico,True,90,pronta,31,38,True,
+A0817,Zona Sul SP,cin,True,90,pronta,36,45,False,"Outro (sistema, horário, regra)"
+A0818,Grande SP,cnh,True,100,pronta,11,45,True,
+A0819,Sorocaba,cin,False,30,nao_pronta,62,59,True,
+A0820,Zona Leste SP,cadunico,False,0,nao_pronta,51,49,False,Documento faltando
+A0821,Sorocaba,cnh,True,30,nao_pronta,83,71,False,Documento ilegível ou danificado
+A0822,Grande SP,cadunico,False,90,pronta,23,21,True,
+A0823,Sudoeste Paulista,cnh,True,90,pronta,28,132,True,
+A0824,Grande SP,cin,False,30,nao_pronta,4,37,True,
+A0825,Sudoeste Paulista,cin,True,30,nao_pronta,61,73,False,Documento faltando
+A0826,Zona Leste SP,cin,False,0,nao_pronta,69,48,False,Documento faltando
+A0827,Grande SP,cadunico,False,90,pronta,33,35,True,
+A0828,Grande SP,cin,True,100,pronta,12,45,True,
+A0829,Grande SP,cin,False,90,pronta,30,31,True,
+A0830,Sudoeste Paulista,cin,False,0,nao_pronta,49,65,False,Documento faltando
+A0831,Grande SP,cnh,True,90,pronta,37,37,True,
+A0832,Sorocaba,cnh,False,30,nao_pronta,78,95,False,Documento faltando
+A0833,Sudoeste Paulista,cadunico,False,0,nao_pronta,79,92,False,Documento faltando
+A0834,Zona Sul SP,cnh,False,30,nao_pronta,68,52,False,Documento faltando
+A0835,Zona Sul SP,cadunico,False,0,nao_pronta,41,53,False,Documento faltando
+A0836,Zona Leste SP,cin,True,90,pronta,42,54,True,
+A0837,Sudoeste Paulista,cin,False,30,nao_pronta,48,87,True,
+A0838,Zona Sul SP,cnh,False,30,nao_pronta,28,41,True,
+A0839,Sorocaba,cnh,False,30,nao_pronta,38,83,True,
+A0840,Grande SP,cadunico,False,90,pronta,33,48,True,
+A0841,Grande SP,cnh,True,75,quase,44,43,True,
+A0842,Grande SP,cnh,False,65,quase,57,35,False,Desistiu pela espera
+A0843,Sorocaba,cin,True,80,pronta,57,61,True,
+A0844,Zona Leste SP,cnh,False,30,nao_pronta,56,36,False,Documento faltando
+A0845,Grande SP,cnh,False,0,nao_pronta,33,27,False,Documento faltando
+A0846,Zona Leste SP,cadunico,True,80,pronta,46,56,True,
+A0847,Zona Leste SP,cadunico,False,0,nao_pronta,26,16,False,Documento faltando
+A0848,Sorocaba,cnh,True,90,pronta,35,58,True,
+A0849,Sorocaba,cnh,False,30,nao_pronta,66,54,True,
+A0850,Grande SP,cin,True,30,nao_pronta,41,41,False,Documento ilegível ou danificado
+A0851,Grande SP,cadunico,True,100,pronta,18,41,True,
+A0852,Sorocaba,cadunico,True,80,pronta,54,58,True,
+A0853,Zona Sul SP,cnh,True,90,pronta,44,42,True,
+A0854,Zona Leste SP,cnh,False,0,nao_pronta,39,50,False,Documento faltando
+A0855,Zona Leste SP,cin,True,90,pronta,39,62,True,
+A0856,Zona Sul SP,cnh,False,30,nao_pronta,70,40,True,
+A0857,Zona Leste SP,cnh,True,30,nao_pronta,64,44,False,Documento ilegível ou danificado
+A0858,Sudoeste Paulista,cadunico,True,90,pronta,36,59,True,
+A0859,Zona Leste SP,cnh,True,80,pronta,51,36,True,
+A0860,Zona Sul SP,cadunico,False,0,nao_pronta,21,49,False,Documento faltando
+A0861,Grande SP,cadunico,True,80,pronta,56,22,False,Desistiu pela espera
+A0862,Sorocaba,cnh,True,90,pronta,34,68,True,
+A0863,Sudoeste Paulista,cadunico,True,80,pronta,50,94,True,
+A0864,Sorocaba,cnh,True,100,pronta,17,37,True,
+A0865,Sudoeste Paulista,cin,True,80,pronta,110,98,True,
+A0866,Grande SP,cnh,False,0,nao_pronta,8,24,True,
+A0867,Sudoeste Paulista,cadunico,False,0,nao_pronta,51,126,False,Documento ilegível ou danificado
+A0868,Zona Leste SP,cnh,True,80,pronta,55,56,True,
+A0869,Zona Sul SP,cin,True,80,pronta,86,57,True,
+A0870,Grande SP,cadunico,True,90,pronta,21,32,True,
+A0871,Sorocaba,cadunico,False,0,nao_pronta,46,67,False,Documento faltando
+A0872,Sudoeste Paulista,cnh,True,80,pronta,92,106,True,
+A0873,Grande SP,cadunico,True,90,pronta,32,39,True,
+A0874,Zona Sul SP,cadunico,True,80,pronta,85,37,True,
+A0875,Zona Sul SP,cadunico,False,0,nao_pronta,48,51,False,Documento faltando
+A0876,Sorocaba,cadunico,True,90,pronta,23,52,True,
+A0877,Zona Leste SP,cin,False,0,nao_pronta,57,57,False,Documento faltando
+A0878,Grande SP,cnh,False,85,pronta,12,56,True,
+A0879,Grande SP,cadunico,False,0,nao_pronta,31,10,False,Documento faltando
+A0880,Grande SP,cadunico,True,0,nao_pronta,72,32,True,
+A0881,Sorocaba,cnh,True,90,pronta,42,70,True,
+A0882,Sorocaba,cadunico,False,0,nao_pronta,47,54,True,
+A0883,Grande SP,cin,True,90,pronta,31,38,False,"Outro (sistema, horário, regra)"
+A0884,Zona Sul SP,cin,True,30,nao_pronta,39,52,True,
+A0885,Zona Leste SP,cadunico,False,80,pronta,62,31,True,
+A0886,Sorocaba,cnh,False,30,nao_pronta,44,68,False,Documento faltando
+A0887,Zona Sul SP,cin,True,90,pronta,42,58,True,
+A0888,Zona Leste SP,cin,False,30,nao_pronta,35,41,True,
+A0889,Grande SP,cnh,False,30,nao_pronta,55,41,False,Documento faltando
+A0890,Zona Leste SP,cnh,False,30,nao_pronta,56,39,True,
+A0891,Sorocaba,cnh,True,30,nao_pronta,45,76,False,Documento faltando
+A0892,Sorocaba,cnh,False,80,pronta,71,80,True,
+A0893,Grande SP,cin,False,90,pronta,29,23,True,
+A0894,Zona Leste SP,cnh,False,30,nao_pronta,58,54,False,Documento faltando
+A0895,Zona Leste SP,cnh,False,0,nao_pronta,19,63,False,Documento ilegível ou danificado
+A0896,Zona Sul SP,cnh,False,0,nao_pronta,83,34,True,
+A0897,Zona Leste SP,cin,False,0,nao_pronta,51,46,False,Documento faltando
+A0898,Grande SP,cin,False,30,nao_pronta,42,35,True,
+A0899,Zona Sul SP,cadunico,True,80,pronta,52,25,True,
+A0900,Zona Leste SP,cin,False,80,pronta,54,53,True,
+A0901,Zona Sul SP,cadunico,True,80,pronta,65,40,False,Desistiu pela espera
+A0902,Zona Sul SP,cin,False,0,nao_pronta,67,55,True,
+A0903,Zona Sul SP,cnh,True,80,pronta,49,38,True,
+A0904,Grande SP,cadunico,False,90,pronta,41,42,True,
+A0905,Grande SP,cin,True,90,pronta,34,35,True,
+A0906,Sorocaba,cin,True,80,pronta,52,69,True,
+A0907,Zona Sul SP,cin,True,65,quase,54,33,True,
+A0908,Sudoeste Paulista,cnh,False,30,nao_pronta,55,102,True,
+A0909,Grande SP,cnh,True,30,nao_pronta,40,36,False,Documento faltando
+A0910,Zona Sul SP,cnh,True,30,nao_pronta,74,54,False,Documento ilegível ou danificado
+A0911,Sudoeste Paulista,cin,True,80,pronta,77,142,True,
+A0912,Sorocaba,cnh,True,65,quase,75,55,True,
+A0913,Sudoeste Paulista,cnh,True,80,pronta,72,92,True,
+A0914,Zona Sul SP,cnh,True,80,pronta,57,32,True,
+A0915,Grande SP,cadunico,True,100,pronta,19,30,True,
+A0916,Sudoeste Paulista,cin,False,65,quase,76,102,False,Desistiu pela espera
+A0917,Zona Sul SP,cin,False,30,nao_pronta,67,30,False,Documento faltando
+A0918,Grande SP,cin,True,30,nao_pronta,14,19,False,Documento ilegível ou danificado
+A0919,Zona Sul SP,cin,False,30,nao_pronta,73,43,False,Documento faltando
+A0920,Grande SP,cadunico,False,100,pronta,6,26,True,
+A0921,Zona Leste SP,cin,False,0,nao_pronta,48,41,True,
+A0922,Grande SP,cin,True,100,pronta,3,38,True,
+A0923,Zona Sul SP,cadunico,True,65,quase,80,44,False,Desistiu pela espera
+A0924,Zona Leste SP,cnh,True,80,pronta,54,28,False,Desistiu pela espera
+A0925,Grande SP,cnh,False,0,nao_pronta,10,21,False,Documento faltando
+A0926,Sudoeste Paulista,cnh,False,30,nao_pronta,42,75,True,
+A0927,Sorocaba,cnh,False,0,nao_pronta,19,65,True,
+A0928,Zona Sul SP,cnh,True,80,pronta,51,35,True,
+A0929,Sorocaba,cin,True,65,quase,52,44,False,Desistiu pela espera
+A0930,Zona Leste SP,cin,True,30,nao_pronta,25,32,False,Documento ilegível ou danificado
+A0931,Sorocaba,cadunico,True,80,pronta,61,51,True,
+A0932,Grande SP,cin,False,30,nao_pronta,21,33,True,
+A0933,Zona Sul SP,cadunico,True,90,pronta,44,33,True,
+A0934,Zona Sul SP,cadunico,True,65,quase,60,48,True,
+A0935,Grande SP,cin,True,90,pronta,39,20,True,
+A0936,Sorocaba,cin,True,65,quase,71,43,False,Desistiu pela espera
+A0937,Zona Leste SP,cnh,True,90,pronta,32,46,True,
+A0938,Sudoeste Paulista,cnh,False,65,quase,79,64,True,
+A0939,Zona Sul SP,cin,False,30,nao_pronta,51,46,False,Documento faltando
+A0940,Grande SP,cnh,False,30,nao_pronta,21,13,False,Documento faltando
+A0941,Grande SP,cadunico,False,100,pronta,3,39,True,
+A0942,Sudoeste Paulista,cnh,True,80,pronta,52,69,True,
+A0943,Sudoeste Paulista,cin,True,65,quase,69,116,False,Desistiu pela espera
+A0944,Sorocaba,cadunico,True,80,pronta,55,62,True,
+A0945,Zona Leste SP,cadunico,True,80,pronta,70,49,True,
+A0946,Zona Sul SP,cnh,False,30,nao_pronta,51,50,False,Documento faltando
+A0947,Grande SP,cnh,True,90,pronta,27,34,True,
+A0948,Grande SP,cnh,False,30,nao_pronta,46,38,True,
+A0949,Grande SP,cadunico,True,80,pronta,54,47,False,Desistiu pela espera
+A0950,Grande SP,cadunico,False,0,nao_pronta,50,36,False,Documento faltando
+A0951,Grande SP,cnh,True,80,pronta,46,45,False,Desistiu pela espera
+A0952,Grande SP,cadunico,True,100,pronta,20,36,True,
+A0953,Sudoeste Paulista,cadunico,True,80,pronta,72,68,True,
+A0954,Sorocaba,cin,False,0,nao_pronta,35,49,False,Documento faltando
+A0955,Zona Sul SP,cin,True,90,pronta,41,57,True,
+A0956,Grande SP,cadunico,False,0,nao_pronta,29,18,False,Documento ilegível ou danificado
+A0957,Grande SP,cin,False,0,nao_pronta,20,34,False,Documento faltando
+A0958,Zona Sul SP,cnh,True,30,nao_pronta,37,50,False,Documento faltando
+A0959,Sudoeste Paulista,cadunico,False,90,pronta,31,100,True,
+A0960,Zona Sul SP,cin,False,30,nao_pronta,47,41,False,Documento faltando
+A0961,Zona Sul SP,cadunico,False,0,nao_pronta,84,14,False,Documento faltando
+A0962,Grande SP,cin,False,30,nao_pronta,24,21,False,Documento ilegível ou danificado
+A0963,Zona Leste SP,cnh,True,90,pronta,42,47,True,
+A0964,Grande SP,cnh,False,0,nao_pronta,3,30,False,Documento faltando
+A0965,Sorocaba,cnh,False,0,nao_pronta,60,50,False,Documento faltando
+A0966,Grande SP,cnh,False,30,nao_pronta,36,25,False,Documento ilegível ou danificado
+A0967,Zona Sul SP,cnh,True,65,quase,55,54,True,
+A0968,Sudoeste Paulista,cadunico,False,0,nao_pronta,29,100,True,
+A0969,Grande SP,cin,False,30,nao_pronta,34,42,False,Documento ilegível ou danificado
+A0970,Sorocaba,cnh,False,30,nao_pronta,68,67,False,Documento ilegível ou danificado
+A0971,Grande SP,cnh,False,100,pronta,19,29,True,
+A0972,Zona Leste SP,cin,False,0,nao_pronta,79,44,True,
+A0973,Zona Leste SP,cin,True,90,pronta,24,46,True,
+A0974,Zona Leste SP,cin,False,65,quase,50,53,True,
+A0975,Sorocaba,cin,True,90,pronta,44,50,True,
+A0976,Zona Leste SP,cnh,False,30,nao_pronta,79,57,False,Documento faltando
+A0977,Sorocaba,cin,False,0,nao_pronta,54,83,False,Documento faltando
+A0978,Grande SP,cnh,False,0,nao_pronta,41,35,False,Documento ilegível ou danificado
+A0979,Grande SP,cnh,False,0,nao_pronta,11,16,False,Documento faltando
+A0980,Sudoeste Paulista,cadunico,True,75,quase,30,143,True,
+A0981,Zona Sul SP,cadunico,False,80,pronta,76,38,True,
+A0982,Zona Sul SP,cin,False,30,nao_pronta,62,48,False,Documento faltando
+A0983,Sudoeste Paulista,cadunico,False,65,quase,58,104,True,
+A0984,Zona Leste SP,cadunico,False,0,nao_pronta,89,56,False,Documento faltando
+A0985,Sudoeste Paulista,cin,True,80,pronta,61,110,True,
+A0986,Grande SP,cadunico,True,90,pronta,30,37,False,"Outro (sistema, horário, regra)"
+A0987,Grande SP,cadunico,True,90,pronta,35,40,True,
+A0988,Grande SP,cadunico,False,100,pronta,3,30,True,
+A0989,Sudoeste Paulista,cnh,True,80,pronta,48,96,True,
+A0990,Zona Sul SP,cnh,True,30,nao_pronta,39,39,False,Documento faltando
+A0991,Zona Sul SP,cadunico,True,80,pronta,47,54,False,Desistiu pela espera
+A0992,Zona Leste SP,cadunico,True,80,pronta,55,66,True,
+A0993,Grande SP,cnh,False,30,nao_pronta,15,47,False,Documento faltando
+A0994,Zona Leste SP,cnh,True,75,quase,33,56,True,
+A0995,Sorocaba,cin,False,0,nao_pronta,60,87,False,Documento faltando
+A0996,Grande SP,cadunico,False,90,pronta,21,46,True,
+A0997,Sorocaba,cnh,False,0,nao_pronta,57,39,False,Documento ilegível ou danificado
+A0998,Grande SP,cnh,True,90,pronta,26,32,True,
+A0999,Sorocaba,cadunico,True,90,pronta,41,65,True,
+A1000,Grande SP,cnh,True,100,pronta,3,32,True,
+A1001,Zona Sul SP,cadunico,True,0,nao_pronta,41,26,False,Documento faltando
+A1002,Grande SP,cin,True,75,quase,30,31,True,
+A1003,Grande SP,cadunico,True,90,pronta,21,38,True,
+A1004,Zona Sul SP,cin,False,65,quase,57,47,True,
+A1005,Zona Leste SP,cin,False,80,pronta,55,62,True,
+A1006,Zona Leste SP,cin,False,30,nao_pronta,75,47,False,Documento ilegível ou danificado
+A1007,Zona Leste SP,cin,True,80,pronta,51,43,True,
+A1008,Sudoeste Paulista,cin,True,80,pronta,69,147,True,
+A1009,Sorocaba,cadunico,True,80,pronta,78,77,True,
+A1010,Grande SP,cadunico,True,100,pronta,3,43,True,
+A1011,Zona Sul SP,cnh,True,80,pronta,50,63,True,
+A1012,Grande SP,cnh,False,0,nao_pronta,11,22,True,
+A1013,Grande SP,cnh,True,30,nao_pronta,37,36,False,Documento ilegível ou danificado
+A1014,Sorocaba,cadunico,False,0,nao_pronta,39,87,False,Documento faltando
+A1015,Grande SP,cnh,True,90,pronta,34,41,True,
+A1016,Sorocaba,cin,False,75,quase,38,63,True,
+A1017,Zona Sul SP,cnh,False,75,quase,31,37,True,
+A1018,Sorocaba,cadunico,True,65,quase,62,39,True,
+A1019,Zona Sul SP,cadunico,True,80,pronta,54,58,True,
+A1020,Sorocaba,cin,False,90,pronta,44,54,True,
+A1021,Grande SP,cnh,True,100,pronta,15,34,True,
+A1022,Zona Leste SP,cadunico,False,0,nao_pronta,26,60,False,Documento faltando
+A1023,Zona Leste SP,cadunico,False,0,nao_pronta,45,33,False,Documento ilegível ou danificado
+A1024,Grande SP,cnh,True,90,pronta,45,35,True,
+A1025,Sudoeste Paulista,cnh,True,80,pronta,62,95,True,
+A1026,Zona Sul SP,cin,False,0,nao_pronta,30,39,False,Documento faltando
+A1027,Zona Leste SP,cnh,True,80,pronta,65,36,True,
+A1028,Grande SP,cadunico,False,100,pronta,3,55,True,
+A1029,Zona Leste SP,cin,True,30,nao_pronta,73,64,False,Documento ilegível ou danificado
+A1030,Grande SP,cnh,False,0,nao_pronta,41,43,False,Documento ilegível ou danificado
+A1031,Zona Leste SP,cin,True,80,pronta,46,44,True,
+A1032,Grande SP,cadunico,True,90,pronta,28,39,True,
+A1033,Sudoeste Paulista,cnh,True,80,pronta,52,97,True,
+A1034,Zona Sul SP,cnh,True,80,pronta,65,45,True,
+A1035,Zona Sul SP,cadunico,True,80,pronta,50,34,True,
+A1036,Sorocaba,cnh,True,30,nao_pronta,59,64,False,Documento faltando
+A1037,Grande SP,cnh,True,90,pronta,37,31,True,
+A1038,Grande SP,cnh,False,90,pronta,40,29,True,
+A1039,Zona Leste SP,cin,False,65,quase,69,44,True,
+A1040,Zona Sul SP,cin,True,90,pronta,26,46,True,
+A1041,Zona Leste SP,cin,True,80,pronta,62,46,True,
+A1042,Sudoeste Paulista,cnh,True,90,pronta,43,90,True,
+A1043,Sudoeste Paulista,cadunico,False,80,pronta,62,129,True,
+A1044,Zona Leste SP,cadunico,True,80,pronta,75,48,True,
+A1045,Sorocaba,cadunico,False,0,nao_pronta,71,76,True,
+A1046,Zona Leste SP,cnh,False,80,pronta,58,43,True,
+A1047,Sudoeste Paulista,cadunico,True,90,pronta,34,111,True,
+A1048,Sorocaba,cnh,True,80,pronta,60,71,True,
+A1049,Zona Leste SP,cnh,False,0,nao_pronta,42,43,False,Documento faltando
+A1050,Zona Leste SP,cnh,True,80,pronta,56,48,True,
+A1051,Sudoeste Paulista,cadunico,False,65,quase,67,69,True,
+A1052,Zona Sul SP,cadunico,True,80,pronta,53,38,True,
+A1053,Sorocaba,cadunico,True,65,quase,58,87,False,Desistiu pela espera
+A1054,Sorocaba,cadunico,False,0,nao_pronta,55,71,True,
+A1055,Zona Leste SP,cin,True,30,nao_pronta,44,45,False,Documento ilegível ou danificado
+A1056,Zona Sul SP,cadunico,True,0,nao_pronta,63,34,False,Documento ilegível ou danificado
+A1057,Zona Leste SP,cnh,False,75,quase,45,68,True,
+A1058,Sorocaba,cadunico,False,80,pronta,47,64,True,
+A1059,Zona Leste SP,cadunico,False,90,pronta,39,29,True,
+A1060,Zona Sul SP,cnh,True,80,pronta,60,57,True,
+A1061,Sudoeste Paulista,cnh,True,75,quase,44,74,True,
+A1062,Sorocaba,cnh,False,30,nao_pronta,72,48,False,Documento faltando
+A1063,Zona Leste SP,cin,True,80,pronta,64,40,True,
+A1064,Zona Sul SP,cadunico,True,80,pronta,89,35,False,Desistiu pela espera
+A1065,Sorocaba,cnh,True,30,nao_pronta,56,55,False,Documento ilegível ou danificado
+A1066,Zona Leste SP,cnh,True,100,pronta,18,43,True,
+A1067,Grande SP,cin,True,30,nao_pronta,11,35,False,Documento faltando
+A1068,Sorocaba,cin,False,80,pronta,49,75,True,
+A1069,Sorocaba,cnh,True,30,nao_pronta,22,70,True,
+A1070,Sudoeste Paulista,cnh,False,30,nao_pronta,61,123,False,Documento faltando
+A1071,Sudoeste Paulista,cin,False,30,nao_pronta,54,110,True,
+A1072,Sorocaba,cnh,False,90,pronta,37,51,True,
+A1073,Zona Sul SP,cin,True,80,pronta,50,42,True,
+A1074,Sudoeste Paulista,cnh,True,80,pronta,66,119,True,
+A1075,Zona Sul SP,cin,False,30,nao_pronta,70,58,False,Documento ilegível ou danificado
+A1076,Grande SP,cadunico,True,80,pronta,70,40,True,
+A1077,Sorocaba,cin,True,80,pronta,69,33,True,
+A1078,Zona Leste SP,cin,False,0,nao_pronta,47,58,True,
+A1079,Sorocaba,cnh,True,90,pronta,36,64,True,
+A1080,Zona Leste SP,cin,True,80,pronta,83,54,True,
+A1081,Sudoeste Paulista,cnh,True,80,pronta,46,42,True,
+A1082,Sorocaba,cnh,False,0,nao_pronta,102,82,False,Documento faltando
+A1083,Grande SP,cnh,True,100,pronta,19,21,True,
+A1084,Grande SP,cnh,False,30,nao_pronta,3,34,False,Documento ilegível ou danificado
+A1085,Zona Leste SP,cnh,False,30,nao_pronta,66,64,False,Documento faltando
+A1086,Sorocaba,cadunico,False,0,nao_pronta,42,47,True,
+A1087,Zona Leste SP,cnh,True,80,pronta,47,34,True,
+A1088,Zona Leste SP,cnh,False,30,nao_pronta,64,60,False,Documento faltando
+A1089,Sudoeste Paulista,cadunico,False,65,quase,65,102,True,
+A1090,Grande SP,cnh,True,80,pronta,48,37,True,
+A1091,Zona Leste SP,cin,False,30,nao_pronta,72,58,True,
+A1092,Grande SP,cnh,True,100,pronta,13,34,True,
+A1093,Grande SP,cadunico,True,90,pronta,24,41,True,
+A1094,Grande SP,cnh,False,30,nao_pronta,4,39,False,Documento faltando
+A1095,Sorocaba,cin,True,80,pronta,55,71,True,
+A1096,Sorocaba,cadunico,False,65,quase,47,68,True,
+A1097,Grande SP,cnh,True,30,nao_pronta,19,36,True,
+A1098,Sorocaba,cnh,False,30,nao_pronta,46,55,False,Documento faltando
+A1099,Grande SP,cin,True,90,pronta,22,37,True,
+A1100,Zona Sul SP,cin,False,65,quase,58,43,False,Desistiu pela espera
+A1101,Sudoeste Paulista,cin,False,30,nao_pronta,44,114,False,Documento faltando
+A1102,Sudoeste Paulista,cadunico,True,80,pronta,63,95,True,
+A1103,Sorocaba,cnh,False,0,nao_pronta,62,72,False,Documento faltando
+A1104,Zona Sul SP,cnh,True,80,pronta,71,52,True,
+A1105,Grande SP,cnh,False,30,nao_pronta,45,30,False,Documento faltando
+A1106,Zona Sul SP,cadunico,False,90,pronta,39,57,True,
+A1107,Zona Leste SP,cin,False,0,nao_pronta,54,89,False,Documento ilegível ou danificado
+A1108,Grande SP,cnh,False,30,nao_pronta,49,46,True,
+A1109,Grande SP,cin,True,100,pronta,19,38,True,
+A1110,Sorocaba,cnh,True,75,quase,41,61,True,
+A1111,Zona Sul SP,cin,True,80,pronta,52,57,False,Desistiu pela espera
+A1112,Sorocaba,cadunico,False,0,nao_pronta,68,68,False,Documento faltando
+A1113,Sorocaba,cin,False,30,nao_pronta,69,63,False,Documento faltando
+A1114,Zona Sul SP,cin,False,65,quase,49,31,False,Desistiu pela espera
+A1115,Zona Leste SP,cnh,True,80,pronta,55,35,True,
+A1116,Zona Sul SP,cnh,True,30,nao_pronta,54,57,False,Documento ilegível ou danificado
+A1117,Grande SP,cin,False,30,nao_pronta,7,27,False,Documento faltando
+A1118,Zona Sul SP,cnh,False,30,nao_pronta,53,30,True,
+A1119,Sudoeste Paulista,cadunico,True,80,pronta,96,133,True,
+A1120,Zona Sul SP,cnh,False,30,nao_pronta,51,61,True,
+A1121,Grande SP,cnh,False,30,nao_pronta,26,39,False,Documento ilegível ou danificado
+A1122,Sudoeste Paulista,cadunico,False,65,quase,48,115,True,
+A1123,Sorocaba,cin,True,80,pronta,93,69,True,
+A1124,Zona Leste SP,cnh,True,80,pronta,63,49,True,
+A1125,Grande SP,cin,False,80,pronta,48,39,False,Desistiu pela espera
+A1126,Grande SP,cadunico,True,90,pronta,34,43,True,
+A1127,Sorocaba,cadunico,True,80,pronta,49,55,True,
+A1128,Sorocaba,cnh,True,90,pronta,45,75,True,
+A1129,Sudoeste Paulista,cadunico,False,0,nao_pronta,82,92,True,
+A1130,Sudoeste Paulista,cin,False,30,nao_pronta,39,126,False,Documento ilegível ou danificado
+A1131,Zona Sul SP,cin,True,80,pronta,57,69,True,
+A1132,Grande SP,cnh,True,100,pronta,3,26,True,
+A1133,Zona Leste SP,cadunico,False,65,quase,61,69,False,Desistiu pela espera
+A1134,Zona Sul SP,cadunico,False,0,nao_pronta,71,62,False,Documento ilegível ou danificado
+A1135,Grande SP,cnh,False,0,nao_pronta,9,25,False,Documento faltando
+A1136,Grande SP,cnh,False,100,pronta,11,37,False,"Outro (sistema, horário, regra)"
+A1137,Sorocaba,cnh,True,30,nao_pronta,99,77,True,
+A1138,Zona Leste SP,cadunico,False,65,quase,46,67,True,
+A1139,Zona Leste SP,cnh,True,90,pronta,36,52,True,
+A1140,Sorocaba,cadunico,True,80,pronta,55,48,False,Desistiu pela espera
+A1141,Sorocaba,cnh,False,30,nao_pronta,53,61,False,Documento faltando
+A1142,Sudoeste Paulista,cnh,False,30,nao_pronta,43,97,False,Documento faltando
+A1143,Grande SP,cnh,True,80,pronta,48,17,True,
+A1144,Sorocaba,cin,True,80,pronta,68,52,True,
+A1145,Zona Leste SP,cnh,False,30,nao_pronta,51,49,False,Documento ilegível ou danificado
+A1146,Grande SP,cin,True,30,nao_pronta,48,37,False,Documento ilegível ou danificado
+A1147,Sudoeste Paulista,cnh,False,65,quase,61,124,True,
+A1148,Zona Sul SP,cin,True,80,pronta,65,46,True,
+A1149,Zona Leste SP,cin,True,30,nao_pronta,72,39,False,Documento ilegível ou danificado
+A1150,Zona Leste SP,cin,False,85,pronta,17,29,True,
+A1151,Zona Leste SP,cadunico,False,65,quase,69,38,False,Desistiu pela espera
+A1152,Sorocaba,cin,True,30,nao_pronta,52,58,False,Documento faltando
+A1153,Sorocaba,cnh,False,30,nao_pronta,35,34,False,Documento faltando
+A1154,Zona Sul SP,cadunico,False,0,nao_pronta,57,45,False,Documento faltando
+A1155,Zona Sul SP,cnh,False,30,nao_pronta,42,32,False,Documento faltando
+A1156,Zona Leste SP,cnh,False,0,nao_pronta,120,48,True,
+A1157,Grande SP,cin,False,90,pronta,28,35,True,
+A1158,Zona Sul SP,cin,False,30,nao_pronta,47,61,False,Documento faltando
+A1159,Zona Sul SP,cnh,False,30,nao_pronta,71,48,False,Documento faltando
+A1160,Zona Leste SP,cin,True,80,pronta,65,41,True,
+A1161,Sorocaba,cadunico,False,0,nao_pronta,35,69,False,Documento faltando
+A1162,Zona Leste SP,cadunico,False,75,quase,44,36,False,"Outro (sistema, horário, regra)"
+A1163,Zona Leste SP,cadunico,True,80,pronta,81,39,True,
+A1164,Sorocaba,cnh,False,30,nao_pronta,42,64,False,Documento ilegível ou danificado
+A1165,Sudoeste Paulista,cadunico,False,75,quase,29,113,True,
+A1166,Sorocaba,cadunico,False,90,pronta,39,55,True,
+A1167,Zona Sul SP,cin,False,30,nao_pronta,96,40,False,Documento ilegível ou danificado
+A1168,Zona Sul SP,cnh,True,30,nao_pronta,69,38,False,Documento ilegível ou danificado
+A1169,Zona Leste SP,cnh,False,65,quase,74,62,True,
+A1170,Sorocaba,cadunico,True,80,pronta,49,46,True,
+A1171,Sorocaba,cnh,True,80,pronta,84,37,True,
+A1172,Grande SP,cadunico,True,80,pronta,47,36,True,
+A1173,Sorocaba,cin,True,80,pronta,63,35,False,Desistiu pela espera
+A1174,Zona Leste SP,cnh,False,30,nao_pronta,22,56,True,
+A1175,Grande SP,cin,False,0,nao_pronta,41,26,False,Documento faltando
+A1176,Sorocaba,cin,True,80,pronta,51,75,True,
+A1177,Sorocaba,cin,False,0,nao_pronta,76,53,False,Documento faltando
+A1178,Grande SP,cnh,False,30,nao_pronta,6,32,False,Documento ilegível ou danificado
+A1179,Zona Leste SP,cnh,True,30,nao_pronta,66,27,False,Documento ilegível ou danificado
+A1180,Sudoeste Paulista,cnh,True,80,pronta,55,119,True,
+A1181,Zona Leste SP,cadunico,False,0,nao_pronta,57,42,False,Documento ilegível ou danificado
+A1182,Zona Leste SP,cadunico,True,80,pronta,54,44,True,
+A1183,Zona Leste SP,cin,True,90,pronta,35,57,True,
+A1184,Zona Leste SP,cnh,False,80,pronta,85,23,True,
+A1185,Grande SP,cnh,False,80,pronta,66,37,True,
+A1186,Zona Sul SP,cadunico,False,80,pronta,57,46,True,
+A1187,Grande SP,cnh,True,30,nao_pronta,3,42,False,Documento faltando
+A1188,Grande SP,cadunico,False,0,nao_pronta,47,51,False,Documento faltando
+A1189,Zona Sul SP,cadunico,False,65,quase,52,36,True,
+A1190,Zona Leste SP,cadunico,False,65,quase,69,60,True,
+A1191,Zona Leste SP,cin,True,65,quase,51,69,True,
+A1192,Grande SP,cnh,True,90,pronta,22,53,True,
+A1193,Zona Leste SP,cnh,True,80,pronta,53,17,True,
+A1194,Sorocaba,cnh,True,90,pronta,39,80,True,
+A1195,Zona Leste SP,cin,False,0,nao_pronta,28,43,False,Documento ilegível ou danificado
+A1196,Zona Leste SP,cadunico,True,80,pronta,68,67,True,
+A1197,Grande SP,cin,True,100,pronta,13,35,True,
+A1198,Sudoeste Paulista,cnh,True,90,pronta,25,64,True,
+A1199,Zona Leste SP,cin,False,30,nao_pronta,59,61,True,

@@ -3,7 +3,7 @@
 Painel do gestor público e as regras de governança de IA que valem para todos os módulos do Vai de Primeira.
 
 ## Painel do gestor
-[`painel/painel.html`](painel/painel.html), gerado por [`painel/gerar_painel.py`](painel/gerar_painel.py). Abra o arquivo no navegador.
+[`painel/painel.html`](painel/painel.html), gerado por [`painel/gerar_painel.py`](painel/gerar_painel.py). Abra o arquivo no navegador. Os filtros de **região** e **serviço** recalculam os números e os gráficos na hora, sem servidor. O painel não tem filtro de período porque os dados simulados não têm data.
 
 | Pergunta do gestor | Gráfico | Dados |
 |---|---|---|
