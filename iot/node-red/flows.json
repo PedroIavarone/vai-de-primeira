@@ -21,18 +21,130 @@
     "autoUnsubscribe": true
   },
   {
+    "id": "g_inicio",
+    "type": "group",
+    "z": "aba_totem",
+    "name": "1 · Ao iniciar",
+    "style": {
+      "fill": "#f2f4f7",
+      "stroke": "#98a2b3",
+      "label": true,
+      "color": "#1f2933"
+    },
+    "nodes": [
+      "inj_tabelas",
+      "sql_tabelas"
+    ],
+    "x": 20,
+    "y": 15,
+    "w": 1120,
+    "h": 80
+  },
+  {
+    "id": "g_fila",
+    "type": "group",
+    "z": "aba_totem",
+    "name": "2 · Fila: porta → espera → banco",
+    "style": {
+      "fill": "#e8f0fb",
+      "stroke": "#1f5fad",
+      "label": true,
+      "color": "#1f2933"
+    },
+    "nodes": [
+      "in_fila",
+      "fn_fila",
+      "sql_fila",
+      "lo_alerta_fila",
+      "lo_descarte_fila",
+      "dbg_mqtt_fila"
+    ],
+    "x": 20,
+    "y": 115,
+    "w": 1120,
+    "h": 140
+  },
+  {
+    "id": "g_amb",
+    "type": "group",
+    "z": "aba_totem",
+    "name": "3 · Ambiente: DHT22 → banco",
+    "style": {
+      "fill": "#fdf5ee",
+      "stroke": "#a84a08",
+      "label": true,
+      "color": "#1f2933"
+    },
+    "nodes": [
+      "in_amb",
+      "fn_amb",
+      "sql_amb",
+      "lo_alerta_amb",
+      "lo_descarte_amb",
+      "dbg_mqtt_amb"
+    ],
+    "x": 20,
+    "y": 265,
+    "w": 1120,
+    "h": 140
+  },
+  {
+    "id": "g_totem",
+    "type": "group",
+    "z": "aba_totem",
+    "name": "4 · Totem: presença e botão de ajuda",
+    "style": {
+      "fill": "#eef8f2",
+      "stroke": "#1e7f4f",
+      "label": true,
+      "color": "#1f2933"
+    },
+    "nodes": [
+      "in_totem",
+      "fn_totem",
+      "sql_totem",
+      "lo_alerta_totem",
+      "lo_descarte_totem",
+      "dbg_mqtt_totem"
+    ],
+    "x": 20,
+    "y": 415,
+    "w": 1120,
+    "h": 140
+  },
+  {
+    "id": "g_alerta",
+    "type": "group",
+    "z": "aba_totem",
+    "name": "5 · Alertas: banco + Telegram · descartes",
+    "style": {
+      "fill": "#fdf1f0",
+      "stroke": "#b42318",
+      "label": true,
+      "color": "#1f2933"
+    },
+    "nodes": [
+      "li_alertas",
+      "fn_alerta",
+      "sql_alerta",
+      "dbg_alerta",
+      "http_telegram",
+      "fn_resposta",
+      "li_descartes",
+      "sql_descarte",
+      "fn_conta_descartes",
+      "dbg_descarte"
+    ],
+    "x": 20,
+    "y": 567,
+    "w": 1120,
+    "h": 240
+  },
+  {
     "id": "banco",
     "type": "sqlitedb",
     "db": "../dados/iot.sqlite",
     "mode": "RWC"
-  },
-  {
-    "id": "c_ini",
-    "type": "comment",
-    "z": "aba_totem",
-    "name": "1. Ao iniciar: cria as tabelas do banco",
-    "x": 140,
-    "y": 40
   },
   {
     "id": "inj_tabelas",
@@ -56,8 +168,9 @@
         "sql_tabelas"
       ]
     ],
-    "x": 140,
-    "y": 80
+    "x": 135,
+    "y": 60,
+    "g": "g_inicio"
   },
   {
     "id": "sql_tabelas",
@@ -70,16 +183,9 @@
     "wires": [
       []
     ],
-    "x": 380,
-    "y": 80
-  },
-  {
-    "id": "c_fila",
-    "type": "comment",
-    "z": "aba_totem",
-    "name": "2. Fila: contagem da porta → espera → banco → alerta",
-    "x": 140,
-    "y": 140
+    "x": 430,
+    "y": 60,
+    "g": "g_inicio"
   },
   {
     "id": "in_fila",
@@ -97,11 +203,12 @@
     "wires": [
       [
         "fn_fila",
-        "dbg_mqtt"
+        "dbg_mqtt_fila"
       ]
     ],
-    "x": 140,
-    "y": 180
+    "x": 153,
+    "y": 180,
+    "g": "g_fila"
   },
   {
     "id": "fn_fila",
@@ -115,14 +222,15 @@
         "sql_fila"
       ],
       [
-        "fn_alerta"
+        "lo_alerta_fila"
       ],
       [
-        "sql_descarte"
+        "lo_descarte_fila"
       ]
     ],
-    "x": 380,
-    "y": 180
+    "x": 430,
+    "y": 180,
+    "g": "g_fila"
   },
   {
     "id": "sql_fila",
@@ -135,16 +243,9 @@
     "wires": [
       []
     ],
-    "x": 640,
-    "y": 160
-  },
-  {
-    "id": "c_amb",
-    "type": "comment",
-    "z": "aba_totem",
-    "name": "3. Ambiente: DHT22 → banco → alerta de calor",
-    "x": 140,
-    "y": 260
+    "x": 720,
+    "y": 180,
+    "g": "g_fila"
   },
   {
     "id": "in_amb",
@@ -162,11 +263,12 @@
     "wires": [
       [
         "fn_amb",
-        "dbg_mqtt"
+        "dbg_mqtt_amb"
       ]
     ],
-    "x": 140,
-    "y": 300
+    "x": 167,
+    "y": 330,
+    "g": "g_amb"
   },
   {
     "id": "fn_amb",
@@ -180,14 +282,15 @@
         "sql_amb"
       ],
       [
-        "fn_alerta"
+        "lo_alerta_amb"
       ],
       [
-        "sql_descarte"
+        "lo_descarte_amb"
       ]
     ],
-    "x": 380,
-    "y": 300
+    "x": 430,
+    "y": 330,
+    "g": "g_amb"
   },
   {
     "id": "sql_amb",
@@ -200,16 +303,9 @@
     "wires": [
       []
     ],
-    "x": 640,
-    "y": 280
-  },
-  {
-    "id": "c_totem",
-    "type": "comment",
-    "z": "aba_totem",
-    "name": "4. Totem: presença e botão de ajuda",
-    "x": 140,
-    "y": 380
+    "x": 720,
+    "y": 330,
+    "g": "g_amb"
   },
   {
     "id": "in_totem",
@@ -227,11 +323,12 @@
     "wires": [
       [
         "fn_totem",
-        "dbg_mqtt"
+        "dbg_mqtt_totem"
       ]
     ],
-    "x": 140,
-    "y": 420
+    "x": 128,
+    "y": 480,
+    "g": "g_totem"
   },
   {
     "id": "fn_totem",
@@ -245,14 +342,15 @@
         "sql_totem"
       ],
       [
-        "fn_alerta"
+        "lo_alerta_totem"
       ],
       [
-        "sql_descarte"
+        "lo_descarte_totem"
       ]
     ],
-    "x": 380,
-    "y": 420
+    "x": 430,
+    "y": 480,
+    "g": "g_totem"
   },
   {
     "id": "sql_totem",
@@ -265,16 +363,9 @@
     "wires": [
       []
     ],
-    "x": 640,
-    "y": 400
-  },
-  {
-    "id": "c_alerta",
-    "type": "comment",
-    "z": "aba_totem",
-    "name": "5. Alertas: banco + Telegram · descartes",
-    "x": 140,
-    "y": 500
+    "x": 720,
+    "y": 480,
+    "g": "g_totem"
   },
   {
     "id": "fn_alerta",
@@ -292,8 +383,9 @@
         "http_telegram"
       ]
     ],
-    "x": 640,
-    "y": 540
+    "x": 430,
+    "y": 632,
+    "g": "g_alerta"
   },
   {
     "id": "sql_alerta",
@@ -306,8 +398,9 @@
     "wires": [
       []
     ],
-    "x": 900,
-    "y": 520
+    "x": 720,
+    "y": 612,
+    "g": "g_alerta"
   },
   {
     "id": "http_telegram",
@@ -330,8 +423,9 @@
         "fn_resposta"
       ]
     ],
-    "x": 900,
-    "y": 580
+    "x": 720,
+    "y": 672,
+    "g": "g_alerta"
   },
   {
     "id": "fn_resposta",
@@ -343,8 +437,9 @@
     "wires": [
       []
     ],
-    "x": 900,
-    "y": 640
+    "x": 980,
+    "y": 672,
+    "g": "g_alerta"
   },
   {
     "id": "sql_descarte",
@@ -359,22 +454,9 @@
         "dbg_descarte"
       ]
     ],
-    "x": 640,
-    "y": 620
-  },
-  {
-    "id": "dbg_mqtt",
-    "type": "debug",
-    "z": "aba_totem",
-    "name": "mensagens MQTT recebidas",
-    "active": true,
-    "tosidebar": true,
-    "console": true,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "x": 380,
-    "y": 480
+    "x": 720,
+    "y": 772,
+    "g": "g_alerta"
   },
   {
     "id": "dbg_alerta",
@@ -387,8 +469,9 @@
     "tostatus": false,
     "complete": "payload",
     "targetType": "msg",
-    "x": 900,
-    "y": 460
+    "x": 980,
+    "y": 612,
+    "g": "g_alerta"
   },
   {
     "id": "dbg_descarte",
@@ -401,7 +484,210 @@
     "tostatus": false,
     "complete": "true",
     "targetType": "full",
-    "x": 900,
-    "y": 680
+    "x": 980,
+    "y": 772,
+    "g": "g_alerta"
+  },
+  {
+    "id": "lo_alerta_fila",
+    "type": "link out",
+    "z": "aba_totem",
+    "name": "→ alertas",
+    "mode": "link",
+    "links": [
+      "li_alertas"
+    ],
+    "x": 970,
+    "y": 160,
+    "wires": [],
+    "g": "g_fila",
+    "l": true
+  },
+  {
+    "id": "lo_descarte_fila",
+    "type": "link out",
+    "z": "aba_totem",
+    "name": "→ descartes",
+    "mode": "link",
+    "links": [
+      "li_descartes"
+    ],
+    "x": 970,
+    "y": 200,
+    "wires": [],
+    "g": "g_fila",
+    "l": true
+  },
+  {
+    "id": "dbg_mqtt_fila",
+    "type": "debug",
+    "z": "aba_totem",
+    "name": "mensagens MQTT recebidas",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 430,
+    "y": 220,
+    "wires": [],
+    "g": "g_fila"
+  },
+  {
+    "id": "lo_alerta_amb",
+    "type": "link out",
+    "z": "aba_totem",
+    "name": "→ alertas",
+    "mode": "link",
+    "links": [
+      "li_alertas"
+    ],
+    "x": 970,
+    "y": 310,
+    "wires": [],
+    "g": "g_amb",
+    "l": true
+  },
+  {
+    "id": "lo_descarte_amb",
+    "type": "link out",
+    "z": "aba_totem",
+    "name": "→ descartes",
+    "mode": "link",
+    "links": [
+      "li_descartes"
+    ],
+    "x": 970,
+    "y": 350,
+    "wires": [],
+    "g": "g_amb",
+    "l": true
+  },
+  {
+    "id": "dbg_mqtt_amb",
+    "type": "debug",
+    "z": "aba_totem",
+    "name": "mensagens MQTT recebidas",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 430,
+    "y": 370,
+    "wires": [],
+    "g": "g_amb"
+  },
+  {
+    "id": "lo_alerta_totem",
+    "type": "link out",
+    "z": "aba_totem",
+    "name": "→ alertas",
+    "mode": "link",
+    "links": [
+      "li_alertas"
+    ],
+    "x": 970,
+    "y": 460,
+    "wires": [],
+    "g": "g_totem",
+    "l": true
+  },
+  {
+    "id": "lo_descarte_totem",
+    "type": "link out",
+    "z": "aba_totem",
+    "name": "→ descartes",
+    "mode": "link",
+    "links": [
+      "li_descartes"
+    ],
+    "x": 970,
+    "y": 500,
+    "wires": [],
+    "g": "g_totem",
+    "l": true
+  },
+  {
+    "id": "dbg_mqtt_totem",
+    "type": "debug",
+    "z": "aba_totem",
+    "name": "mensagens MQTT recebidas",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 430,
+    "y": 520,
+    "wires": [],
+    "g": "g_totem"
+  },
+  {
+    "id": "li_alertas",
+    "type": "link in",
+    "z": "aba_totem",
+    "name": "alertas",
+    "links": [
+      "lo_alerta_fila",
+      "lo_alerta_amb",
+      "lo_alerta_totem"
+    ],
+    "x": 114,
+    "y": 632,
+    "wires": [
+      [
+        "fn_alerta"
+      ]
+    ],
+    "g": "g_alerta",
+    "l": true
+  },
+  {
+    "id": "li_descartes",
+    "type": "link in",
+    "z": "aba_totem",
+    "name": "descartes",
+    "links": [
+      "lo_descarte_fila",
+      "lo_descarte_amb",
+      "lo_descarte_totem"
+    ],
+    "x": 121,
+    "y": 772,
+    "wires": [
+      [
+        "sql_descarte",
+        "fn_conta_descartes"
+      ]
+    ],
+    "g": "g_alerta",
+    "l": true
+  },
+  {
+    "id": "fn_conta_descartes",
+    "type": "function",
+    "z": "aba_totem",
+    "name": "contar descartes do dia",
+    "func": "// Mostra no nó quantas leituras inválidas foram descartadas hoje (só exibição, não altera o fluxo).\nconst hoje = new Date().toISOString().slice(0, 10);\nlet c = context.get('contagem') || {dia: hoje, n: 0};\nif (c.dia !== hoje) c = {dia: hoje, n: 0};\nc.n += 1;\ncontext.set('contagem', c);\nnode.status({fill: 'red', shape: 'dot', text: `${c.n} descartada${c.n > 1 ? 's' : ''} hoje`});\nreturn null;",
+    "outputs": 0,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 430,
+    "y": 772,
+    "wires": [],
+    "g": "g_alerta"
   }
 ]

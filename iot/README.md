@@ -24,6 +24,7 @@ botão de ajuda ── pedido ───────┘   vdp/totem/t1/presenca|a
 - **Validação:** contagem fora de 0 a 500, temperatura fora de -10 a 60 °C ou evento desconhecido vão para a tabela `descartes`, com o motivo. Nada inválido chega à fila mostrada ao cidadão.
 - **Espera estimada:** pessoas × 1,8 min. Status `tranquila` (até 20 min), `moderada` (21 a 45) ou `cheia` (mais de 45).
 - **Alertas só na mudança de estado:** fila que fica cheia (e quando volta ao normal) e calor acima de 30 °C (rearma abaixo de 28 °C). Assim a equipe não recebe o mesmo alerta a cada leitura. Todo pedido de ajuda vira alerta.
+- **Fluxo em faixas:** o `flows.json` é organizado em 5 grupos coloridos (início, fila, ambiente, totem, alertas e descartes). Cada validação manda alertas e descartes para a última faixa por *link nodes*, e um contador mostra no próprio editor quantas leituras foram descartadas no dia.
 - **Banco:** `iot/dados/iot.sqlite`, com as tabelas `leituras_fila`, `leituras_ambiente`, `eventos_totem`, `alertas` e `descartes`.
 - **Na API**, `GET /fila` usa a leitura mais recente da unidade com sensor (últimos 15 min) e marca `"origem": "sensor"`. As outras unidades continuam com a estimativa, marcadas `"origem": "simulado"`.
 
@@ -53,7 +54,7 @@ python iot/simulador/simulador_totem.py --cenario todos  # ou normal, cheia, aju
 - **Simulação:** o circuito foi testado no Wokwi, não em placa física. No Wokwi foram testados conexão, ambiente, presença e pedido de ajuda, com a mensagem chegando ao banco do Node-RED; a contagem pela porta foi testada com o simulador em Python.
 
 ## Evidências
-[`evidencias/`](evidencias/): fluxo do Node-RED, monitor serial do Wokwi com presença e ajuda, alerta recebido no Telegram, mensagens vistas no broker por um cliente MQTT assinando `vdp/#`, alertas, eventos e descartes exportados do banco a resposta de `GET /fila` com a leitura do sensor e a tela Fila agora do app mostrando a contagem real do totem (`app_fila_sensor.jpg`). Documento da disciplina: [`Documento_Totem_e_Fila_ao_Vivo.docx`](Documento_Totem_e_Fila_ao_Vivo.docx).
+[`evidencias/`](evidencias/): fluxo do Node-RED, monitor serial do Wokwi com presença e ajuda, alerta recebido no Telegram, mensagens vistas no broker por um cliente MQTT assinando `vdp/#`, alertas, eventos e descartes exportados do banco, a resposta de `GET /fila` com a leitura do sensor e a tela Fila agora do app mostrando a contagem real do totem (`app_fila_sensor.jpg`). Documento da disciplina: [`Documento_Totem_e_Fila_ao_Vivo.docx`](Documento_Totem_e_Fila_ao_Vivo.docx).
 
 ## Estrutura
 | Caminho | Conteúdo |
