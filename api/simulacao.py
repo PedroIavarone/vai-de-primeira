@@ -7,6 +7,7 @@ de pln/ e deve sempre ser conferida na fonte oficial.
 
 import hashlib
 import math
+import os
 import unicodedata
 from datetime import datetime
 
@@ -29,6 +30,8 @@ def _status(espera_min: int) -> str:
 def fila_agora(agora: datetime | None = None) -> dict:
     """Lotação que sobe no fim da manhã e no começo da tarde, como numa unidade real."""
     agora = agora or datetime.now()
+    if os.environ.get("VDP_HORA_FILA"):  # demonstração: fixa a hora da simulação (ex.: 13 = pico)
+        agora = agora.replace(hour=int(os.environ["VDP_HORA_FILA"]), minute=0)
     hora = agora.hour + agora.minute / 60
     pico = max(0.0, math.sin((hora - 8) / 10 * math.pi))  # 0 às 8h, máximo às 13h, 0 às 18h
     unidades = []
