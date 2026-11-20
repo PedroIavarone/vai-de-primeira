@@ -83,5 +83,9 @@ A chave do Groq (`GROQ_API_KEY` no `.env` da raiz ou nos segredos do Colab) só 
 | `saida/` | `corpus_texto.jsonl`, `corpus_qa.jsonl`, `corpus_chat.jsonl` e `relatorio_qualidade.json` |
 | `revisao/revisao.csv` | Amostra de 20% revisada pela equipe |
 
+## Entrega
+- **Vídeo de demonstração:** https://youtu.be/GkZniuBz-2g
+- **Relatório (PDF):** [Relatorio_Fabrica_de_Corpus.pdf](Relatorio_Fabrica_de_Corpus.pdf)
+
 ## Equipe
 Pedro Iavarone Custódio (RM567638) · Rodrigo Ferreira Nery (RM568246)

@@ -106,3 +106,10 @@ No app, a tela **Conferir documentos** (`/conferir`) desenha a caixa sobre a fot
 - [x] Métricas, análise de erros, latência e FPS
 - [x] Pipeline integrado à API
 - [ ] Validação com fotos reais de documentos brasileiros fictícios e vídeo gravado pela equipe
+
+## Entrega
+- **Vídeo de demonstração:** https://youtu.be/wS1gNGfawLw
+- **Relatório (PDF):** [Relatorio_Tecnico_Conferencia_por_Video.pdf](Relatorio_Tecnico_Conferencia_por_Video.pdf)
+
+## Equipe
+Pedro Iavarone Custódio (RM567638) · Rodrigo Ferreira Nery (RM568246)

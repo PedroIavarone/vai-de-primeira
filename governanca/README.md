@@ -59,5 +59,9 @@ Probabilidade e impacto de 1 (baixo) a 3 (alto).
 | Decisão automatizada (art. 20) | Nenhuma decisão de direito é automática: BPC, documento e atendimento são decididos por pessoas |
 | Anonimização | O corpus de PLN mascara CPF, e-mail, telefone e nomes; o painel do gestor só mostra contagens por região |
 
+## Entrega
+- **Vídeo de demonstração:** https://youtu.be/_aiLV_nW3Ow
+- **Relatório (PDF):** [Documento_Integracao_Vai_de_Primeira.pdf](Documento_Integracao_Vai_de_Primeira.pdf)
+
 ## Equipe
 Pedro Iavarone Custódio (RM567638) · Rodrigo Ferreira Nery (RM568246)

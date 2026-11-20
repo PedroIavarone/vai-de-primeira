@@ -60,3 +60,10 @@ Saída no formato de `POST /perguntar` em [docs/contratos.md](../docs/contratos.
 - [ ] Modelo pequeno local, ajustado com os corpora de perguntas e de diálogos do módulo `pln/`, para não depender de API externa
 - [ ] Fontes de outros estados além de São Paulo
 - [ ] Avaliar a clareza das respostas com pessoas do público
+
+## Entrega
+- **Vídeo de demonstração:** https://youtu.be/HZZ8CHInct4
+- **Relatório (PDF):** [Documentacao_Tecnica_Assistente_da_Jornada.pdf](Documentacao_Tecnica_Assistente_da_Jornada.pdf)
+
+## Equipe
+Pedro Iavarone Custódio (RM567638) · Rodrigo Ferreira Nery (RM568246)

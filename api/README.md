@@ -23,3 +23,6 @@ python -m pytest -q
 - [x] Ligar `/checar-documento` ao modelo de visão
 - [x] Ligar `/perguntar` ao Assistente da Jornada
 - [ ] Endpoint agregado de prontidão por região para o painel
+
+## Equipe
+Pedro Iavarone Custódio (RM567638) · Rodrigo Ferreira Nery (RM568246)
