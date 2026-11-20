@@ -89,6 +89,14 @@ O sistema lida com dados de identificação, que são sensíveis pela LGPD. Nest
 - nenhum dado pessoal real é enviado a serviços externos;
 - chaves de acesso ficam fora do código.
 
+## Vídeos de demonstração
+| Disciplina | Vídeo |
+|---|---|
+| Governança em IA e Business Analytics (integração de todos os módulos) | https://youtu.be/_aiLV_nW3Ow |
+| Generative AI e Advanced Nets | https://youtu.be/HZZ8CHInct4 |
+| Processamento de Linguagem Natural | https://youtu.be/GkZniuBz-2g |
+| Visão Computacional | https://youtu.be/wS1gNGfawLw |
+
 ## Equipe
 
 | Nome | RM |
